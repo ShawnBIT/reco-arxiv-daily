@@ -104,10 +104,10 @@ PAPER_TAG_STYLES = {
 }
 # 每个 Tag 的徽章显示宽度（px）。短标签 GR/LLM/Seq 用较小 width 才能显小（shields 图原生较窄，width 大会被放大）
 PAPER_TAG_WIDTHS = {
-    "GR": 36,
-    "LLM": 36,
+    "GR": 44,
+    "LLM": 44,
     "Scaling": 200,
-    "Seq": 36,
+    "Seq": 44,
     "Other": 150,
 }
 
@@ -150,7 +150,7 @@ def format_row_with_tag(row_str: str, tag_label: str, tag_styles: dict) -> str:
     width = PAPER_TAG_WIDTHS.get(tag_label, DEFAULT_TAG_WIDTH)
     # 短标签用 height 限制纵向尺寸，避免在高分屏上仍显大
     short_labels = ("GR", "LLM", "Seq")
-    height_attr = f' height="18"' if tag_label in short_labels else ""
+    height_attr = f' height="22"' if tag_label in short_labels else ""
     tag_cell = f'<img src="{badge_url}" width="{width}"{height_attr} alt="{tag_label}" />'
     return "|**{}**|**{}**|{}|{}|{}|\n".format(date, title, tag_cell, authors, link)
 
