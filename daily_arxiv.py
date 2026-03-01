@@ -94,13 +94,21 @@ def normalize_table_row(s: str) -> str:
 
 # 主 README 论文类型标签：GitHub 会 strip 掉所有 style，只能用图片显色。用 shields.io 徽章 + <img width> 在 GitHub 上可读且有色
 SHIELDS_BASE = "https://img.shields.io/badge"
-TAG_IMG_WIDTH = 220  # 徽章显示宽度，约 2.5 倍以便 Generative/Scaling/Sequential 等长标签可读
+DEFAULT_TAG_WIDTH = 220  # 未在 PAPER_TAG_WIDTHS 中指定时的默认宽度
 PAPER_TAG_STYLES = {
     "Generative": "1e5c3a",   # 青灰绿
     "LLM": "2c4a78",          # 雾蓝
     "Scaling": "8b5a3c",      # 陶土
     "Sequential": "5a4a6a",   # 雾紫
     "其他": "5a5a5a",         # 中性灰
+}
+# 每个 Tag 的徽章显示宽度（px），可按标签长短单独设置
+PAPER_TAG_WIDTHS = {
+    "Generative": 220,
+    "LLM": 88,
+    "Scaling": 220,
+    "Sequential": 220,
+    "其他": 88,
 }
 
 def get_paper_tag(title: str, tag_rules: list) -> str:
@@ -139,7 +147,8 @@ def format_row_with_tag(row_str: str, tag_label: str, tag_styles: dict) -> str:
         color = str(color).lstrip("#")
     label_enc = quote(tag_label)
     badge_url = f"{SHIELDS_BASE}/-{label_enc}-{color}?style=flat-square&color=%23{color}"
-    tag_cell = f'<img src="{badge_url}" width="{TAG_IMG_WIDTH}" alt="{tag_label}" />'
+    width = PAPER_TAG_WIDTHS.get(tag_label, DEFAULT_TAG_WIDTH)
+    tag_cell = f'<img src="{badge_url}" width="{width}" alt="{tag_label}" />'
     return "|**{}**|**{}**|{}|{}|{}|\n".format(date, title, tag_cell, authors, link)
 
 import requests
