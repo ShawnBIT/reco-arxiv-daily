@@ -1,6 +1,20 @@
 ## Updated on 2026.03.02
 > Usage instructions: [here](./docs/README.md#usage)
 
+<details><summary>📊 Paper distribution by tag</summary>
+
+```mermaid
+pie showData
+title Paper Distribution by Tag
+  "GR" : 75
+  "LLM" : 99
+  "Scaling" : 36
+  "Seq" : 49
+  "Other" : 248
+```
+
+</details>
+
 <details style="margin: 1em 0; padding: 0.75em 1em; border: 1px solid #d8dee4; border-radius: 8px; background: #f6f8fa;">
   <summary style="cursor: pointer; font-weight: 600; font-size: 1.05em; color: #1f2328; padding: 0.25em 0;">📑 Table of Contents</summary>
   <ul style="list-style: none; padding-left: 0; margin: 0.75em 0 0 0; border-top: 1px solid #d8dee4; padding-top: 0.5em;">

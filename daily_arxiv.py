@@ -369,6 +369,26 @@ def json_to_md(filename, md_filename,
         keys_order = list(allowed_keywords) if allowed_keywords else list(data.keys())
         keys_to_show = [k for k in keys_order if k in data and data[k]]
 
+        # 主 README + paper_tags 时：统计五类 Tag 数量并输出 Mermaid 饼图（置顶）
+        if paper_tags and to_web == False and keys_to_show:
+            tag_counts = {}
+            for keyword in keys_to_show:
+                day_content = data.get(keyword) or {}
+                day_content = sort_papers(day_content)
+                for _, v in day_content.items():
+                    if v is None:
+                        continue
+                    title = extract_title_from_row(v)
+                    tag = get_paper_tag(title, paper_tags)
+                    tag_counts[tag] = tag_counts.get(tag, 0) + 1
+            tag_order = [r["label"] for r in paper_tags]
+            f.write("<details><summary>📊 Paper distribution by tag</summary>\n\n")
+            f.write("```mermaid\npie showData\ntitle Paper Distribution by Tag\n")
+            for label in tag_order:
+                cnt = tag_counts.get(label, 0)
+                f.write(f'  "{label}" : {cnt}\n')
+            f.write("```\n\n</details>\n\n")
+
         #Add: table of contents（带样式）
         if use_tc == True:
             f.write('<details style="margin: 1em 0; padding: 0.75em 1em; border: 1px solid #d8dee4; border-radius: 8px; background: #f6f8fa;">\n')
