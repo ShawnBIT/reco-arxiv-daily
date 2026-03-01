@@ -369,25 +369,45 @@ def json_to_md(filename, md_filename,
         keys_order = list(allowed_keywords) if allowed_keywords else list(data.keys())
         keys_to_show = [k for k in keys_order if k in data and data[k]]
 
-        # 主 README + paper_tags 时：统计五类 Tag 数量并输出 Mermaid 饼图（置顶）
+        # 主 README + paper_tags 时：统计五类 Tag 数量并输出 Mermaid 饼图（置顶、直接展示、配色与下方 Tag 一致）
         if paper_tags and to_web == False and keys_to_show:
             tag_counts = {}
+            all_dates = []  # 从每行解析出的日期 YYYY-MM-DD
             for keyword in keys_to_show:
                 day_content = data.get(keyword) or {}
                 day_content = sort_papers(day_content)
                 for _, v in day_content.items():
                     if v is None:
                         continue
+                    parts = v.split("|")
+                    if len(parts) >= 2:
+                        d = parts[1].strip().strip("*").strip()
+                        if d and re.match(r"\d{4}-\d{2}-\d{2}", d):
+                            all_dates.append(d)
                     title = extract_title_from_row(v)
                     tag = get_paper_tag(title, paper_tags)
                     tag_counts[tag] = tag_counts.get(tag, 0) + 1
+            total_papers = sum(tag_counts.values())
+            min_date = min(all_dates) if all_dates else ""
+            # 按数量降序，使 Mermaid 饼图切片顺序与配色 pie1..pie5 一致
             tag_order = [r["label"] for r in paper_tags]
-            f.write("<details><summary>📊 Paper distribution by tag</summary>\n\n")
-            f.write("```mermaid\npie showData\ntitle Paper Distribution by Tag\n")
-            for label in tag_order:
-                cnt = tag_counts.get(label, 0)
+            sorted_items = sorted(
+                [(l, tag_counts.get(l, 0)) for l in tag_order],
+                key=lambda x: -x[1]
+            )
+            colors_hex = {l: "#" + PAPER_TAG_STYLES.get(l, "5a5a5a").lstrip("#") for l in tag_order}
+            f.write("### 📊 Paper distribution by tag\n\n")
+            f.write("```mermaid\n")
+            f.write("%%{init: {'theme':'base', 'themeVariables': {\n")
+            for i, (label, _) in enumerate(sorted_items, 1):
+                c = colors_hex.get(label, "#5a5a5a")
+                f.write(f"  'pie{i}':'{c}'" + ("," if i < 5 else "") + "\n")
+            f.write("}}}%%\n")
+            f.write("pie showData\ntitle Paper Distribution by Tag\n")
+            for label, cnt in sorted_items:
                 f.write(f'  "{label}" : {cnt}\n')
-            f.write("```\n\n</details>\n\n")
+            f.write("```\n\n")
+            f.write(f"> 统计自 **{min_date}** 起，共计 **{total_papers}** 篇论文。\n\n")
 
         #Add: table of contents（带样式）
         if use_tc == True:

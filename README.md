@@ -1,19 +1,26 @@
 ## Updated on 2026.03.02
 > Usage instructions: [here](./docs/README.md#usage)
 
-<details><summary>📊 Paper distribution by tag</summary>
+### 📊 Paper distribution by tag
 
 ```mermaid
+%%{init: {'theme':'base', 'themeVariables': {
+  'pie1':'#5a5a5a',
+  'pie2':'#2c4a78',
+  'pie3':'#1e5c3a',
+  'pie4':'#5a4a6a',
+  'pie5':'#8b5a3c'
+}}}%%
 pie showData
 title Paper Distribution by Tag
-  "GR" : 75
-  "LLM" : 99
-  "Scaling" : 36
-  "Seq" : 49
   "Other" : 248
+  "LLM" : 99
+  "GR" : 75
+  "Seq" : 49
+  "Scaling" : 36
 ```
 
-</details>
+> 统计自 **2025-10-23** 起，共计 **507** 篇论文。
 
 <details style="margin: 1em 0; padding: 0.75em 1em; border: 1px solid #d8dee4; border-radius: 8px; background: #f6f8fa;">
   <summary style="cursor: pointer; font-weight: 600; font-size: 1.05em; color: #1f2328; padding: 0.25em 0;">📑 Table of Contents</summary>
