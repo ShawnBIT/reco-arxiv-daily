@@ -6,8 +6,8 @@
   <ul style="list-style: none; padding-left: 0; margin: 0.75em 0 0 0; border-top: 1px solid #d8dee4; padding-top: 0.5em;">
     <li style="margin: 0.35em 0;"><a href="#generative" style="display: inline-block; padding: 0.35em 0.75em; border-radius: 6px; text-decoration: none; color: #0969da; font-size: 0.95em; background: #fff; border: 1px solid #d8dee4;">Generative</a></li>
     <li style="margin: 0.35em 0;"><a href="#llm" style="display: inline-block; padding: 0.35em 0.75em; border-radius: 6px; text-decoration: none; color: #0969da; font-size: 0.95em; background: #fff; border: 1px solid #d8dee4;">LLM</a></li>
-    <li style="margin: 0.35em 0;"><a href="#scaling---scale" style="display: inline-block; padding: 0.35em 0.75em; border-radius: 6px; text-decoration: none; color: #0969da; font-size: 0.95em; background: #fff; border: 1px solid #d8dee4;">Scaling / Scale</a></li>
-    <li style="margin: 0.35em 0;"><a href="#sequence---sequential" style="display: inline-block; padding: 0.35em 0.75em; border-radius: 6px; text-decoration: none; color: #0969da; font-size: 0.95em; background: #fff; border: 1px solid #d8dee4;">Sequence / Sequential</a></li>
+    <li style="margin: 0.35em 0;"><a href="#scaling--scale" style="display: inline-block; padding: 0.35em 0.75em; border-radius: 6px; text-decoration: none; color: #0969da; font-size: 0.95em; background: #fff; border: 1px solid #d8dee4;">Scaling / Scale</a></li>
+    <li style="margin: 0.35em 0;"><a href="#sequence--sequential" style="display: inline-block; padding: 0.35em 0.75em; border-radius: 6px; text-decoration: none; color: #0969da; font-size: 0.95em; background: #fff; border: 1px solid #d8dee4;">Sequence / Sequential</a></li>
   </ul>
 </details>
 

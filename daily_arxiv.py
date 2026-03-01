@@ -359,8 +359,9 @@ def json_to_md(filename, md_filename,
             f.write('  <summary style="cursor: pointer; font-weight: 600; font-size: 1.05em; color: #1f2328; padding: 0.25em 0;">📑 Table of Contents</summary>\n')
             f.write('  <ul style="list-style: none; padding-left: 0; margin: 0.75em 0 0 0; border-top: 1px solid #d8dee4; padding-top: 0.5em;">\n')
             for keyword in keys_to_show:
-                kw = keyword.replace(' ', '-').replace('/', '-')
-                anchor = kw.lower()
+                # 与 GitHub 标题 ID 一致：小写、空格改 -、只保留字母数字与 -_（/ 被移除，不合并连续 -）
+                raw = keyword.lower().replace(' ', '-')
+                anchor = ''.join(c for c in raw if c.isalnum() or c in '-_').strip('-')
                 f.write(f'    <li style="margin: 0.35em 0;"><a href="#{anchor}" style="display: inline-block; padding: 0.35em 0.75em; border-radius: 6px; text-decoration: none; color: #0969da; font-size: 0.95em; background: #fff; border: 1px solid #d8dee4;">{keyword}</a></li>\n')
             f.write("  </ul>\n")
             f.write("</details>\n\n")
