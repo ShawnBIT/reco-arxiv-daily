@@ -94,27 +94,27 @@ def normalize_table_row(s: str) -> str:
 
 # 主 README 论文类型标签：GitHub 会 strip 掉所有 style，只能用图片显色。用 shields.io 徽章 + <img width> 在 GitHub 上可读且有色
 SHIELDS_BASE = "https://img.shields.io/badge"
-DEFAULT_TAG_WIDTH = 220  # 未在 PAPER_TAG_WIDTHS 中指定时的默认宽度
+DEFAULT_TAG_WIDTH = 200  # 未在 PAPER_TAG_WIDTHS 中指定时的默认宽度
 PAPER_TAG_STYLES = {
-    "Generative": "1e5c3a",   # 青灰绿
-    "LLM": "2c4a78",          # 雾蓝
-    "Scaling": "8b5a3c",      # 陶土
-    "Sequential": "5a4a6a",   # 雾紫
-    "其他": "5a5a5a",         # 中性灰
+    "GR": "1e5c3a",       # 青灰绿
+    "LLM": "2c4a78",      # 雾蓝
+    "Scaling": "8b5a3c",  # 陶土
+    "Seq": "5a4a6a",      # 雾紫
+    "Other": "5a5a5a",    # 中性灰
 }
-# 每个 Tag 的徽章显示宽度（px）。短标签 LLM/其他 用较小宽度避免被放大后字体显大
+# 每个 Tag 的徽章显示宽度（px），统一 200
 PAPER_TAG_WIDTHS = {
-    "Generative": 220,
-    "LLM": 58,
-    "Scaling": 220,
-    "Sequential": 220,
-    "其他": 58,
+    "GR": 200,
+    "LLM": 200,
+    "Scaling": 200,
+    "Seq": 200,
+    "Other": 200,
 }
 
 def get_paper_tag(title: str, tag_rules: list) -> str:
-    """按配置规则根据标题匹配论文类型，顺序优先，未匹配为最后一项（其他）。"""
+    """按配置规则根据标题匹配论文类型，顺序优先，未匹配为最后一项（Other）。"""
     if not title or not tag_rules:
-        return tag_rules[-1]["label"] if tag_rules else "其他"
+        return tag_rules[-1]["label"] if tag_rules else "Other"
     t = title.lower()
     for rule in tag_rules:
         words = rule.get("words") or []
@@ -122,7 +122,7 @@ def get_paper_tag(title: str, tag_rules: list) -> str:
             continue
         if any(w.lower() in t for w in words):
             return rule["label"]
-    return tag_rules[-1]["label"] if tag_rules else "其他"
+    return tag_rules[-1]["label"] if tag_rules else "Other"
 
 def format_row_with_tag(row_str: str, tag_label: str, tag_styles: dict) -> str:
     """将 4 列表格行扩展为 5 列，在 Title 与 Authors 之间插入带颜色的 Tag 列。"""

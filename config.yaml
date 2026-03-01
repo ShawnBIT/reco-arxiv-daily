@@ -36,18 +36,18 @@ extra_title_topics:
   - label: "Sequence / Sequential"
     words: ["Sequence", "Sequential"]
 
-# 主 README 表格中论文类型标签（按顺序匹配标题，先匹配先得；未匹配为「其他」）
+# 主 README 表格中论文类型标签（按顺序匹配标题，先匹配先得；未匹配为 Other）
 paper_tags:
-  - label: "Generative"
+  - label: "GR"
     words: ["generative"]
   - label: "LLM"
     words: ["LLM", "large language model"]
   - label: "Scaling"
     words: ["scaling", "scale"]
-  - label: "Sequential"
+  - label: "Seq"
     words: ["sequential", "sequence"]
-  - label: "其他"
-    words: []   # 最后一项，无关键词则归为其他
+  - label: "Other"
+    words: []   # 最后一项，无关键词则归为 Other
 
 # keywords: 仅 Recommender System，无其他主题
 keywords:
