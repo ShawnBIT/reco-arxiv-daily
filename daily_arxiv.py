@@ -102,12 +102,12 @@ PAPER_TAG_STYLES = {
     "Seq": "5a4a6a",      # 雾紫
     "Other": "5a5a5a",    # 中性灰
 }
-# 每个 Tag 的徽章显示宽度（px）。短标签 GR/LLM/Seq 用较小 width 才能显小（shields 图原生较窄，width 大会被放大）
+# 每个 Tag 的徽章显示宽度（px）。短标签只设 width 不设 height，保持比例避免上下压缩感
 PAPER_TAG_WIDTHS = {
-    "GR": 52,
-    "LLM": 52,
+    "GR": 56,
+    "LLM": 56,
     "Scaling": 200,
-    "Seq": 52,
+    "Seq": 56,
     "Other": 120,
 }
 
@@ -148,10 +148,7 @@ def format_row_with_tag(row_str: str, tag_label: str, tag_styles: dict) -> str:
     label_enc = quote(tag_label)
     badge_url = f"{SHIELDS_BASE}/-{label_enc}-{color}?style=flat-square&color=%23{color}"
     width = PAPER_TAG_WIDTHS.get(tag_label, DEFAULT_TAG_WIDTH)
-    # 短标签用 height 限制纵向尺寸，避免在高分屏上仍显大
-    short_labels = ("GR", "LLM", "Seq")
-    height_attr = f' height="26"' if tag_label in short_labels else ""
-    tag_cell = f'<img src="{badge_url}" width="{width}"{height_attr} alt="{tag_label}" />'
+    tag_cell = f'<img src="{badge_url}" width="{width}" alt="{tag_label}" />'
     return "|**{}**|**{}**|{}|{}|{}|\n".format(date, title, tag_cell, authors, link)
 
 import requests
