@@ -102,13 +102,13 @@ PAPER_TAG_STYLES = {
     "Seq": "5a4a6a",      # 雾紫
     "Other": "5a5a5a",    # 中性灰
 }
-# 每个 Tag 的徽章显示宽度（px），统一 200
+# 每个 Tag 的徽章显示宽度（px）
 PAPER_TAG_WIDTHS = {
-    "GR": 200,
-    "LLM": 200,
+    "GR": 100,
+    "LLM": 100,
     "Scaling": 200,
-    "Seq": 200,
-    "Other": 200,
+    "Seq": 100,
+    "Other": 150,
 }
 
 def get_paper_tag(title: str, tag_rules: list) -> str:
