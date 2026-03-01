@@ -137,9 +137,9 @@ def format_row_with_tag(row_str: str, tag_label: str, tag_styles: dict) -> str:
         color = color[0].lstrip("#") if color else "5a5a5a"
     else:
         color = str(color).lstrip("#")
-    # shields.io: /badge/-<msg>-<color>?style=flat-square&color=%23<hex> 在 GitHub 上能显色
+    # shields.io：style=for-the-badge 徽章更大、字更醒目，便于看清
     label_enc = quote(tag_label)
-    badge_url = f"{SHIELDS_BASE}/-{label_enc}-{color}?style=flat-square&color=%23{color}"
+    badge_url = f"{SHIELDS_BASE}/-{label_enc}-{color}?style=for-the-badge&color=%23{color}"
     tag_cell = f"![{tag_label}]({badge_url})"
     return "|**{}**|**{}**|{}|{}|{}|\n".format(date, title, tag_cell, authors, link)
 
