@@ -102,12 +102,12 @@ PAPER_TAG_STYLES = {
     "Seq": "5a4a6a",      # 雾紫
     "Other": "5a5a5a",    # 中性灰
 }
-# 每个 Tag 的徽章显示宽度（px）
+# 每个 Tag 的徽章显示宽度（px）。短标签 GR/LLM/Seq 原生图较窄，width 过大会被放大导致字显大，故用较小值
 PAPER_TAG_WIDTHS = {
-    "GR": 100,
-    "LLM": 100,
+    "GR": 58,
+    "LLM": 58,
     "Scaling": 200,
-    "Seq": 100,
+    "Seq": 58,
     "Other": 150,
 }
 
