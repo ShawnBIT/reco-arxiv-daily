@@ -94,7 +94,7 @@ def normalize_table_row(s: str) -> str:
 
 # 主 README 论文类型标签：GitHub 会 strip 掉所有 style，只能用图片显色。用 shields.io 徽章 + <img width> 在 GitHub 上可读且有色
 SHIELDS_BASE = "https://img.shields.io/badge"
-TAG_IMG_WIDTH = 88  # 徽章显示宽度，兼顾可读性与排版
+TAG_IMG_WIDTH = 220  # 徽章显示宽度，约 2.5 倍以便 Generative/Scaling/Sequential 等长标签可读
 PAPER_TAG_STYLES = {
     "Generative": "1e5c3a",   # 青灰绿
     "LLM": "2c4a78",          # 雾蓝
