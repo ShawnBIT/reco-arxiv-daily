@@ -102,13 +102,13 @@ PAPER_TAG_STYLES = {
     "Sequential": "5a4a6a",   # 雾紫
     "其他": "5a5a5a",         # 中性灰
 }
-# 每个 Tag 的徽章显示宽度（px），可按标签长短单独设置
+# 每个 Tag 的徽章显示宽度（px）。短标签 LLM/其他 用较小宽度避免被放大后字体显大
 PAPER_TAG_WIDTHS = {
     "Generative": 220,
-    "LLM": 88,
+    "LLM": 58,
     "Scaling": 220,
     "Sequential": 220,
-    "其他": 88,
+    "其他": 58,
 }
 
 def get_paper_tag(title: str, tag_rules: list) -> str:
