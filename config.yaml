@@ -1,39 +1,55 @@
-# TODO: add papers by configuration file
+# Recommendation / 推荐算法领域 ArXiv 每日抓取
 base_url: "https://arxiv.paperswithcode.com/api/v0/papers/"
-user_name: "Vincentqyw"
-repo_name: "cv-arxiv-daily"
+user_name: "ShawnBIT"
+repo_name: "reco-arxiv-daily"
 show_authors: True
 show_links: True
 show_badge: True
-max_results: 10
+max_results: 120
+
+# 限制在指定学科分类下搜索，留空则不限制。见 https://arxiv.org/category_taxonomy
+subject_category: "cs.IR"  # Information Retrieval
 
 publish_readme: True
 publish_gitpage: True
 publish_wechat: False
 
 # file paths
-json_readme_path: './docs/cv-arxiv-daily.json'
-json_gitpage_path: './docs/cv-arxiv-daily-web.json'
-json_wechat_path: './docs/cv-arxiv-daily-wechat.json'
+json_readme_path: './docs/reco-arxiv-daily.json'
+json_gitpage_path: './docs/reco-arxiv-daily-web.json'
+json_wechat_path: './docs/reco-arxiv-daily-wechat.json'
 
 md_readme_path: 'README.md'
 md_gitpage_path: './docs/index.md'
 md_wechat_path: './docs/wechat.md'
 
-# keywords to search
+# 一份 MD 下 4 个 topic：Generative、LLM、Scaling/Scale、Sequence/Sequential（extra_title_md 留空则不生成）
+extra_title_md: './docs/topic-recommendation.md'
+json_extra_title_path: './docs/reco-arxiv-daily-extra.json'
+extra_title_topics:
+  - label: "Generative"
+    words: ["generative"]
+  - label: "LLM"
+    words: ["LLM", "large language model", "think"]
+  - label: "Scaling / Scale"
+    words: ["Scaling", "Scale"]
+  - label: "Sequence / Sequential"
+    words: ["Sequence", "Sequential"]
+
+# 主 README 表格中论文类型标签（按顺序匹配标题，先匹配先得；未匹配为「其他」）
+paper_tags:
+  - label: "Generative"
+    words: ["generative"]
+  - label: "LLM"
+    words: ["LLM", "large language model"]
+  - label: "Scaling"
+    words: ["scaling", "scale"]
+  - label: "Sequential"
+    words: ["sequential", "sequence"]
+  - label: "其他"
+    words: []   # 最后一项，无关键词则归为其他
+
+# keywords: 仅 Recommender System，无其他主题
 keywords:
-    "SLAM": 
-        filters: ["SLAM", "Visual Odometry"]
-    "SFM":
-        filters: ["SFM", "Structure from Motion"]
-    "Visual Localization":
-        filters: ["Visual Localization","Camera Localization",
-                  "Camera Re-localisation","Loop Closure Detection",
-                  "visual place recognition","image retrieval"]
-    "Keypoint Detection":
-        filters: ["Keypoint Detection", "Feature Descriptor"]
-    "Image Matching":
-        filters: ["Image Matching", "Keypoint Matching", 
-                  "Line Segment Detection", "Local Feature Matching"]
-    "NeRF":
-        filters: ["NeRF"]
+    "Recommender System":
+        filters: ["recommendation", "recommender", "recommender system", "recommender systems"]

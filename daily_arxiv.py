@@ -20,24 +20,25 @@ def load_config(config_file:str) -> dict:
     config_file: input config file path
     return: a dict of configuration
     '''
-    # make filters pretty
+    # make filters pretty: only search in title and abstract (ti: / abs:); optional cat: subject
     def pretty_filters(**config) -> dict:
         keywords = dict()
         EXCAPE = '\"'
-        QUOTA = '' # NO-USE
-        OR = ' OR ' # TODO
-        def parse_filters(filters:list):
-            ret = ''
-            for idx in range(0,len(filters)):
-                filter = filters[idx]
-                if len(filter.split()) > 1:
-                    ret += (EXCAPE + filter + EXCAPE)
+        OR = ' OR '
+        subject = (config.get('subject_category') or '').strip()
+        def parse_filters(filters: list) -> str:
+            parts = []
+            for f in filters:
+                if len(f.split()) > 1:
+                    term = EXCAPE + f + EXCAPE
                 else:
-                    ret += (QUOTA + filter + QUOTA)
-                if idx != len(filters) - 1:
-                    ret += OR
-            return ret
-        for k,v in config['keywords'].items():
+                    term = f
+                parts.append(f'(ti:{term} OR abs:{term})')
+            q = OR.join(parts)
+            if subject:
+                q = f'cat:{subject} AND ({q})'
+            return q
+        for k, v in config['keywords'].items():
             keywords[k] = parse_filters(v['filters'])
         return keywords
     with open(config_file,'r') as f:
@@ -53,6 +54,7 @@ def get_authors(authors, first_author = False):
     else:
         output = authors[0]
     return output
+
 def sort_papers(papers):
     output = dict()
     keys = list(papers.keys())
@@ -60,6 +62,79 @@ def sort_papers(papers):
     for key in keys:
         output[key] = papers[key]
     return output
+
+def extract_title_from_row(row: str) -> str:
+    """从存储的表格行中解析出标题（第二列，可能带 **）"""
+    if not row or not row.strip():
+        return ''
+    parts = row.split("|")
+    if len(parts) < 3:
+        return ''
+    return parts[2].strip().strip('*').strip()
+
+def normalize_table_row(s: str) -> str:
+    """将存储的表格行统一为 4 列：Date|Title|Authors|PDF（兼容旧格式含 Affiliation 或 Code 的行）"""
+    if not s or not s.strip():
+        return s
+    parts = s.split("|")
+    if len(parts) < 4:
+        return s
+    date = parts[1].strip().strip('*')
+    title = parts[2].strip().strip('*')
+    authors = parts[3].strip()
+    # 新格式 5 列: date|title|authors|affiliation|link；旧 5 列: date|title|authors|link|code；目标 4 列
+    if len(parts) > 5 and parts[5].strip().startswith('['):
+        link = parts[5].strip()
+    elif len(parts) > 4 and parts[4].strip().startswith('['):
+        link = parts[4].strip()
+    else:
+        link = parts[4].strip() if len(parts) > 4 else ''
+    return "|**{}**|**{}**|{}|{}|\n".format(date, title, authors, link)
+
+# 主 README 论文类型标签：柔和 pastel 背景 + 深色字，药丸形无边框，高级感
+PAPER_TAG_STYLES = {
+    "Generative": "#d4edda",   # 柔和绿
+    "LLM": "#cce5ff",          # 柔和蓝
+    "Scaling": "#ffe5cc",      # 柔和橙
+    "Sequential": "#e8daef",   # 柔和紫
+    "其他": "#e8e8e8",         # 柔和灰
+}
+TAG_TEXT_COLOR = "#2c2c2c"    # 统一深灰字，提升对比与质感
+
+def get_paper_tag(title: str, tag_rules: list) -> str:
+    """按配置规则根据标题匹配论文类型，顺序优先，未匹配为最后一项（其他）。"""
+    if not title or not tag_rules:
+        return tag_rules[-1]["label"] if tag_rules else "其他"
+    t = title.lower()
+    for rule in tag_rules:
+        words = rule.get("words") or []
+        if not words:
+            continue
+        if any(w.lower() in t for w in words):
+            return rule["label"]
+    return tag_rules[-1]["label"] if tag_rules else "其他"
+
+def format_row_with_tag(row_str: str, tag_label: str, tag_styles: dict) -> str:
+    """将 4 列表格行扩展为 5 列，在 Title 与 Authors 之间插入带颜色的 Tag 列。"""
+    if not row_str or not row_str.strip():
+        return row_str
+    parts = row_str.split("|")
+    if len(parts) < 4:
+        return row_str
+    date = parts[1].strip().strip('*')
+    title = parts[2].strip().strip('*')
+    authors = parts[3].strip()
+    if len(parts) > 5 and parts[5].strip().startswith('['):
+        link = parts[5].strip()
+    elif len(parts) > 4 and parts[4].strip().startswith('['):
+        link = parts[4].strip()
+    else:
+        link = parts[4].strip() if len(parts) > 4 else ''
+    bg = tag_styles.get(tag_label, "#e8e8e8")
+    fg = TAG_TEXT_COLOR
+    tag_html = f'<span style="background:{bg};color:{fg};padding:5px 12px;border-radius:999px;font-size:0.85em;font-weight:500;border:none;">{tag_label}</span>'
+    return "|**{}**|**{}**|{}|{}|{}|\n".format(date, title, tag_html, authors, link)
+
 import requests
 
 def get_code_link(qword:str) -> str:
@@ -105,7 +180,7 @@ def get_daily_papers(topic,query="slam", max_results=2):
         paper_url           = result.entry_id
         paper_abstract      = result.summary.replace("\n"," ")
         paper_authors       = get_authors(result.authors)
-        paper_first_author  = get_authors(result.authors,first_author = True)
+        paper_first_author  = get_authors(result.authors, first_author=True)
         primary_category    = result.primary_category
         publish_time        = result.published.date()
         update_time         = result.updated.date()
@@ -121,12 +196,11 @@ def get_daily_papers(topic,query="slam", max_results=2):
             paper_key = paper_id[0:ver_pos]
         paper_url = arxiv_url + 'abs/' + paper_key
 
-        # Since PapersWithCode API is deprecated, we no longer fetch code links
-        # Papers will be listed without code links
-        content[paper_key] = "|**{}**|**{}**|{} et.al.|[{}]({})|null|\n".format(
-               update_time,paper_title,paper_first_author,paper_key,paper_url)
+        # 表格列：Publish Date | Title | Authors | PDF
+        content[paper_key] = "|**{}**|**{}**|{} et.al.|[{}]({})|\n".format(
+               update_time, paper_title, paper_first_author, paper_key, paper_url)
         content_to_web[paper_key] = "- {}, **{}**, {} et.al., Paper: [{}]({})".format(
-               update_time,paper_title,paper_first_author,paper_url,paper_url)
+               update_time, paper_title, paper_first_author, paper_url, paper_url)
 
         # TODO: select useful comments
         comments = None
@@ -145,51 +219,53 @@ def update_paper_links(filename):
     '''
     def parse_arxiv_string(s):
         parts = s.split("|")
-        date = parts[1].strip()
-        title = parts[2].strip()
+        date = parts[1].strip().strip('*')
+        title = parts[2].strip().strip('*')
         authors = parts[3].strip()
-        arxiv_id = parts[4].strip()
-        code = parts[5].strip()
-        arxiv_id = re.sub(r'v\d+', '', arxiv_id)
-        return date,title,authors,arxiv_id,code
+        # 5 列旧格式: date|title|authors|affiliation|link 或 date|title|authors|link|code；目标 4 列
+        if len(parts) > 5 and parts[5].strip().startswith('['):
+            link = parts[5].strip()
+        elif len(parts) > 4 and parts[4].strip().startswith('['):
+            link = parts[4].strip()
+        else:
+            link = parts[4].strip() if len(parts) > 4 else ''
+        return date, title, authors, link
 
-    with open(filename,"r") as f:
+    with open(filename, "r") as f:
         content = f.read()
         if not content:
             m = {}
         else:
             m = json.loads(content)
 
-        json_data = m.copy()
+    json_data = m.copy()
 
-        for keywords,v in json_data.items():
-            logging.info(f'keywords = {keywords}')
-            for paper_id,contents in v.items():
-                contents = str(contents)
+    for keywords, v in json_data.items():
+        logging.info(f'keywords = {keywords}')
+        for paper_id, contents in v.items():
+            contents = str(contents)
+            update_time, paper_title, paper_first_author, link = parse_arxiv_string(contents)
+            contents = "|**{}**|**{}**|{}|{}|\n".format(
+                update_time, paper_title, paper_first_author, link)
+            json_data[keywords][paper_id] = str(contents)
+            logging.info(f'paper_id = {paper_id}, contents = {contents}')
+    with open(filename, "w") as f:
+        json.dump(json_data, f)
 
-                update_time, paper_title, paper_first_author, paper_url, code_url = parse_arxiv_string(contents)
-
-                contents = "|{}|{}|{}|{}|{}|\n".format(update_time,paper_title,paper_first_author,paper_url,code_url)
-                json_data[keywords][paper_id] = str(contents)
-                logging.info(f'paper_id = {paper_id}, contents = {contents}')
-
-                # PapersWithCode API is deprecated, skip code link updates
-                # Papers will keep their existing null code links
-                logging.info(f'Skipping code link update for paper_id = {paper_id} (PapersWithCode API deprecated)')
-        # dump to json file
-        with open(filename,"w") as f:
-            json.dump(json_data,f)
-
-def update_json_file(filename,data_dict):
+def update_json_file(filename, data_dict):
     '''
     daily update json file using data_dict
     '''
-    with open(filename,"r") as f:
-        content = f.read()
-        if not content:
-            m = {}
-        else:
-            m = json.loads(content)
+    if os.path.exists(filename):
+        with open(filename, "r") as f:
+            content = f.read()
+            if not content:
+                m = {}
+            else:
+                m = json.loads(content)
+    else:
+        os.makedirs(os.path.dirname(filename) or ".", exist_ok=True)
+        m = {}
 
     json_data = m.copy()
 
@@ -206,13 +282,17 @@ def update_json_file(filename,data_dict):
     with open(filename,"w") as f:
         json.dump(json_data,f)
 
-def json_to_md(filename,md_filename,
-               task = '',
-               to_web = False,
-               use_title = True,
-               use_tc = True,
-               show_badge = True,
-               use_b2t = True):
+def json_to_md(filename, md_filename,
+               task='',
+               to_web=False,
+               use_title=True,
+               use_tc=True,
+               show_badge=True,
+               use_b2t=True,
+               badge_user_name='Vincentqyw',
+               badge_repo_name='cv-arxiv-daily',
+               allowed_keywords=None,
+               paper_tags=None):
     """
     @param filename: str
     @param md_filename: str
@@ -269,40 +349,51 @@ def json_to_md(filename,md_filename,
         # TODO: add usage
         f.write("> Usage instructions: [here](./docs/README.md#usage)\n\n")
 
-        #Add: table of contents
+        # 只输出 config 中配置的主题（allowed_keywords）；若未传则输出 JSON 中全部
+        keys_order = list(allowed_keywords) if allowed_keywords else list(data.keys())
+        keys_to_show = [k for k in keys_order if k in data and data[k]]
+
+        #Add: table of contents（带样式）
         if use_tc == True:
-            f.write("<details>\n")
-            f.write("  <summary>Table of Contents</summary>\n")
-            f.write("  <ol>\n")
-            for keyword in data.keys():
-                day_content = data[keyword]
-                if not day_content:
-                    continue
-                kw = keyword.replace(' ','-')
-                f.write(f"    <li><a href=#{kw.lower()}>{keyword}</a></li>\n")
-            f.write("  </ol>\n")
+            f.write('<details style="margin: 1em 0; padding: 0.75em 1em; border: 1px solid #d8dee4; border-radius: 8px; background: #f6f8fa;">\n')
+            f.write('  <summary style="cursor: pointer; font-weight: 600; font-size: 1.05em; color: #1f2328; padding: 0.25em 0;">📑 Table of Contents</summary>\n')
+            f.write('  <ul style="list-style: none; padding-left: 0; margin: 0.75em 0 0 0; border-top: 1px solid #d8dee4; padding-top: 0.5em;">\n')
+            for keyword in keys_to_show:
+                kw = keyword.replace(' ', '-').replace('/', '-')
+                anchor = kw.lower()
+                f.write(f'    <li style="margin: 0.35em 0;"><a href="#{anchor}" style="display: inline-block; padding: 0.35em 0.75em; border-radius: 6px; text-decoration: none; color: #0969da; font-size: 0.95em; background: #fff; border: 1px solid #d8dee4;">{keyword}</a></li>\n')
+            f.write("  </ul>\n")
             f.write("</details>\n\n")
 
-        for keyword in data.keys():
+        for keyword in keys_to_show:
             day_content = data[keyword]
             if not day_content:
                 continue
             # the head of each part
             f.write(f"## {keyword}\n\n")
 
-            if use_title == True :
+            if use_title == True:
                 if to_web == False:
-                    f.write("|Publish Date|Title|Authors|PDF|Code|\n" + "|---|---|---|---|---|\n")
+                    if paper_tags:
+                        f.write("|Publish Date|Title|Tag|Authors|PDF|\n" + "|---|---|---|---|---|\n")
+                    else:
+                        f.write("|Publish Date|Title|Authors|PDF|\n" + "|---|---|---|---|\n")
                 else:
-                    f.write("| Publish Date | Title | Authors | PDF | Code |\n")
-                    f.write("|:---------|:-----------------------|:---------|:------|:------|\n")
+                    f.write("| Publish Date | Title | Authors | PDF |\n")
+                    f.write("|:---------|:-----------------------|:---------|:------|\n")
 
             # sort papers by date
             day_content = sort_papers(day_content)
 
-            for _,v in day_content.items():
+            for _, v in day_content.items():
                 if v is not None:
-                    f.write(pretty_math(v)) # make latex pretty
+                    if paper_tags:
+                        title = extract_title_from_row(v)
+                        tag = get_paper_tag(title, paper_tags)
+                        row = format_row_with_tag(v, tag, PAPER_TAG_STYLES)
+                        f.write(pretty_math(row))
+                    else:
+                        f.write(pretty_math(normalize_table_row(v)))
 
             f.write(f"\n")
 
@@ -313,23 +404,17 @@ def json_to_md(filename,md_filename,
                 f.write(f"<p align=right>(<a href={top_info.lower()}>back to top</a>)</p>\n\n")
 
         if show_badge == True:
-            # we don't like long string, break it!
+            # badge 使用 config 中的 user_name / repo_name，Fork 后只需改 config.yaml
+            u, r = badge_user_name, badge_repo_name
             f.write((f"[contributors-shield]: https://img.shields.io/github/"
-                     f"contributors/Vincentqyw/cv-arxiv-daily.svg?style=for-the-badge\n"))
-            f.write((f"[contributors-url]: https://github.com/Vincentqyw/"
-                     f"cv-arxiv-daily/graphs/contributors\n"))
-            f.write((f"[forks-shield]: https://img.shields.io/github/forks/Vincentqyw/"
-                     f"cv-arxiv-daily.svg?style=for-the-badge\n"))
-            f.write((f"[forks-url]: https://github.com/Vincentqyw/"
-                     f"cv-arxiv-daily/network/members\n"))
-            f.write((f"[stars-shield]: https://img.shields.io/github/stars/Vincentqyw/"
-                     f"cv-arxiv-daily.svg?style=for-the-badge\n"))
-            f.write((f"[stars-url]: https://github.com/Vincentqyw/"
-                     f"cv-arxiv-daily/stargazers\n"))
-            f.write((f"[issues-shield]: https://img.shields.io/github/issues/Vincentqyw/"
-                     f"cv-arxiv-daily.svg?style=for-the-badge\n"))
-            f.write((f"[issues-url]: https://github.com/Vincentqyw/"
-                     f"cv-arxiv-daily/issues\n\n"))
+                     f"contributors/{u}/{r}.svg?style=for-the-badge\n"))
+            f.write((f"[contributors-url]: https://github.com/{u}/{r}/graphs/contributors\n"))
+            f.write((f"[forks-shield]: https://img.shields.io/github/forks/{u}/{r}.svg?style=for-the-badge\n"))
+            f.write((f"[forks-url]: https://github.com/{u}/{r}/network/members\n"))
+            f.write((f"[stars-shield]: https://img.shields.io/github/stars/{u}/{r}.svg?style=for-the-badge\n"))
+            f.write((f"[stars-url]: https://github.com/{u}/{r}/stargazers\n"))
+            f.write((f"[issues-shield]: https://img.shields.io/github/issues/{u}/{r}.svg?style=for-the-badge\n"))
+            f.write((f"[issues-url]: https://github.com/{u}/{r}/issues\n\n"))
 
     logging.info(f"{task} finished")
 
@@ -369,8 +454,12 @@ def demo(**config):
             # update json data
             update_json_file(json_file,data_collector)
         # json data to markdown
-        json_to_md(json_file,md_file, task ='Update Readme', \
-            show_badge = show_badge)
+        json_to_md(json_file, md_file, task='Update Readme',
+            show_badge=show_badge,
+            badge_user_name=config.get('user_name', 'Vincentqyw'),
+            badge_repo_name=config.get('repo_name', 'cv-arxiv-daily'),
+            allowed_keywords=list(config['keywords'].keys()),
+            paper_tags=config.get('paper_tags'))
 
     # 2. update docs/index.md file (to gitpage)
     if publish_gitpage:
@@ -381,9 +470,12 @@ def demo(**config):
             update_paper_links(json_file)
         else:
             update_json_file(json_file,data_collector)
-        json_to_md(json_file, md_file, task ='Update GitPage', \
-            to_web = True, show_badge = show_badge, \
-            use_tc=False, use_b2t=False)
+        json_to_md(json_file, md_file, task='Update GitPage',
+            to_web=True, show_badge=show_badge,
+            use_tc=False, use_b2t=False,
+            badge_user_name=config.get('user_name', 'Vincentqyw'),
+            badge_repo_name=config.get('repo_name', 'cv-arxiv-daily'),
+            allowed_keywords=list(config['keywords'].keys()))
 
     # 3. Update docs/wechat.md file
     if publish_wechat:
@@ -394,8 +486,51 @@ def demo(**config):
             update_paper_links(json_file)
         else:
             update_json_file(json_file, data_collector_web)
-        json_to_md(json_file, md_file, task ='Update Wechat', \
-            to_web=False, use_title= False, show_badge = show_badge)
+        json_to_md(json_file, md_file, task='Update Wechat',
+            to_web=False, use_title=False, show_badge=show_badge,
+            badge_user_name=config.get('user_name', 'Vincentqyw'),
+            badge_repo_name=config.get('repo_name', 'cv-arxiv-daily'),
+            allowed_keywords=list(config['keywords'].keys()))
+
+    # 4. Generative / LLM / Scaling/Scale / Sequence/Sequential 四个 topic 合并输出一份 MD
+    extra_md = config.get('extra_title_md', '').strip()
+    extra_topics = config.get('extra_title_topics')
+    if extra_md and extra_topics and config.get('publish_readme'):
+        json_main = config['json_readme_path']
+        json_extra_path = config.get('json_extra_title_path', './docs/reco-arxiv-daily-extra.json')
+        try:
+            with open(json_main, 'r') as f:
+                data_main = json.load(f)
+            filtered = {}
+            topic_labels = []
+            for item in extra_topics:
+                label = item.get('label') or item.get('topic', '')
+                words = item.get('words') or item.get('filters', [])
+                if isinstance(words, str):
+                    words = [words]
+                if not label or not words:
+                    continue
+                topic_labels.append(label)
+                papers = {}
+                for source_topic in config['keywords'].keys():
+                    if source_topic not in data_main or not data_main[source_topic]:
+                        continue
+                    for pid, row in data_main[source_topic].items():
+                        if any(w.lower() in extract_title_from_row(row).lower() for w in words):
+                            papers[pid] = row
+                filtered[label] = papers
+            if filtered and any(filtered.values()):
+                os.makedirs(os.path.dirname(json_extra_path) or '.', exist_ok=True)
+                with open(json_extra_path, 'w') as f:
+                    json.dump(filtered, f)
+                json_to_md(json_extra_path, extra_md, task='Update Extra Title MD',
+                    show_badge=show_badge,
+                    badge_user_name=config.get('user_name', 'Vincentqyw'),
+                    badge_repo_name=config.get('repo_name', 'cv-arxiv-daily'),
+                    allowed_keywords=topic_labels)
+                logging.info(f'Extra title MD: {extra_md} (topics {topic_labels})')
+        except Exception as e:
+            logging.warning(f'Skip extra_title_md: {e}')
 
 if __name__ == "__main__":
     parser = argparse.ArgumentParser()
