@@ -91,15 +91,14 @@ def normalize_table_row(s: str) -> str:
         link = parts[4].strip() if len(parts) > 4 else ''
     return "|**{}**|**{}**|{}|{}|\n".format(date, title, authors, link)
 
-# 主 README 论文类型标签：柔和 pastel 背景 + 深色字，药丸形无边框，高级感
+# 主 README 论文类型标签：(背景色, 文字色)，低饱和配色、药丸形，高级区分
 PAPER_TAG_STYLES = {
-    "Generative": "#d4edda",   # 柔和绿
-    "LLM": "#cce5ff",          # 柔和蓝
-    "Scaling": "#ffe5cc",      # 柔和橙
-    "Sequential": "#e8daef",   # 柔和紫
-    "其他": "#e8e8e8",         # 柔和灰
+    "Generative": ("#e8f3ec", "#1e5c3a"),   # 青灰绿
+    "LLM": ("#e6ecf5", "#2c4a78"),          # 雾蓝
+    "Scaling": ("#f5ebe4", "#8b5a3c"),      # 陶土
+    "Sequential": ("#efe6f2", "#5a4a6a"),  # 雾紫
+    "其他": ("#ececec", "#5a5a5a"),        # 中性灰
 }
-TAG_TEXT_COLOR = "#2c2c2c"    # 统一深灰字，提升对比与质感
 
 def get_paper_tag(title: str, tag_rules: list) -> str:
     """按配置规则根据标题匹配论文类型，顺序优先，未匹配为最后一项（其他）。"""
@@ -130,8 +129,8 @@ def format_row_with_tag(row_str: str, tag_label: str, tag_styles: dict) -> str:
         link = parts[4].strip()
     else:
         link = parts[4].strip() if len(parts) > 4 else ''
-    bg = tag_styles.get(tag_label, "#e8e8e8")
-    fg = TAG_TEXT_COLOR
+    style = tag_styles.get(tag_label, ("#ececec", "#5a5a5a"))
+    bg, fg = style if isinstance(style, (list, tuple)) else (style, "#5a5a5a")
     tag_html = f'<span style="background:{bg};color:{fg};padding:5px 12px;border-radius:999px;font-size:0.85em;font-weight:500;border:none;">{tag_label}</span>'
     return "|**{}**|**{}**|{}|{}|{}|\n".format(date, title, tag_html, authors, link)
 
