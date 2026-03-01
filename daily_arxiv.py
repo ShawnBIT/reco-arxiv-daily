@@ -401,7 +401,10 @@ def json_to_md(filename, md_filename,
             f.write("%%{init: {'theme':'base', 'themeVariables': {\n")
             for i, (label, _) in enumerate(sorted_items, 1):
                 c = colors_hex.get(label, "#5a5a5a")
-                f.write(f"  'pie{i}':'{c}'" + ("," if i < 5 else "") + "\n")
+                f.write(f"  'pie{i}':'{c}',\n")
+            f.write("  'pieTitleTextColor':'#ffffff',\n")
+            f.write("  'pieSectionTextColor':'#ffffff',\n")
+            f.write("  'pieLegendTextColor':'#ffffff'\n")
             f.write("}}}%%\n")
             f.write("pie showData\ntitle Paper Distribution by Tag\n")
             for label, cnt in sorted_items:

@@ -9,7 +9,10 @@
   'pie2':'#2c4a78',
   'pie3':'#1e5c3a',
   'pie4':'#5a4a6a',
-  'pie5':'#8b5a3c'
+  'pie5':'#8b5a3c',
+  'pieTitleTextColor':'#ffffff',
+  'pieSectionTextColor':'#ffffff',
+  'pieLegendTextColor':'#ffffff'
 }}}%%
 pie showData
 title Paper Distribution by Tag
