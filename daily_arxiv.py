@@ -2,6 +2,7 @@ import os
 import re
 import json
 import arxiv
+from urllib.parse import quote
 import yaml
 import logging
 import argparse
@@ -91,14 +92,16 @@ def normalize_table_row(s: str) -> str:
         link = parts[4].strip() if len(parts) > 4 else ''
     return "|**{}**|**{}**|{}|{}|\n".format(date, title, authors, link)
 
-# 主 README 论文类型标签：(背景色, 文字色)，低饱和配色、药丸形，高级区分
+# 主 README 论文类型标签：用 shields.io 徽章（GitHub 会 strip 掉 HTML style，只能用图片显色）
+# 每项为 (徽章背景色 hex 无#, 可选 labelColor 浅底)
 PAPER_TAG_STYLES = {
-    "Generative": ("#e8f3ec", "#1e5c3a"),   # 青灰绿
-    "LLM": ("#e6ecf5", "#2c4a78"),          # 雾蓝
-    "Scaling": ("#f5ebe4", "#8b5a3c"),      # 陶土
-    "Sequential": ("#efe6f2", "#5a4a6a"),  # 雾紫
-    "其他": ("#ececec", "#5a5a5a"),        # 中性灰
+    "Generative": "1e5c3a",   # 青灰绿
+    "LLM": "2c4a78",          # 雾蓝
+    "Scaling": "8b5a3c",      # 陶土
+    "Sequential": "5a4a6a",   # 雾紫
+    "其他": "5a5a5a",         # 中性灰
 }
+SHIELDS_BASE = "https://img.shields.io/badge"
 
 def get_paper_tag(title: str, tag_rules: list) -> str:
     """按配置规则根据标题匹配论文类型，顺序优先，未匹配为最后一项（其他）。"""
@@ -129,10 +132,16 @@ def format_row_with_tag(row_str: str, tag_label: str, tag_styles: dict) -> str:
         link = parts[4].strip()
     else:
         link = parts[4].strip() if len(parts) > 4 else ''
-    style = tag_styles.get(tag_label, ("#ececec", "#5a5a5a"))
-    bg, fg = style if isinstance(style, (list, tuple)) else (style, "#5a5a5a")
-    tag_html = f'<span style="background:{bg};color:{fg};padding:5px 12px;border-radius:999px;font-size:0.85em;font-weight:500;border:none;">{tag_label}</span>'
-    return "|**{}**|**{}**|{}|{}|{}|\n".format(date, title, tag_html, authors, link)
+    color = tag_styles.get(tag_label, "5a5a5a")
+    if isinstance(color, (list, tuple)):
+        color = color[0].lstrip("#") if color else "5a5a5a"
+    else:
+        color = str(color).lstrip("#")
+    # shields.io: /badge/-<msg>-<color>?style=flat-square&color=%23<hex> 在 GitHub 上能显色
+    label_enc = quote(tag_label)
+    badge_url = f"{SHIELDS_BASE}/-{label_enc}-{color}?style=flat-square&color=%23{color}"
+    tag_cell = f"![{tag_label}]({badge_url})"
+    return "|**{}**|**{}**|{}|{}|{}|\n".format(date, title, tag_cell, authors, link)
 
 import requests
 
