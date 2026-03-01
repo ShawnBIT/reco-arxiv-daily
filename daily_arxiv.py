@@ -3,6 +3,7 @@ import re
 import json
 import arxiv
 import yaml
+from urllib.parse import quote
 import logging
 import argparse
 import datetime
@@ -91,13 +92,15 @@ def normalize_table_row(s: str) -> str:
         link = parts[4].strip() if len(parts) > 4 else ''
     return "|**{}**|**{}**|{}|{}|\n".format(date, title, authors, link)
 
-# 主 README 论文类型标签：纯文字 + 高级感颜色（支持 HTML 的预览中显色；GitHub 会 strip style 则仅显示文字）
+# 主 README 论文类型标签：GitHub 会 strip 掉所有 style，只能用图片显色。用 shields.io 徽章 + <img width> 在 GitHub 上可读且有色
+SHIELDS_BASE = "https://img.shields.io/badge"
+TAG_IMG_WIDTH = 88  # 徽章显示宽度，兼顾可读性与排版
 PAPER_TAG_STYLES = {
-    "Generative": "#1e5c3a",   # 青灰绿
-    "LLM": "#2c4a78",          # 雾蓝
-    "Scaling": "#8b5a3c",      # 陶土
-    "Sequential": "#5a4a6a",   # 雾紫
-    "其他": "#5a5a5a",         # 中性灰
+    "Generative": "1e5c3a",   # 青灰绿
+    "LLM": "2c4a78",          # 雾蓝
+    "Scaling": "8b5a3c",      # 陶土
+    "Sequential": "5a4a6a",   # 雾紫
+    "其他": "5a5a5a",         # 中性灰
 }
 
 def get_paper_tag(title: str, tag_rules: list) -> str:
@@ -129,11 +132,14 @@ def format_row_with_tag(row_str: str, tag_label: str, tag_styles: dict) -> str:
         link = parts[4].strip()
     else:
         link = parts[4].strip() if len(parts) > 4 else ''
-    color = tag_styles.get(tag_label, "#5a5a5a")
+    color = tag_styles.get(tag_label, "5a5a5a")
     if isinstance(color, (list, tuple)):
-        color = color[0] if color else "#5a5a5a"
-    color = str(color) if color.startswith("#") else f"#{color}"
-    tag_cell = f'<span style="color:{color};font-weight:600;">{tag_label}</span>'
+        color = (color[0] or "5a5a5a").lstrip("#")
+    else:
+        color = str(color).lstrip("#")
+    label_enc = quote(tag_label)
+    badge_url = f"{SHIELDS_BASE}/-{label_enc}-{color}?style=flat-square&color=%23{color}"
+    tag_cell = f'<img src="{badge_url}" width="{TAG_IMG_WIDTH}" alt="{tag_label}" />'
     return "|**{}**|**{}**|{}|{}|{}|\n".format(date, title, tag_cell, authors, link)
 
 import requests
