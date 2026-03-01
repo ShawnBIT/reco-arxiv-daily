@@ -2,7 +2,6 @@ import os
 import re
 import json
 import arxiv
-from urllib.parse import quote
 import yaml
 import logging
 import argparse
@@ -92,16 +91,14 @@ def normalize_table_row(s: str) -> str:
         link = parts[4].strip() if len(parts) > 4 else ''
     return "|**{}**|**{}**|{}|{}|\n".format(date, title, authors, link)
 
-# 主 README 论文类型标签：用 shields.io 徽章（GitHub 会 strip 掉 HTML style，只能用图片显色）
-# 每项为 (徽章背景色 hex 无#, 可选 labelColor 浅底)
+# 主 README 论文类型标签：纯文字 + 高级感颜色（支持 HTML 的预览中显色；GitHub 会 strip style 则仅显示文字）
 PAPER_TAG_STYLES = {
-    "Generative": "1e5c3a",   # 青灰绿
-    "LLM": "2c4a78",          # 雾蓝
-    "Scaling": "8b5a3c",      # 陶土
-    "Sequential": "5a4a6a",   # 雾紫
-    "其他": "5a5a5a",         # 中性灰
+    "Generative": "#1e5c3a",   # 青灰绿
+    "LLM": "#2c4a78",          # 雾蓝
+    "Scaling": "#8b5a3c",      # 陶土
+    "Sequential": "#5a4a6a",   # 雾紫
+    "其他": "#5a5a5a",         # 中性灰
 }
-SHIELDS_BASE = "https://img.shields.io/badge"
 
 def get_paper_tag(title: str, tag_rules: list) -> str:
     """按配置规则根据标题匹配论文类型，顺序优先，未匹配为最后一项（其他）。"""
@@ -132,15 +129,11 @@ def format_row_with_tag(row_str: str, tag_label: str, tag_styles: dict) -> str:
         link = parts[4].strip()
     else:
         link = parts[4].strip() if len(parts) > 4 else ''
-    color = tag_styles.get(tag_label, "5a5a5a")
+    color = tag_styles.get(tag_label, "#5a5a5a")
     if isinstance(color, (list, tuple)):
-        color = color[0].lstrip("#") if color else "5a5a5a"
-    else:
-        color = str(color).lstrip("#")
-    # shields.io：style=for-the-badge 徽章更大、字更醒目，便于看清
-    label_enc = quote(tag_label)
-    badge_url = f"{SHIELDS_BASE}/-{label_enc}-{color}?style=for-the-badge&color=%23{color}"
-    tag_cell = f"![{tag_label}]({badge_url})"
+        color = color[0] if color else "#5a5a5a"
+    color = str(color) if color.startswith("#") else f"#{color}"
+    tag_cell = f'<span style="color:{color};font-weight:600;">{tag_label}</span>'
     return "|**{}**|**{}**|{}|{}|{}|\n".format(date, title, tag_cell, authors, link)
 
 import requests
