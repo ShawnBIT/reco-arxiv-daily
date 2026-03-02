@@ -288,9 +288,12 @@ def write_daily_new_md(md_path: str, data_collector: list, config: dict, tag_as_
 
             if use_wechat_style:
                 # 企业微信 / 手机：每篇一块，空行分隔，Tag 上色
-                for _, row in sorted_topic_papers.items():
+                for idx, (_, row) in enumerate(sorted_topic_papers.items()):
                     if row is None:
                         continue
+                    # 论文之间额外插入一个空行，阅读更清晰
+                    if idx > 0:
+                        f.write("\n")
                     has_tag = bool(tag_rules)
                     if has_tag:
                         title = extract_title_from_row(row)
@@ -304,9 +307,12 @@ def write_daily_new_md(md_path: str, data_collector: list, config: dict, tag_as_
                         _tag = tag
                     color = WECOM_TAG_COLORS.get(_tag, "comment")
                     tag_str = f'<font color="{color}">{_tag}</font>' if _tag else ""
-                    f.write(f"**{date}**  {tag_str}\n\n")
-                    f.write(f"**{title}**\n\n")
-                    f.write(f"{authors}  ·  {link}\n\n")
+                    # 时间行与标题、不同论文之间都留出一个空行
+                    f.write(f"**{date}**  {tag_str}\n")
+                    f.write("\n")
+                    f.write(f"**{title}**\n")
+                    f.write("\n")
+                    f.write(f"{authors}  ·  {link}\n")
             else:
                 if tag_rules:
                     f.write("|Publish Date|Title|Tag|Authors|PDF|\n")
