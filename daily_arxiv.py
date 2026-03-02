@@ -233,10 +233,26 @@ def get_daily_papers(topic,query="slam", max_results=2):
     return data,data_web
 
 
+# 企业微信 markdown 仅支持三色：info 绿、comment 灰、warning 橙红，用于 Tag 区分
+WECOM_TAG_COLORS = {"GR": "info", "LLM": "info", "Seq": "warning", "Scaling": "warning", "Other": "comment"}
+
+
+def _parse_table_row(row: str, has_tag: bool) -> tuple:
+    """从表格行解析出 date, title, tag(可选), authors, link。返回 (date, title, tag, authors, link)。"""
+    parts = [p.strip().strip("*") for p in row.split("|") if p.strip()]
+    if has_tag and len(parts) >= 5:
+        return (parts[0], parts[1], parts[2], parts[3], parts[4])
+    if has_tag and len(parts) == 4:
+        return (parts[0], parts[1], "", parts[2], parts[3])
+    if len(parts) >= 4:
+        return (parts[0], parts[1], "", parts[2], parts[3])
+    return ("", "", "", "", "")
+
+
 def write_daily_new_md(md_path: str, data_collector: list, config: dict, tag_as_text: bool = False) -> None:
     """
     将本次抓取得到的增量论文（data_collector）写入指定 MD 文件。
-    tag_as_text=True 时 Tag 列只输出文字不输出徽章（供企业微信等场景）。
+    tag_as_text=True 时改为「每篇成块 + 空行 + 标签颜色」的移动端友好格式（企业微信等）。
     """
     # 汇总本次抓取到的所有 topic -> {paper_id: row}
     papers_by_topic: dict = {}
@@ -248,48 +264,67 @@ def write_daily_new_md(md_path: str, data_collector: list, config: dict, tag_as_
                 papers_by_topic[topic] = {}
             papers_by_topic[topic].update(papers)
 
-    # 始终写出文件，哪怕本次没有新增，避免 workflow 提交时报 pathspec 错误
     DateNow = datetime.date.today()
     DateNowStr = str(DateNow).replace('-', '.')
     allowed_keywords = list((config.get('keywords') or {}).keys())
     tag_rules = config.get('paper_tags')
+    use_wechat_style = tag_as_text  # 移动端友好：空行 + 颜色
 
     with open(md_path, "w") as f:
-        f.write("## Daily New Papers\n")
+        f.write("## Daily New Papers\n\n")
         f.write(f"> Updated on {DateNowStr}\n\n")
 
         if not papers_by_topic:
             f.write("_No new papers collected in this run._\n")
             return
 
-        # 按 config 中 keywords 的顺序输出 topic
         for topic in allowed_keywords:
             topic_papers = papers_by_topic.get(topic) or {}
             if not topic_papers:
                 continue
 
             f.write(f"## {topic}\n\n")
-            if tag_rules:
-                f.write("|Publish Date|Title|Tag|Authors|PDF|\n")
-                f.write("|---|---|---|---|---|\n")
-            else:
-                f.write("|Publish Date|Title|Authors|PDF|\n")
-                f.write("|---|---|---|---|\n")
-
-            # 复用主逻辑中的排序与打标签能力
             sorted_topic_papers = sort_papers(topic_papers)
-            for _, row in sorted_topic_papers.items():
-                if row is None:
-                    continue
+
+            if use_wechat_style:
+                # 企业微信 / 手机：每篇一块，空行分隔，Tag 上色
+                for _, row in sorted_topic_papers.items():
+                    if row is None:
+                        continue
+                    has_tag = bool(tag_rules)
+                    if has_tag:
+                        title = extract_title_from_row(row)
+                        tag = get_paper_tag(title, tag_rules)
+                        row_5 = format_row_with_tag(row, tag, PAPER_TAG_STYLES, use_badge=False)
+                    else:
+                        tag = ""
+                        row_5 = row
+                    date, title, _tag, authors, link = _parse_table_row(row_5, has_tag)
+                    if has_tag and tag:
+                        _tag = tag
+                    color = WECOM_TAG_COLORS.get(_tag, "comment")
+                    tag_str = f'<font color="{color}">{_tag}</font>' if _tag else ""
+                    f.write(f"**{date}**  {tag_str}\n\n")
+                    f.write(f"**{title}**\n\n")
+                    f.write(f"{authors}  ·  {link}\n\n")
+            else:
                 if tag_rules:
-                    title = extract_title_from_row(row)
-                    tag = get_paper_tag(title, tag_rules)
-                    line = format_row_with_tag(row, tag, PAPER_TAG_STYLES, use_badge=not tag_as_text)
+                    f.write("|Publish Date|Title|Tag|Authors|PDF|\n")
+                    f.write("|---|---|---|---|---|\n")
                 else:
-                    # row 本身就是 4 列表格行，直接写出
-                    line = row
-                f.write(line)
-            f.write("\n")
+                    f.write("|Publish Date|Title|Authors|PDF|\n")
+                    f.write("|---|---|---|---|\n")
+                for _, row in sorted_topic_papers.items():
+                    if row is None:
+                        continue
+                    if tag_rules:
+                        title = extract_title_from_row(row)
+                        tag = get_paper_tag(title, tag_rules)
+                        line = format_row_with_tag(row, tag, PAPER_TAG_STYLES, use_badge=True)
+                    else:
+                        line = row
+                    f.write(line)
+                f.write("\n")
 
 def update_paper_links(filename):
     '''
