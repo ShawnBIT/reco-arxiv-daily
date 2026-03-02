@@ -288,6 +288,8 @@ def write_daily_new_md(md_path: str, data_collector: list, config: dict, tag_as_
     allowed_keywords = list((config.get('keywords') or {}).keys())
     tag_rules = config.get('paper_tags')
     use_wechat_style = tag_as_text  # 移动端友好：空行 + 颜色
+    # 本次增量论文总数（供飞书等展示“共计 N 篇”）
+    total_new = sum(len(v or {}) for v in papers_by_topic.values())
 
     with open(md_path, "w") as f:
         # 顶部标题：GitHub 用二级标题；飞书 / 微信用“{topic} Daily New Papers”粗体一行
@@ -301,7 +303,11 @@ def write_daily_new_md(md_path: str, data_collector: list, config: dict, tag_as_
             if not main_topic:
                 main_topic = "Recommender System"
             f.write(f"**{main_topic} Daily New Papers**\n\n")
-            f.write(f"Updated on **{DateNowStr}**\n\n")
+            f.write(f"Updated on **{DateNowStr}**\n")
+            if total_new:
+                f.write(f"共计 **{total_new}** 篇论文\n\n")
+            else:
+                f.write("\n\n")
         else:
             f.write("## Daily New Papers\n\n")
             f.write(f"> Updated on {DateNowStr}\n\n")
