@@ -306,7 +306,9 @@ def write_daily_new_md(md_path: str, data_collector: list, config: dict, tag_as_
             sorted_topic_papers = sort_papers(topic_papers)
 
             if use_wechat_style:
-                # 飞书 / 手机：每篇一块，行距紧凑，Tag 用彩色 emoji + 粗体，标题直接包裹论文链接
+                # 飞书 / 手机：每篇一块，行距紧凑：
+                # 第一行：日期 + 彩色粗体 Tag + 作者
+                # 第二行：标题（挂论文链接）
                 for idx, (_, row) in enumerate(sorted_topic_papers.items()):
                     if row is None:
                         continue
@@ -326,8 +328,13 @@ def write_daily_new_md(md_path: str, data_collector: list, config: dict, tag_as_
                     # 从 [id](url) 中提取 url，把论文链接直接挂在标题上
                     url = _extract_url_from_md_link(link)
                     title_with_link = f"[{title}]({url})" if url else title
-                    # 更紧凑：日期 + Tag 一行，第二行是带链接的标题，去掉作者行，论文之间只留一个空行
-                    f.write(f"**{date}**  {tag_str}\n")
+                    # 更紧凑：日期 + Tag + 作者 一行；第二行是带链接的标题；论文之间只留一个空行
+                    first_line = f"**{date}**"
+                    if tag_str:
+                        first_line += f"  {tag_str}"
+                    if authors:
+                        first_line += f" | {authors}"
+                    f.write(first_line + "\n")
                     f.write(f"{title_with_link}\n\n")
             else:
                 if tag_rules:
