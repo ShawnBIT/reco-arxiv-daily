@@ -229,6 +229,65 @@ def get_daily_papers(topic,query="slam", max_results=2):
     data_web = {topic:content_to_web}
     return data,data_web
 
+
+def write_daily_new_md(md_path: str, data_collector: list, config: dict) -> None:
+    """
+    将本次抓取得到的增量论文（data_collector）写入单独的 daily_new.md，方便查看「今天新增」。
+    不依赖历史 JSON，只基于当前一次调用 get_daily_papers 的结果。
+    """
+    # 汇总本次抓取到的所有 topic -> {paper_id: row}
+    papers_by_topic: dict = {}
+    for data in data_collector or []:
+        for topic, papers in (data or {}).items():
+            if not papers:
+                continue
+            if topic not in papers_by_topic:
+                papers_by_topic[topic] = {}
+            papers_by_topic[topic].update(papers)
+
+    # 始终写出文件，哪怕本次没有新增，避免 workflow 提交时报 pathspec 错误
+    DateNow = datetime.date.today()
+    DateNowStr = str(DateNow).replace('-', '.')
+    allowed_keywords = list((config.get('keywords') or {}).keys())
+    tag_rules = config.get('paper_tags')
+
+    with open(md_path, "w") as f:
+        f.write("## Daily New Papers\n")
+        f.write(f"> Updated on {DateNowStr}\n\n")
+
+        if not papers_by_topic:
+            f.write("_No new papers collected in this run._\n")
+            return
+
+        # 按 config 中 keywords 的顺序输出 topic
+        for topic in allowed_keywords:
+            topic_papers = papers_by_topic.get(topic) or {}
+            if not topic_papers:
+                continue
+
+            f.write(f"## {topic}\n\n")
+            if tag_rules:
+                f.write("|Publish Date|Title|Tag|Authors|PDF|\n")
+                f.write("|---|---|---|---|---|\n")
+            else:
+                f.write("|Publish Date|Title|Authors|PDF|\n")
+                f.write("|---|---|---|---|\n")
+
+            # 复用主逻辑中的排序与打标签能力
+            sorted_topic_papers = sort_papers(topic_papers)
+            for _, row in sorted_topic_papers.items():
+                if row is None:
+                    continue
+                if tag_rules:
+                    title = extract_title_from_row(row)
+                    tag = get_paper_tag(title, tag_rules)
+                    line = format_row_with_tag(row, tag, PAPER_TAG_STYLES)
+                else:
+                    # row 本身就是 4 列表格行，直接写出
+                    line = row
+                f.write(line)
+            f.write("\n")
+
 def update_paper_links(filename):
     '''
     weekly update paper links in json file
@@ -502,6 +561,13 @@ def demo(**config):
             data_collector_web.append(data_web)
             print("\n")
         logging.info(f"GET daily papers end")
+
+        # 额外输出一份「本次抓取的增量论文」到 daily_new.md，方便按天查看新增
+        try:
+            write_daily_new_md("daily_new.md", data_collector, config)
+            logging.info("Daily new papers written to daily_new.md")
+        except Exception as e:
+            logging.warning(f"Failed to write daily_new.md: {e}")
 
     # 1. update README.md file
     if publish_readme:
