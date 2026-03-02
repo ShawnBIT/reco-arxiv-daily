@@ -46,10 +46,24 @@ def main() -> None:
         raw = raw[:max_len_bytes]
         content = raw.decode("utf-8", errors="ignore") + "\n\n（更多内容见仓库 docs/wechat.md）"
 
+    # 使用 Feishu 的 markdown（lark_md）卡片形式，而不是纯文本：
+    # https://open.feishu.cn/document/server-docs/im-v1/message-content/card-message#f6772f24
     payload = {
-        "msg_type": "text",
-        "content": {
-            "text": content,
+        "msg_type": "interactive",
+        "card": {
+            "config": {
+                "wide_screen_mode": True,
+                "enable_forward": True,
+            },
+            "elements": [
+                {
+                    "tag": "div",
+                    "text": {
+                        "tag": "lark_md",
+                        "content": content,
+                    },
+                }
+            ],
         },
     }
 
