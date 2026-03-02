@@ -46,7 +46,7 @@ jobs:
           python3 daily_arxiv.py
 
       - name: Notify WeCom (send daily papers to group)
-        if: success() && secrets.WECOM_WEBHOOK_URL != ''
+        if: success()
         env:
           WECOM_WEBHOOK_URL: ${{ secrets.WECOM_WEBHOOK_URL }}
         run: |
