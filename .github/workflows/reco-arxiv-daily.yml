@@ -45,13 +45,13 @@ jobs:
         run: |
           python3 daily_arxiv.py
 
-      - name: Notify WeCom (send daily papers to group)
+      - name: Notify Feishu (send daily papers to group)
         if: success()
         env:
-          WECOM_WEBHOOK_URL: ${{ secrets.WECOM_WEBHOOK_URL }}
+          FEISHU_WEBHOOK_URL: ${{ secrets.FEISHU_WEBHOOK_URL }}
         run: |
           pip3 install -q requests
-          python3 .github/scripts/notify_wecom.py
+          python3 .github/scripts/notify_feishu.py
 
       - name: Push reco-arxiv-daily updates
         uses: github-actions-x/commit@v2.9

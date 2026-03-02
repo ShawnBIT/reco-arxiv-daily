@@ -592,7 +592,8 @@ def json_to_md(filename, md_filename,
 def demo(**config):
     # TODO: use config
     data_collector = []
-    data_collector_web= []
+    data_collector_web = []
+    existing_paper_ids = set()  # 微信增量：已有论文 ID，写 wechat 时排除
 
     keywords = config['kv']
     max_results = config['max_results']
@@ -613,6 +614,17 @@ def demo(**config):
             data_collector_web.append(data_web)
             print("\n")
         logging.info(f"GET daily papers end")
+
+        # 微信只发增量：在合并到 README 前读取已有论文 ID，写 wechat 时排除这些
+        existing_paper_ids = set()
+        if config.get('publish_wechat'):
+            try:
+                with open(config['json_readme_path'], 'r') as f:
+                    prev = json.load(f)
+                for topic, papers in (prev or {}).items():
+                    existing_paper_ids.update((papers or {}).keys())
+            except (FileNotFoundError, json.JSONDecodeError):
+                pass
 
         # 额外输出一份「本次抓取的增量论文」到 daily_new.md，方便按天查看新增
         try:
@@ -655,7 +667,7 @@ def demo(**config):
             badge_repo_name=config.get('repo_name', 'reco-arxiv-daily'),
             allowed_keywords=list(config['keywords'].keys()))
 
-    # 3. Update docs/wechat.md：仅写入本次抓取的每日增量论文（与 daily_new.md 同源）
+    # 3. Update docs/wechat.md：只发增量论文（本次抓取中不在已有 README JSON 里的）
     if publish_wechat:
         md_file = config['md_wechat_path']
         if config['update_paper_links']:
@@ -668,8 +680,15 @@ def demo(**config):
                 allowed_keywords=list(config['keywords'].keys()))
         else:
             try:
-                write_daily_new_md(md_file, data_collector, config, tag_as_text=True)
-                logging.info("Daily incremental papers written to docs/wechat.md")
+                # 只保留本次抓取中「未在已有 README 中出现」的论文，确保微信只发增量
+                data_collector_incremental = []
+                for data in data_collector:
+                    filtered = {}
+                    for topic, papers in (data or {}).items():
+                        filtered[topic] = {pid: row for pid, row in (papers or {}).items() if pid not in existing_paper_ids}
+                    data_collector_incremental.append(filtered)
+                write_daily_new_md(md_file, data_collector_incremental, config, tag_as_text=True)
+                logging.info("Daily incremental papers (wechat-only) written to docs/wechat.md")
             except Exception as e:
                 logging.warning(f"Failed to write docs/wechat.md: {e}")
 
