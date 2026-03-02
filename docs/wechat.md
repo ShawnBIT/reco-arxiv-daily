@@ -603,4 +603,3 @@ Yang Wu et.al.  ·  [2602.09829](http://arxiv.org/abs/2602.09829)
 **DiffuReason: Bridging Latent Reasoning and Generative Refinement for Sequential Recommendation**
 
 Jie Jiang et.al.  ·  [2602.09744](http://arxiv.org/abs/2602.09744)
-
