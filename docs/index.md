@@ -374,7 +374,6 @@ layout: default
 |**2025-12-08**|**MUSE: A Simple Yet Effective Multimodal Search-Based Framework for Lifelong User Interest Modeling**|Bin Wu et.al.|[2512.07216](http://arxiv.org/abs/2512.07216)|
 |**2026-01-17**|**Benchmarking Deep Neural Networks for Modern Recommendation Systems**|Abderaouf Bahi et.al.|[2512.07000](http://arxiv.org/abs/2512.07000)|
 |**2025-12-07**|**Structural and Disentangled Adaptation of Large Vision Language Models for Multimodal Recommendation**|Zhongtao Rao et.al.|[2512.06883](http://arxiv.org/abs/2512.06883)|
-|**2026-02-27**|**WisPaper: Your AI Scholar Search Engine**|Li Ju et.al.|[2512.06879](http://arxiv.org/abs/2512.06879)|
 |**2025-12-07**|**Foresight Prediction Enhanced Live-Streaming Recommendation**|Jiangxia Cao et.al.|[2512.06700](http://arxiv.org/abs/2512.06700)|
 |**2025-12-06**|**Towards Efficient Hypergraph and Multi-LLM Agent Recommender Systems**|Tendai Mukande et.al.|[2512.06590](http://arxiv.org/abs/2512.06590)|
 |**2025-12-06**|**Beyond Existing Retrievals: Cross-Scenario Incremental Sample Learning Framework**|Tao Wang et.al.|[2512.06381](http://arxiv.org/abs/2512.06381)|
