@@ -233,8 +233,15 @@ def get_daily_papers(topic,query="slam", max_results=2):
     return data,data_web
 
 
-# 企业微信 markdown 仅支持三色：info 绿、comment 灰、warning 橙红，用于 Tag 区分
-WECOM_TAG_COLORS = {"GR": "info", "LLM": "info", "Seq": "warning", "Scaling": "warning", "Other": "comment"}
+# 飞书 / 企业微信等 markdown 里给 Tag 上色（使用 Feishu 支持的颜色枚举）
+# 这里主要服务飞书的 lark_md：red / yellow / green / grey / default 等
+TAG_COLOR_MAP = {
+    "GR": "green",     # 生成式
+    "LLM": "blue",     # 大模型
+    "Seq": "yellow",   # 序列
+    "Scaling": "red",  # 扩展 / Scaling
+    "Other": "grey",   # 其他
+}
 
 
 def _parse_table_row(row: str, has_tag: bool) -> tuple:
@@ -305,7 +312,7 @@ def write_daily_new_md(md_path: str, data_collector: list, config: dict, tag_as_
                     date, title, _tag, authors, link = _parse_table_row(row_5, has_tag)
                     if has_tag and tag:
                         _tag = tag
-                    color = WECOM_TAG_COLORS.get(_tag, "comment")
+                    color = TAG_COLOR_MAP.get(_tag, "grey")
                     tag_str = f'<font color="{color}">{_tag}</font>' if _tag else ""
                     # 时间行与标题、不同论文之间都留出一个空行
                     f.write(f"**{date}**  {tag_str}\n")
