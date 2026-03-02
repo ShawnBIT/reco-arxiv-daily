@@ -57,12 +57,24 @@ def get_authors(authors, first_author = False):
     return output
 
 def sort_papers(papers):
-    output = dict()
-    keys = list(papers.keys())
-    keys.sort(reverse=True)
-    for key in keys:
-        output[key] = papers[key]
-    return output
+    """
+    按 Publish Date 逆序排序论文（最新在前）。
+    所有 markdown 行的第一列都约定为日期：|**YYYY-MM-DD**|...
+    """
+    def get_date(item):
+        _, row = item
+        if not row:
+            return ''
+        parts = str(row).split("|")
+        if len(parts) < 3:
+            return ''
+        # 去掉可能的 ** 包裹
+        return parts[1].strip().strip("*")
+
+    items = list(papers.items())
+    items.sort(key=get_date, reverse=True)
+    # 保持有序 dict，方便后续按 .items() 遍历
+    return {k: v for k, v in items}
 
 def extract_title_from_row(row: str) -> str:
     """从存储的表格行中解析出标题（第二列，可能带 **）"""
