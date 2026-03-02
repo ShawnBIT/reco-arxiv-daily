@@ -16,14 +16,14 @@
 }}}%%
 pie showData
 title Paper Distribution by Tag
-  "Other" : 587
+  "Other" : 593
   "LLM" : 193
-  "GR" : 114
-  "Seq" : 86
+  "GR" : 115
+  "Seq" : 88
   "Scaling" : 18
 ```
 
-> 统计自 **2025-07-16** 起，共计 **1001** 篇论文。
+> 统计自 **2025-07-16** 起，共计 **1007** 篇论文。
 
 <details style="margin: 1em 0; padding: 0.75em 1em; border: 1px solid #d8dee4; border-radius: 8px; background: #f6f8fa;">
   <summary style="cursor: pointer; font-weight: 600; font-size: 1.05em; color: #1f2328; padding: 0.25em 0;">📑 Table of Contents</summary>
@@ -36,7 +36,14 @@ title Paper Distribution by Tag
 
 |Publish Date|Title|Tag|Authors|PDF|
 |---|---|---|---|---|
-|**2026-02-26**|**From Agnostic to Specific: Latent Preference Diffusion for Multi-Behavior Sequential Recommendation**|<img src="https://img.shields.io/badge/-Seq-5a4a6a?style=flat-square&color=%235a4a6a" width="56" alt="Seq" />|Ruochen Yang et.al.|[2602.23132](http://arxiv.org/abs/2602.23132)|
+|**2026-02-27**|**WisPaper: Your AI Scholar Search Engine**|<img src="https://img.shields.io/badge/-Other-5a5a5a?style=flat-square&color=%235a5a5a" width="120" alt="Other" />|Li Ju et.al.|[2512.06879](http://arxiv.org/abs/2512.06879)|
+|**2026-02-27**|**Multimodal-enhanced Federated Recommendation: A Group-wise Fusion Approach**|<img src="https://img.shields.io/badge/-Other-5a5a5a?style=flat-square&color=%235a5a5a" width="120" alt="Other" />|Chunxu Zhang et.al.|[2509.19955](http://arxiv.org/abs/2509.19955)|
+|**2026-02-27**|**Recommendation Algorithms: A Comparative Study in Movie Domain**|<img src="https://img.shields.io/badge/-Other-5a5a5a?style=flat-square&color=%235a5a5a" width="120" alt="Other" />|Rohit Chivukula et.al.|[2602.24125](http://arxiv.org/abs/2602.24125)|
+|**2026-02-27**|**GPU-Native Approximate Nearest Neighbor Search with IVF-RaBitQ: Fast Index Build and Search**|<img src="https://img.shields.io/badge/-Other-5a5a5a?style=flat-square&color=%235a5a5a" width="120" alt="Other" />|Jifan Shi et.al.|[2602.23999](http://arxiv.org/abs/2602.23999)|
+|**2026-02-27**|**Robust Aggregation for Federated Sequential Recommendation with Sparse and Poisoned Data**|<img src="https://img.shields.io/badge/-Seq-5a4a6a?style=flat-square&color=%235a4a6a" width="56" alt="Seq" />|Minh Hieu Nguyen et.al.|[2602.23982](http://arxiv.org/abs/2602.23982)|
+|**2026-02-27**|**Recommending Search Filters To Improve Conversions At Airbnb**|<img src="https://img.shields.io/badge/-Other-5a5a5a?style=flat-square&color=%235a5a5a" width="120" alt="Other" />|Hao Li et.al.|[2602.23717](http://arxiv.org/abs/2602.23717)|
+|**2026-02-27**|**FuXi-Linear: Unleashing the Power of Linear Attention in Long-term Time-aware Sequential Recommendation**|<img src="https://img.shields.io/badge/-Seq-5a4a6a?style=flat-square&color=%235a4a6a" width="56" alt="Seq" />|Yufei Ye et.al.|[2602.23671](http://arxiv.org/abs/2602.23671)|
+|**2026-02-27**|**Learning to Reflect and Correct: Towards Better Decoding Trajectories for Large-Scale Generative Recommendation**|<img src="https://img.shields.io/badge/-GR-1e5c3a?style=flat-square&color=%231e5c3a" width="56" alt="GR" />|Haibo Xing et.al.|[2602.23639](http://arxiv.org/abs/2602.23639)|
 |**2026-02-26**|**From Agnostic to Specific: Latent Preference Diffusion for Multi-Behavior Sequential Recommendation**|<img src="https://img.shields.io/badge/-Seq-5a4a6a?style=flat-square&color=%235a4a6a" width="56" alt="Seq" />|Ruochen Yang et.al.|[2602.23132](http://arxiv.org/abs/2602.23132)|
 |**2026-02-26**|**MaRI: Accelerating Ranking Model Inference via Structural Re-parameterization in Large Scale Recommendation System**|<img src="https://img.shields.io/badge/-Other-5a5a5a?style=flat-square&color=%235a5a5a" width="120" alt="Other" />|Yusheng Huang et.al.|[2602.23105](http://arxiv.org/abs/2602.23105)|
 |**2026-02-26**|**Sequential Regression for Continuous Value Prediction using Residual Quantization**|<img src="https://img.shields.io/badge/-Seq-5a4a6a?style=flat-square&color=%235a4a6a" width="56" alt="Seq" />|Runpeng Cui et.al.|[2602.23012](http://arxiv.org/abs/2602.23012)|
