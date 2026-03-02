@@ -29,6 +29,7 @@ This codebase is composed of the following parts:
 3. Config Github Actions
     - Enable read and write permissions: Setting -> Actions -> Workflow permissions, select `Read and write permissions` and save.
     - Enable workflows: Actions -> enable workflows -> Select `Run Arxiv Papers Daily` and `Run Update Paper Links Weekly`, then run workflow manually to test.
+    - **自动每日更新**：`Run Arxiv Papers Daily` 已配置为每天 00:00 UTC 定时执行（可在 `.github/workflows/cv-arxiv-daily.yml` 的 `schedule` 里改 cron），执行时会拉取新论文、更新 README 并自动 commit 推送。
 4. Setting Gitpages (optional)
     - Setting -> Pages -> Build and deployment. Source: `Deploy from a branch`; Branch select `main` and `/docs` folder, then save.
     - Now you can open gitpage: https://ShawnBIT.github.io/reco-arxiv-daily
