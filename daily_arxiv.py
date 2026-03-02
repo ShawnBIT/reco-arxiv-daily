@@ -603,20 +603,23 @@ def demo(**config):
             badge_repo_name=config.get('repo_name', 'reco-arxiv-daily'),
             allowed_keywords=list(config['keywords'].keys()))
 
-    # 3. Update docs/wechat.md file
+    # 3. Update docs/wechat.md：仅写入本次抓取的每日增量论文（与 daily_new.md 同源）
     if publish_wechat:
-        json_file = config['json_wechat_path']
-        md_file   = config['md_wechat_path']
-        # TODO: duplicated update paper links!!!
+        md_file = config['md_wechat_path']
         if config['update_paper_links']:
+            json_file = config['json_wechat_path']
             update_paper_links(json_file)
+            json_to_md(json_file, md_file, task='Update Wechat',
+                to_web=False, use_title=False, show_badge=show_badge,
+                badge_user_name=config.get('user_name', 'Vincentqyw'),
+                badge_repo_name=config.get('repo_name', 'reco-arxiv-daily'),
+                allowed_keywords=list(config['keywords'].keys()))
         else:
-            update_json_file(json_file, data_collector_web)
-        json_to_md(json_file, md_file, task='Update Wechat',
-            to_web=False, use_title=False, show_badge=show_badge,
-            badge_user_name=config.get('user_name', 'Vincentqyw'),
-            badge_repo_name=config.get('repo_name', 'reco-arxiv-daily'),
-            allowed_keywords=list(config['keywords'].keys()))
+            try:
+                write_daily_new_md(md_file, data_collector, config)
+                logging.info("Daily incremental papers written to docs/wechat.md")
+            except Exception as e:
+                logging.warning(f"Failed to write docs/wechat.md: {e}")
 
     # 4. Generative / LLM / Scaling/Scale / Sequence/Sequential 四个 topic 合并输出一份 MD
     extra_md = config.get('extra_title_md', '').strip()

@@ -12,7 +12,7 @@ subject_category: "cs.IR"  # Information Retrieval
 
 publish_readme: True
 publish_gitpage: True
-publish_wechat: False
+publish_wechat: True
 
 # file paths
 json_readme_path: './docs/reco-arxiv-daily.json'
