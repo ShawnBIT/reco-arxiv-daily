@@ -292,6 +292,14 @@ def update_paper_links(filename):
     '''
     weekly update paper links in json file
     '''
+    # 若文件不存在，则视为当前无数据可更新，直接创建一个空 JSON 并返回
+    if not os.path.exists(filename):
+        os.makedirs(os.path.dirname(filename) or ".", exist_ok=True)
+        with open(filename, "w") as f:
+            json.dump({}, f)
+        logging.info(f"{filename} not found, created empty json and skip update_paper_links.")
+        return
+
     def parse_arxiv_string(s):
         parts = s.split("|")
         date = parts[1].strip().strip('*')
