@@ -290,8 +290,21 @@ def write_daily_new_md(md_path: str, data_collector: list, config: dict, tag_as_
     use_wechat_style = tag_as_text  # 移动端友好：空行 + 颜色
 
     with open(md_path, "w") as f:
-        f.write("## Daily New Papers\n\n")
-        f.write(f"> Updated on {DateNowStr}\n\n")
+        # 顶部标题：GitHub 用二级标题；飞书 / 微信用“{topic} Daily New Papers”粗体一行
+        if use_wechat_style:
+            # 取第一个有论文的 topic 作为标题前缀（当前只有 Recommender System）
+            main_topic = None
+            for t in allowed_keywords:
+                if (papers_by_topic.get(t) or {}):
+                    main_topic = t
+                    break
+            if not main_topic:
+                main_topic = "Recommender System"
+            f.write(f"**{main_topic} Daily New Papers**\n\n")
+            f.write(f"Updated on **{DateNowStr}**\n\n")
+        else:
+            f.write("## Daily New Papers\n\n")
+            f.write(f"> Updated on {DateNowStr}\n\n")
 
         if not papers_by_topic:
             f.write("_No new papers collected in this run._\n")
@@ -302,7 +315,8 @@ def write_daily_new_md(md_path: str, data_collector: list, config: dict, tag_as_
             if not topic_papers:
                 continue
 
-            f.write(f"## {topic}\n\n")
+            if not use_wechat_style:
+                f.write(f"## {topic}\n\n")
             sorted_topic_papers = sort_papers(topic_papers)
 
             if use_wechat_style:
