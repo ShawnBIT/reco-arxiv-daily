@@ -5,7 +5,7 @@ repo_name: "reco-arxiv-daily"
 show_authors: True
 show_links: True
 show_badge: True
-max_results: 500
+max_results: 100
 
 # 限制在指定学科分类下搜索，留空则不限制。见 https://arxiv.org/category_taxonomy
 subject_category: "cs.IR"  # Information Retrieval

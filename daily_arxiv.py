@@ -306,7 +306,7 @@ def json_to_md(filename, md_filename,
                show_badge=True,
                use_b2t=True,
                badge_user_name='Vincentqyw',
-               badge_repo_name='cv-arxiv-daily',
+               badge_repo_name='reco-arxiv-daily',
                allowed_keywords=None,
                paper_tags=None):
     """
@@ -517,7 +517,7 @@ def demo(**config):
         json_to_md(json_file, md_file, task='Update Readme',
             show_badge=show_badge,
             badge_user_name=config.get('user_name', 'Vincentqyw'),
-            badge_repo_name=config.get('repo_name', 'cv-arxiv-daily'),
+            badge_repo_name=config.get('repo_name', 'reco-arxiv-daily'),
             allowed_keywords=list(config['keywords'].keys()),
             paper_tags=config.get('paper_tags'))
 
@@ -534,7 +534,7 @@ def demo(**config):
             to_web=True, show_badge=show_badge,
             use_tc=False, use_b2t=False,
             badge_user_name=config.get('user_name', 'Vincentqyw'),
-            badge_repo_name=config.get('repo_name', 'cv-arxiv-daily'),
+            badge_repo_name=config.get('repo_name', 'reco-arxiv-daily'),
             allowed_keywords=list(config['keywords'].keys()))
 
     # 3. Update docs/wechat.md file
@@ -549,7 +549,7 @@ def demo(**config):
         json_to_md(json_file, md_file, task='Update Wechat',
             to_web=False, use_title=False, show_badge=show_badge,
             badge_user_name=config.get('user_name', 'Vincentqyw'),
-            badge_repo_name=config.get('repo_name', 'cv-arxiv-daily'),
+            badge_repo_name=config.get('repo_name', 'reco-arxiv-daily'),
             allowed_keywords=list(config['keywords'].keys()))
 
     # 4. Generative / LLM / Scaling/Scale / Sequence/Sequential 四个 topic 合并输出一份 MD
@@ -586,7 +586,7 @@ def demo(**config):
                 json_to_md(json_extra_path, extra_md, task='Update Extra Title MD',
                     show_badge=show_badge,
                     badge_user_name=config.get('user_name', 'Vincentqyw'),
-                    badge_repo_name=config.get('repo_name', 'cv-arxiv-daily'),
+                    badge_repo_name=config.get('repo_name', 'reco-arxiv-daily'),
                     allowed_keywords=topic_labels)
                 logging.info(f'Extra title MD: {extra_md} (topics {topic_labels})')
         except Exception as e:
