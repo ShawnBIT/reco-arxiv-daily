@@ -16,14 +16,14 @@
 }}}%%
 pie showData
 title Paper Distribution by Tag
-  "Other" : 269
+  "Other" : 273
   "LLM" : 99
-  "GR" : 75
-  "Seq" : 52
+  "GR" : 76
+  "Seq" : 54
   "Scaling" : 12
 ```
 
-> 统计自 **2025-10-23** 起，共计 **507** 篇论文。
+> 统计自 **2025-10-23** 起，共计 **514** 篇论文。
 
 <details style="margin: 1em 0; padding: 0.75em 1em; border: 1px solid #d8dee4; border-radius: 8px; background: #f6f8fa;">
   <summary style="cursor: pointer; font-weight: 600; font-size: 1.05em; color: #1f2328; padding: 0.25em 0;">📑 Table of Contents</summary>
@@ -36,7 +36,12 @@ title Paper Distribution by Tag
 
 |Publish Date|Title|Tag|Authors|PDF|
 |---|---|---|---|---|
-|**2026-02-26**|**Cross-Representation Knowledge Transfer for Improved Sequential Recommendations**|<img src="https://img.shields.io/badge/-Seq-5a4a6a?style=flat-square&color=%235a4a6a" width="56" alt="Seq" />|Artur Gimranov et.al.|[2602.23471](http://arxiv.org/abs/2602.23471)|
+|**2026-02-27**|**Recommendation Algorithms: A Comparative Study in Movie Domain**|<img src="https://img.shields.io/badge/-Other-5a5a5a?style=flat-square&color=%235a5a5a" width="120" alt="Other" />|Rohit Chivukula et.al.|[2602.24125](http://arxiv.org/abs/2602.24125)|
+|**2026-02-27**|**GPU-Native Approximate Nearest Neighbor Search with IVF-RaBitQ: Fast Index Build and Search**|<img src="https://img.shields.io/badge/-Other-5a5a5a?style=flat-square&color=%235a5a5a" width="120" alt="Other" />|Jifan Shi et.al.|[2602.23999](http://arxiv.org/abs/2602.23999)|
+|**2026-02-27**|**Robust Aggregation for Federated Sequential Recommendation with Sparse and Poisoned Data**|<img src="https://img.shields.io/badge/-Seq-5a4a6a?style=flat-square&color=%235a4a6a" width="56" alt="Seq" />|Minh Hieu Nguyen et.al.|[2602.23982](http://arxiv.org/abs/2602.23982)|
+|**2026-02-27**|**Recommending Search Filters To Improve Conversions At Airbnb**|<img src="https://img.shields.io/badge/-Other-5a5a5a?style=flat-square&color=%235a5a5a" width="120" alt="Other" />|Hao Li et.al.|[2602.23717](http://arxiv.org/abs/2602.23717)|
+|**2026-02-27**|**FuXi-Linear: Unleashing the Power of Linear Attention in Long-term Time-aware Sequential Recommendation**|<img src="https://img.shields.io/badge/-Seq-5a4a6a?style=flat-square&color=%235a4a6a" width="56" alt="Seq" />|Yufei Ye et.al.|[2602.23671](http://arxiv.org/abs/2602.23671)|
+|**2026-02-27**|**Learning to Reflect and Correct: Towards Better Decoding Trajectories for Large-Scale Generative Recommendation**|<img src="https://img.shields.io/badge/-GR-1e5c3a?style=flat-square&color=%231e5c3a" width="56" alt="GR" />|Haibo Xing et.al.|[2602.23639](http://arxiv.org/abs/2602.23639)|
 |**2026-02-26**|**Cross-Representation Knowledge Transfer for Improved Sequential Recommendations**|<img src="https://img.shields.io/badge/-Seq-5a4a6a?style=flat-square&color=%235a4a6a" width="56" alt="Seq" />|Artur Gimranov et.al.|[2602.23471](http://arxiv.org/abs/2602.23471)|
 |**2026-02-26**|**Scaling Search Relevance: Augmenting App Store Ranking with LLM-Generated Judgments**|<img src="https://img.shields.io/badge/-LLM-2c4a78?style=flat-square&color=%232c4a78" width="56" alt="LLM" />|Evangelia Christakopoulou et.al.|[2602.23234](http://arxiv.org/abs/2602.23234)|
 |**2026-02-26**|**From Agnostic to Specific: Latent Preference Diffusion for Multi-Behavior Sequential Recommendation**|<img src="https://img.shields.io/badge/-Seq-5a4a6a?style=flat-square&color=%235a4a6a" width="56" alt="Seq" />|Ruochen Yang et.al.|[2602.23132](http://arxiv.org/abs/2602.23132)|
@@ -396,6 +401,7 @@ title Paper Distribution by Tag
 |**2025-12-08**|**MUSE: A Simple Yet Effective Multimodal Search-Based Framework for Lifelong User Interest Modeling**|<img src="https://img.shields.io/badge/-Other-5a5a5a?style=flat-square&color=%235a5a5a" width="120" alt="Other" />|Bin Wu et.al.|[2512.07216](http://arxiv.org/abs/2512.07216)|
 |**2026-01-17**|**Benchmarking Deep Neural Networks for Modern Recommendation Systems**|<img src="https://img.shields.io/badge/-Other-5a5a5a?style=flat-square&color=%235a5a5a" width="120" alt="Other" />|Abderaouf Bahi et.al.|[2512.07000](http://arxiv.org/abs/2512.07000)|
 |**2025-12-07**|**Structural and Disentangled Adaptation of Large Vision Language Models for Multimodal Recommendation**|<img src="https://img.shields.io/badge/-Other-5a5a5a?style=flat-square&color=%235a5a5a" width="120" alt="Other" />|Zhongtao Rao et.al.|[2512.06883](http://arxiv.org/abs/2512.06883)|
+|**2026-02-27**|**WisPaper: Your AI Scholar Search Engine**|<img src="https://img.shields.io/badge/-Other-5a5a5a?style=flat-square&color=%235a5a5a" width="120" alt="Other" />|Li Ju et.al.|[2512.06879](http://arxiv.org/abs/2512.06879)|
 |**2025-12-07**|**Foresight Prediction Enhanced Live-Streaming Recommendation**|<img src="https://img.shields.io/badge/-Other-5a5a5a?style=flat-square&color=%235a5a5a" width="120" alt="Other" />|Jiangxia Cao et.al.|[2512.06700](http://arxiv.org/abs/2512.06700)|
 |**2025-12-06**|**Towards Efficient Hypergraph and Multi-LLM Agent Recommender Systems**|<img src="https://img.shields.io/badge/-LLM-2c4a78?style=flat-square&color=%232c4a78" width="56" alt="LLM" />|Tendai Mukande et.al.|[2512.06590](http://arxiv.org/abs/2512.06590)|
 |**2025-12-06**|**Beyond Existing Retrievals: Cross-Scenario Incremental Sample Learning Framework**|<img src="https://img.shields.io/badge/-Other-5a5a5a?style=flat-square&color=%235a5a5a" width="120" alt="Other" />|Tao Wang et.al.|[2512.06381](http://arxiv.org/abs/2512.06381)|
