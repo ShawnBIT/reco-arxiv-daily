@@ -233,14 +233,14 @@ def get_daily_papers(topic,query="slam", max_results=2):
     return data,data_web
 
 
-# 飞书 / 企业微信等 markdown 里给 Tag 上色（使用 Feishu 支持的颜色枚举）
-# 这里主要服务飞书的 lark_md：red / yellow / green / grey / default 等
-TAG_COLOR_MAP = {
-    "GR": "green",     # 生成式
-    "LLM": "blue",     # 大模型
-    "Seq": "yellow",   # 序列
-    "Scaling": "red",  # 扩展 / Scaling
-    "Other": "grey",   # 其他
+# 飞书 / 微信等富文本中，直接用 HTML 改颜色兼容性不好；
+# 这里用彩色 emoji + 粗体来做「伪彩色标签」，移动端效果更鲜艳。
+TAG_EMOJI_MAP = {
+    "GR": "🟩",      # 生成式
+    "LLM": "🔵",     # 大模型
+    "Seq": "🟨",     # 序列
+    "Scaling": "🟥", # 扩展 / Scaling
+    "Other": "⬜️",   # 其他
 }
 
 
@@ -256,10 +256,22 @@ def _parse_table_row(row: str, has_tag: bool) -> tuple:
     return ("", "", "", "", "")
 
 
+def _extract_url_from_md_link(link: str) -> str:
+    """从形如 [id](url) 的 markdown 链接中提取 url；失败则返回原字符串。"""
+    if not link:
+        return ""
+    link = link.strip()
+    l = link.find("(")
+    r = link.rfind(")")
+    if l != -1 and r != -1 and r > l + 1:
+        return link[l + 1 : r].strip()
+    return link
+
+
 def write_daily_new_md(md_path: str, data_collector: list, config: dict, tag_as_text: bool = False) -> None:
     """
     将本次抓取得到的增量论文（data_collector）写入指定 MD 文件。
-    tag_as_text=True 时改为「每篇成块 + 空行 + 标签颜色」的移动端友好格式（企业微信等）。
+    tag_as_text=True 时改为「每篇成块 + 紧凑排版 + 彩色 emoji 标签」的移动端友好格式（飞书 / 微信等）。
     """
     # 汇总本次抓取到的所有 topic -> {paper_id: row}
     papers_by_topic: dict = {}
@@ -294,13 +306,10 @@ def write_daily_new_md(md_path: str, data_collector: list, config: dict, tag_as_
             sorted_topic_papers = sort_papers(topic_papers)
 
             if use_wechat_style:
-                # 企业微信 / 手机：每篇一块，空行分隔，Tag 上色
+                # 飞书 / 手机：每篇一块，行距紧凑，Tag 用彩色 emoji + 粗体，标题直接包裹论文链接
                 for idx, (_, row) in enumerate(sorted_topic_papers.items()):
                     if row is None:
                         continue
-                    # 论文之间额外插入一个空行，阅读更清晰
-                    if idx > 0:
-                        f.write("\n")
                     has_tag = bool(tag_rules)
                     if has_tag:
                         title = extract_title_from_row(row)
@@ -312,14 +321,14 @@ def write_daily_new_md(md_path: str, data_collector: list, config: dict, tag_as_
                     date, title, _tag, authors, link = _parse_table_row(row_5, has_tag)
                     if has_tag and tag:
                         _tag = tag
-                    color = TAG_COLOR_MAP.get(_tag, "grey")
-                    tag_str = f'<font color="{color}">{_tag}</font>' if _tag else ""
-                    # 时间行与标题、不同论文之间都留出一个空行
+                    emoji = TAG_EMOJI_MAP.get(_tag, "⬜️")
+                    tag_str = f"**{emoji} {_tag}**" if _tag else ""
+                    # 从 [id](url) 中提取 url，把论文链接直接挂在标题上
+                    url = _extract_url_from_md_link(link)
+                    title_with_link = f"[{title}]({url})" if url else title
+                    # 更紧凑：日期 + Tag 一行，第二行是带链接的标题，去掉作者行，论文之间只留一个空行
                     f.write(f"**{date}**  {tag_str}\n")
-                    f.write("\n")
-                    f.write(f"**{title}**\n")
-                    f.write("\n")
-                    f.write(f"{authors}  ·  {link}\n")
+                    f.write(f"{title_with_link}\n\n")
             else:
                 if tag_rules:
                     f.write("|Publish Date|Title|Tag|Authors|PDF|\n")
