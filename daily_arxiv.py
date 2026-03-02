@@ -124,8 +124,8 @@ def get_paper_tag(title: str, tag_rules: list) -> str:
             return rule["label"]
     return tag_rules[-1]["label"] if tag_rules else "Other"
 
-def format_row_with_tag(row_str: str, tag_label: str, tag_styles: dict) -> str:
-    """将 4 列表格行扩展为 5 列，在 Title 与 Authors 之间插入带颜色的 Tag 列。"""
+def format_row_with_tag(row_str: str, tag_label: str, tag_styles: dict, use_badge: bool = True) -> str:
+    """将 4 列表格行扩展为 5 列，在 Title 与 Authors 之间插入 Tag 列。use_badge=False 时仅输出文字（供企业微信等不支持徽章的场景）。"""
     if not row_str or not row_str.strip():
         return row_str
     parts = row_str.split("|")
@@ -140,15 +140,18 @@ def format_row_with_tag(row_str: str, tag_label: str, tag_styles: dict) -> str:
         link = parts[4].strip()
     else:
         link = parts[4].strip() if len(parts) > 4 else ''
-    color = tag_styles.get(tag_label, "5a5a5a")
-    if isinstance(color, (list, tuple)):
-        color = (color[0] or "5a5a5a").lstrip("#")
+    if not use_badge:
+        tag_cell = tag_label
     else:
-        color = str(color).lstrip("#")
-    label_enc = quote(tag_label)
-    badge_url = f"{SHIELDS_BASE}/-{label_enc}-{color}?style=flat-square&color=%23{color}"
-    width = PAPER_TAG_WIDTHS.get(tag_label, DEFAULT_TAG_WIDTH)
-    tag_cell = f'<img src="{badge_url}" width="{width}" alt="{tag_label}" />'
+        color = tag_styles.get(tag_label, "5a5a5a")
+        if isinstance(color, (list, tuple)):
+            color = (color[0] or "5a5a5a").lstrip("#")
+        else:
+            color = str(color).lstrip("#")
+        label_enc = quote(tag_label)
+        badge_url = f"{SHIELDS_BASE}/-{label_enc}-{color}?style=flat-square&color=%23{color}"
+        width = PAPER_TAG_WIDTHS.get(tag_label, DEFAULT_TAG_WIDTH)
+        tag_cell = f'<img src="{badge_url}" width="{width}" alt="{tag_label}" />'
     return "|**{}**|**{}**|{}|{}|{}|\n".format(date, title, tag_cell, authors, link)
 
 import requests
@@ -230,10 +233,10 @@ def get_daily_papers(topic,query="slam", max_results=2):
     return data,data_web
 
 
-def write_daily_new_md(md_path: str, data_collector: list, config: dict) -> None:
+def write_daily_new_md(md_path: str, data_collector: list, config: dict, tag_as_text: bool = False) -> None:
     """
-    将本次抓取得到的增量论文（data_collector）写入单独的 daily_new.md，方便查看「今天新增」。
-    不依赖历史 JSON，只基于当前一次调用 get_daily_papers 的结果。
+    将本次抓取得到的增量论文（data_collector）写入指定 MD 文件。
+    tag_as_text=True 时 Tag 列只输出文字不输出徽章（供企业微信等场景）。
     """
     # 汇总本次抓取到的所有 topic -> {paper_id: row}
     papers_by_topic: dict = {}
@@ -281,7 +284,7 @@ def write_daily_new_md(md_path: str, data_collector: list, config: dict) -> None
                 if tag_rules:
                     title = extract_title_from_row(row)
                     tag = get_paper_tag(title, tag_rules)
-                    line = format_row_with_tag(row, tag, PAPER_TAG_STYLES)
+                    line = format_row_with_tag(row, tag, PAPER_TAG_STYLES, use_badge=not tag_as_text)
                 else:
                     # row 本身就是 4 列表格行，直接写出
                     line = row
@@ -624,7 +627,7 @@ def demo(**config):
                 allowed_keywords=list(config['keywords'].keys()))
         else:
             try:
-                write_daily_new_md(md_file, data_collector, config)
+                write_daily_new_md(md_file, data_collector, config, tag_as_text=True)
                 logging.info("Daily incremental papers written to docs/wechat.md")
             except Exception as e:
                 logging.warning(f"Failed to write docs/wechat.md: {e}")
