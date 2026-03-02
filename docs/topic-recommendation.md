@@ -6,7 +6,7 @@
   <ul style="list-style: none; padding-left: 0; margin: 0.75em 0 0 0; border-top: 1px solid #d8dee4; padding-top: 0.5em;">
     <li style="margin: 0.35em 0;"><a href="#generative" style="display: inline-block; padding: 0.35em 0.75em; border-radius: 6px; text-decoration: none; color: #0969da; font-size: 0.95em; background: #fff; border: 1px solid #d8dee4;">Generative</a></li>
     <li style="margin: 0.35em 0;"><a href="#llm" style="display: inline-block; padding: 0.35em 0.75em; border-radius: 6px; text-decoration: none; color: #0969da; font-size: 0.95em; background: #fff; border: 1px solid #d8dee4;">LLM</a></li>
-    <li style="margin: 0.35em 0;"><a href="#scaling--scale" style="display: inline-block; padding: 0.35em 0.75em; border-radius: 6px; text-decoration: none; color: #0969da; font-size: 0.95em; background: #fff; border: 1px solid #d8dee4;">Scaling / Scale</a></li>
+    <li style="margin: 0.35em 0;"><a href="#scaling" style="display: inline-block; padding: 0.35em 0.75em; border-radius: 6px; text-decoration: none; color: #0969da; font-size: 0.95em; background: #fff; border: 1px solid #d8dee4;">Scaling</a></li>
     <li style="margin: 0.35em 0;"><a href="#sequence--sequential" style="display: inline-block; padding: 0.35em 0.75em; border-radius: 6px; text-decoration: none; color: #0969da; font-size: 0.95em; background: #fff; border: 1px solid #d8dee4;">Sequence / Sequential</a></li>
   </ul>
 </details>
@@ -15,6 +15,7 @@
 
 |Publish Date|Title|Authors|PDF|
 |---|---|---|---|
+|**2026-02-27**|**Learning to Reflect and Correct: Towards Better Decoding Trajectories for Large-Scale Generative Recommendation**|Haibo Xing et.al.|[2602.23639](http://arxiv.org/abs/2602.23639)|
 |**2026-02-26**|**SIGMA: A Semantic-Grounded Instruction-Driven Generative Multi-Task Recommender at AliExpress**|Yang Yu et.al.|[2602.22913](http://arxiv.org/abs/2602.22913)|
 |**2026-02-26**|**Generative Recommendation for Large-Scale Advertising**|Ben Xue et.al.|[2602.22732](http://arxiv.org/abs/2602.22732)|
 |**2026-02-26**|**Vectorizing the Trie: Efficient Constrained Decoding for LLM-based Generative Retrieval on Accelerators**|Zhengyang Su et.al.|[2602.22647](http://arxiv.org/abs/2602.22647)|
@@ -215,54 +216,26 @@
 
 <p align=right>(<a href=#updated-on-20260302>back to top</a>)</p>
 
-## Scaling / Scale
+## Scaling
 
 |Publish Date|Title|Authors|PDF|
 |---|---|---|---|
 |**2026-02-26**|**Scaling Search Relevance: Augmenting App Store Ranking with LLM-Generated Judgments**|Evangelia Christakopoulou et.al.|[2602.23234](http://arxiv.org/abs/2602.23234)|
-|**2026-02-26**|**MaRI: Accelerating Ranking Model Inference via Structural Re-parameterization in Large Scale Recommendation System**|Yusheng Huang et.al.|[2602.23105](http://arxiv.org/abs/2602.23105)|
-|**2026-02-26**|**Generative Recommendation for Large-Scale Advertising**|Ben Xue et.al.|[2602.22732](http://arxiv.org/abs/2602.22732)|
-|**2026-02-19**|**WarpRec: Unifying Academic Rigor and Industrial Scale for Responsible, Reproducible, and Efficient Recommendation**|Marco Avolio et.al.|[2602.17442](http://arxiv.org/abs/2602.17442)|
 |**2026-02-20**|**Bending the Scaling Law Curve in Large-Scale Recommendation Systems**|Qin Ding et.al.|[2602.16986](http://arxiv.org/abs/2602.16986)|
-|**2026-02-18**|**Rethinking ANN-based Retrieval: Multifaceted Learnable Index for Large-scale Recommendation System**|Jiang Zhang et.al.|[2602.16124](http://arxiv.org/abs/2602.16124)|
-|**2026-02-17**|**Binge Watch: Reproducible Multimodal Benchmarks Datasets for Large-Scale Movie Recommendation on MovieLens-10M and 20M**|Giuseppe Spillo et.al.|[2602.15505](http://arxiv.org/abs/2602.15505)|
 |**2026-02-15**|**MixFormer: Co-Scaling Up Dense and Sequence in Industrial Recommenders**|Xu Huang et.al.|[2602.14110](http://arxiv.org/abs/2602.14110)|
-|**2026-02-12**|**An Industrial-Scale Sequential Recommender for LinkedIn Feed Ranking**|Lars Hertel et.al.|[2602.12354](http://arxiv.org/abs/2602.12354)|
-|**2026-02-12**|**Towards Personalized Bangla Book Recommendation: A Large-Scale Multi-Entity Book Graph Dataset**|Rahin Arefin Ahmed et.al.|[2602.12129](http://arxiv.org/abs/2602.12129)|
 |**2026-02-12**|**Compress, Cross and Scale: Multi-Level Compression Cross Networks for Efficient Scaling in Recommender Systems**|Heng Yu et.al.|[2602.12041](http://arxiv.org/abs/2602.12041)|
-|**2026-02-12**|**Hi-SAM: A Hierarchical Structure-Aware Multi-modal Framework for Large-Scale Recommendation**|Pingjun Pan et.al.|[2602.11799](http://arxiv.org/abs/2602.11799)|
 |**2026-02-11**|**EST: Towards Efficient Scaling Laws in Click-Through Rate Prediction via Unified Modeling**|Mingyang Liu et.al.|[2602.10811](http://arxiv.org/abs/2602.10811)|
 |**2026-02-13**|**Kunlun: Establishing Scaling Laws for Massive-Scale Recommendation Systems through Unified Architecture Design**|Bojian Hou et.al.|[2602.10016](http://arxiv.org/abs/2602.10016)|
-|**2026-02-09**|**OmniReview: A Large-scale Benchmark and LLM-enhanced Framework for Realistic Reviewer Recommendation**|Yehua Huang et.al.|[2602.08896](http://arxiv.org/abs/2602.08896)|
 |**2026-02-07**|**MSN: A Memory-based Sparse Activation Scaling Framework for Large-scale Industrial Recommendation**|Shikang Wu et.al.|[2602.07526](http://arxiv.org/abs/2602.07526)|
-|**2026-02-10**|**MDL: A Unified Multi-Distribution Learner in Large-scale Industrial Recommendation through Tokenization**|Shanlei Mu et.al.|[2602.07520](http://arxiv.org/abs/2602.07520)|
 |**2026-02-12**|**Principled Synthetic Data Enables the First Scaling Laws for LLMs in Recommendation**|Benyu Zhang et.al.|[2602.07298](http://arxiv.org/abs/2602.07298)|
 |**2026-02-10**|**TokenMixer-Large: Scaling Up Large Ranking Models in Industrial Recommenders**|Yuchen Jiang et.al.|[2602.06563](http://arxiv.org/abs/2602.06563)|
-|**2026-02-10**|**VK-LSVD: A Large-Scale Industrial Dataset for Short-Video Recommendation**|Aleksandr Poslavsky et.al.|[2602.04567](http://arxiv.org/abs/2602.04567)|
-|**2026-02-02**|**Adaptive Quality-Diversity Trade-offs for Large-Scale Batch Recommendation**|Clémence Réda et.al.|[2602.02024](http://arxiv.org/abs/2602.02024)|
 |**2026-01-30**|**Farewell to Item IDs: Unlocking the Scaling Potential of Large Ranking Models via Semantic Tokens**|Zhen Zhao et.al.|[2601.22694](http://arxiv.org/abs/2601.22694)|
-|**2026-01-28**|**MERGE: Next-Generation Item Indexing Paradigm for Large-Scale Streaming Recommendation**|Jing Yan et.al.|[2601.20199](http://arxiv.org/abs/2601.20199)|
 |**2026-01-27**|**LLaTTE: Scaling Laws for Multi-Stage Sequence Modeling in Large-Scale Ads Recommendation**|Lee Xiong et.al.|[2601.20083](http://arxiv.org/abs/2601.20083)|
 |**2026-01-08**|**PROMISE: Process Reward Models Unlock Test-Time Scaling Laws in Generative Recommendations**|Chengcheng Guo et.al.|[2601.04674](http://arxiv.org/abs/2601.04674)|
-|**2026-01-03**|**ScienceDB AI: An LLM-Driven Agentic Recommender System for Large-Scale Scientific Data Sharing Services**|Qingqing Long et.al.|[2601.01118](http://arxiv.org/abs/2601.01118)|
-|**2025-12-30**|**MaRCA: Multi-Agent Reinforcement Learning for Dynamic Computation Allocation in Large-Scale Recommender Systems**|Wan Jiang et.al.|[2512.24325](http://arxiv.org/abs/2512.24325)|
-|**2025-12-15**|**Towards Practical Large-scale Dynamical Heterogeneous Graph Embedding: Cold-start Resilient Recommendation**|Mabiao Long et.al.|[2512.13120](http://arxiv.org/abs/2512.13120)|
-|**2025-12-15**|**A Simple and Effective Framework for Symmetric Consistent Indexing in Large-Scale Dense Retrieval**|Huimu Wang et.al.|[2512.13074](http://arxiv.org/abs/2512.13074)|
-|**2025-12-13**|**STARS: Semantic Tokens with Augmented Representations for Recommendation at Scale**|Han Chen et.al.|[2512.10149](http://arxiv.org/abs/2512.10149)|
-|**2025-12-15**|**Meta Lattice: Model Space Redesign for Cost-Effective Industry-Scale Ads Recommendations**|Liang Luo et.al.|[2512.09200](http://arxiv.org/abs/2512.09200)|
 |**2025-12-08**|**Exploring Test-time Scaling via Prediction Merging on Large-Scale Recommendation**|Fuyuan Lyu et.al.|[2512.07650](http://arxiv.org/abs/2512.07650)|
 |**2025-11-24**|**STORE: Semantic Tokenization, Orthogonal Rotation and Efficient Attention for Scaling Up Ranking Models**|Yi Xu et.al.|[2511.18805](http://arxiv.org/abs/2511.18805)|
-|**2025-11-22**|**Save, Revisit, Retain: A Scalable Framework for Enhancing User Retention in Large-Scale Recommender Systems**|Weijie Jiang et.al.|[2511.18013](http://arxiv.org/abs/2511.18013)|
-|**2025-11-18**|**SilverTorch: A Unified Model-based System to Democratize Large-Scale Recommendation on GPUs**|Bi Xue et.al.|[2511.14881](http://arxiv.org/abs/2511.14881)|
 |**2025-11-15**|**From Scaling to Structured Expressivity: Rethinking Transformers for CTR Prediction**|Bencheng Yan et.al.|[2511.12081](http://arxiv.org/abs/2511.12081)|
-|**2025-11-17**|**LEMUR: Large scale End-to-end MUltimodal Recommendation**|Xintian Han et.al.|[2511.10962](http://arxiv.org/abs/2511.10962)|
-|**2026-02-12**|**GPR: Towards a Generative Pre-trained One-Model Paradigm for Large-Scale Advertising Recommendation**|Jun Zhang et.al.|[2511.10138](http://arxiv.org/abs/2511.10138)|
-|**2025-11-08**|**Make It Long, Keep It Fast: End-to-End 10k-Sequence Modeling at Billion Scale on Douyin**|Lin Guan et.al.|[2511.06077](http://arxiv.org/abs/2511.06077)|
-|**2025-11-04**|**No-Human in the Loop: Agentic Evaluation at Scale for Recommendation**|Tao Zhang et.al.|[2511.03051](http://arxiv.org/abs/2511.03051)|
-|**2025-11-03**|**Solving cold start in news recommendations: a RippleNet-based system for large scale media outlet**|Karol Radziszewski et.al.|[2511.02052](http://arxiv.org/abs/2511.02052)|
-|**2025-10-29**|**LookSync: Large-Scale Visual Product Search System for AI-Generated Fashion Looks**|Pradeep M et.al.|[2511.00072](http://arxiv.org/abs/2511.00072)|
 |**2025-10-28**|**MiniOneRec: An Open-Source Framework for Scaling Generative Recommendation**|Xiaoyu Kong et.al.|[2510.24431](http://arxiv.org/abs/2510.24431)|
-|**2025-10-23**|**Practical Code RAG at Scale: Task-Aware Retrieval Design Choices under Compute Budgets**|Timur Galimzyanov et.al.|[2510.20609](http://arxiv.org/abs/2510.20609)|
 
 <p align=right>(<a href=#updated-on-20260302>back to top</a>)</p>
 
@@ -270,6 +243,9 @@
 
 |Publish Date|Title|Authors|PDF|
 |---|---|---|---|
+|**2026-02-27**|**Robust Aggregation for Federated Sequential Recommendation with Sparse and Poisoned Data**|Minh Hieu Nguyen et.al.|[2602.23982](http://arxiv.org/abs/2602.23982)|
+|**2026-02-27**|**FuXi-Linear: Unleashing the Power of Linear Attention in Long-term Time-aware Sequential Recommendation**|Yufei Ye et.al.|[2602.23671](http://arxiv.org/abs/2602.23671)|
+|**2026-02-26**|**Cross-Representation Knowledge Transfer for Improved Sequential Recommendations**|Artur Gimranov et.al.|[2602.23471](http://arxiv.org/abs/2602.23471)|
 |**2026-02-26**|**From Agnostic to Specific: Latent Preference Diffusion for Multi-Behavior Sequential Recommendation**|Ruochen Yang et.al.|[2602.23132](http://arxiv.org/abs/2602.23132)|
 |**2026-02-26**|**Sequential Regression for Continuous Value Prediction using Residual Quantization**|Runpeng Cui et.al.|[2602.23012](http://arxiv.org/abs/2602.23012)|
 |**2026-02-24**|**Position-Aware Sequential Attention for Accurate Next Item Recommendations**|Timur Nabiev et.al.|[2602.21052](http://arxiv.org/abs/2602.21052)|

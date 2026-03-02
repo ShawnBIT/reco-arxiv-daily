@@ -31,8 +31,8 @@ extra_title_topics:
     words: ["generative"]
   - label: "LLM"
     words: ["LLM", "large language model", "think"]
-  - label: "Scaling / Scale"
-    words: ["Scaling", "Scale"]
+  - label: "Scaling"
+    words: ["Scaling"]
   - label: "Sequence / Sequential"
     words: ["Sequence", "Sequential"]
 
@@ -43,7 +43,7 @@ paper_tags:
   - label: "LLM"
     words: ["LLM", "large language model"]
   - label: "Scaling"
-    words: ["scaling", "scale"]
+    words: ["scaling", "scale up"]
   - label: "Seq"
     words: ["sequential", "sequence"]
   - label: "Other"
