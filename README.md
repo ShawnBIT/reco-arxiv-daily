@@ -19,11 +19,11 @@ title Paper Distribution by Tag
   "Other" : 596
   "LLM" : 195
   "GR" : 118
-  "Seq" : 88
+  "Seq" : 89
   "Scaling" : 18
 ```
 
-> 统计自 **2025-07-16** 起，共计 **1015** 篇论文。
+> 统计自 **2025-07-16** 起，共计 **1016** 篇论文。
 
 <details style="margin: 1em 0; padding: 0.75em 1em; border: 1px solid #d8dee4; border-radius: 8px; background: #f6f8fa;">
   <summary style="cursor: pointer; font-weight: 600; font-size: 1.05em; color: #1f2328; padding: 0.25em 0;">📑 Table of Contents</summary>
@@ -38,6 +38,7 @@ title Paper Distribution by Tag
 |---|---|---|---|---|
 |**2026-03-02**|**IDProxy: Cold-Start CTR Prediction for Ads and Recommendation at Xiaohongshu with Multimodal LLMs**|<img src="https://img.shields.io/badge/-LLM-2c4a78?style=flat-square&color=%232c4a78" width="56" alt="LLM" />|Yubin Zhang et.al.|[2603.01590](http://arxiv.org/abs/2603.01590)|
 |**2026-03-02**|**CLEAR: Null-Space Projection for Cross-Modal De-Redundancy in Multimodal Recommendation**|<img src="https://img.shields.io/badge/-Other-5a5a5a?style=flat-square&color=%235a5a5a" width="120" alt="Other" />|Hao Zhan et.al.|[2603.01536](http://arxiv.org/abs/2603.01536)|
+|**2026-03-02**|**MealRec: Multi-granularity Sequential Modeling via Hierarchical Diffusion Models for Micro-Video Recommendation**|<img src="https://img.shields.io/badge/-Seq-5a4a6a?style=flat-square&color=%235a4a6a" width="56" alt="Seq" />|Xinxin Dong et.al.|[2603.01926](http://arxiv.org/abs/2603.01926)|
 |**2026-03-01**|**Beyond the Flat Sequence: Hierarchical and Preference-Aware Generative Recommendations**|<img src="https://img.shields.io/badge/-GR-1e5c3a?style=flat-square&color=%231e5c3a" width="56" alt="GR" />|Zerui Chen et.al.|[2603.00980](http://arxiv.org/abs/2603.00980)|
 |**2026-03-01**|**GeMi: A Graph-based, Multimodal Recommendation System for Narrative Scroll Paintings**|<img src="https://img.shields.io/badge/-Other-5a5a5a?style=flat-square&color=%235a5a5a" width="120" alt="Other" />|Haimonti Dutta et.al.|[2603.00854](http://arxiv.org/abs/2603.00854)|
 |**2026-02-28**|**Fine-grained Semantics Integration for Large Language Model-based Recommendation**|<img src="https://img.shields.io/badge/-LLM-2c4a78?style=flat-square&color=%232c4a78" width="56" alt="LLM" />|Jiawei Feng et.al.|[2602.22632](http://arxiv.org/abs/2602.22632)|
