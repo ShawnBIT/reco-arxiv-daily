@@ -6,13 +6,9 @@ name: Run Arxiv Papers Daily
 on:
   # 手动触发：Actions 页选择该 workflow 后 Run workflow
   workflow_dispatch:
-  # 每天 00:00 UTC 自动跑（北京时间 08:00）；可改为 0 8 * * * 等
+  # 临时测试：今天 01:30 UTC = 09:30 北京时间跑一次；验证通过后改回 "0 0 * * *"（每天 08:00 北京）
   schedule:
-    - cron: "0 0 * * *"
-  # Triggers the workflow on push or pull request events only for the main branch
-#   push:
-#     branches:
-#     - main
+    - cron: "30 1 * * *"
 
 env:
 
