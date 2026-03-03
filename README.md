@@ -16,14 +16,14 @@
 }}}%%
 pie showData
 title Paper Distribution by Tag
-  "Other" : 593
-  "LLM" : 193
-  "GR" : 115
+  "Other" : 596
+  "LLM" : 195
+  "GR" : 118
   "Seq" : 88
   "Scaling" : 18
 ```
 
-> 统计自 **2025-07-16** 起，共计 **1007** 篇论文。
+> 统计自 **2025-07-16** 起，共计 **1015** 篇论文。
 
 <details style="margin: 1em 0; padding: 0.75em 1em; border: 1px solid #d8dee4; border-radius: 8px; background: #f6f8fa;">
   <summary style="cursor: pointer; font-weight: 600; font-size: 1.05em; color: #1f2328; padding: 0.25em 0;">📑 Table of Contents</summary>
@@ -36,6 +36,15 @@ title Paper Distribution by Tag
 
 |Publish Date|Title|Tag|Authors|PDF|
 |---|---|---|---|---|
+|**2026-03-02**|**IDProxy: Cold-Start CTR Prediction for Ads and Recommendation at Xiaohongshu with Multimodal LLMs**|<img src="https://img.shields.io/badge/-LLM-2c4a78?style=flat-square&color=%232c4a78" width="56" alt="LLM" />|Yubin Zhang et.al.|[2603.01590](http://arxiv.org/abs/2603.01590)|
+|**2026-03-02**|**CLEAR: Null-Space Projection for Cross-Modal De-Redundancy in Multimodal Recommendation**|<img src="https://img.shields.io/badge/-Other-5a5a5a?style=flat-square&color=%235a5a5a" width="120" alt="Other" />|Hao Zhan et.al.|[2603.01536](http://arxiv.org/abs/2603.01536)|
+|**2026-03-01**|**Beyond the Flat Sequence: Hierarchical and Preference-Aware Generative Recommendations**|<img src="https://img.shields.io/badge/-GR-1e5c3a?style=flat-square&color=%231e5c3a" width="56" alt="GR" />|Zerui Chen et.al.|[2603.00980](http://arxiv.org/abs/2603.00980)|
+|**2026-03-01**|**GeMi: A Graph-based, Multimodal Recommendation System for Narrative Scroll Paintings**|<img src="https://img.shields.io/badge/-Other-5a5a5a?style=flat-square&color=%235a5a5a" width="120" alt="Other" />|Haimonti Dutta et.al.|[2603.00854](http://arxiv.org/abs/2603.00854)|
+|**2026-02-28**|**Fine-grained Semantics Integration for Large Language Model-based Recommendation**|<img src="https://img.shields.io/badge/-LLM-2c4a78?style=flat-square&color=%232c4a78" width="56" alt="LLM" />|Jiawei Feng et.al.|[2602.22632](http://arxiv.org/abs/2602.22632)|
+|**2026-02-28**|**SODA: Semantic-Oriented Distributional Alignment for Generative Recommendation**|<img src="https://img.shields.io/badge/-GR-1e5c3a?style=flat-square&color=%231e5c3a" width="56" alt="GR" />|Ziqi Xue et.al.|[2603.00700](http://arxiv.org/abs/2603.00700)|
+|**2026-02-28**|**RAIE: Region-Aware Incremental Preference Editing with LoRA for LLM-based Recommendation**|<img src="https://img.shields.io/badge/-LLM-2c4a78?style=flat-square&color=%232c4a78" width="56" alt="LLM" />|Jin Zeng et.al.|[2603.00638](http://arxiv.org/abs/2603.00638)|
+|**2026-02-28**|**Stop Treating Collisions Equally: Qualification-Aware Semantic ID Learning for Recommendation at Industrial Scale**|<img src="https://img.shields.io/badge/-Other-5a5a5a?style=flat-square&color=%235a5a5a" width="120" alt="Other" />|Zheng Hu et.al.|[2603.00632](http://arxiv.org/abs/2603.00632)|
+|**2026-02-28**|**MuonRec: Shifting the Optimizer Paradigm Beyond Adam in Scalable Generative Recommendation**|<img src="https://img.shields.io/badge/-GR-1e5c3a?style=flat-square&color=%231e5c3a" width="56" alt="GR" />|Rong Shan et.al.|[2603.00416](http://arxiv.org/abs/2603.00416)|
 |**2026-02-27**|**WisPaper: Your AI Scholar Search Engine**|<img src="https://img.shields.io/badge/-Other-5a5a5a?style=flat-square&color=%235a5a5a" width="120" alt="Other" />|Li Ju et.al.|[2512.06879](http://arxiv.org/abs/2512.06879)|
 |**2026-02-27**|**Multimodal-enhanced Federated Recommendation: A Group-wise Fusion Approach**|<img src="https://img.shields.io/badge/-Other-5a5a5a?style=flat-square&color=%235a5a5a" width="120" alt="Other" />|Chunxu Zhang et.al.|[2509.19955](http://arxiv.org/abs/2509.19955)|
 |**2026-02-27**|**Recommendation Algorithms: A Comparative Study in Movie Domain**|<img src="https://img.shields.io/badge/-Other-5a5a5a?style=flat-square&color=%235a5a5a" width="120" alt="Other" />|Rohit Chivukula et.al.|[2602.24125](http://arxiv.org/abs/2602.24125)|
@@ -50,7 +59,6 @@ title Paper Distribution by Tag
 |**2026-02-26**|**SIGMA: A Semantic-Grounded Instruction-Driven Generative Multi-Task Recommender at AliExpress**|<img src="https://img.shields.io/badge/-GR-1e5c3a?style=flat-square&color=%231e5c3a" width="56" alt="GR" />|Yang Yu et.al.|[2602.22913](http://arxiv.org/abs/2602.22913)|
 |**2026-02-26**|**Generative Recommendation for Large-Scale Advertising**|<img src="https://img.shields.io/badge/-GR-1e5c3a?style=flat-square&color=%231e5c3a" width="56" alt="GR" />|Ben Xue et.al.|[2602.22732](http://arxiv.org/abs/2602.22732)|
 |**2026-02-26**|**Vectorizing the Trie: Efficient Constrained Decoding for LLM-based Generative Retrieval on Accelerators**|<img src="https://img.shields.io/badge/-GR-1e5c3a?style=flat-square&color=%231e5c3a" width="56" alt="GR" />|Zhengyang Su et.al.|[2602.22647](http://arxiv.org/abs/2602.22647)|
-|**2026-02-26**|**Fine-grained Semantics Integration for Large Language Model-based Recommendation**|<img src="https://img.shields.io/badge/-LLM-2c4a78?style=flat-square&color=%232c4a78" width="56" alt="LLM" />|Jiawen Feng et.al.|[2602.22632](http://arxiv.org/abs/2602.22632)|
 |**2026-02-26**|**TFPS: A Temporal Filtration-enhanced Positive Sample Set Construction Method for Implicit Collaborative Filtering**|<img src="https://img.shields.io/badge/-Other-5a5a5a?style=flat-square&color=%235a5a5a" width="120" alt="Other" />|Jiayi Wu et.al.|[2602.22521](http://arxiv.org/abs/2602.22521)|
 |**2026-02-26**|**From Latent to Observable Position-Based Click Models in Carousel Interfaces**|<img src="https://img.shields.io/badge/-Other-5a5a5a?style=flat-square&color=%235a5a5a" width="120" alt="Other" />|Santiago de Leon-Martinez et.al.|[2602.16541](http://arxiv.org/abs/2602.16541)|
 |**2026-02-26**|**Scaling Search Relevance: Augmenting App Store Ranking with LLM-Generated Judgments**|<img src="https://img.shields.io/badge/-LLM-2c4a78?style=flat-square&color=%232c4a78" width="56" alt="LLM" />|Evangelia Christakopoulou et.al.|[2602.23234](http://arxiv.org/abs/2602.23234)|

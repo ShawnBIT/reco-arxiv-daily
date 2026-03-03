@@ -9,6 +9,15 @@ layout: default
 
 | Publish Date | Title | Authors | PDF |
 |:---------|:-----------------------|:---------|:------|
+|**2026-03-02**|**IDProxy: Cold-Start CTR Prediction for Ads and Recommendation at Xiaohongshu with Multimodal LLMs**|Yubin Zhang et.al.|[2603.01590](http://arxiv.org/abs/2603.01590)|
+|**2026-03-02**|**CLEAR: Null-Space Projection for Cross-Modal De-Redundancy in Multimodal Recommendation**|Hao Zhan et.al.|[2603.01536](http://arxiv.org/abs/2603.01536)|
+|**2026-03-01**|**Beyond the Flat Sequence: Hierarchical and Preference-Aware Generative Recommendations**|Zerui Chen et.al.|[2603.00980](http://arxiv.org/abs/2603.00980)|
+|**2026-03-01**|**GeMi: A Graph-based, Multimodal Recommendation System for Narrative Scroll Paintings**|Haimonti Dutta et.al.|[2603.00854](http://arxiv.org/abs/2603.00854)|
+|**2026-02-28**|**Fine-grained Semantics Integration for Large Language Model-based Recommendation**|Jiawei Feng et.al.|[2602.22632](http://arxiv.org/abs/2602.22632)|
+|**2026-02-28**|**SODA: Semantic-Oriented Distributional Alignment for Generative Recommendation**|Ziqi Xue et.al.|[2603.00700](http://arxiv.org/abs/2603.00700)|
+|**2026-02-28**|**RAIE: Region-Aware Incremental Preference Editing with LoRA for LLM-based Recommendation**|Jin Zeng et.al.|[2603.00638](http://arxiv.org/abs/2603.00638)|
+|**2026-02-28**|**Stop Treating Collisions Equally: Qualification-Aware Semantic ID Learning for Recommendation at Industrial Scale**|Zheng Hu et.al.|[2603.00632](http://arxiv.org/abs/2603.00632)|
+|**2026-02-28**|**MuonRec: Shifting the Optimizer Paradigm Beyond Adam in Scalable Generative Recommendation**|Rong Shan et.al.|[2603.00416](http://arxiv.org/abs/2603.00416)|
 |**2026-02-27**|**WisPaper: Your AI Scholar Search Engine**|Li Ju et.al.|[2512.06879](http://arxiv.org/abs/2512.06879)|
 |**2026-02-27**|**Multimodal-enhanced Federated Recommendation: A Group-wise Fusion Approach**|Chunxu Zhang et.al.|[2509.19955](http://arxiv.org/abs/2509.19955)|
 |**2026-02-27**|**Recommendation Algorithms: A Comparative Study in Movie Domain**|Rohit Chivukula et.al.|[2602.24125](http://arxiv.org/abs/2602.24125)|
@@ -23,7 +32,6 @@ layout: default
 |**2026-02-26**|**SIGMA: A Semantic-Grounded Instruction-Driven Generative Multi-Task Recommender at AliExpress**|Yang Yu et.al.|[2602.22913](http://arxiv.org/abs/2602.22913)|
 |**2026-02-26**|**Generative Recommendation for Large-Scale Advertising**|Ben Xue et.al.|[2602.22732](http://arxiv.org/abs/2602.22732)|
 |**2026-02-26**|**Vectorizing the Trie: Efficient Constrained Decoding for LLM-based Generative Retrieval on Accelerators**|Zhengyang Su et.al.|[2602.22647](http://arxiv.org/abs/2602.22647)|
-|**2026-02-26**|**Fine-grained Semantics Integration for Large Language Model-based Recommendation**|Jiawen Feng et.al.|[2602.22632](http://arxiv.org/abs/2602.22632)|
 |**2026-02-26**|**TFPS: A Temporal Filtration-enhanced Positive Sample Set Construction Method for Implicit Collaborative Filtering**|Jiayi Wu et.al.|[2602.22521](http://arxiv.org/abs/2602.22521)|
 |**2026-02-26**|**From Latent to Observable Position-Based Click Models in Carousel Interfaces**|Santiago de Leon-Martinez et.al.|[2602.16541](http://arxiv.org/abs/2602.16541)|
 |**2026-02-26**|**Scaling Search Relevance: Augmenting App Store Ranking with LLM-Generated Judgments**|Evangelia Christakopoulou et.al.|[2602.23234](http://arxiv.org/abs/2602.23234)|
