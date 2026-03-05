@@ -28,7 +28,7 @@ extra_title_md: './docs/topic-recommendation.md'
 json_extra_title_path: './docs/reco-arxiv-daily-extra.json'
 extra_title_topics:
   - label: "Generative"
-    words: ["generative"]
+    words: ["generative", "generation"]
   - label: "LLM"
     words: ["LLM", "large language model", "think"]
   - label: "Scaling"
@@ -39,7 +39,7 @@ extra_title_topics:
 # 主 README 表格中论文类型标签（按顺序匹配标题，先匹配先得；未匹配为 Other）
 paper_tags:
   - label: "GR"
-    words: ["generative"]
+    words: ["generative", "generation"]
   - label: "LLM"
     words: ["LLM", "large language model"]
   - label: "Scaling"
