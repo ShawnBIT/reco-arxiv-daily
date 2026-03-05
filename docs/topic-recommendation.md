@@ -1,4 +1,4 @@
-## Updated on 2026.03.02
+## Updated on 2026.03.06
 > Usage instructions: [here](./docs/README.md#usage)
 
 <details style="margin: 1em 0; padding: 0.75em 1em; border: 1px solid #d8dee4; border-radius: 8px; background: #f6f8fa;">
@@ -15,9 +15,14 @@
 
 |Publish Date|Title|Authors|PDF|
 |---|---|---|---|
+|**2026-03-04**|**Generative Recommendation for Large-Scale Advertising**|Ben Xue et.al.|[2602.22732](http://arxiv.org/abs/2602.22732)|
+|**2026-03-04**|**OneRanker: Unified Generation and Ranking with One Model in Industrial Advertising Recommendation**|Dekai Sun et.al.|[2603.02999](http://arxiv.org/abs/2603.02999)|
+|**2026-03-03**|**APAO: Adaptive Prefix-Aware Optimization for Generative Recommendation**|Yuanqing Yu et.al.|[2603.02730](http://arxiv.org/abs/2603.02730)|
+|**2026-03-01**|**Beyond the Flat Sequence: Hierarchical and Preference-Aware Generative Recommendations**|Zerui Chen et.al.|[2603.00980](http://arxiv.org/abs/2603.00980)|
+|**2026-02-28**|**SODA: Semantic-Oriented Distributional Alignment for Generative Recommendation**|Ziqi Xue et.al.|[2603.00700](http://arxiv.org/abs/2603.00700)|
+|**2026-02-28**|**MuonRec: Shifting the Optimizer Paradigm Beyond Adam in Scalable Generative Recommendation**|Rong Shan et.al.|[2603.00416](http://arxiv.org/abs/2603.00416)|
 |**2026-02-27**|**Learning to Reflect and Correct: Towards Better Decoding Trajectories for Large-Scale Generative Recommendation**|Haibo Xing et.al.|[2602.23639](http://arxiv.org/abs/2602.23639)|
 |**2026-02-26**|**SIGMA: A Semantic-Grounded Instruction-Driven Generative Multi-Task Recommender at AliExpress**|Yang Yu et.al.|[2602.22913](http://arxiv.org/abs/2602.22913)|
-|**2026-02-26**|**Generative Recommendation for Large-Scale Advertising**|Ben Xue et.al.|[2602.22732](http://arxiv.org/abs/2602.22732)|
 |**2026-02-26**|**Vectorizing the Trie: Efficient Constrained Decoding for LLM-based Generative Retrieval on Accelerators**|Zhengyang Su et.al.|[2602.22647](http://arxiv.org/abs/2602.22647)|
 |**2026-02-26**|**Generative Agents Navigating Digital Libraries**|Saber Zerhoudi et.al.|[2602.22529](http://arxiv.org/abs/2602.22529)|
 |**2026-02-25**|**Trie-Aware Transformers for Generative Recommendation**|Zhenxiang Xu et.al.|[2602.21677](http://arxiv.org/abs/2602.21677)|
@@ -31,6 +36,7 @@
 |**2026-02-14**|**GEMs: Breaking the Long-Sequence Barrier in Generative Recommendation with a Multi-Stream Decoder**|Yu Zhou et.al.|[2602.13631](http://arxiv.org/abs/2602.13631)|
 |**2026-02-14**|**Climber-Pilot: A Non-Myopic Generative Recommendation Model Towards Better Instruction-Following**|Da Guo et.al.|[2602.13581](http://arxiv.org/abs/2602.13581)|
 |**2026-02-14**|**Unleash the Potential of Long Semantic IDs for Generative Recommendation**|Ming Xia et.al.|[2602.13573](http://arxiv.org/abs/2602.13573)|
+|**2026-02-14**|**Unifying Ranking and Generation in Query Auto-Completion via Retrieval-Augmented Generation and Multi-Objective Alignment**|Kai Yuan et.al.|[2602.01023](http://arxiv.org/abs/2602.01023)|
 |**2026-02-13**|**Awakening Dormant Users: Generative Recommendation with Counterfactual Functional Role Reasoning**|Huishi Luo et.al.|[2602.13134](http://arxiv.org/abs/2602.13134)|
 |**2026-02-13**|**Recurrent Preference Memory for Efficient Long-Sequence Generative Recommendation**|Yixiao Chen et.al.|[2602.11605](http://arxiv.org/abs/2602.11605)|
 |**2026-02-13**|**Towards Context-aware Reasoning-enhanced Generative Searching in E-commerce**|Zhiding Liu et.al.|[2510.16925](http://arxiv.org/abs/2510.16925)|
@@ -56,6 +62,7 @@
 |**2026-02-01**|**S $^2$ GR: Stepwise Semantic-Guided Reasoning in Latent Space for Generative Recommendation**|Zihao Guo et.al.|[2601.18664](http://arxiv.org/abs/2601.18664)|
 |**2026-01-29**|**Masked Diffusion Generative Recommendation**|Lingyu Mu et.al.|[2601.19501](http://arxiv.org/abs/2601.19501)|
 |**2026-01-29**|**MMGRid: Navigating Temporal-aware and Cross-domain Generative Recommendation via Model Merging**|Tianjun Wei et.al.|[2601.15930](http://arxiv.org/abs/2601.15930)|
+|**2026-01-28**|**MERGE: Next-Generation Item Indexing Paradigm for Large-Scale Streaming Recommendation**|Jing Yan et.al.|[2601.20199](http://arxiv.org/abs/2601.20199)|
 |**2026-01-27**|**Differentiable Semantic ID for Generative Recommendation**|Junchen Fu et.al.|[2601.19711](http://arxiv.org/abs/2601.19711)|
 |**2026-01-27**|**Accelerating Generative Recommendation via Simple Categorical User Sequence Compression**|Qijiong Liu et.al.|[2601.19158](http://arxiv.org/abs/2601.19158)|
 |**2026-01-26**|**Token-level Collaborative Alignment for LLM-based Generative Recommendation**|Fake Lin et.al.|[2601.18457](http://arxiv.org/abs/2601.18457)|
@@ -72,22 +79,33 @@
 |**2026-01-13**|**FusID: Modality-Fused Semantic IDs for Generative Music Recommendation**|Haven Kim et.al.|[2601.08764](http://arxiv.org/abs/2601.08764)|
 |**2026-01-11**|**Unleashing the Native Recommendation Potential: LLM-Based Generative Recommendation via Structured Term Identifiers**|Zhiyang Zhang et.al.|[2601.06798](http://arxiv.org/abs/2601.06798)|
 |**2026-01-08**|**PROMISE: Process Reward Models Unlock Test-Time Scaling Laws in Generative Recommendations**|Chengcheng Guo et.al.|[2601.04674](http://arxiv.org/abs/2601.04674)|
+|**2026-01-07**|**Unleashing the Potential of Neighbors: Diffusion-based Latent Neighbor Generation for Session-based Recommendation**|Yuhan Yang et.al.|[2601.03903](http://arxiv.org/abs/2601.03903)|
+|**2025-12-31**|**MDiffFR: Modality-Guided Diffusion Generation for Cold-start Items in Federated Recommendation**|Kang Fu et.al.|[2512.24715](http://arxiv.org/abs/2512.24715)|
 |**2025-12-31**|**OxygenREC: An Instruction-Following Generative Framework for E-commerce Recommendation**|Xuegang Hao et.al.|[2512.22386](http://arxiv.org/abs/2512.22386)|
+|**2025-12-31**|**Reveal Hidden Pitfalls and Navigate Next Generation of Vector Similarity Search from Task-Centric Views**|Tingyang Chen et.al.|[2512.12980](http://arxiv.org/abs/2512.12980)|
 |**2025-12-25**|**CEMG: Collaborative-Enhanced Multimodal Generative Recommendation**|Yuzhen Lin et.al.|[2512.21543](http://arxiv.org/abs/2512.21543)|
+|**2025-12-18**|**LinkedOut: Linking World Knowledge Representation Out of Video LLM for Next-Generation Video Recommendation**|Haichao Zhang et.al.|[2512.16891](http://arxiv.org/abs/2512.16891)|
 |**2025-12-18**|**Masked Diffusion for Generative Recommendation**|Kulin Shah et.al.|[2511.23021](http://arxiv.org/abs/2511.23021)|
 |**2025-12-17**|**FAIR: Focused Attention Is All You Need for Generative Recommendation**|Longtao Xiao et.al.|[2512.11254](http://arxiv.org/abs/2512.11254)|
 |**2025-12-16**|**From Feature Interaction to Feature Generation: A Generative Paradigm of CTR Prediction Models**|Mingjia Yin et.al.|[2512.14041](http://arxiv.org/abs/2512.14041)|
+|**2025-12-16**|**A Knowledge Graph-based Retrieval-Augmented Generation Framework for Algorithm Selection in the Facility Layout Problem**|Nikhil N S et.al.|[2509.18054](http://arxiv.org/abs/2509.18054)|
+|**2025-12-08**|**PoultryTalk: A Multi-modal Retrieval-Augmented Generation (RAG) System for Intelligent Poultry Management and Decision Support**|Kapalik Khanal et.al.|[2512.08995](http://arxiv.org/abs/2512.08995)|
 |**2025-12-08**|**OnePiece: The Great Route to Generative Recommendation -- A Case Study from Tencent Algorithm Competition**|Jiangxia Cao et.al.|[2512.07424](http://arxiv.org/abs/2512.07424)|
 |**2025-12-06**|**The Oracle and The Prism: A Decoupled and Efficient Framework for Generative Recommendation Explanation**|Jiaheng Zhang et.al.|[2511.16543](http://arxiv.org/abs/2511.16543)|
+|**2025-12-04**|**Spatially-Enhanced Retrieval-Augmented Generation for Walkability and Urban Discovery**|Maddalena Amendola et.al.|[2512.04790](http://arxiv.org/abs/2512.04790)|
+|**2025-12-04**|**MetaSynth: Multi-Agent Metadata Generation from Implicit Feedback in Black-Box Systems**|Shreeranjani Srirangamsridharan et.al.|[2510.01523](http://arxiv.org/abs/2510.01523)|
 |**2025-11-27**|**CoFiRec: Coarse-to-Fine Tokenization for Generative Recommendation**|Tianxin Wei et.al.|[2511.22707](http://arxiv.org/abs/2511.22707)|
 |**2025-11-24**|**Align $^3$ GR: Unified Multi-Level Alignment for LLM-based Generative Recommendation**|Wencai Ye et.al.|[2511.11255](http://arxiv.org/abs/2511.11255)|
 |**2025-11-23**|**TBGRecall: A Generative Retrieval Model for E-commerce Recommendation Scenarios**|Zida Liang et.al.|[2508.11977](http://arxiv.org/abs/2508.11977)|
 |**2025-11-22**|**Multi-Aspect Cross-modal Quantization for Generative Recommendation**|Fuwei Zhang et.al.|[2511.15122](http://arxiv.org/abs/2511.15122)|
+|**2025-11-19**|**ItemRAG: Item-Based Retrieval-Augmented Generation for LLM-Based Recommendation**|Sunwoo Kim et.al.|[2511.15141](http://arxiv.org/abs/2511.15141)|
 |**2025-11-18**|**MindRec: A Diffusion-driven Coarse-to-Fine Paradigm for Generative Recommendation**|Mengyao Gao et.al.|[2511.12597](http://arxiv.org/abs/2511.12597)|
 |**2025-11-16**|**From IDs to Semantics: A Generative Framework for Cross-Domain Recommendation with Adaptive Semantic Tokenization**|Peiyu Hu et.al.|[2511.08006](http://arxiv.org/abs/2511.08006)|
 |**2025-11-15**|**Semantics Meet Signals: Dual Codebook Representationl Learning for Generative Recommendation**|Zheng Hui et.al.|[2511.20673](http://arxiv.org/abs/2511.20673)|
+|**2025-11-15**|**MARC: Multimodal and Multi-Task Agentic Retrieval-Augmented Generation for Cold-Start Recommender System**|Seung Hwan Cho et.al.|[2511.08181](http://arxiv.org/abs/2511.08181)|
 |**2025-11-11**|**OneRec-Think: In-Text Reasoning for Generative Recommendation**|Zhanyu Liu et.al.|[2510.11639](http://arxiv.org/abs/2510.11639)|
 |**2025-11-09**|**LLaDA-Rec: Discrete Diffusion for Parallel Semantic ID Generation in Generative Recommendation**|Teng Shi et.al.|[2511.06254](http://arxiv.org/abs/2511.06254)|
+|**2025-11-06**|**Retrieval-Augmented Review Generation for Poisoning Recommender Systems**|Shiyi Yang et.al.|[2508.15252](http://arxiv.org/abs/2508.15252)|
 |**2025-11-05**|**Generative Sequential Recommendation via Hierarchical Behavior Modeling**|Zhefan Wang et.al.|[2511.03155](http://arxiv.org/abs/2511.03155)|
 |**2025-11-03**|**Enhancing Time Awareness in Generative Recommendation**|Sunkyung Lee et.al.|[2509.13957](http://arxiv.org/abs/2509.13957)|
 |**2025-10-31**|**A Survey on Generative Recommendation: Data, Model, and Tasks**|Min Hou et.al.|[2510.27157](http://arxiv.org/abs/2510.27157)|
@@ -101,44 +119,62 @@
 |**2025-10-21**|**ImageGem: In-the-wild Generative Image Interaction Dataset for Generative Model Personalization**|Yuanhe Guo et.al.|[2510.18433](http://arxiv.org/abs/2510.18433)|
 |**2025-10-21**|**DiffGRM: Diffusion-based Generative Recommendation Model**|Zhao Liu et.al.|[2510.21805](http://arxiv.org/abs/2510.21805)|
 |**2025-10-19**|**The Layout Is the Model: On Action-Item Coupling in Generative Recommendation**|Xiaokai Wei et.al.|[2510.16804](http://arxiv.org/abs/2510.16804)|
+|**2025-10-16**|**GemiRec: Interest Quantization and Generation for Multi-Interest Recommendation**|Zhibo Wu et.al.|[2510.14626](http://arxiv.org/abs/2510.14626)|
 |**2025-10-15**|**GCRank: A Generative Contextual Comprehension Paradigm for Takeout Ranking Model**|Ziheng Ni et.al.|[2601.02361](http://arxiv.org/abs/2601.02361)|
+|**2025-10-14**|**Shielded RecRL: Explanation Generation for Recommender Systems without Ranking Degradation**|Ansh Tiwari et.al.|[2601.03608](http://arxiv.org/abs/2601.03608)|
 |**2025-10-13**|**Next Interest Flow: A Generative Pre-training Paradigm for Recommender Systems by Modeling All-domain Movelines**|Chen Gao et.al.|[2510.11317](http://arxiv.org/abs/2510.11317)|
 |**2025-10-10**|**Generative Data Augmentation in Graph Contrastive Learning for Recommendation**|Yansong Wang et.al.|[2510.09129](http://arxiv.org/abs/2510.09129)|
+|**2025-10-09**|**Generation and annotation of item usage scenarios in e-commerce using large language models**|Madoka Hagiri et.al.|[2510.07885](http://arxiv.org/abs/2510.07885)|
 |**2025-10-09**|**PLUM: Adapting Pre-trained Language Models for Industrial-scale Generative Recommendations**|Ruining He et.al.|[2510.07784](http://arxiv.org/abs/2510.07784)|
 |**2025-10-02**|**LLM4Rec: Large Language Models for Multimodal Generative Recommendation with Causal Debiasing**|Bo Ma et.al.|[2510.01622](http://arxiv.org/abs/2510.01622)|
+|**2025-09-28**|**Multi-Value-Product Retrieval-Augmented Generation for Industrial Product Attribute Value Identification**|Huike Zou et.al.|[2509.23874](http://arxiv.org/abs/2509.23874)|
 |**2025-09-28**|**From Past To Path: Masked History Learning for Next-Item Prediction in Generative Recommendation**|KaiWen Wei et.al.|[2509.23649](http://arxiv.org/abs/2509.23649)|
 |**2025-09-26**|**IntSR: An Integrated Generative Framework for Search and Recommendation**|Huimin Yan et.al.|[2509.21179](http://arxiv.org/abs/2509.21179)|
 |**2025-09-26**|**FORGE: Forming Semantic Identifiers for Generative Retrieval in Industrial Datasets**|Kairui Fu et.al.|[2509.20904](http://arxiv.org/abs/2509.20904)|
+|**2025-09-22**|**ReGeS: Reciprocal Retrieval-Generation Synergy for Conversational Recommender Systems**|Dayu Yang et.al.|[2509.21371](http://arxiv.org/abs/2509.21371)|
 |**2025-09-19**|**Purely Semantic Indexing for LLM-based Generative Recommendation and Retrieval**|Ruohan Zhang et.al.|[2509.16446](http://arxiv.org/abs/2509.16446)|
 |**2025-09-15**|**Knowledge Graph Tokenization for Behavior-Aware Generative Next POI Recommendation**|Ke Sun et.al.|[2509.12350](http://arxiv.org/abs/2509.12350)|
 |**2025-09-11**|**HiD-VAE: Interpretable Generative Recommendation via Hierarchical and Disentangled Semantic IDs**|Dengzhao Fang et.al.|[2508.04618](http://arxiv.org/abs/2508.04618)|
+|**2025-09-10**|**Customized Retrieval-Augmented Generation with LLM for Debiasing Recommendation Unlearning**|Haichao Zhang et.al.|[2511.05494](http://arxiv.org/abs/2511.05494)|
 |**2025-09-10**|**UniSearch: Rethinking Search System with a Unified Generative Architecture**|Jiahui Chen et.al.|[2509.06887](http://arxiv.org/abs/2509.06887)|
+|**2025-09-04**|**Temporal Interest-Driven Multimodal Personalized Content Generation**|Tian Miao et.al.|[2509.04330](http://arxiv.org/abs/2509.04330)|
+|**2025-09-03**|**Efficient Item ID Generation for Large-Scale LLM-based Recommendation**|Anushya Subbiah et.al.|[2509.03746](http://arxiv.org/abs/2509.03746)|
 |**2025-09-03**|**RecBase: Generative Foundation Model Pretraining for Zero-Shot Recommendation**|Sashuai Zhou et.al.|[2509.03131](http://arxiv.org/abs/2509.03131)|
+|**2025-08-29**|**Refining Text Generation for Realistic Conversational Recommendation via Direct Preference Optimization**|Manato Tajiri et.al.|[2508.19918](http://arxiv.org/abs/2508.19918)|
 |**2025-08-27**|**DGenCTR: Towards a Universal Generative Paradigm for Click-Through Rate Prediction via Discrete Diffusion**|Moyu Zhang et.al.|[2508.14500](http://arxiv.org/abs/2508.14500)|
 |**2025-08-25**|**Test-Time Scaling Strategies for Generative Retrieval in Multimodal Conversational Recommendations**|Hung-Chun Hsu et.al.|[2508.18132](http://arxiv.org/abs/2508.18132)|
 |**2025-08-22**|**Learning Decomposed Contextual Token Representations from Pretrained and Collaborative Signals for Generative Recommendation**|Yifan Liu et.al.|[2509.10468](http://arxiv.org/abs/2509.10468)|
 |**2025-08-22**|**Spacetime-GR: A Spacetime-Aware Generative Model for Large Scale Online POI Recommendation**|Haitao Lin et.al.|[2508.16126](http://arxiv.org/abs/2508.16126)|
+|**2025-08-21**|**MMQ: Multimodal Mixture-of-Quantization Tokenization for Semantic ID Generation and User Behavioral Adaptation**|Yi Xu et.al.|[2508.15281](http://arxiv.org/abs/2508.15281)|
 |**2025-08-20**|**OneLoc: Geo-Aware Generative Recommender Systems for Local Life Service**|Zhipeng Wei et.al.|[2508.14646](http://arxiv.org/abs/2508.14646)|
+|**2025-08-19**|**Democratizing News Recommenders: Modeling Multiple Perspectives for News Candidate Generation with VQ-VAE**|Hardy et.al.|[2508.13978](http://arxiv.org/abs/2508.13978)|
 |**2025-08-17**|**TADT-CSA: Temporal Advantage Decision Transformer with Contrastive State Abstraction for Generative Recommendation**|Xiang Gao et.al.|[2507.20327](http://arxiv.org/abs/2507.20327)|
 |**2025-08-16**|**Scaling Generative Recommendations with Context Parallelism on Hierarchical Sequential Transducers**|Yue Dong et.al.|[2508.04711](http://arxiv.org/abs/2508.04711)|
 |**2025-08-14**|**FuXi-β: Towards a Lightweight and Fast Large-Scale Generative Recommendation Model**|Yufei Ye et.al.|[2508.10615](http://arxiv.org/abs/2508.10615)|
 |**2025-08-14**|**Semantic IDs for Joint Generative Search and Recommendation**|Gustavo Penha et.al.|[2508.10478](http://arxiv.org/abs/2508.10478)|
 |**2025-08-12**|**Closing the Performance Gap in Generative Recommenders with Collaborative Tokenization and Efficient Modeling**|Simon Lepage et.al.|[2508.14910](http://arxiv.org/abs/2508.14910)|
+|**2025-08-07**|**From Generation to Consumption: Personalized List Value Estimation for Re-ranking**|Kaike Zhang et.al.|[2508.02242](http://arxiv.org/abs/2508.02242)|
 |**2025-08-07**|**Generative Multi-Target Cross-Domain Recommendation**|Jinqiu Jin et.al.|[2507.12871](http://arxiv.org/abs/2507.12871)|
 |**2025-08-04**|**Agentic Personalized Fashion Recommendation in the Age of Generative AI: Challenges, Opportunities, and Evaluation**|Yashar Deldjoo et.al.|[2508.02342](http://arxiv.org/abs/2508.02342)|
 |**2025-08-04**|**Why Generate When You Can Transform? Unleashing Generative Attention for Dynamic Recommendation**|Yuli Liu et.al.|[2508.02050](http://arxiv.org/abs/2508.02050)|
 |**2025-07-29**|**Generative Recommendation with Semantic IDs: A Practitioner's Handbook**|Clark Mingxuan Ju et.al.|[2507.22224](http://arxiv.org/abs/2507.22224)|
+|**2025-07-28**|**Beyond Interactions: Node-Level Graph Generation for Knowledge-Free Augmentation in Recommender Systems**|Zhaoyan Wang et.al.|[2507.20578](http://arxiv.org/abs/2507.20578)|
+|**2025-07-27**|**Lessons from A Large Language Model-based Outdoor Trail Recommendation Chatbot with Retrieval Augmented Generation**|Julia Ann Mathew et.al.|[2508.05652](http://arxiv.org/abs/2508.05652)|
 |**2025-07-22**|**Evaluating Generative AI Tools for Personalized Offline Recommendations: A Comparative Study**|Rafael Salinas-Buestan et.al.|[2508.03710](http://arxiv.org/abs/2508.03710)|
+|**2025-07-21**|**GREAT: Guiding Query Generation with a Trie for Recommending Related Search about Video at Kuaishou**|Ninglu Shao et.al.|[2507.15267](http://arxiv.org/abs/2507.15267)|
 |**2025-07-19**|**GRACE: Generative Recommendation via Journey-Aware Sparse Attention on Chain-of-Thought Tokenization**|Luyi Ma et.al.|[2507.14758](http://arxiv.org/abs/2507.14758)|
 
-<p align=right>(<a href=#updated-on-20260302>back to top</a>)</p>
+<p align=right>(<a href=#updated-on-20260306>back to top</a>)</p>
 
 ## LLM
 
 |Publish Date|Title|Authors|PDF|
 |---|---|---|---|
+|**2026-03-03**|**SafeCRS: Personalized Safety Alignment for LLM-Based Conversational Recommender Systems**|Haochang Hao et.al.|[2603.03536](http://arxiv.org/abs/2603.03536)|
+|**2026-03-02**|**IDProxy: Cold-Start CTR Prediction for Ads and Recommendation at Xiaohongshu with Multimodal LLMs**|Yubin Zhang et.al.|[2603.01590](http://arxiv.org/abs/2603.01590)|
+|**2026-02-28**|**Fine-grained Semantics Integration for Large Language Model-based Recommendation**|Jiawei Feng et.al.|[2602.22632](http://arxiv.org/abs/2602.22632)|
+|**2026-02-28**|**RAIE: Region-Aware Incremental Preference Editing with LoRA for LLM-based Recommendation**|Jin Zeng et.al.|[2603.00638](http://arxiv.org/abs/2603.00638)|
 |**2026-02-26**|**Vectorizing the Trie: Efficient Constrained Decoding for LLM-based Generative Retrieval on Accelerators**|Zhengyang Su et.al.|[2602.22647](http://arxiv.org/abs/2602.22647)|
-|**2026-02-26**|**Fine-grained Semantics Integration for Large Language Model-based Recommendation**|Jiawen Feng et.al.|[2602.22632](http://arxiv.org/abs/2602.22632)|
 |**2026-02-26**|**Scaling Search Relevance: Augmenting App Store Ranking with LLM-Generated Judgments**|Evangelia Christakopoulou et.al.|[2602.23234](http://arxiv.org/abs/2602.23234)|
 |**2026-02-25**|**Offline Reasoning for Efficient Recommendation: LLM-Empowered Persona-Profiled Item Indexing**|Deogyong Kim et.al.|[2602.21756](http://arxiv.org/abs/2602.21756)|
 |**2026-02-24**|**Turning Semantics into Topology: LLM-Driven Attribute Augmentation for Collaborative Filtering**|Junjie Meng et.al.|[2602.21099](http://arxiv.org/abs/2602.21099)|
@@ -354,7 +390,7 @@
 |**2025-07-18**|**Consistent Explainers or Unreliable Narrators? Understanding LLM-generated Group Recommendations**|Cedric Waterschoot et.al.|[2507.13705](http://arxiv.org/abs/2507.13705)|
 |**2025-07-17**|**Revisiting Prompt Engineering: A Comprehensive Evaluation for LLM-based Personalized Recommendation**|Genki Kusano et.al.|[2507.13525](http://arxiv.org/abs/2507.13525)|
 
-<p align=right>(<a href=#updated-on-20260302>back to top</a>)</p>
+<p align=right>(<a href=#updated-on-20260306>back to top</a>)</p>
 
 ## Scaling
 
@@ -385,12 +421,16 @@
 |**2025-08-06**|**Realizing Scaling Laws in Recommender Systems: A Foundation-Expert Paradigm for Hyperscale Model Deployment**|Dai Li et.al.|[2508.02929](http://arxiv.org/abs/2508.02929)|
 |**2025-07-26**|**RankMixer: Scaling Up Ranking Models in Industrial Recommenders**|Jie Zhu et.al.|[2507.15551](http://arxiv.org/abs/2507.15551)|
 
-<p align=right>(<a href=#updated-on-20260302>back to top</a>)</p>
+<p align=right>(<a href=#updated-on-20260306>back to top</a>)</p>
 
 ## Sequence / Sequential
 
 |Publish Date|Title|Authors|PDF|
 |---|---|---|---|
+|**2026-03-04**|**CAMMSR: Category-Guided Attentive Mixture of Experts for Multimodal Sequential Recommendation**|Jinfeng Xu et.al.|[2603.04320](http://arxiv.org/abs/2603.04320)|
+|**2026-03-04**|**DisenReason: Behavior Disentanglement and Latent Reasoning for Shared-Account Sequential Recommendation**|Jiawei Cheng et.al.|[2603.03782](http://arxiv.org/abs/2603.03782)|
+|**2026-03-02**|**MealRec: Multi-granularity Sequential Modeling via Hierarchical Diffusion Models for Micro-Video Recommendation**|Xinxin Dong et.al.|[2603.01926](http://arxiv.org/abs/2603.01926)|
+|**2026-03-01**|**Beyond the Flat Sequence: Hierarchical and Preference-Aware Generative Recommendations**|Zerui Chen et.al.|[2603.00980](http://arxiv.org/abs/2603.00980)|
 |**2026-02-27**|**Robust Aggregation for Federated Sequential Recommendation with Sparse and Poisoned Data**|Minh Hieu Nguyen et.al.|[2602.23982](http://arxiv.org/abs/2602.23982)|
 |**2026-02-27**|**FuXi-Linear: Unleashing the Power of Linear Attention in Long-term Time-aware Sequential Recommendation**|Yufei Ye et.al.|[2602.23671](http://arxiv.org/abs/2602.23671)|
 |**2026-02-26**|**From Agnostic to Specific: Latent Preference Diffusion for Multi-Behavior Sequential Recommendation**|Ruochen Yang et.al.|[2602.23132](http://arxiv.org/abs/2602.23132)|
@@ -513,7 +553,7 @@
 |**2025-07-18**|**DUALRec: A Hybrid Sequential and Language Model Framework for Context-Aware Movie Recommendation**|Yitong Li et.al.|[2507.13957](http://arxiv.org/abs/2507.13957)|
 |**2025-07-16**|**Similarity-Guided Diffusion for Contrastive Sequential Recommendation**|Jinkyeong Choi et.al.|[2507.11866](http://arxiv.org/abs/2507.11866)|
 
-<p align=right>(<a href=#updated-on-20260302>back to top</a>)</p>
+<p align=right>(<a href=#updated-on-20260306>back to top</a>)</p>
 
 [contributors-shield]: https://img.shields.io/github/contributors/ShawnBIT/reco-arxiv-daily.svg?style=for-the-badge
 [contributors-url]: https://github.com/ShawnBIT/reco-arxiv-daily/graphs/contributors

@@ -2,21 +2,29 @@
 layout: default
 ---
 
-## Updated on 2026.03.04
+## Updated on 2026.03.06
 > Usage instructions: [here](./docs/README.md#usage)
 
 ## Recommender System
 
 | Publish Date | Title | Authors | PDF |
 |:---------|:-----------------------|:---------|:------|
+|**2026-03-04**|**Generative Recommendation for Large-Scale Advertising**|Ben Xue et.al.|[2602.22732](http://arxiv.org/abs/2602.22732)|
+|**2026-03-04**|**OneRanker: Unified Generation and Ranking with One Model in Industrial Advertising Recommendation**|Dekai Sun et.al.|[2603.02999](http://arxiv.org/abs/2603.02999)|
+|**2026-03-04**|**Turning Trust to Transactions: Tracking Affiliate Marketing and FTC Compliance in YouTube's Influencer Economy**|Chen Sun et.al.|[2603.04383](http://arxiv.org/abs/2603.04383)|
+|**2026-03-04**|**CAMMSR: Category-Guided Attentive Mixture of Experts for Multimodal Sequential Recommendation**|Jinfeng Xu et.al.|[2603.04320](http://arxiv.org/abs/2603.04320)|
+|**2026-03-04**|**SORT: A Systematically Optimized Ranking Transformer for Industrial-scale Recommenders**|Chunqi Wang et.al.|[2603.03988](http://arxiv.org/abs/2603.03988)|
+|**2026-03-04**|**DisenReason: Behavior Disentanglement and Latent Reasoning for Shared-Account Sequential Recommendation**|Jiawei Cheng et.al.|[2603.03782](http://arxiv.org/abs/2603.03782)|
+|**2026-03-04**|**Not All Candidates are Created Equal: A Heterogeneity-Aware Approach to Pre-ranking in Recommender Systems**|Pengfei Tong et.al.|[2603.03770](http://arxiv.org/abs/2603.03770)|
+|**2026-03-04**|**AgentSelect: Benchmark for Narrative Query-to-Agent Recommendation**|Yunxiao Shi et.al.|[2603.03761](http://arxiv.org/abs/2603.03761)|
 |**2026-03-03**|**The Science Data Lake: A Unified Open Infrastructure Integrating 293 Million Papers Across Eight Scholarly Sources with Embedding-Based Ontology Alignment**|Jonas Wilinski et.al.|[2603.03126](http://arxiv.org/abs/2603.03126)|
 |**2026-03-03**|**Proactive Guiding Strategy for Item-side Fairness in Interactive Recommendation**|Chongjun Xia et.al.|[2603.03094](http://arxiv.org/abs/2603.03094)|
-|**2026-03-03**|**OneRanker: Unified Generation and Ranking with One Model in Industrial Advertising Recommendation**|Dekai Sun et.al.|[2603.02999](http://arxiv.org/abs/2603.02999)|
 |**2026-03-03**|**APAO: Adaptive Prefix-Aware Optimization for Generative Recommendation**|Yuanqing Yu et.al.|[2603.02730](http://arxiv.org/abs/2603.02730)|
 |**2026-03-03**|**S2CDR: Smoothing-Sharpening Process Model for Cross-Domain Recommendation**|Xiaodong Li et.al.|[2603.02725](http://arxiv.org/abs/2603.02725)|
 |**2026-03-03**|**AlphaFree: Recommendation Free from Users, IDs, and GNNs**|Minseo Jeon et.al.|[2603.02653](http://arxiv.org/abs/2603.02653)|
 |**2026-03-03**|**FlashEvaluator: Expanding Search Space with Parallel Evaluation**|Chao Feng et.al.|[2603.02565](http://arxiv.org/abs/2603.02565)|
 |**2026-03-03**|**SOLAR: SVD-Optimized Lifelong Attention for Recommendation**|Chenghao Zhang et.al.|[2603.02561](http://arxiv.org/abs/2603.02561)|
+|**2026-03-03**|**SafeCRS: Personalized Safety Alignment for LLM-Based Conversational Recommender Systems**|Haochang Hao et.al.|[2603.03536](http://arxiv.org/abs/2603.03536)|
 |**2026-03-02**|**IDProxy: Cold-Start CTR Prediction for Ads and Recommendation at Xiaohongshu with Multimodal LLMs**|Yubin Zhang et.al.|[2603.01590](http://arxiv.org/abs/2603.01590)|
 |**2026-03-02**|**CLEAR: Null-Space Projection for Cross-Modal De-Redundancy in Multimodal Recommendation**|Hao Zhan et.al.|[2603.01536](http://arxiv.org/abs/2603.01536)|
 |**2026-03-02**|**MealRec: Multi-granularity Sequential Modeling via Hierarchical Diffusion Models for Micro-Video Recommendation**|Xinxin Dong et.al.|[2603.01926](http://arxiv.org/abs/2603.01926)|
@@ -39,7 +47,6 @@ layout: default
 |**2026-02-26**|**MaRI: Accelerating Ranking Model Inference via Structural Re-parameterization in Large Scale Recommendation System**|Yusheng Huang et.al.|[2602.23105](http://arxiv.org/abs/2602.23105)|
 |**2026-02-26**|**Sequential Regression for Continuous Value Prediction using Residual Quantization**|Runpeng Cui et.al.|[2602.23012](http://arxiv.org/abs/2602.23012)|
 |**2026-02-26**|**SIGMA: A Semantic-Grounded Instruction-Driven Generative Multi-Task Recommender at AliExpress**|Yang Yu et.al.|[2602.22913](http://arxiv.org/abs/2602.22913)|
-|**2026-02-26**|**Generative Recommendation for Large-Scale Advertising**|Ben Xue et.al.|[2602.22732](http://arxiv.org/abs/2602.22732)|
 |**2026-02-26**|**Vectorizing the Trie: Efficient Constrained Decoding for LLM-based Generative Retrieval on Accelerators**|Zhengyang Su et.al.|[2602.22647](http://arxiv.org/abs/2602.22647)|
 |**2026-02-26**|**TFPS: A Temporal Filtration-enhanced Positive Sample Set Construction Method for Implicit Collaborative Filtering**|Jiayi Wu et.al.|[2602.22521](http://arxiv.org/abs/2602.22521)|
 |**2026-02-26**|**From Latent to Observable Position-Based Click Models in Carousel Interfaces**|Santiago de Leon-Martinez et.al.|[2602.16541](http://arxiv.org/abs/2602.16541)|
