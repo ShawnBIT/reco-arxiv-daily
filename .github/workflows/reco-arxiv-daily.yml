@@ -55,7 +55,7 @@ jobs:
           github-token: ${{ secrets.GITHUB_TOKEN }}
           commit-message: "Github Action: Auto Update Recommendation ArXiv Papers"
           # 提交主 README / docs / 每日增量；publish_wechat 为 true 时已包含 docs/wechat.md
-          files: README.md daily_new.md docs/reco-arxiv-daily.json docs/reco-arxiv-daily-web.json docs/index.md docs/wechat.md
+          files: README.md daily_new.md docs/reco-arxiv-daily.json docs/reco-arxiv-daily-web.json docs/reco-arxiv-daily-extra.json docs/index.md docs/topic-recommendation.md docs/wechat.md
           rebase: 'true'
           name: ${{ env.GITHUB_USER_NAME }}
           email: ${{ env.GITHUB_USER_EMAIL }}
