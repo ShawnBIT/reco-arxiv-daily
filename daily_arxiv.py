@@ -9,6 +9,11 @@ import argparse
 import datetime
 import requests
 
+# 用于“Updated on”等展示：取北京时间当天，避免 Actions 在 UTC 下显示“昨天”
+def today_beijing() -> datetime.date:
+    beijing = datetime.timezone(datetime.timedelta(hours=8))
+    return datetime.datetime.now(beijing).date()
+
 logging.basicConfig(format='[%(asctime)s %(levelname)s] %(message)s',
                     datefmt='%m/%d/%Y %H:%M:%S',
                     level=logging.INFO)
@@ -295,7 +300,7 @@ def write_daily_new_md(md_path: str, data_collector: list, config: dict, tag_as_
                 papers_by_topic[topic] = {}
             papers_by_topic[topic].update(papers)
 
-    DateNow = datetime.date.today()
+    DateNow = today_beijing()
     DateNowStr = str(DateNow).replace('-', '.')
     allowed_keywords = list((config.get('keywords') or {}).keys())
     tag_rules = config.get('paper_tags')
@@ -494,7 +499,7 @@ def json_to_md(filename, md_filename,
         ret += s[math_end:]
         return ret
 
-    DateNow = datetime.date.today()
+    DateNow = today_beijing()
     DateNow = str(DateNow)
     DateNow = DateNow.replace('-','.')
 
