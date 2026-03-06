@@ -1,4 +1,4 @@
-## Updated on 2026.03.06
+## Updated on 2026.03.07
 > Usage instructions: [here](./docs/README.md#usage)
 
 ### 📊 Paper distribution by tag
@@ -19,11 +19,11 @@ title Paper Distribution by Tag
   "Other" : 584
   "LLM" : 190
   "GR" : 148
-  "Seq" : 91
+  "Seq" : 92
   "Scaling" : 18
 ```
 
-> 统计自 **2025-07-16** 起，共计 **1031** 篇论文。
+> 统计自 **2025-07-16** 起，共计 **1032** 篇论文。
 
 <details style="margin: 1em 0; padding: 0.75em 1em; border: 1px solid #d8dee4; border-radius: 8px; background: #f6f8fa;">
   <summary style="cursor: pointer; font-weight: 600; font-size: 1.05em; color: #1f2328; padding: 0.25em 0;">📑 Table of Contents</summary>
@@ -36,6 +36,8 @@ title Paper Distribution by Tag
 
 |Publish Date|Title|Tag|Authors|PDF|
 |---|---|---|---|---|
+|**2026-03-05**|**Give Users the Wheel: Towards Promptable Recommendation Paradigm**|<img src="https://img.shields.io/badge/-Other-5a5a5a?style=flat-square&color=%235a5a5a" width="120" alt="Other" />|Fuyuan Lyu et.al.|[2602.18929](http://arxiv.org/abs/2602.18929)|
+|**2026-03-05**|**Debiasing Sequential Recommendation with Time-aware Inverse Propensity Scoring**|<img src="https://img.shields.io/badge/-Seq-5a4a6a?style=flat-square&color=%235a4a6a" width="56" alt="Seq" />|Sirui Huang et.al.|[2603.04986](http://arxiv.org/abs/2603.04986)|
 |**2026-03-04**|**Generative Recommendation for Large-Scale Advertising**|<img src="https://img.shields.io/badge/-GR-1e5c3a?style=flat-square&color=%231e5c3a" width="56" alt="GR" />|Ben Xue et.al.|[2602.22732](http://arxiv.org/abs/2602.22732)|
 |**2026-03-04**|**OneRanker: Unified Generation and Ranking with One Model in Industrial Advertising Recommendation**|<img src="https://img.shields.io/badge/-GR-1e5c3a?style=flat-square&color=%231e5c3a" width="56" alt="GR" />|Dekai Sun et.al.|[2603.02999](http://arxiv.org/abs/2603.02999)|
 |**2026-03-04**|**Turning Trust to Transactions: Tracking Affiliate Marketing and FTC Compliance in YouTube's Influencer Economy**|<img src="https://img.shields.io/badge/-Other-5a5a5a?style=flat-square&color=%235a5a5a" width="120" alt="Other" />|Chen Sun et.al.|[2603.04383](http://arxiv.org/abs/2603.04383)|
@@ -113,7 +115,6 @@ title Paper Distribution by Tag
 |**2026-02-22**|**Generative Reasoning Re-ranker**|<img src="https://img.shields.io/badge/-GR-1e5c3a?style=flat-square&color=%231e5c3a" width="56" alt="GR" />|Mingfu Liang et.al.|[2602.07774](http://arxiv.org/abs/2602.07774)|
 |**2026-02-22**|**Denoising Neural Reranker for Recommender Systems**|<img src="https://img.shields.io/badge/-Other-5a5a5a?style=flat-square&color=%235a5a5a" width="120" alt="Other" />|Wenyu Mao et.al.|[2509.18736](http://arxiv.org/abs/2509.18736)|
 |**2026-02-22**|**Sequential Data Augmentation for Generative Recommendation**|<img src="https://img.shields.io/badge/-GR-1e5c3a?style=flat-square&color=%231e5c3a" width="56" alt="GR" />|Geon Lee et.al.|[2509.13648](http://arxiv.org/abs/2509.13648)|
-|**2026-02-21**|**Give Users the Wheel: Towards Promptable Recommendation Paradigm**|<img src="https://img.shields.io/badge/-Other-5a5a5a?style=flat-square&color=%235a5a5a" width="120" alt="Other" />|Fuyuan Lyu et.al.|[2602.18929](http://arxiv.org/abs/2602.18929)|
 |**2026-02-21**|**Towards Reliable Negative Sampling for Recommendation with Implicit Feedback via In-Community Popularity**|<img src="https://img.shields.io/badge/-Other-5a5a5a?style=flat-square&color=%235a5a5a" width="120" alt="Other" />|Chen Chen et.al.|[2602.18759](http://arxiv.org/abs/2602.18759)|
 |**2026-02-21**|**CaliCausalRank: Calibrated Multi-Objective Ad Ranking with Robust Counterfactual Utility Optimization**|<img src="https://img.shields.io/badge/-Other-5a5a5a?style=flat-square&color=%235a5a5a" width="120" alt="Other" />|Xikai Yang et.al.|[2602.18786](http://arxiv.org/abs/2602.18786)|
 |**2026-02-20**|**NutriOrion: A Hierarchical Multi-Agent Framework for Personalized Nutrition Intervention Grounded in Clinical Guidelines**|<img src="https://img.shields.io/badge/-Other-5a5a5a?style=flat-square&color=%235a5a5a" width="120" alt="Other" />|Junwei Wu et.al.|[2602.18650](http://arxiv.org/abs/2602.18650)|
@@ -1068,7 +1069,7 @@ title Paper Distribution by Tag
 |**2025-07-16**|**Looking for Fairness in Recommender Systems**|<img src="https://img.shields.io/badge/-Other-5a5a5a?style=flat-square&color=%235a5a5a" width="120" alt="Other" />|Cécile Logé et.al.|[2507.12242](http://arxiv.org/abs/2507.12242)|
 |**2025-07-16**|**Similarity-Guided Diffusion for Contrastive Sequential Recommendation**|<img src="https://img.shields.io/badge/-Seq-5a4a6a?style=flat-square&color=%235a4a6a" width="56" alt="Seq" />|Jinkyeong Choi et.al.|[2507.11866](http://arxiv.org/abs/2507.11866)|
 
-<p align=right>(<a href=#updated-on-20260306>back to top</a>)</p>
+<p align=right>(<a href=#updated-on-20260307>back to top</a>)</p>
 
 [contributors-shield]: https://img.shields.io/github/contributors/ShawnBIT/reco-arxiv-daily.svg?style=for-the-badge
 [contributors-url]: https://github.com/ShawnBIT/reco-arxiv-daily/graphs/contributors

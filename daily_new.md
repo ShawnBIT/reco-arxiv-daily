@@ -1,11 +1,13 @@
 ## Daily New Papers
 
-> Updated on 2026.03.06
+> Updated on 2026.03.07
 
 ## Recommender System
 
 |Publish Date|Title|Tag|Authors|PDF|
 |---|---|---|---|---|
+|**2026-03-05**|**Debiasing Sequential Recommendation with Time-aware Inverse Propensity Scoring**|<img src="https://img.shields.io/badge/-Seq-5a4a6a?style=flat-square&color=%235a4a6a" width="56" alt="Seq" />|Sirui Huang et.al.|[2603.04986](http://arxiv.org/abs/2603.04986)|
+|**2026-03-05**|**Give Users the Wheel: Towards Promptable Recommendation Paradigm**|<img src="https://img.shields.io/badge/-Other-5a5a5a?style=flat-square&color=%235a5a5a" width="120" alt="Other" />|Fuyuan Lyu et.al.|[2602.18929](http://arxiv.org/abs/2602.18929)|
 |**2026-03-04**|**Turning Trust to Transactions: Tracking Affiliate Marketing and FTC Compliance in YouTube's Influencer Economy**|<img src="https://img.shields.io/badge/-Other-5a5a5a?style=flat-square&color=%235a5a5a" width="120" alt="Other" />|Chen Sun et.al.|[2603.04383](http://arxiv.org/abs/2603.04383)|
 |**2026-03-04**|**CAMMSR: Category-Guided Attentive Mixture of Experts for Multimodal Sequential Recommendation**|<img src="https://img.shields.io/badge/-Seq-5a4a6a?style=flat-square&color=%235a4a6a" width="56" alt="Seq" />|Jinfeng Xu et.al.|[2603.04320](http://arxiv.org/abs/2603.04320)|
 |**2026-03-04**|**SORT: A Systematically Optimized Ranking Transformer for Industrial-scale Recommenders**|<img src="https://img.shields.io/badge/-Other-5a5a5a?style=flat-square&color=%235a5a5a" width="120" alt="Other" />|Chunqi Wang et.al.|[2603.03988](http://arxiv.org/abs/2603.03988)|
@@ -65,7 +67,6 @@
 |**2026-02-23**|**DReX: An Explainable Deep Learning-based Multimodal Recommendation Framework**|<img src="https://img.shields.io/badge/-Other-5a5a5a?style=flat-square&color=%235a5a5a" width="120" alt="Other" />|Adamya Shyam et.al.|[2602.19702](http://arxiv.org/abs/2602.19702)|
 |**2026-02-23**|**Iconographic Classification and Content-Based Recommendation for Digitized Artworks**|<img src="https://img.shields.io/badge/-Other-5a5a5a?style=flat-square&color=%235a5a5a" width="120" alt="Other" />|Krzysztof Kutt et.al.|[2602.19698](http://arxiv.org/abs/2602.19698)|
 |**2026-02-22**|**SplitLight: An Exploratory Toolkit for Recommender Systems Datasets and Splits**|<img src="https://img.shields.io/badge/-Other-5a5a5a?style=flat-square&color=%235a5a5a" width="120" alt="Other" />|Anna Volodkevich et.al.|[2602.19339](http://arxiv.org/abs/2602.19339)|
-|**2026-02-21**|**Give Users the Wheel: Towards Promptable Recommendation Paradigm**|<img src="https://img.shields.io/badge/-Other-5a5a5a?style=flat-square&color=%235a5a5a" width="120" alt="Other" />|Fuyuan Lyu et.al.|[2602.18929](http://arxiv.org/abs/2602.18929)|
 |**2026-02-21**|**Towards Reliable Negative Sampling for Recommendation with Implicit Feedback via In-Community Popularity**|<img src="https://img.shields.io/badge/-Other-5a5a5a?style=flat-square&color=%235a5a5a" width="120" alt="Other" />|Chen Chen et.al.|[2602.18759](http://arxiv.org/abs/2602.18759)|
 |**2026-02-20**|**NutriOrion: A Hierarchical Multi-Agent Framework for Personalized Nutrition Intervention Grounded in Clinical Guidelines**|<img src="https://img.shields.io/badge/-Other-5a5a5a?style=flat-square&color=%235a5a5a" width="120" alt="Other" />|Junwei Wu et.al.|[2602.18650](http://arxiv.org/abs/2602.18650)|
 |**2026-02-20**|**HyTRec: A Hybrid Temporal-Aware Attention Architecture for Long Behavior Sequential Recommendation**|<img src="https://img.shields.io/badge/-Seq-5a4a6a?style=flat-square&color=%235a4a6a" width="56" alt="Seq" />|Lei Xin et.al.|[2602.18283](http://arxiv.org/abs/2602.18283)|
@@ -105,5 +106,4 @@
 |**2026-02-13**|**RQ-GMM: Residual Quantized Gaussian Mixture Model for Multimodal Semantic Discretization in CTR Prediction**|<img src="https://img.shields.io/badge/-Other-5a5a5a?style=flat-square&color=%235a5a5a" width="120" alt="Other" />|Ziye Tong et.al.|[2602.12593](http://arxiv.org/abs/2602.12593)|
 |**2026-02-13**|**CAPTS: Channel-Aware, Preference-Aligned Trigger Selection for Multi-Channel Item-to-Item Retrieval**|<img src="https://img.shields.io/badge/-Other-5a5a5a?style=flat-square&color=%235a5a5a" width="120" alt="Other" />|Xiaoyou Zhou et.al.|[2602.12564](http://arxiv.org/abs/2602.12564)|
 |**2026-02-13**|**Reasoning to Rank: An End-to-End Solution for Exploiting Large Language Models for Recommendation**|<img src="https://img.shields.io/badge/-LLM-2c4a78?style=flat-square&color=%232c4a78" width="56" alt="LLM" />|Kehan Zheng et.al.|[2602.12530](http://arxiv.org/abs/2602.12530)|
-|**2026-02-12**|**Latent Customer Segmentation and Value-Based Recommendation Leveraging a Two-Stage Model with Missing Labels**|<img src="https://img.shields.io/badge/-Other-5a5a5a?style=flat-square&color=%235a5a5a" width="120" alt="Other" />|Keerthi Gopalakrishnan et.al.|[2602.12485](http://arxiv.org/abs/2602.12485)|
 

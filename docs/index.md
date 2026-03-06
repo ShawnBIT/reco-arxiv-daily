@@ -2,13 +2,15 @@
 layout: default
 ---
 
-## Updated on 2026.03.06
+## Updated on 2026.03.07
 > Usage instructions: [here](./docs/README.md#usage)
 
 ## Recommender System
 
 | Publish Date | Title | Authors | PDF |
 |:---------|:-----------------------|:---------|:------|
+|**2026-03-05**|**Give Users the Wheel: Towards Promptable Recommendation Paradigm**|Fuyuan Lyu et.al.|[2602.18929](http://arxiv.org/abs/2602.18929)|
+|**2026-03-05**|**Debiasing Sequential Recommendation with Time-aware Inverse Propensity Scoring**|Sirui Huang et.al.|[2603.04986](http://arxiv.org/abs/2603.04986)|
 |**2026-03-04**|**Generative Recommendation for Large-Scale Advertising**|Ben Xue et.al.|[2602.22732](http://arxiv.org/abs/2602.22732)|
 |**2026-03-04**|**OneRanker: Unified Generation and Ranking with One Model in Industrial Advertising Recommendation**|Dekai Sun et.al.|[2603.02999](http://arxiv.org/abs/2603.02999)|
 |**2026-03-04**|**Turning Trust to Transactions: Tracking Affiliate Marketing and FTC Compliance in YouTube's Influencer Economy**|Chen Sun et.al.|[2603.04383](http://arxiv.org/abs/2603.04383)|
@@ -86,7 +88,6 @@ layout: default
 |**2026-02-22**|**Generative Reasoning Re-ranker**|Mingfu Liang et.al.|[2602.07774](http://arxiv.org/abs/2602.07774)|
 |**2026-02-22**|**Denoising Neural Reranker for Recommender Systems**|Wenyu Mao et.al.|[2509.18736](http://arxiv.org/abs/2509.18736)|
 |**2026-02-22**|**Sequential Data Augmentation for Generative Recommendation**|Geon Lee et.al.|[2509.13648](http://arxiv.org/abs/2509.13648)|
-|**2026-02-21**|**Give Users the Wheel: Towards Promptable Recommendation Paradigm**|Fuyuan Lyu et.al.|[2602.18929](http://arxiv.org/abs/2602.18929)|
 |**2026-02-21**|**Towards Reliable Negative Sampling for Recommendation with Implicit Feedback via In-Community Popularity**|Chen Chen et.al.|[2602.18759](http://arxiv.org/abs/2602.18759)|
 |**2026-02-21**|**CaliCausalRank: Calibrated Multi-Objective Ad Ranking with Robust Counterfactual Utility Optimization**|Xikai Yang et.al.|[2602.18786](http://arxiv.org/abs/2602.18786)|
 |**2026-02-20**|**NutriOrion: A Hierarchical Multi-Agent Framework for Personalized Nutrition Intervention Grounded in Clinical Guidelines**|Junwei Wu et.al.|[2602.18650](http://arxiv.org/abs/2602.18650)|
