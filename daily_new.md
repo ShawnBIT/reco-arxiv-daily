@@ -1,11 +1,15 @@
 ## Daily New Papers
 
-> Updated on 2026.03.16
+> Updated on 2026.03.17
 
 ## Recommender System
 
 |Publish Date|Title|Tag|Authors|PDF|
 |---|---|---|---|---|
+|**2026-03-13**|**Can Fairness Be Prompted? Prompt-Based Debiasing Strategies in High-Stakes Recommendations**|<img src="https://img.shields.io/badge/-Other-5a5a5a?style=flat-square&color=%235a5a5a" width="120" alt="Other" />|Mihaela Rotar et.al.|[2603.12935](http://arxiv.org/abs/2603.12935)|
+|**2026-03-13**|**Taming the Long Tail: Efficient Item-wise Sharpness-Aware Minimization for LLM-based Recommender Systems**|<img src="https://img.shields.io/badge/-LLM-2c4a78?style=flat-square&color=%232c4a78" width="56" alt="LLM" />|Jiaming Zhang et.al.|[2603.12752](http://arxiv.org/abs/2603.12752)|
+|**2026-03-13**|**Anchored Alignment: Preventing Positional Collapse in Multimodal Recommender Systems**|<img src="https://img.shields.io/badge/-Other-5a5a5a?style=flat-square&color=%235a5a5a" width="120" alt="Other" />|Yonghun Jeong et.al.|[2603.12726](http://arxiv.org/abs/2603.12726)|
+|**2026-03-13**|**VLM4Rec: Multimodal Semantic Representation for Recommendation with Large Vision-Language Models**|<img src="https://img.shields.io/badge/-Other-5a5a5a?style=flat-square&color=%235a5a5a" width="120" alt="Other" />|Ty Valencia et.al.|[2603.12625](http://arxiv.org/abs/2603.12625)|
 |**2026-03-12**|**Enhancing Music Recommendation with User Mood Input**|<img src="https://img.shields.io/badge/-Other-5a5a5a?style=flat-square&color=%235a5a5a" width="120" alt="Other" />|Terence Zeng et.al.|[2603.11796](http://arxiv.org/abs/2603.11796)|
 |**2026-03-12**|**Federated Learning and Unlearning for Recommendation with Personalized Data Sharing**|<img src="https://img.shields.io/badge/-Other-5a5a5a?style=flat-square&color=%235a5a5a" width="120" alt="Other" />|Liang Qu et.al.|[2603.11610](http://arxiv.org/abs/2603.11610)|
 |**2026-03-12**|**Quantized Inference for OneRec-V2**|<img src="https://img.shields.io/badge/-Other-5a5a5a?style=flat-square&color=%235a5a5a" width="120" alt="Other" />|Yi Su et.al.|[2603.11486](http://arxiv.org/abs/2603.11486)|
@@ -102,8 +106,4 @@
 |**2026-02-18**|**Why Thinking Hurts? Diagnosing and Rectifying the Reasoning Shift in Foundation Recommender Models**|<img src="https://img.shields.io/badge/-Other-5a5a5a?style=flat-square&color=%235a5a5a" width="120" alt="Other" />|Luankang Zhang et.al.|[2602.16587](http://arxiv.org/abs/2602.16587)|
 |**2026-02-18**|**Variable-Length Semantic IDs for Recommender Systems**|<img src="https://img.shields.io/badge/-Other-5a5a5a?style=flat-square&color=%235a5a5a" width="120" alt="Other" />|Kirill Khrylchenko et.al.|[2602.16375](http://arxiv.org/abs/2602.16375)|
 |**2026-02-18**|**The Diversity Paradox revisited: Systemic Effects of Feedback Loops in Recommender Systems**|<img src="https://img.shields.io/badge/-Other-5a5a5a?style=flat-square&color=%235a5a5a" width="120" alt="Other" />|Gabriele Barlacchi et.al.|[2602.16315](http://arxiv.org/abs/2602.16315)|
-|**2026-02-18**|**Rethinking ANN-based Retrieval: Multifaceted Learnable Index for Large-scale Recommendation System**|<img src="https://img.shields.io/badge/-Other-5a5a5a?style=flat-square&color=%235a5a5a" width="120" alt="Other" />|Jiang Zhang et.al.|[2602.16124](http://arxiv.org/abs/2602.16124)|
-|**2026-02-17**|**FeDecider: An LLM-Based Framework for Federated Cross-Domain Recommendation**|<img src="https://img.shields.io/badge/-LLM-2c4a78?style=flat-square&color=%232c4a78" width="56" alt="LLM" />|Xinrui He et.al.|[2602.16034](http://arxiv.org/abs/2602.16034)|
-|**2026-02-17**|**Can Recommender Systems Teach Themselves? A Recursive Self-Improving Framework with Fidelity Control**|<img src="https://img.shields.io/badge/-Other-5a5a5a?style=flat-square&color=%235a5a5a" width="120" alt="Other" />|Luankang Zhang et.al.|[2602.15659](http://arxiv.org/abs/2602.15659)|
-|**2026-02-17**|**Eco-Amazon: Enriching E-commerce Datasets with Product Carbon Footprint for Sustainable Recommendations**|<img src="https://img.shields.io/badge/-Other-5a5a5a?style=flat-square&color=%235a5a5a" width="120" alt="Other" />|Giuseppe Spillo et.al.|[2602.15508](http://arxiv.org/abs/2602.15508)|
 

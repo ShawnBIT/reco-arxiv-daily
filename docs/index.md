@@ -2,13 +2,17 @@
 layout: default
 ---
 
-## Updated on 2026.03.16
+## Updated on 2026.03.17
 > Usage instructions: [here](./docs/README.md#usage)
 
 ## Recommender System
 
 | Publish Date | Title | Authors | PDF |
 |:---------|:-----------------------|:---------|:------|
+|**2026-03-13**|**Can Fairness Be Prompted? Prompt-Based Debiasing Strategies in High-Stakes Recommendations**|Mihaela Rotar et.al.|[2603.12935](http://arxiv.org/abs/2603.12935)|
+|**2026-03-13**|**Taming the Long Tail: Efficient Item-wise Sharpness-Aware Minimization for LLM-based Recommender Systems**|Jiaming Zhang et.al.|[2603.12752](http://arxiv.org/abs/2603.12752)|
+|**2026-03-13**|**Anchored Alignment: Preventing Positional Collapse in Multimodal Recommender Systems**|Yonghun Jeong et.al.|[2603.12726](http://arxiv.org/abs/2603.12726)|
+|**2026-03-13**|**VLM4Rec: Multimodal Semantic Representation for Recommendation with Large Vision-Language Models**|Ty Valencia et.al.|[2603.12625](http://arxiv.org/abs/2603.12625)|
 |**2026-03-12**|**OneRanker: Unified Generation and Ranking with One Model in Industrial Advertising Recommendation**|Dekai Sun et.al.|[2603.02999](http://arxiv.org/abs/2603.02999)|
 |**2026-03-12**|**Enhancing Music Recommendation with User Mood Input**|Terence Zeng et.al.|[2603.11796](http://arxiv.org/abs/2603.11796)|
 |**2026-03-12**|**Federated Learning and Unlearning for Recommendation with Personalized Data Sharing**|Liang Qu et.al.|[2603.11610](http://arxiv.org/abs/2603.11610)|

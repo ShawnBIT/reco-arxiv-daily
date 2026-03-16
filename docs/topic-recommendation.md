@@ -1,4 +1,4 @@
-## Updated on 2026.03.16
+## Updated on 2026.03.17
 > Usage instructions: [here](./docs/README.md#usage)
 
 <details style="margin: 1em 0; padding: 0.75em 1em; border: 1px solid #d8dee4; border-radius: 8px; background: #f6f8fa;">
@@ -168,12 +168,13 @@
 |**2025-07-21**|**GREAT: Guiding Query Generation with a Trie for Recommending Related Search about Video at Kuaishou**|Ninglu Shao et.al.|[2507.15267](http://arxiv.org/abs/2507.15267)|
 |**2025-07-19**|**GRACE: Generative Recommendation via Journey-Aware Sparse Attention on Chain-of-Thought Tokenization**|Luyi Ma et.al.|[2507.14758](http://arxiv.org/abs/2507.14758)|
 
-<p align=right>(<a href=#updated-on-20260316>back to top</a>)</p>
+<p align=right>(<a href=#updated-on-20260317>back to top</a>)</p>
 
 ## LLM
 
 |Publish Date|Title|Authors|PDF|
 |---|---|---|---|
+|**2026-03-13**|**Taming the Long Tail: Efficient Item-wise Sharpness-Aware Minimization for LLM-based Recommender Systems**|Jiaming Zhang et.al.|[2603.12752](http://arxiv.org/abs/2603.12752)|
 |**2026-03-11**|**PathoScribe: Transforming Pathology Data into a Living Library with a Unified LLM-Driven Framework for Semantic Retrieval and Clinical Integration**|Abdul Rehman Akbar et.al.|[2603.08935](http://arxiv.org/abs/2603.08935)|
 |**2026-03-11**|**LLMGreenRec: LLM-Based Multi-Agent Recommender System for Sustainable E-Commerce**|Hao N. Nguyen et.al.|[2603.11025](http://arxiv.org/abs/2603.11025)|
 |**2026-03-10**|**RecThinker: An Agentic Framework for Tool-Augmented Reasoning in Recommendation**|Haobo Zhang et.al.|[2603.09843](http://arxiv.org/abs/2603.09843)|
@@ -400,7 +401,7 @@
 |**2025-07-18**|**Consistent Explainers or Unreliable Narrators? Understanding LLM-generated Group Recommendations**|Cedric Waterschoot et.al.|[2507.13705](http://arxiv.org/abs/2507.13705)|
 |**2025-07-17**|**Revisiting Prompt Engineering: A Comprehensive Evaluation for LLM-based Personalized Recommendation**|Genki Kusano et.al.|[2507.13525](http://arxiv.org/abs/2507.13525)|
 
-<p align=right>(<a href=#updated-on-20260316>back to top</a>)</p>
+<p align=right>(<a href=#updated-on-20260317>back to top</a>)</p>
 
 ## Scaling
 
@@ -431,7 +432,7 @@
 |**2025-08-06**|**Realizing Scaling Laws in Recommender Systems: A Foundation-Expert Paradigm for Hyperscale Model Deployment**|Dai Li et.al.|[2508.02929](http://arxiv.org/abs/2508.02929)|
 |**2025-07-26**|**RankMixer: Scaling Up Ranking Models in Industrial Recommenders**|Jie Zhu et.al.|[2507.15551](http://arxiv.org/abs/2507.15551)|
 
-<p align=right>(<a href=#updated-on-20260316>back to top</a>)</p>
+<p align=right>(<a href=#updated-on-20260317>back to top</a>)</p>
 
 ## Sequence / Sequential
 
@@ -566,7 +567,7 @@
 |**2025-07-18**|**DUALRec: A Hybrid Sequential and Language Model Framework for Context-Aware Movie Recommendation**|Yitong Li et.al.|[2507.13957](http://arxiv.org/abs/2507.13957)|
 |**2025-07-16**|**Similarity-Guided Diffusion for Contrastive Sequential Recommendation**|Jinkyeong Choi et.al.|[2507.11866](http://arxiv.org/abs/2507.11866)|
 
-<p align=right>(<a href=#updated-on-20260316>back to top</a>)</p>
+<p align=right>(<a href=#updated-on-20260317>back to top</a>)</p>
 
 [contributors-shield]: https://img.shields.io/github/contributors/ShawnBIT/reco-arxiv-daily.svg?style=for-the-badge
 [contributors-url]: https://github.com/ShawnBIT/reco-arxiv-daily/graphs/contributors
