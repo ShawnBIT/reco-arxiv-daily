@@ -2,13 +2,18 @@
 layout: default
 ---
 
-## Updated on 2026.03.17
+## Updated on 2026.03.18
 > Usage instructions: [here](./docs/README.md#usage)
 
 ## Recommender System
 
 | Publish Date | Title | Authors | PDF |
 |:---------|:-----------------------|:---------|:------|
+|**2026-03-16**|**Multi-Scenario User Profile Construction via Recommendation Lists**|Hui Zhang et.al.|[2603.15357](http://arxiv.org/abs/2603.15357)|
+|**2026-03-15**|**MBD: A Model-Based Debiasing Framework Across User, Content, and Model Dimensions**|Yuantong Li et.al.|[2603.14422](http://arxiv.org/abs/2603.14422)|
+|**2026-03-15**|**Bringing Model Editing to Generative Recommendation in Cold-Start Scenarios**|Chenglei Shen et.al.|[2603.14259](http://arxiv.org/abs/2603.14259)|
+|**2026-03-14**|**Iterative Semantic Reasoning from Individual to Group Interests for Generative Recommendation with LLMs**|Xiaofei Zhu et.al.|[2603.13934](http://arxiv.org/abs/2603.13934)|
+|**2026-03-14**|**R3-REC: Reasoning-Driven Recommendation via Retrieval-Augmented LLMs over Multi-Granular Interest Signals**|Yuchen Miao et.al.|[2603.13730](http://arxiv.org/abs/2603.13730)|
 |**2026-03-13**|**Can Fairness Be Prompted? Prompt-Based Debiasing Strategies in High-Stakes Recommendations**|Mihaela Rotar et.al.|[2603.12935](http://arxiv.org/abs/2603.12935)|
 |**2026-03-13**|**Taming the Long Tail: Efficient Item-wise Sharpness-Aware Minimization for LLM-based Recommender Systems**|Jiaming Zhang et.al.|[2603.12752](http://arxiv.org/abs/2603.12752)|
 |**2026-03-13**|**Anchored Alignment: Preventing Positional Collapse in Multimodal Recommender Systems**|Yonghun Jeong et.al.|[2603.12726](http://arxiv.org/abs/2603.12726)|
@@ -22,6 +27,7 @@ layout: default
 |**2026-03-11**|**Breaking User-Centric Agency: A Tri-Party Framework for Agent-Based Recommendation**|Yaxin Gong et.al.|[2603.10673](http://arxiv.org/abs/2603.10673)|
 |**2026-03-11**|**Modeling Stage-wise Evolution of User Interests for News Recommendation**|Zhiyong Cheng et.al.|[2603.10471](http://arxiv.org/abs/2603.10471)|
 |**2026-03-11**|**Beyond Interleaving: Causal Attention Reformulations for Generative Recommender Systems**|Hailing Cheng et.al.|[2603.10369](http://arxiv.org/abs/2603.10369)|
+|**2026-03-11**|**Hybrid Intent-Aware Personalization with Machine Learning and RAG-Enabled Large Language Models for Financial Services Marketing**|Akhil Chandra Shanivendra et.al.|[2603.14173](http://arxiv.org/abs/2603.14173)|
 |**2026-03-10**|**RecThinker: An Agentic Framework for Tool-Augmented Reasoning in Recommendation**|Haobo Zhang et.al.|[2603.09843](http://arxiv.org/abs/2603.09843)|
 |**2026-03-09**|**ERASE -- A Real-World Aligned Benchmark for Unlearning in Recommender Systems**|Pierre Lubitzsch et.al.|[2603.08341](http://arxiv.org/abs/2603.08341)|
 |**2026-03-08**|**Verifiable Reasoning for LLM-based Generative Recommendation**|Xinyu Lin et.al.|[2603.07725](http://arxiv.org/abs/2603.07725)|
@@ -40,6 +46,7 @@ layout: default
 |**2026-03-04**|**DisenReason: Behavior Disentanglement and Latent Reasoning for Shared-Account Sequential Recommendation**|Jiawei Cheng et.al.|[2603.03782](http://arxiv.org/abs/2603.03782)|
 |**2026-03-04**|**Not All Candidates are Created Equal: A Heterogeneity-Aware Approach to Pre-ranking in Recommender Systems**|Pengfei Tong et.al.|[2603.03770](http://arxiv.org/abs/2603.03770)|
 |**2026-03-04**|**AgentSelect: Benchmark for Narrative Query-to-Agent Recommendation**|Yunxiao Shi et.al.|[2603.03761](http://arxiv.org/abs/2603.03761)|
+|**2026-03-04**|**Multi-view Attention Fusion of Heterogeneous Hypergraph with Dynamic Behavioral Profiling for Personalized Learning Resource Recommendation**|Tao Xie et.al.|[2603.13310](http://arxiv.org/abs/2603.13310)|
 |**2026-03-03**|**The Science Data Lake: A Unified Open Infrastructure Integrating 293 Million Papers Across Eight Scholarly Sources with Embedding-Based Ontology Alignment**|Jonas Wilinski et.al.|[2603.03126](http://arxiv.org/abs/2603.03126)|
 |**2026-03-03**|**Proactive Guiding Strategy for Item-side Fairness in Interactive Recommendation**|Chongjun Xia et.al.|[2603.03094](http://arxiv.org/abs/2603.03094)|
 |**2026-03-03**|**APAO: Adaptive Prefix-Aware Optimization for Generative Recommendation**|Yuanqing Yu et.al.|[2603.02730](http://arxiv.org/abs/2603.02730)|
@@ -86,6 +93,7 @@ layout: default
 |**2026-02-25**|**SCoTER: Structured Chain-of-Thought Transfer for Enhanced Recommendation**|Jie Jiang et.al.|[2511.19514](http://arxiv.org/abs/2511.19514)|
 |**2026-02-25**|**Massive Memorization with Hundreds of Trillions of Parameters for Sequential Transducer Generative Recommenders**|Zhimin Chen et.al.|[2510.22049](http://arxiv.org/abs/2510.22049)|
 |**2026-02-25**|**Benchmarking Filtered Approximate Nearest Neighbor Search Algorithms on Transformer-based Embedding Vectors**|Patrick Iff et.al.|[2507.21989](http://arxiv.org/abs/2507.21989)|
+|**2026-02-25**|**Federated Personal Knowledge Graph Completion with Lightweight Large Language Models for Personalized Recommendations**|Fernando Spadea et.al.|[2603.13264](http://arxiv.org/abs/2603.13264)|
 |**2026-02-24**|**Turning Semantics into Topology: LLM-Driven Attribute Augmentation for Collaborative Filtering**|Junjie Meng et.al.|[2602.21099](http://arxiv.org/abs/2602.21099)|
 |**2026-02-24**|**Position-Aware Sequential Attention for Accurate Next Item Recommendations**|Timur Nabiev et.al.|[2602.21052](http://arxiv.org/abs/2602.21052)|
 |**2026-02-24**|**HiSAC: Hierarchical Sparse Activation Compression for Ultra-long Sequence Modeling in Recommenders**|Kun Yuan et.al.|[2602.21009](http://arxiv.org/abs/2602.21009)|
@@ -96,6 +104,7 @@ layout: default
 |**2026-02-24**|**PRECTR-V2:Unified Relevance-CTR Framework with Cross-User Preference Mining, Exposure Bias Correction, and LLM-Distilled Encoder Optimization**|Shuzhi Cao et.al.|[2602.20676](http://arxiv.org/abs/2602.20676)|
 |**2026-02-24**|**Hierarchical Semantic RL: Tackling the Problem of Dynamic Action Space for RL-based Recommendations**|Minmao Wang et.al.|[2510.09167](http://arxiv.org/abs/2510.09167)|
 |**2026-02-24**|**AgentDR: Dynamic Recommendation with Implicit Item-Item Relations via LLM-based Agents**|Mingdai Yang et.al.|[2510.05598](http://arxiv.org/abs/2510.05598)|
+|**2026-02-24**|**A Counterfactual Approach for Addressing Individual User Unfairness in Collaborative Recommender System**|Nikita Baidya et.al.|[2603.13253](http://arxiv.org/abs/2603.13253)|
 |**2026-02-23**|**ManCAR: Manifold-Constrained Latent Reasoning with Adaptive Test-Time Computation for Sequential Recommendation**|Kun Yang et.al.|[2602.20093](http://arxiv.org/abs/2602.20093)|
 |**2026-02-23**|**FairFS: Addressing Deep Feature Selection Biases for Recommender System**|Xianquan Wang et.al.|[2602.20001](http://arxiv.org/abs/2602.20001)|
 |**2026-02-23**|**Counterfactual Understanding via Retrieval-aware Multimodal Modeling for Time-to-Event Survival Prediction**|Ha-Anh Hoang Nguyen et.al.|[2602.19987](http://arxiv.org/abs/2602.19987)|
