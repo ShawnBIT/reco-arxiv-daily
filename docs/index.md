@@ -2,13 +2,15 @@
 layout: default
 ---
 
-## Updated on 2026.03.18
+## Updated on 2026.03.19
 > Usage instructions: [here](./docs/README.md#usage)
 
 ## Recommender System
 
 | Publish Date | Title | Authors | PDF |
 |:---------|:-----------------------|:---------|:------|
+|**2026-03-17**|**ReFORM: Review-aggregated Profile Generation via LLM with Multi-Factor Attention for Restaurant Recommendation**|Moonsoo Park et.al.|[2603.16236](http://arxiv.org/abs/2603.16236)|
+|**2026-03-17**|**RecBundle: A Next-Generation Geometric Paradigm for Explainable Recommender Systems**|Hui Wang et.al.|[2603.16088](http://arxiv.org/abs/2603.16088)|
 |**2026-03-16**|**Multi-Scenario User Profile Construction via Recommendation Lists**|Hui Zhang et.al.|[2603.15357](http://arxiv.org/abs/2603.15357)|
 |**2026-03-15**|**MBD: A Model-Based Debiasing Framework Across User, Content, and Model Dimensions**|Yuantong Li et.al.|[2603.14422](http://arxiv.org/abs/2603.14422)|
 |**2026-03-15**|**Bringing Model Editing to Generative Recommendation in Cold-Start Scenarios**|Chenglei Shen et.al.|[2603.14259](http://arxiv.org/abs/2603.14259)|

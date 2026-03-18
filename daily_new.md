@@ -1,11 +1,13 @@
 ## Daily New Papers
 
-> Updated on 2026.03.18
+> Updated on 2026.03.19
 
 ## Recommender System
 
 |Publish Date|Title|Tag|Authors|PDF|
 |---|---|---|---|---|
+|**2026-03-17**|**ReFORM: Review-aggregated Profile Generation via LLM with Multi-Factor Attention for Restaurant Recommendation**|<img src="https://img.shields.io/badge/-GR-1e5c3a?style=flat-square&color=%231e5c3a" width="56" alt="GR" />|Moonsoo Park et.al.|[2603.16236](http://arxiv.org/abs/2603.16236)|
+|**2026-03-17**|**RecBundle: A Next-Generation Geometric Paradigm for Explainable Recommender Systems**|<img src="https://img.shields.io/badge/-GR-1e5c3a?style=flat-square&color=%231e5c3a" width="56" alt="GR" />|Hui Wang et.al.|[2603.16088](http://arxiv.org/abs/2603.16088)|
 |**2026-03-16**|**Multi-Scenario User Profile Construction via Recommendation Lists**|<img src="https://img.shields.io/badge/-Other-5a5a5a?style=flat-square&color=%235a5a5a" width="120" alt="Other" />|Hui Zhang et.al.|[2603.15357](http://arxiv.org/abs/2603.15357)|
 |**2026-03-15**|**MBD: A Model-Based Debiasing Framework Across User, Content, and Model Dimensions**|<img src="https://img.shields.io/badge/-Other-5a5a5a?style=flat-square&color=%235a5a5a" width="120" alt="Other" />|Yuantong Li et.al.|[2603.14422](http://arxiv.org/abs/2603.14422)|
 |**2026-03-15**|**Bringing Model Editing to Generative Recommendation in Cold-Start Scenarios**|<img src="https://img.shields.io/badge/-GR-1e5c3a?style=flat-square&color=%231e5c3a" width="56" alt="GR" />|Chenglei Shen et.al.|[2603.14259](http://arxiv.org/abs/2603.14259)|
@@ -104,6 +106,4 @@
 |**2026-02-20**|**Dual-Tree LLM-Enhanced Negative Sampling for Implicit Collaborative Filtering**|<img src="https://img.shields.io/badge/-LLM-2c4a78?style=flat-square&color=%232c4a78" width="56" alt="LLM" />|Jiayi Wu et.al.|[2602.18249](http://arxiv.org/abs/2602.18249)|
 |**2026-02-20**|**A Simple yet Effective Negative Sampling Plugin for Constructing Positive Sample Pairs in Implicit Collaborative Filtering**|<img src="https://img.shields.io/badge/-Other-5a5a5a?style=flat-square&color=%235a5a5a" width="120" alt="Other" />|Jiayi Wu et.al.|[2602.18206](http://arxiv.org/abs/2602.18206)|
 |**2026-02-19**|**Beyond Pipelines: A Fundamental Study on the Rise of Generative-Retrieval Architectures in Web Research**|<img src="https://img.shields.io/badge/-GR-1e5c3a?style=flat-square&color=%231e5c3a" width="56" alt="GR" />|Amirereza Abbasi et.al.|[2602.17450](http://arxiv.org/abs/2602.17450)|
-|**2026-02-19**|**WarpRec: Unifying Academic Rigor and Industrial Scale for Responsible, Reproducible, and Efficient Recommendation**|<img src="https://img.shields.io/badge/-Other-5a5a5a?style=flat-square&color=%235a5a5a" width="120" alt="Other" />|Marco Avolio et.al.|[2602.17442](http://arxiv.org/abs/2602.17442)|
-|**2026-02-19**|**Improving LLM-based Recommendation with Self-Hard Negatives from Intermediate Layers**|<img src="https://img.shields.io/badge/-LLM-2c4a78?style=flat-square&color=%232c4a78" width="56" alt="LLM" />|Bingqian Li et.al.|[2602.17410](http://arxiv.org/abs/2602.17410)|
 
