@@ -1,11 +1,17 @@
 ## Daily New Papers
 
-> Updated on 2026.03.19
+> Updated on 2026.03.20
 
 ## Recommender System
 
 |Publish Date|Title|Tag|Authors|PDF|
 |---|---|---|---|---|
+|**2026-03-18**|**Deploying Semantic ID-based Generative Retrieval for Large-Scale Podcast Discovery at Spotify**|<img src="https://img.shields.io/badge/-GR-1e5c3a?style=flat-square&color=%231e5c3a" width="56" alt="GR" />|Edoardo D'Amico et.al.|[2603.17540](http://arxiv.org/abs/2603.17540)|
+|**2026-03-18**|**A Unified Language Model for Large Scale Search, Recommendation, and Reasoning**|<img src="https://img.shields.io/badge/-Other-5a5a5a?style=flat-square&color=%235a5a5a" width="120" alt="Other" />|Marco De Nadai et.al.|[2603.17533](http://arxiv.org/abs/2603.17533)|
+|**2026-03-18**|**VLM2Rec: Resolving Modality Collapse in Vision-Language Model Embedders for Multimodal Sequential Recommendation**|<img src="https://img.shields.io/badge/-Seq-5a4a6a?style=flat-square&color=%235a4a6a" width="56" alt="Seq" />|Junyoung Kim et.al.|[2603.17450](http://arxiv.org/abs/2603.17450)|
+|**2026-03-18**|**Public Profile Matters: A Scalable Integrated Approach to Recommend Citations in the Wild**|<img src="https://img.shields.io/badge/-Other-5a5a5a?style=flat-square&color=%235a5a5a" width="120" alt="Other" />|Karan Goyal et.al.|[2603.17361](http://arxiv.org/abs/2603.17361)|
+|**2026-03-18**|**Learning Evolving Preferences: A Federated Continual Framework for User-Centric Recommendation**|<img src="https://img.shields.io/badge/-Other-5a5a5a?style=flat-square&color=%235a5a5a" width="120" alt="Other" />|Chunxu Zhang et.al.|[2603.17315](http://arxiv.org/abs/2603.17315)|
+|**2026-03-17**|**HierarchicalKV: A GPU Hash Table with Cache Semantics for Continuous Online Embedding Storage**|<img src="https://img.shields.io/badge/-Other-5a5a5a?style=flat-square&color=%235a5a5a" width="120" alt="Other" />|Haidong Rong et.al.|[2603.17168](http://arxiv.org/abs/2603.17168)|
 |**2026-03-17**|**ReFORM: Review-aggregated Profile Generation via LLM with Multi-Factor Attention for Restaurant Recommendation**|<img src="https://img.shields.io/badge/-GR-1e5c3a?style=flat-square&color=%231e5c3a" width="56" alt="GR" />|Moonsoo Park et.al.|[2603.16236](http://arxiv.org/abs/2603.16236)|
 |**2026-03-17**|**RecBundle: A Next-Generation Geometric Paradigm for Explainable Recommender Systems**|<img src="https://img.shields.io/badge/-GR-1e5c3a?style=flat-square&color=%231e5c3a" width="56" alt="GR" />|Hui Wang et.al.|[2603.16088](http://arxiv.org/abs/2603.16088)|
 |**2026-03-16**|**Multi-Scenario User Profile Construction via Recommendation Lists**|<img src="https://img.shields.io/badge/-Other-5a5a5a?style=flat-square&color=%235a5a5a" width="120" alt="Other" />|Hui Zhang et.al.|[2603.15357](http://arxiv.org/abs/2603.15357)|
@@ -100,10 +106,4 @@
 |**2026-02-23**|**Iconographic Classification and Content-Based Recommendation for Digitized Artworks**|<img src="https://img.shields.io/badge/-Other-5a5a5a?style=flat-square&color=%235a5a5a" width="120" alt="Other" />|Krzysztof Kutt et.al.|[2602.19698](http://arxiv.org/abs/2602.19698)|
 |**2026-02-22**|**SplitLight: An Exploratory Toolkit for Recommender Systems Datasets and Splits**|<img src="https://img.shields.io/badge/-Other-5a5a5a?style=flat-square&color=%235a5a5a" width="120" alt="Other" />|Anna Volodkevich et.al.|[2602.19339](http://arxiv.org/abs/2602.19339)|
 |**2026-02-21**|**Exploration Space Theory: Formal Foundations for Prerequisite-Aware Location-Based Recommendation**|<img src="https://img.shields.io/badge/-Other-5a5a5a?style=flat-square&color=%235a5a5a" width="120" alt="Other" />|Madjid Sadallah et.al.|[2603.06624](http://arxiv.org/abs/2603.06624)|
-|**2026-02-21**|**Towards Reliable Negative Sampling for Recommendation with Implicit Feedback via In-Community Popularity**|<img src="https://img.shields.io/badge/-Other-5a5a5a?style=flat-square&color=%235a5a5a" width="120" alt="Other" />|Chen Chen et.al.|[2602.18759](http://arxiv.org/abs/2602.18759)|
-|**2026-02-20**|**NutriOrion: A Hierarchical Multi-Agent Framework for Personalized Nutrition Intervention Grounded in Clinical Guidelines**|<img src="https://img.shields.io/badge/-Other-5a5a5a?style=flat-square&color=%235a5a5a" width="120" alt="Other" />|Junwei Wu et.al.|[2602.18650](http://arxiv.org/abs/2602.18650)|
-|**2026-02-20**|**HyTRec: A Hybrid Temporal-Aware Attention Architecture for Long Behavior Sequential Recommendation**|<img src="https://img.shields.io/badge/-Seq-5a4a6a?style=flat-square&color=%235a4a6a" width="56" alt="Seq" />|Lei Xin et.al.|[2602.18283](http://arxiv.org/abs/2602.18283)|
-|**2026-02-20**|**Dual-Tree LLM-Enhanced Negative Sampling for Implicit Collaborative Filtering**|<img src="https://img.shields.io/badge/-LLM-2c4a78?style=flat-square&color=%232c4a78" width="56" alt="LLM" />|Jiayi Wu et.al.|[2602.18249](http://arxiv.org/abs/2602.18249)|
-|**2026-02-20**|**A Simple yet Effective Negative Sampling Plugin for Constructing Positive Sample Pairs in Implicit Collaborative Filtering**|<img src="https://img.shields.io/badge/-Other-5a5a5a?style=flat-square&color=%235a5a5a" width="120" alt="Other" />|Jiayi Wu et.al.|[2602.18206](http://arxiv.org/abs/2602.18206)|
-|**2026-02-19**|**Beyond Pipelines: A Fundamental Study on the Rise of Generative-Retrieval Architectures in Web Research**|<img src="https://img.shields.io/badge/-GR-1e5c3a?style=flat-square&color=%231e5c3a" width="56" alt="GR" />|Amirereza Abbasi et.al.|[2602.17450](http://arxiv.org/abs/2602.17450)|
 
