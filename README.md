@@ -1,4 +1,4 @@
-## Updated on 2026.03.20
+## Updated on 2026.03.21
 > Usage instructions: [here](./docs/README.md#usage)
 
 ### 📊 Paper distribution by tag
@@ -16,14 +16,14 @@
 }}}%%
 pie showData
 title Paper Distribution by Tag
-  "Other" : 606
+  "Other" : 609
   "LLM" : 198
   "GR" : 157
   "Seq" : 93
   "Scaling" : 18
 ```
 
-> 统计自 **2025-07-16** 起，共计 **1072** 篇论文。
+> 统计自 **2025-07-16** 起，共计 **1075** 篇论文。
 
 <details style="margin: 1em 0; padding: 0.75em 1em; border: 1px solid #d8dee4; border-radius: 8px; background: #f6f8fa;">
   <summary style="cursor: pointer; font-weight: 600; font-size: 1.05em; color: #1f2328; padding: 0.25em 0;">📑 Table of Contents</summary>
@@ -36,6 +36,10 @@ title Paper Distribution by Tag
 
 |Publish Date|Title|Tag|Authors|PDF|
 |---|---|---|---|---|
+|**2026-03-19**|**From Logs to Language: Learning Optimal Verbalization for LLM-Based Recommendation at Industry Scale**|<img src="https://img.shields.io/badge/-LLM-2c4a78?style=flat-square&color=%232c4a78" width="56" alt="LLM" />|Yucheng Shi et.al.|[2602.20558](http://arxiv.org/abs/2602.20558)|
+|**2026-03-19**|**Interplay: Training Independent Simulators for Reference-Free Conversational Recommendation**|<img src="https://img.shields.io/badge/-Other-5a5a5a?style=flat-square&color=%235a5a5a" width="120" alt="Other" />|Jerome Ramos et.al.|[2603.18573](http://arxiv.org/abs/2603.18573)|
+|**2026-03-19**|**Latent Factor Modeling with Expert Network for Multi-Behavior Recommendation**|<img src="https://img.shields.io/badge/-Other-5a5a5a?style=flat-square&color=%235a5a5a" width="120" alt="Other" />|Mingshi Yan et.al.|[2603.18556](http://arxiv.org/abs/2603.18556)|
+|**2026-03-19**|**HypeMed: Enhancing Medication Recommendations with Hypergraph-Based Patient Relationships**|<img src="https://img.shields.io/badge/-Other-5a5a5a?style=flat-square&color=%235a5a5a" width="120" alt="Other" />|Xiangxu Zhang et.al.|[2603.18459](http://arxiv.org/abs/2603.18459)|
 |**2026-03-18**|**Deploying Semantic ID-based Generative Retrieval for Large-Scale Podcast Discovery at Spotify**|<img src="https://img.shields.io/badge/-GR-1e5c3a?style=flat-square&color=%231e5c3a" width="56" alt="GR" />|Edoardo D'Amico et.al.|[2603.17540](http://arxiv.org/abs/2603.17540)|
 |**2026-03-18**|**A Unified Language Model for Large Scale Search, Recommendation, and Reasoning**|<img src="https://img.shields.io/badge/-Other-5a5a5a?style=flat-square&color=%235a5a5a" width="120" alt="Other" />|Marco De Nadai et.al.|[2603.17533](http://arxiv.org/abs/2603.17533)|
 |**2026-03-18**|**VLM2Rec: Resolving Modality Collapse in Vision-Language Model Embedders for Multimodal Sequential Recommendation**|<img src="https://img.shields.io/badge/-Seq-5a4a6a?style=flat-square&color=%235a4a6a" width="56" alt="Seq" />|Junyoung Kim et.al.|[2603.17450](http://arxiv.org/abs/2603.17450)|
@@ -135,7 +139,6 @@ title Paper Distribution by Tag
 |**2026-02-24**|**Generative Pseudo-Labeling for Pre-Ranking with LLMs**|<img src="https://img.shields.io/badge/-GR-1e5c3a?style=flat-square&color=%231e5c3a" width="56" alt="GR" />|Junyu Bi et.al.|[2602.20995](http://arxiv.org/abs/2602.20995)|
 |**2026-02-24**|**E-MMKGR: A Unified Multimodal Knowledge Graph Framework for E-commerce Applications**|<img src="https://img.shields.io/badge/-Other-5a5a5a?style=flat-square&color=%235a5a5a" width="120" alt="Other" />|Jiwoo Kang et.al.|[2602.20877](http://arxiv.org/abs/2602.20877)|
 |**2026-02-24**|**IntRR: A Framework for Integrating SID Redistribution and Length Reduction**|<img src="https://img.shields.io/badge/-Other-5a5a5a?style=flat-square&color=%235a5a5a" width="120" alt="Other" />|Zesheng Wang et.al.|[2602.20704](http://arxiv.org/abs/2602.20704)|
-|**2026-02-24**|**From Logs to Language: Learning Optimal Verbalization for LLM-Based Recommendation in Production**|<img src="https://img.shields.io/badge/-LLM-2c4a78?style=flat-square&color=%232c4a78" width="56" alt="LLM" />|Yucheng Shi et.al.|[2602.20558](http://arxiv.org/abs/2602.20558)|
 |**2026-02-24**|**PRECTR-V2:Unified Relevance-CTR Framework with Cross-User Preference Mining, Exposure Bias Correction, and LLM-Distilled Encoder Optimization**|<img src="https://img.shields.io/badge/-LLM-2c4a78?style=flat-square&color=%232c4a78" width="56" alt="LLM" />|Shuzhi Cao et.al.|[2602.20676](http://arxiv.org/abs/2602.20676)|
 |**2026-02-24**|**Hierarchical Semantic RL: Tackling the Problem of Dynamic Action Space for RL-based Recommendations**|<img src="https://img.shields.io/badge/-Other-5a5a5a?style=flat-square&color=%235a5a5a" width="120" alt="Other" />|Minmao Wang et.al.|[2510.09167](http://arxiv.org/abs/2510.09167)|
 |**2026-02-24**|**AgentDR: Dynamic Recommendation with Implicit Item-Item Relations via LLM-based Agents**|<img src="https://img.shields.io/badge/-LLM-2c4a78?style=flat-square&color=%232c4a78" width="56" alt="LLM" />|Mingdai Yang et.al.|[2510.05598](http://arxiv.org/abs/2510.05598)|
@@ -1109,7 +1112,7 @@ title Paper Distribution by Tag
 |**2025-07-16**|**Looking for Fairness in Recommender Systems**|<img src="https://img.shields.io/badge/-Other-5a5a5a?style=flat-square&color=%235a5a5a" width="120" alt="Other" />|Cécile Logé et.al.|[2507.12242](http://arxiv.org/abs/2507.12242)|
 |**2025-07-16**|**Similarity-Guided Diffusion for Contrastive Sequential Recommendation**|<img src="https://img.shields.io/badge/-Seq-5a4a6a?style=flat-square&color=%235a4a6a" width="56" alt="Seq" />|Jinkyeong Choi et.al.|[2507.11866](http://arxiv.org/abs/2507.11866)|
 
-<p align=right>(<a href=#updated-on-20260320>back to top</a>)</p>
+<p align=right>(<a href=#updated-on-20260321>back to top</a>)</p>
 
 [contributors-shield]: https://img.shields.io/github/contributors/ShawnBIT/reco-arxiv-daily.svg?style=for-the-badge
 [contributors-url]: https://github.com/ShawnBIT/reco-arxiv-daily/graphs/contributors

@@ -2,13 +2,17 @@
 layout: default
 ---
 
-## Updated on 2026.03.20
+## Updated on 2026.03.21
 > Usage instructions: [here](./docs/README.md#usage)
 
 ## Recommender System
 
 | Publish Date | Title | Authors | PDF |
 |:---------|:-----------------------|:---------|:------|
+|**2026-03-19**|**From Logs to Language: Learning Optimal Verbalization for LLM-Based Recommendation at Industry Scale**|Yucheng Shi et.al.|[2602.20558](http://arxiv.org/abs/2602.20558)|
+|**2026-03-19**|**Interplay: Training Independent Simulators for Reference-Free Conversational Recommendation**|Jerome Ramos et.al.|[2603.18573](http://arxiv.org/abs/2603.18573)|
+|**2026-03-19**|**Latent Factor Modeling with Expert Network for Multi-Behavior Recommendation**|Mingshi Yan et.al.|[2603.18556](http://arxiv.org/abs/2603.18556)|
+|**2026-03-19**|**HypeMed: Enhancing Medication Recommendations with Hypergraph-Based Patient Relationships**|Xiangxu Zhang et.al.|[2603.18459](http://arxiv.org/abs/2603.18459)|
 |**2026-03-18**|**Deploying Semantic ID-based Generative Retrieval for Large-Scale Podcast Discovery at Spotify**|Edoardo D'Amico et.al.|[2603.17540](http://arxiv.org/abs/2603.17540)|
 |**2026-03-18**|**A Unified Language Model for Large Scale Search, Recommendation, and Reasoning**|Marco De Nadai et.al.|[2603.17533](http://arxiv.org/abs/2603.17533)|
 |**2026-03-18**|**VLM2Rec: Resolving Modality Collapse in Vision-Language Model Embedders for Multimodal Sequential Recommendation**|Junyoung Kim et.al.|[2603.17450](http://arxiv.org/abs/2603.17450)|
@@ -108,7 +112,6 @@ layout: default
 |**2026-02-24**|**Generative Pseudo-Labeling for Pre-Ranking with LLMs**|Junyu Bi et.al.|[2602.20995](http://arxiv.org/abs/2602.20995)|
 |**2026-02-24**|**E-MMKGR: A Unified Multimodal Knowledge Graph Framework for E-commerce Applications**|Jiwoo Kang et.al.|[2602.20877](http://arxiv.org/abs/2602.20877)|
 |**2026-02-24**|**IntRR: A Framework for Integrating SID Redistribution and Length Reduction**|Zesheng Wang et.al.|[2602.20704](http://arxiv.org/abs/2602.20704)|
-|**2026-02-24**|**From Logs to Language: Learning Optimal Verbalization for LLM-Based Recommendation in Production**|Yucheng Shi et.al.|[2602.20558](http://arxiv.org/abs/2602.20558)|
 |**2026-02-24**|**PRECTR-V2:Unified Relevance-CTR Framework with Cross-User Preference Mining, Exposure Bias Correction, and LLM-Distilled Encoder Optimization**|Shuzhi Cao et.al.|[2602.20676](http://arxiv.org/abs/2602.20676)|
 |**2026-02-24**|**Hierarchical Semantic RL: Tackling the Problem of Dynamic Action Space for RL-based Recommendations**|Minmao Wang et.al.|[2510.09167](http://arxiv.org/abs/2510.09167)|
 |**2026-02-24**|**AgentDR: Dynamic Recommendation with Implicit Item-Item Relations via LLM-based Agents**|Mingdai Yang et.al.|[2510.05598](http://arxiv.org/abs/2510.05598)|

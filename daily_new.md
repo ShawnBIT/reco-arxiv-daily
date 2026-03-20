@@ -1,11 +1,15 @@
 ## Daily New Papers
 
-> Updated on 2026.03.20
+> Updated on 2026.03.21
 
 ## Recommender System
 
 |Publish Date|Title|Tag|Authors|PDF|
 |---|---|---|---|---|
+|**2026-03-19**|**Interplay: Training Independent Simulators for Reference-Free Conversational Recommendation**|<img src="https://img.shields.io/badge/-Other-5a5a5a?style=flat-square&color=%235a5a5a" width="120" alt="Other" />|Jerome Ramos et.al.|[2603.18573](http://arxiv.org/abs/2603.18573)|
+|**2026-03-19**|**Latent Factor Modeling with Expert Network for Multi-Behavior Recommendation**|<img src="https://img.shields.io/badge/-Other-5a5a5a?style=flat-square&color=%235a5a5a" width="120" alt="Other" />|Mingshi Yan et.al.|[2603.18556](http://arxiv.org/abs/2603.18556)|
+|**2026-03-19**|**HypeMed: Enhancing Medication Recommendations with Hypergraph-Based Patient Relationships**|<img src="https://img.shields.io/badge/-Other-5a5a5a?style=flat-square&color=%235a5a5a" width="120" alt="Other" />|Xiangxu Zhang et.al.|[2603.18459](http://arxiv.org/abs/2603.18459)|
+|**2026-03-19**|**From Logs to Language: Learning Optimal Verbalization for LLM-Based Recommendation at Industry Scale**|<img src="https://img.shields.io/badge/-LLM-2c4a78?style=flat-square&color=%232c4a78" width="56" alt="LLM" />|Yucheng Shi et.al.|[2602.20558](http://arxiv.org/abs/2602.20558)|
 |**2026-03-18**|**Deploying Semantic ID-based Generative Retrieval for Large-Scale Podcast Discovery at Spotify**|<img src="https://img.shields.io/badge/-GR-1e5c3a?style=flat-square&color=%231e5c3a" width="56" alt="GR" />|Edoardo D'Amico et.al.|[2603.17540](http://arxiv.org/abs/2603.17540)|
 |**2026-03-18**|**A Unified Language Model for Large Scale Search, Recommendation, and Reasoning**|<img src="https://img.shields.io/badge/-Other-5a5a5a?style=flat-square&color=%235a5a5a" width="120" alt="Other" />|Marco De Nadai et.al.|[2603.17533](http://arxiv.org/abs/2603.17533)|
 |**2026-03-18**|**VLM2Rec: Resolving Modality Collapse in Vision-Language Model Embedders for Multimodal Sequential Recommendation**|<img src="https://img.shields.io/badge/-Seq-5a4a6a?style=flat-square&color=%235a4a6a" width="56" alt="Seq" />|Junyoung Kim et.al.|[2603.17450](http://arxiv.org/abs/2603.17450)|
@@ -43,7 +47,6 @@
 |**2026-03-06**|**Balancing Domestic and Global Perspectives: Evaluating Dual-Calibration and LLM-Generated Nudges for Diverse News Recommendation**|<img src="https://img.shields.io/badge/-LLM-2c4a78?style=flat-square&color=%232c4a78" width="56" alt="LLM" />|Ruixuan Sun et.al.|[2603.05780](http://arxiv.org/abs/2603.05780)|
 |**2026-03-05**|**The DSA's Blind Spot: Algorithmic Audit of Advertising and Minor Profiling on TikTok**|<img src="https://img.shields.io/badge/-Other-5a5a5a?style=flat-square&color=%235a5a5a" width="120" alt="Other" />|Sara Solarova et.al.|[2603.05653](http://arxiv.org/abs/2603.05653)|
 |**2026-03-05**|**Debiasing Sequential Recommendation with Time-aware Inverse Propensity Scoring**|<img src="https://img.shields.io/badge/-Seq-5a4a6a?style=flat-square&color=%235a4a6a" width="56" alt="Seq" />|Sirui Huang et.al.|[2603.04986](http://arxiv.org/abs/2603.04986)|
-|**2026-03-05**|**Give Users the Wheel: Towards Promptable Recommendation Paradigm**|<img src="https://img.shields.io/badge/-Other-5a5a5a?style=flat-square&color=%235a5a5a" width="120" alt="Other" />|Fuyuan Lyu et.al.|[2602.18929](http://arxiv.org/abs/2602.18929)|
 |**2026-03-04**|**Turning Trust to Transactions: Tracking Affiliate Marketing and FTC Compliance in YouTube's Influencer Economy**|<img src="https://img.shields.io/badge/-Other-5a5a5a?style=flat-square&color=%235a5a5a" width="120" alt="Other" />|Chen Sun et.al.|[2603.04383](http://arxiv.org/abs/2603.04383)|
 |**2026-03-04**|**CAMMSR: Category-Guided Attentive Mixture of Experts for Multimodal Sequential Recommendation**|<img src="https://img.shields.io/badge/-Seq-5a4a6a?style=flat-square&color=%235a4a6a" width="56" alt="Seq" />|Jinfeng Xu et.al.|[2603.04320](http://arxiv.org/abs/2603.04320)|
 |**2026-03-04**|**SORT: A Systematically Optimized Ranking Transformer for Industrial-scale Recommenders**|<img src="https://img.shields.io/badge/-Other-5a5a5a?style=flat-square&color=%235a5a5a" width="120" alt="Other" />|Chunqi Wang et.al.|[2603.03988](http://arxiv.org/abs/2603.03988)|
@@ -95,7 +98,6 @@
 |**2026-02-24**|**A Counterfactual Approach for Addressing Individual User Unfairness in Collaborative Recommender System**|<img src="https://img.shields.io/badge/-Other-5a5a5a?style=flat-square&color=%235a5a5a" width="120" alt="Other" />|Nikita Baidya et.al.|[2603.13253](http://arxiv.org/abs/2603.13253)|
 |**2026-02-24**|**E-MMKGR: A Unified Multimodal Knowledge Graph Framework for E-commerce Applications**|<img src="https://img.shields.io/badge/-Other-5a5a5a?style=flat-square&color=%235a5a5a" width="120" alt="Other" />|Jiwoo Kang et.al.|[2602.20877](http://arxiv.org/abs/2602.20877)|
 |**2026-02-24**|**IntRR: A Framework for Integrating SID Redistribution and Length Reduction**|<img src="https://img.shields.io/badge/-Other-5a5a5a?style=flat-square&color=%235a5a5a" width="120" alt="Other" />|Zesheng Wang et.al.|[2602.20704](http://arxiv.org/abs/2602.20704)|
-|**2026-02-24**|**From Logs to Language: Learning Optimal Verbalization for LLM-Based Recommendation in Production**|<img src="https://img.shields.io/badge/-LLM-2c4a78?style=flat-square&color=%232c4a78" width="56" alt="LLM" />|Yucheng Shi et.al.|[2602.20558](http://arxiv.org/abs/2602.20558)|
 |**2026-02-23**|**T-REX: Transformer-Based Category Sequence Generation for Grocery Basket Recommendation**|<img src="https://img.shields.io/badge/-GR-1e5c3a?style=flat-square&color=%231e5c3a" width="56" alt="GR" />|Soroush Mokhtari et.al.|[2603.06631](http://arxiv.org/abs/2603.06631)|
 |**2026-02-23**|**ManCAR: Manifold-Constrained Latent Reasoning with Adaptive Test-Time Computation for Sequential Recommendation**|<img src="https://img.shields.io/badge/-Seq-5a4a6a?style=flat-square&color=%235a4a6a" width="56" alt="Seq" />|Kun Yang et.al.|[2602.20093](http://arxiv.org/abs/2602.20093)|
 |**2026-02-23**|**FairFS: Addressing Deep Feature Selection Biases for Recommender System**|<img src="https://img.shields.io/badge/-Other-5a5a5a?style=flat-square&color=%235a5a5a" width="120" alt="Other" />|Xianquan Wang et.al.|[2602.20001](http://arxiv.org/abs/2602.20001)|
@@ -104,6 +106,4 @@
 |**2026-02-23**|**A Three-stage Neuro-symbolic Recommendation Pipeline for Cultural Heritage Knowledge Graphs**|<img src="https://img.shields.io/badge/-Other-5a5a5a?style=flat-square&color=%235a5a5a" width="120" alt="Other" />|Krzysztof Kutt et.al.|[2602.19711](http://arxiv.org/abs/2602.19711)|
 |**2026-02-23**|**DReX: An Explainable Deep Learning-based Multimodal Recommendation Framework**|<img src="https://img.shields.io/badge/-Other-5a5a5a?style=flat-square&color=%235a5a5a" width="120" alt="Other" />|Adamya Shyam et.al.|[2602.19702](http://arxiv.org/abs/2602.19702)|
 |**2026-02-23**|**Iconographic Classification and Content-Based Recommendation for Digitized Artworks**|<img src="https://img.shields.io/badge/-Other-5a5a5a?style=flat-square&color=%235a5a5a" width="120" alt="Other" />|Krzysztof Kutt et.al.|[2602.19698](http://arxiv.org/abs/2602.19698)|
-|**2026-02-22**|**SplitLight: An Exploratory Toolkit for Recommender Systems Datasets and Splits**|<img src="https://img.shields.io/badge/-Other-5a5a5a?style=flat-square&color=%235a5a5a" width="120" alt="Other" />|Anna Volodkevich et.al.|[2602.19339](http://arxiv.org/abs/2602.19339)|
-|**2026-02-21**|**Exploration Space Theory: Formal Foundations for Prerequisite-Aware Location-Based Recommendation**|<img src="https://img.shields.io/badge/-Other-5a5a5a?style=flat-square&color=%235a5a5a" width="120" alt="Other" />|Madjid Sadallah et.al.|[2603.06624](http://arxiv.org/abs/2603.06624)|
 
