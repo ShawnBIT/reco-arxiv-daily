@@ -1,11 +1,17 @@
 ## Daily New Papers
 
-> Updated on 2026.03.23
+> Updated on 2026.03.24
 
 ## Recommender System
 
 |Publish Date|Title|Tag|Authors|PDF|
 |---|---|---|---|---|
+|**2026-03-20**|**The End of Rented Discovery: How AI Search Redistributes Power Between Hotels and Intermediaries**|<img src="https://img.shields.io/badge/-Other-5a5a5a?style=flat-square&color=%235a5a5a" width="120" alt="Other" />|Peiying Zhu et.al.|[2603.20062](http://arxiv.org/abs/2603.20062)|
+|**2026-03-20**|**DALI: LLM-Agent Enhanced Dual-Stream Adaptive Leadership Identification for Group Recommendations**|<img src="https://img.shields.io/badge/-LLM-2c4a78?style=flat-square&color=%232c4a78" width="56" alt="LLM" />|Boxun Song et.al.|[2603.19909](http://arxiv.org/abs/2603.19909)|
+|**2026-03-20**|**How Well Does Generative Recommendation Generalize?**|<img src="https://img.shields.io/badge/-GR-1e5c3a?style=flat-square&color=%231e5c3a" width="56" alt="GR" />|Yijie Ding et.al.|[2603.19809](http://arxiv.org/abs/2603.19809)|
+|**2026-03-20**|**AIGQ: An End-to-End Hybrid Generative Architecture for E-commerce Query Recommendation**|<img src="https://img.shields.io/badge/-GR-1e5c3a?style=flat-square&color=%231e5c3a" width="56" alt="GR" />|Jingcao Xu et.al.|[2603.19710](http://arxiv.org/abs/2603.19710)|
+|**2026-03-20**|**From Token to Item: Enhancing Large Language Models for Recommendation via Item-aware Attention Mechanism**|<img src="https://img.shields.io/badge/-LLM-2c4a78?style=flat-square&color=%232c4a78" width="56" alt="LLM" />|Xiaokun Zhang et.al.|[2603.19693](http://arxiv.org/abs/2603.19693)|
+|**2026-03-20**|**SaFRO: Satisfaction-Aware Fusion via Dual-Relative Policy Optimization for Short-Video Search**|<img src="https://img.shields.io/badge/-Other-5a5a5a?style=flat-square&color=%235a5a5a" width="120" alt="Other" />|Renzhe Zhou et.al.|[2603.19585](http://arxiv.org/abs/2603.19585)|
 |**2026-03-19**|**Interplay: Training Independent Simulators for Reference-Free Conversational Recommendation**|<img src="https://img.shields.io/badge/-Other-5a5a5a?style=flat-square&color=%235a5a5a" width="120" alt="Other" />|Jerome Ramos et.al.|[2603.18573](http://arxiv.org/abs/2603.18573)|
 |**2026-03-19**|**Latent Factor Modeling with Expert Network for Multi-Behavior Recommendation**|<img src="https://img.shields.io/badge/-Other-5a5a5a?style=flat-square&color=%235a5a5a" width="120" alt="Other" />|Mingshi Yan et.al.|[2603.18556](http://arxiv.org/abs/2603.18556)|
 |**2026-03-19**|**HypeMed: Enhancing Medication Recommendations with Hypergraph-Based Patient Relationships**|<img src="https://img.shields.io/badge/-Other-5a5a5a?style=flat-square&color=%235a5a5a" width="120" alt="Other" />|Xiangxu Zhang et.al.|[2603.18459](http://arxiv.org/abs/2603.18459)|
@@ -100,10 +106,4 @@
 |**2026-02-24**|**IntRR: A Framework for Integrating SID Redistribution and Length Reduction**|<img src="https://img.shields.io/badge/-Other-5a5a5a?style=flat-square&color=%235a5a5a" width="120" alt="Other" />|Zesheng Wang et.al.|[2602.20704](http://arxiv.org/abs/2602.20704)|
 |**2026-02-23**|**T-REX: Transformer-Based Category Sequence Generation for Grocery Basket Recommendation**|<img src="https://img.shields.io/badge/-GR-1e5c3a?style=flat-square&color=%231e5c3a" width="56" alt="GR" />|Soroush Mokhtari et.al.|[2603.06631](http://arxiv.org/abs/2603.06631)|
 |**2026-02-23**|**ManCAR: Manifold-Constrained Latent Reasoning with Adaptive Test-Time Computation for Sequential Recommendation**|<img src="https://img.shields.io/badge/-Seq-5a4a6a?style=flat-square&color=%235a4a6a" width="56" alt="Seq" />|Kun Yang et.al.|[2602.20093](http://arxiv.org/abs/2602.20093)|
-|**2026-02-23**|**FairFS: Addressing Deep Feature Selection Biases for Recommender System**|<img src="https://img.shields.io/badge/-Other-5a5a5a?style=flat-square&color=%235a5a5a" width="120" alt="Other" />|Xianquan Wang et.al.|[2602.20001](http://arxiv.org/abs/2602.20001)|
-|**2026-02-23**|**Counterfactual Understanding via Retrieval-aware Multimodal Modeling for Time-to-Event Survival Prediction**|<img src="https://img.shields.io/badge/-Other-5a5a5a?style=flat-square&color=%235a5a5a" width="120" alt="Other" />|Ha-Anh Hoang Nguyen et.al.|[2602.19987](http://arxiv.org/abs/2602.19987)|
-|**2026-02-23**|**GrIT: Group Informed Transformer for Sequential Recommendation**|<img src="https://img.shields.io/badge/-Seq-5a4a6a?style=flat-square&color=%235a4a6a" width="56" alt="Seq" />|Adamya Shyam et.al.|[2602.19728](http://arxiv.org/abs/2602.19728)|
-|**2026-02-23**|**A Three-stage Neuro-symbolic Recommendation Pipeline for Cultural Heritage Knowledge Graphs**|<img src="https://img.shields.io/badge/-Other-5a5a5a?style=flat-square&color=%235a5a5a" width="120" alt="Other" />|Krzysztof Kutt et.al.|[2602.19711](http://arxiv.org/abs/2602.19711)|
-|**2026-02-23**|**DReX: An Explainable Deep Learning-based Multimodal Recommendation Framework**|<img src="https://img.shields.io/badge/-Other-5a5a5a?style=flat-square&color=%235a5a5a" width="120" alt="Other" />|Adamya Shyam et.al.|[2602.19702](http://arxiv.org/abs/2602.19702)|
-|**2026-02-23**|**Iconographic Classification and Content-Based Recommendation for Digitized Artworks**|<img src="https://img.shields.io/badge/-Other-5a5a5a?style=flat-square&color=%235a5a5a" width="120" alt="Other" />|Krzysztof Kutt et.al.|[2602.19698](http://arxiv.org/abs/2602.19698)|
 
