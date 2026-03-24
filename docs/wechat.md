@@ -1,23 +1,38 @@
 **Recommender System Daily New Papers**
 
-Updated on **2026.03.24**
-共计 **6** 篇论文
+Updated on **2026.03.25**
+共计 **11** 篇论文
 
-**2026-03-20**  **⬜️ Other** | Peiying Zhu et.al.
-[The End of Rented Discovery: How AI Search Redistributes Power Between Hotels and Intermediaries](http://arxiv.org/abs/2603.20062)
+**2026-03-23**  **🟩 GR** | Yanchen Jiang et.al.
+[One Model, Two Markets: Bid-Aware Generative Recommendation](http://arxiv.org/abs/2603.22231)
 
-**2026-03-20**  **🔵 LLM** | Boxun Song et.al.
-[DALI: LLM-Agent Enhanced Dual-Stream Adaptive Leadership Identification for Group Recommendations](http://arxiv.org/abs/2603.19909)
+**2026-03-23**  **⬜️ Other** | Wei Zhou et.al.
+[PreferRec: Learning and Transferring Pareto Preferences for Multi-objective Re-ranking](http://arxiv.org/abs/2603.22073)
 
-**2026-03-20**  **🟩 GR** | Yijie Ding et.al.
-[How Well Does Generative Recommendation Generalize?](http://arxiv.org/abs/2603.19809)
+**2026-03-23**  **⬜️ Other** | Tianyi Li et.al.
+[AgenticRec: End-to-End Tool-Integrated Policy Optimization for Ranking-Oriented Recommender Agents](http://arxiv.org/abs/2603.21613)
 
-**2026-03-20**  **🟩 GR** | Jingcao Xu et.al.
-[AIGQ: An End-to-End Hybrid Generative Architecture for E-commerce Query Recommendation](http://arxiv.org/abs/2603.19710)
+**2026-03-23**  **🟩 GR** | Zhijian Chen et.al.
+[TagLLM: A Fine-Grained Tag Generation Approach for Note Recommendation](http://arxiv.org/abs/2603.21481)
 
-**2026-03-20**  **🔵 LLM** | Xiaokun Zhang et.al.
-[From Token to Item: Enhancing Large Language Models for Recommendation via Item-aware Attention Mechanism](http://arxiv.org/abs/2603.19693)
+**2026-03-22**  **⬜️ Other** | Le Liu et.al.
+[LSA: A Long-Short-term Aspect Interest Transformer for Aspect-Based Recommendation](http://arxiv.org/abs/2603.21243)
 
-**2026-03-20**  **⬜️ Other** | Renzhe Zhou et.al.
-[SaFRO: Satisfaction-Aware Fusion via Dual-Relative Policy Optimization for Short-Video Search](http://arxiv.org/abs/2603.19585)
+**2026-03-22**  **🟩 GR** | Wenzhuo Cheng et.al.
+[MI-DPG: Decomposable Parameter Generation Network Based on Mutual Information for Multi-Scenario Recommendation](http://arxiv.org/abs/2603.21209)
+
+**2026-03-22**  **⬜️ Other** | Zhangcheng Qiang et.al.
+[Ontology-Compliant Knowledge Graphs](http://arxiv.org/abs/2603.21188)
+
+**2026-03-21**  **⬜️ Other** | Branislav Pecher et.al.
+[Algorithmic Audit of Personalisation Drift in Polarising Topics on TikTok](http://arxiv.org/abs/2603.20723)
+
+**2026-03-20**  **⬜️ Other** | Wooseok Sim et.al.
+[Low-pass Personalized Subgraph Federated Recommendation](http://arxiv.org/abs/2603.20338)
+
+**2026-03-18**  **🔵 LLM** | Aleksandra Edwards et.al.
+[Report-based Recommendations for Policy Making and Agency Operations: Dataset and LLM Evaluation](http://arxiv.org/abs/2603.20287)
+
+**2026-03-18**  **⬜️ Other** | Zhenxing Yan et.al.
+[FastPFRec: A Fast Personalized Federated Recommendation with Secure Sharing](http://arxiv.org/abs/2603.20283)
 
