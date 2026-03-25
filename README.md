@@ -1,4 +1,4 @@
-## Updated on 2026.03.25
+## Updated on 2026.03.26
 > Usage instructions: [here](./docs/README.md#usage)
 
 ### 📊 Paper distribution by tag
@@ -16,14 +16,14 @@
 }}}%%
 pie showData
 title Paper Distribution by Tag
-  "Other" : 618
+  "Other" : 619
   "LLM" : 201
-  "GR" : 162
-  "Seq" : 93
+  "GR" : 164
+  "Seq" : 94
   "Scaling" : 18
 ```
 
-> 统计自 **2025-07-16** 起，共计 **1092** 篇论文。
+> 统计自 **2025-07-16** 起，共计 **1096** 篇论文。
 
 <details style="margin: 1em 0; padding: 0.75em 1em; border: 1px solid #d8dee4; border-radius: 8px; background: #f6f8fa;">
   <summary style="cursor: pointer; font-weight: 600; font-size: 1.05em; color: #1f2328; padding: 0.25em 0;">📑 Table of Contents</summary>
@@ -36,6 +36,8 @@ title Paper Distribution by Tag
 
 |Publish Date|Title|Tag|Authors|PDF|
 |---|---|---|---|---|
+|**2026-03-24**|**Reasoning over Semantic IDs Enhances Generative Recommendation**|<img src="https://img.shields.io/badge/-GR-1e5c3a?style=flat-square&color=%231e5c3a" width="56" alt="GR" />|Yingzhi He et.al.|[2603.23183](http://arxiv.org/abs/2603.23183)|
+|**2026-03-24**|**GateSID: Adaptive Gating for Semantic-Collaborative Alignment in Cold-Start Recommendation**|<img src="https://img.shields.io/badge/-Other-5a5a5a?style=flat-square&color=%235a5a5a" width="120" alt="Other" />|Hai Zhu et.al.|[2603.22916](http://arxiv.org/abs/2603.22916)|
 |**2026-03-23**|**One Model, Two Markets: Bid-Aware Generative Recommendation**|<img src="https://img.shields.io/badge/-GR-1e5c3a?style=flat-square&color=%231e5c3a" width="56" alt="GR" />|Yanchen Jiang et.al.|[2603.22231](http://arxiv.org/abs/2603.22231)|
 |**2026-03-23**|**PreferRec: Learning and Transferring Pareto Preferences for Multi-objective Re-ranking**|<img src="https://img.shields.io/badge/-Other-5a5a5a?style=flat-square&color=%235a5a5a" width="120" alt="Other" />|Wei Zhou et.al.|[2603.22073](http://arxiv.org/abs/2603.22073)|
 |**2026-03-23**|**AgenticRec: End-to-End Tool-Integrated Policy Optimization for Ranking-Oriented Recommender Agents**|<img src="https://img.shields.io/badge/-Other-5a5a5a?style=flat-square&color=%235a5a5a" width="120" alt="Other" />|Tianyi Li et.al.|[2603.21613](http://arxiv.org/abs/2603.21613)|
@@ -43,8 +45,10 @@ title Paper Distribution by Tag
 |**2026-03-22**|**LSA: A Long-Short-term Aspect Interest Transformer for Aspect-Based Recommendation**|<img src="https://img.shields.io/badge/-Other-5a5a5a?style=flat-square&color=%235a5a5a" width="120" alt="Other" />|Le Liu et.al.|[2603.21243](http://arxiv.org/abs/2603.21243)|
 |**2026-03-22**|**MI-DPG: Decomposable Parameter Generation Network Based on Mutual Information for Multi-Scenario Recommendation**|<img src="https://img.shields.io/badge/-GR-1e5c3a?style=flat-square&color=%231e5c3a" width="56" alt="GR" />|Wenzhuo Cheng et.al.|[2603.21209](http://arxiv.org/abs/2603.21209)|
 |**2026-03-22**|**Ontology-Compliant Knowledge Graphs**|<img src="https://img.shields.io/badge/-Other-5a5a5a?style=flat-square&color=%235a5a5a" width="120" alt="Other" />|Zhangcheng Qiang et.al.|[2603.21188](http://arxiv.org/abs/2603.21188)|
+|**2026-03-22**|**Personalized Federated Sequential Recommender**|<img src="https://img.shields.io/badge/-Seq-5a4a6a?style=flat-square&color=%235a4a6a" width="56" alt="Seq" />|Yicheng Di et.al.|[2603.22349](http://arxiv.org/abs/2603.22349)|
 |**2026-03-21**|**RAIE: Region-Aware Incremental Preference Editing with LoRA for LLM-based Recommendation**|<img src="https://img.shields.io/badge/-LLM-2c4a78?style=flat-square&color=%232c4a78" width="56" alt="LLM" />|Jin Zeng et.al.|[2603.00638](http://arxiv.org/abs/2603.00638)|
 |**2026-03-21**|**Algorithmic Audit of Personalisation Drift in Polarising Topics on TikTok**|<img src="https://img.shields.io/badge/-Other-5a5a5a?style=flat-square&color=%235a5a5a" width="120" alt="Other" />|Branislav Pecher et.al.|[2603.20723](http://arxiv.org/abs/2603.20723)|
+|**2026-03-21**|**Causal Direct Preference Optimization for Distributionally Robust Generative Recommendation**|<img src="https://img.shields.io/badge/-GR-1e5c3a?style=flat-square&color=%231e5c3a" width="56" alt="GR" />|Chu Zhao et.al.|[2603.22335](http://arxiv.org/abs/2603.22335)|
 |**2026-03-20**|**The End of Rented Discovery: How AI Search Redistributes Power Between Hotels and Intermediaries**|<img src="https://img.shields.io/badge/-Other-5a5a5a?style=flat-square&color=%235a5a5a" width="120" alt="Other" />|Peiying Zhu et.al.|[2603.20062](http://arxiv.org/abs/2603.20062)|
 |**2026-03-20**|**DALI: LLM-Agent Enhanced Dual-Stream Adaptive Leadership Identification for Group Recommendations**|<img src="https://img.shields.io/badge/-LLM-2c4a78?style=flat-square&color=%232c4a78" width="56" alt="LLM" />|Boxun Song et.al.|[2603.19909](http://arxiv.org/abs/2603.19909)|
 |**2026-03-20**|**How Well Does Generative Recommendation Generalize?**|<img src="https://img.shields.io/badge/-GR-1e5c3a?style=flat-square&color=%231e5c3a" width="56" alt="GR" />|Yijie Ding et.al.|[2603.19809](http://arxiv.org/abs/2603.19809)|
@@ -1129,7 +1133,7 @@ title Paper Distribution by Tag
 |**2025-07-16**|**Looking for Fairness in Recommender Systems**|<img src="https://img.shields.io/badge/-Other-5a5a5a?style=flat-square&color=%235a5a5a" width="120" alt="Other" />|Cécile Logé et.al.|[2507.12242](http://arxiv.org/abs/2507.12242)|
 |**2025-07-16**|**Similarity-Guided Diffusion for Contrastive Sequential Recommendation**|<img src="https://img.shields.io/badge/-Seq-5a4a6a?style=flat-square&color=%235a4a6a" width="56" alt="Seq" />|Jinkyeong Choi et.al.|[2507.11866](http://arxiv.org/abs/2507.11866)|
 
-<p align=right>(<a href=#updated-on-20260325>back to top</a>)</p>
+<p align=right>(<a href=#updated-on-20260326>back to top</a>)</p>
 
 [contributors-shield]: https://img.shields.io/github/contributors/ShawnBIT/reco-arxiv-daily.svg?style=for-the-badge
 [contributors-url]: https://github.com/ShawnBIT/reco-arxiv-daily/graphs/contributors

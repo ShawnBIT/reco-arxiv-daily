@@ -1,11 +1,13 @@
 ## Daily New Papers
 
-> Updated on 2026.03.25
+> Updated on 2026.03.26
 
 ## Recommender System
 
 |Publish Date|Title|Tag|Authors|PDF|
 |---|---|---|---|---|
+|**2026-03-24**|**Reasoning over Semantic IDs Enhances Generative Recommendation**|<img src="https://img.shields.io/badge/-GR-1e5c3a?style=flat-square&color=%231e5c3a" width="56" alt="GR" />|Yingzhi He et.al.|[2603.23183](http://arxiv.org/abs/2603.23183)|
+|**2026-03-24**|**GateSID: Adaptive Gating for Semantic-Collaborative Alignment in Cold-Start Recommendation**|<img src="https://img.shields.io/badge/-Other-5a5a5a?style=flat-square&color=%235a5a5a" width="120" alt="Other" />|Hai Zhu et.al.|[2603.22916](http://arxiv.org/abs/2603.22916)|
 |**2026-03-23**|**One Model, Two Markets: Bid-Aware Generative Recommendation**|<img src="https://img.shields.io/badge/-GR-1e5c3a?style=flat-square&color=%231e5c3a" width="56" alt="GR" />|Yanchen Jiang et.al.|[2603.22231](http://arxiv.org/abs/2603.22231)|
 |**2026-03-23**|**PreferRec: Learning and Transferring Pareto Preferences for Multi-objective Re-ranking**|<img src="https://img.shields.io/badge/-Other-5a5a5a?style=flat-square&color=%235a5a5a" width="120" alt="Other" />|Wei Zhou et.al.|[2603.22073](http://arxiv.org/abs/2603.22073)|
 |**2026-03-23**|**AgenticRec: End-to-End Tool-Integrated Policy Optimization for Ranking-Oriented Recommender Agents**|<img src="https://img.shields.io/badge/-Other-5a5a5a?style=flat-square&color=%235a5a5a" width="120" alt="Other" />|Tianyi Li et.al.|[2603.21613](http://arxiv.org/abs/2603.21613)|
@@ -13,7 +15,9 @@
 |**2026-03-22**|**LSA: A Long-Short-term Aspect Interest Transformer for Aspect-Based Recommendation**|<img src="https://img.shields.io/badge/-Other-5a5a5a?style=flat-square&color=%235a5a5a" width="120" alt="Other" />|Le Liu et.al.|[2603.21243](http://arxiv.org/abs/2603.21243)|
 |**2026-03-22**|**MI-DPG: Decomposable Parameter Generation Network Based on Mutual Information for Multi-Scenario Recommendation**|<img src="https://img.shields.io/badge/-GR-1e5c3a?style=flat-square&color=%231e5c3a" width="56" alt="GR" />|Wenzhuo Cheng et.al.|[2603.21209](http://arxiv.org/abs/2603.21209)|
 |**2026-03-22**|**Ontology-Compliant Knowledge Graphs**|<img src="https://img.shields.io/badge/-Other-5a5a5a?style=flat-square&color=%235a5a5a" width="120" alt="Other" />|Zhangcheng Qiang et.al.|[2603.21188](http://arxiv.org/abs/2603.21188)|
+|**2026-03-22**|**Personalized Federated Sequential Recommender**|<img src="https://img.shields.io/badge/-Seq-5a4a6a?style=flat-square&color=%235a4a6a" width="56" alt="Seq" />|Yicheng Di et.al.|[2603.22349](http://arxiv.org/abs/2603.22349)|
 |**2026-03-21**|**Algorithmic Audit of Personalisation Drift in Polarising Topics on TikTok**|<img src="https://img.shields.io/badge/-Other-5a5a5a?style=flat-square&color=%235a5a5a" width="120" alt="Other" />|Branislav Pecher et.al.|[2603.20723](http://arxiv.org/abs/2603.20723)|
+|**2026-03-21**|**Causal Direct Preference Optimization for Distributionally Robust Generative Recommendation**|<img src="https://img.shields.io/badge/-GR-1e5c3a?style=flat-square&color=%231e5c3a" width="56" alt="GR" />|Chu Zhao et.al.|[2603.22335](http://arxiv.org/abs/2603.22335)|
 |**2026-03-21**|**RAIE: Region-Aware Incremental Preference Editing with LoRA for LLM-based Recommendation**|<img src="https://img.shields.io/badge/-LLM-2c4a78?style=flat-square&color=%232c4a78" width="56" alt="LLM" />|Jin Zeng et.al.|[2603.00638](http://arxiv.org/abs/2603.00638)|
 |**2026-03-20**|**The End of Rented Discovery: How AI Search Redistributes Power Between Hotels and Intermediaries**|<img src="https://img.shields.io/badge/-Other-5a5a5a?style=flat-square&color=%235a5a5a" width="120" alt="Other" />|Peiying Zhu et.al.|[2603.20062](http://arxiv.org/abs/2603.20062)|
 |**2026-03-20**|**DALI: LLM-Agent Enhanced Dual-Stream Adaptive Leadership Identification for Group Recommendations**|<img src="https://img.shields.io/badge/-LLM-2c4a78?style=flat-square&color=%232c4a78" width="56" alt="LLM" />|Boxun Song et.al.|[2603.19909](http://arxiv.org/abs/2603.19909)|
@@ -102,8 +106,4 @@
 |**2026-02-26**|**SIGMA: A Semantic-Grounded Instruction-Driven Generative Multi-Task Recommender at AliExpress**|<img src="https://img.shields.io/badge/-GR-1e5c3a?style=flat-square&color=%231e5c3a" width="56" alt="GR" />|Yang Yu et.al.|[2602.22913](http://arxiv.org/abs/2602.22913)|
 |**2026-02-26**|**Vectorizing the Trie: Efficient Constrained Decoding for LLM-based Generative Retrieval on Accelerators**|<img src="https://img.shields.io/badge/-GR-1e5c3a?style=flat-square&color=%231e5c3a" width="56" alt="GR" />|Zhengyang Su et.al.|[2602.22647](http://arxiv.org/abs/2602.22647)|
 |**2026-02-26**|**TFPS: A Temporal Filtration-enhanced Positive Sample Set Construction Method for Implicit Collaborative Filtering**|<img src="https://img.shields.io/badge/-Other-5a5a5a?style=flat-square&color=%235a5a5a" width="120" alt="Other" />|Jiayi Wu et.al.|[2602.22521](http://arxiv.org/abs/2602.22521)|
-|**2026-02-25**|**Federated Personal Knowledge Graph Completion with Lightweight Large Language Models for Personalized Recommendations**|<img src="https://img.shields.io/badge/-LLM-2c4a78?style=flat-square&color=%232c4a78" width="56" alt="LLM" />|Fernando Spadea et.al.|[2603.13264](http://arxiv.org/abs/2603.13264)|
-|**2026-02-25**|**Learning to Collaborate via Structures: Cluster-Guided Item Alignment for Federated Recommendation**|<img src="https://img.shields.io/badge/-Other-5a5a5a?style=flat-square&color=%235a5a5a" width="120" alt="Other" />|Yuchun Tu et.al.|[2602.21957](http://arxiv.org/abs/2602.21957)|
-|**2026-02-25**|**Offline Reasoning for Efficient Recommendation: LLM-Empowered Persona-Profiled Item Indexing**|<img src="https://img.shields.io/badge/-LLM-2c4a78?style=flat-square&color=%232c4a78" width="56" alt="LLM" />|Deogyong Kim et.al.|[2602.21756](http://arxiv.org/abs/2602.21756)|
-|**2026-02-25**|**Trie-Aware Transformers for Generative Recommendation**|<img src="https://img.shields.io/badge/-GR-1e5c3a?style=flat-square&color=%231e5c3a" width="56" alt="GR" />|Zhenxiang Xu et.al.|[2602.21677](http://arxiv.org/abs/2602.21677)|
 

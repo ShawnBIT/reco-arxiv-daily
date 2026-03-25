@@ -2,13 +2,15 @@
 layout: default
 ---
 
-## Updated on 2026.03.25
+## Updated on 2026.03.26
 > Usage instructions: [here](./docs/README.md#usage)
 
 ## Recommender System
 
 | Publish Date | Title | Authors | PDF |
 |:---------|:-----------------------|:---------|:------|
+|**2026-03-24**|**Reasoning over Semantic IDs Enhances Generative Recommendation**|Yingzhi He et.al.|[2603.23183](http://arxiv.org/abs/2603.23183)|
+|**2026-03-24**|**GateSID: Adaptive Gating for Semantic-Collaborative Alignment in Cold-Start Recommendation**|Hai Zhu et.al.|[2603.22916](http://arxiv.org/abs/2603.22916)|
 |**2026-03-23**|**One Model, Two Markets: Bid-Aware Generative Recommendation**|Yanchen Jiang et.al.|[2603.22231](http://arxiv.org/abs/2603.22231)|
 |**2026-03-23**|**PreferRec: Learning and Transferring Pareto Preferences for Multi-objective Re-ranking**|Wei Zhou et.al.|[2603.22073](http://arxiv.org/abs/2603.22073)|
 |**2026-03-23**|**AgenticRec: End-to-End Tool-Integrated Policy Optimization for Ranking-Oriented Recommender Agents**|Tianyi Li et.al.|[2603.21613](http://arxiv.org/abs/2603.21613)|
@@ -16,8 +18,10 @@ layout: default
 |**2026-03-22**|**LSA: A Long-Short-term Aspect Interest Transformer for Aspect-Based Recommendation**|Le Liu et.al.|[2603.21243](http://arxiv.org/abs/2603.21243)|
 |**2026-03-22**|**MI-DPG: Decomposable Parameter Generation Network Based on Mutual Information for Multi-Scenario Recommendation**|Wenzhuo Cheng et.al.|[2603.21209](http://arxiv.org/abs/2603.21209)|
 |**2026-03-22**|**Ontology-Compliant Knowledge Graphs**|Zhangcheng Qiang et.al.|[2603.21188](http://arxiv.org/abs/2603.21188)|
+|**2026-03-22**|**Personalized Federated Sequential Recommender**|Yicheng Di et.al.|[2603.22349](http://arxiv.org/abs/2603.22349)|
 |**2026-03-21**|**RAIE: Region-Aware Incremental Preference Editing with LoRA for LLM-based Recommendation**|Jin Zeng et.al.|[2603.00638](http://arxiv.org/abs/2603.00638)|
 |**2026-03-21**|**Algorithmic Audit of Personalisation Drift in Polarising Topics on TikTok**|Branislav Pecher et.al.|[2603.20723](http://arxiv.org/abs/2603.20723)|
+|**2026-03-21**|**Causal Direct Preference Optimization for Distributionally Robust Generative Recommendation**|Chu Zhao et.al.|[2603.22335](http://arxiv.org/abs/2603.22335)|
 |**2026-03-20**|**The End of Rented Discovery: How AI Search Redistributes Power Between Hotels and Intermediaries**|Peiying Zhu et.al.|[2603.20062](http://arxiv.org/abs/2603.20062)|
 |**2026-03-20**|**DALI: LLM-Agent Enhanced Dual-Stream Adaptive Leadership Identification for Group Recommendations**|Boxun Song et.al.|[2603.19909](http://arxiv.org/abs/2603.19909)|
 |**2026-03-20**|**How Well Does Generative Recommendation Generalize?**|Yijie Ding et.al.|[2603.19809](http://arxiv.org/abs/2603.19809)|
