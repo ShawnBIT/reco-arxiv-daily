@@ -1,11 +1,16 @@
 ## Daily New Papers
 
-> Updated on 2026.03.27
+> Updated on 2026.03.28
 
 ## Recommender System
 
 |Publish Date|Title|Tag|Authors|PDF|
 |---|---|---|---|---|
+|**2026-03-26**|**MCLMR: A Model-Agnostic Causal Learning Framework for Multi-Behavior Recommendation**|<img src="https://img.shields.io/badge/-Other-5a5a5a?style=flat-square&color=%235a5a5a" width="120" alt="Other" />|Ranxu Zhang et.al.|[2603.25126](http://arxiv.org/abs/2603.25126)|
+|**2026-03-26**|**Hyena Operator for Fast Sequential Recommendation**|<img src="https://img.shields.io/badge/-Seq-5a4a6a?style=flat-square&color=%235a4a6a" width="56" alt="Seq" />|Jiahao Liu et.al.|[2603.25027](http://arxiv.org/abs/2603.25027)|
+|**2026-03-26**|**DIET: Learning to Distill Dataset Continually for Recommender Systems**|<img src="https://img.shields.io/badge/-Other-5a5a5a?style=flat-square&color=%235a5a5a" width="120" alt="Other" />|Jiaqing Zhang et.al.|[2603.24958](http://arxiv.org/abs/2603.24958)|
+|**2026-03-26**|**LSA: A Long-Short-term Aspect Interest Transformer for Aspect-Based Recommendation**|<img src="https://img.shields.io/badge/-Other-5a5a5a?style=flat-square&color=%235a5a5a" width="120" alt="Other" />|Le Liu et.al.|[2603.21243](http://arxiv.org/abs/2603.21243)|
+|**2026-03-25**|**Pseudo Label NCF for Sparse OHC Recommendation: Dual Representation Learning and the Separability Accuracy Trade off**|<img src="https://img.shields.io/badge/-Other-5a5a5a?style=flat-square&color=%235a5a5a" width="120" alt="Other" />|Pronob Kumar Barman et.al.|[2603.24750](http://arxiv.org/abs/2603.24750)|
 |**2026-03-25**|**Exploring How Fair Model Representations Relate to Fair Recommendations**|<img src="https://img.shields.io/badge/-Other-5a5a5a?style=flat-square&color=%235a5a5a" width="120" alt="Other" />|Bjørnar Vassøy et.al.|[2603.24396](http://arxiv.org/abs/2603.24396)|
 |**2026-03-25**|**UniScale: Synergistic Entire Space Data and Model Scaling for Search Ranking**|<img src="https://img.shields.io/badge/-Scaling-8b5a3c?style=flat-square&color=%238b5a3c" width="200" alt="Scaling" />|Liren Yu et.al.|[2603.24226](http://arxiv.org/abs/2603.24226)|
 |**2026-03-25**|**Sequence-aware Large Language Models for Explainable Recommendation**|<img src="https://img.shields.io/badge/-LLM-2c4a78?style=flat-square&color=%232c4a78" width="56" alt="LLM" />|Gangyi Zhang et.al.|[2603.24136](http://arxiv.org/abs/2603.24136)|
@@ -15,7 +20,6 @@
 |**2026-03-23**|**PreferRec: Learning and Transferring Pareto Preferences for Multi-objective Re-ranking**|<img src="https://img.shields.io/badge/-Other-5a5a5a?style=flat-square&color=%235a5a5a" width="120" alt="Other" />|Wei Zhou et.al.|[2603.22073](http://arxiv.org/abs/2603.22073)|
 |**2026-03-23**|**AgenticRec: End-to-End Tool-Integrated Policy Optimization for Ranking-Oriented Recommender Agents**|<img src="https://img.shields.io/badge/-Other-5a5a5a?style=flat-square&color=%235a5a5a" width="120" alt="Other" />|Tianyi Li et.al.|[2603.21613](http://arxiv.org/abs/2603.21613)|
 |**2026-03-23**|**TagLLM: A Fine-Grained Tag Generation Approach for Note Recommendation**|<img src="https://img.shields.io/badge/-GR-1e5c3a?style=flat-square&color=%231e5c3a" width="56" alt="GR" />|Zhijian Chen et.al.|[2603.21481](http://arxiv.org/abs/2603.21481)|
-|**2026-03-22**|**LSA: A Long-Short-term Aspect Interest Transformer for Aspect-Based Recommendation**|<img src="https://img.shields.io/badge/-Other-5a5a5a?style=flat-square&color=%235a5a5a" width="120" alt="Other" />|Le Liu et.al.|[2603.21243](http://arxiv.org/abs/2603.21243)|
 |**2026-03-22**|**MI-DPG: Decomposable Parameter Generation Network Based on Mutual Information for Multi-Scenario Recommendation**|<img src="https://img.shields.io/badge/-GR-1e5c3a?style=flat-square&color=%231e5c3a" width="56" alt="GR" />|Wenzhuo Cheng et.al.|[2603.21209](http://arxiv.org/abs/2603.21209)|
 |**2026-03-22**|**Ontology-Compliant Knowledge Graphs**|<img src="https://img.shields.io/badge/-Other-5a5a5a?style=flat-square&color=%235a5a5a" width="120" alt="Other" />|Zhangcheng Qiang et.al.|[2603.21188](http://arxiv.org/abs/2603.21188)|
 |**2026-03-22**|**Personalized Federated Sequential Recommender**|<img src="https://img.shields.io/badge/-Seq-5a4a6a?style=flat-square&color=%235a4a6a" width="56" alt="Seq" />|Yicheng Di et.al.|[2603.22349](http://arxiv.org/abs/2603.22349)|
@@ -102,8 +106,4 @@
 |**2026-02-27**|**FuXi-Linear: Unleashing the Power of Linear Attention in Long-term Time-aware Sequential Recommendation**|<img src="https://img.shields.io/badge/-Seq-5a4a6a?style=flat-square&color=%235a4a6a" width="56" alt="Seq" />|Yufei Ye et.al.|[2602.23671](http://arxiv.org/abs/2602.23671)|
 |**2026-02-27**|**Learning to Reflect and Correct: Towards Better Decoding Trajectories for Large-Scale Generative Recommendation**|<img src="https://img.shields.io/badge/-GR-1e5c3a?style=flat-square&color=%231e5c3a" width="56" alt="GR" />|Haibo Xing et.al.|[2602.23639](http://arxiv.org/abs/2602.23639)|
 |**2026-02-26**|**Cross-Representation Knowledge Transfer for Improved Sequential Recommendations**|<img src="https://img.shields.io/badge/-Seq-5a4a6a?style=flat-square&color=%235a4a6a" width="56" alt="Seq" />|Artur Gimranov et.al.|[2602.23471](http://arxiv.org/abs/2602.23471)|
-|**2026-02-26**|**From Agnostic to Specific: Latent Preference Diffusion for Multi-Behavior Sequential Recommendation**|<img src="https://img.shields.io/badge/-Seq-5a4a6a?style=flat-square&color=%235a4a6a" width="56" alt="Seq" />|Ruochen Yang et.al.|[2602.23132](http://arxiv.org/abs/2602.23132)|
-|**2026-02-26**|**MaRI: Accelerating Ranking Model Inference via Structural Re-parameterization in Large Scale Recommendation System**|<img src="https://img.shields.io/badge/-Other-5a5a5a?style=flat-square&color=%235a5a5a" width="120" alt="Other" />|Yusheng Huang et.al.|[2602.23105](http://arxiv.org/abs/2602.23105)|
-|**2026-02-26**|**Sequential Regression for Continuous Value Prediction using Residual Quantization**|<img src="https://img.shields.io/badge/-Seq-5a4a6a?style=flat-square&color=%235a4a6a" width="56" alt="Seq" />|Runpeng Cui et.al.|[2602.23012](http://arxiv.org/abs/2602.23012)|
-|**2026-02-26**|**SIGMA: A Semantic-Grounded Instruction-Driven Generative Multi-Task Recommender at AliExpress**|<img src="https://img.shields.io/badge/-GR-1e5c3a?style=flat-square&color=%231e5c3a" width="56" alt="GR" />|Yang Yu et.al.|[2602.22913](http://arxiv.org/abs/2602.22913)|
 

@@ -2,23 +2,27 @@
 layout: default
 ---
 
-## Updated on 2026.03.27
+## Updated on 2026.03.28
 > Usage instructions: [here](./docs/README.md#usage)
 
 ## Recommender System
 
 | Publish Date | Title | Authors | PDF |
 |:---------|:-----------------------|:---------|:------|
+|**2026-03-26**|**LSA: A Long-Short-term Aspect Interest Transformer for Aspect-Based Recommendation**|Le Liu et.al.|[2603.21243](http://arxiv.org/abs/2603.21243)|
+|**2026-03-26**|**MCLMR: A Model-Agnostic Causal Learning Framework for Multi-Behavior Recommendation**|Ranxu Zhang et.al.|[2603.25126](http://arxiv.org/abs/2603.25126)|
+|**2026-03-26**|**Hyena Operator for Fast Sequential Recommendation**|Jiahao Liu et.al.|[2603.25027](http://arxiv.org/abs/2603.25027)|
+|**2026-03-26**|**DIET: Learning to Distill Dataset Continually for Recommender Systems**|Jiaqing Zhang et.al.|[2603.24958](http://arxiv.org/abs/2603.24958)|
 |**2026-03-25**|**Exploring How Fair Model Representations Relate to Fair Recommendations**|Bjørnar Vassøy et.al.|[2603.24396](http://arxiv.org/abs/2603.24396)|
 |**2026-03-25**|**UniScale: Synergistic Entire Space Data and Model Scaling for Search Ranking**|Liren Yu et.al.|[2603.24226](http://arxiv.org/abs/2603.24226)|
 |**2026-03-25**|**Sequence-aware Large Language Models for Explainable Recommendation**|Gangyi Zhang et.al.|[2603.24136](http://arxiv.org/abs/2603.24136)|
+|**2026-03-25**|**Pseudo Label NCF for Sparse OHC Recommendation: Dual Representation Learning and the Separability Accuracy Trade off**|Pronob Kumar Barman et.al.|[2603.24750](http://arxiv.org/abs/2603.24750)|
 |**2026-03-24**|**Reasoning over Semantic IDs Enhances Generative Recommendation**|Yingzhi He et.al.|[2603.23183](http://arxiv.org/abs/2603.23183)|
 |**2026-03-24**|**GateSID: Adaptive Gating for Semantic-Collaborative Alignment in Cold-Start Recommendation**|Hai Zhu et.al.|[2603.22916](http://arxiv.org/abs/2603.22916)|
 |**2026-03-23**|**One Model, Two Markets: Bid-Aware Generative Recommendation**|Yanchen Jiang et.al.|[2603.22231](http://arxiv.org/abs/2603.22231)|
 |**2026-03-23**|**PreferRec: Learning and Transferring Pareto Preferences for Multi-objective Re-ranking**|Wei Zhou et.al.|[2603.22073](http://arxiv.org/abs/2603.22073)|
 |**2026-03-23**|**AgenticRec: End-to-End Tool-Integrated Policy Optimization for Ranking-Oriented Recommender Agents**|Tianyi Li et.al.|[2603.21613](http://arxiv.org/abs/2603.21613)|
 |**2026-03-23**|**TagLLM: A Fine-Grained Tag Generation Approach for Note Recommendation**|Zhijian Chen et.al.|[2603.21481](http://arxiv.org/abs/2603.21481)|
-|**2026-03-22**|**LSA: A Long-Short-term Aspect Interest Transformer for Aspect-Based Recommendation**|Le Liu et.al.|[2603.21243](http://arxiv.org/abs/2603.21243)|
 |**2026-03-22**|**MI-DPG: Decomposable Parameter Generation Network Based on Mutual Information for Multi-Scenario Recommendation**|Wenzhuo Cheng et.al.|[2603.21209](http://arxiv.org/abs/2603.21209)|
 |**2026-03-22**|**Ontology-Compliant Knowledge Graphs**|Zhangcheng Qiang et.al.|[2603.21188](http://arxiv.org/abs/2603.21188)|
 |**2026-03-22**|**Personalized Federated Sequential Recommender**|Yicheng Di et.al.|[2603.22349](http://arxiv.org/abs/2603.22349)|

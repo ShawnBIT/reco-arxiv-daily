@@ -1,17 +1,17 @@
 **Recommender System Daily New Papers**
 
-Updated on **2026.03.27**
+Updated on **2026.03.28**
 共计 **4** 篇论文
 
-**2026-03-25**  **⬜️ Other** | Bjørnar Vassøy et.al.
-[Exploring How Fair Model Representations Relate to Fair Recommendations](http://arxiv.org/abs/2603.24396)
+**2026-03-26**  **⬜️ Other** | Ranxu Zhang et.al.
+[MCLMR: A Model-Agnostic Causal Learning Framework for Multi-Behavior Recommendation](http://arxiv.org/abs/2603.25126)
 
-**2026-03-25**  **🟥 Scaling** | Liren Yu et.al.
-[UniScale: Synergistic Entire Space Data and Model Scaling for Search Ranking](http://arxiv.org/abs/2603.24226)
+**2026-03-26**  **🟨 Seq** | Jiahao Liu et.al.
+[Hyena Operator for Fast Sequential Recommendation](http://arxiv.org/abs/2603.25027)
 
-**2026-03-25**  **🔵 LLM** | Gangyi Zhang et.al.
-[Sequence-aware Large Language Models for Explainable Recommendation](http://arxiv.org/abs/2603.24136)
+**2026-03-26**  **⬜️ Other** | Jiaqing Zhang et.al.
+[DIET: Learning to Distill Dataset Continually for Recommender Systems](http://arxiv.org/abs/2603.24958)
 
-**2026-03-05**  **🟩 GR** | Rong Fu et.al.
-[S-Path-RAG: Semantic-Aware Shortest-Path Retrieval Augmented Generation for Multi-Hop Knowledge Graph Question Answering](http://arxiv.org/abs/2603.23512)
+**2026-03-25**  **⬜️ Other** | Pronob Kumar Barman et.al.
+[Pseudo Label NCF for Sparse OHC Recommendation: Dual Representation Learning and the Separability Accuracy Trade off](http://arxiv.org/abs/2603.24750)
 
