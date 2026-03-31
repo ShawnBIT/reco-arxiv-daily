@@ -2,13 +2,18 @@
 layout: default
 ---
 
-## Updated on 2026.03.31
+## Updated on 2026.04.01
 > Usage instructions: [here](./docs/README.md#usage)
 
 ## Recommender System
 
 | Publish Date | Title | Authors | PDF |
 |:---------|:-----------------------|:---------|:------|
+|**2026-03-30**|**The End of Rented Discovery: How AI Search Redistributes Power Between Hotels and Intermediaries**|Peiying Zhu et.al.|[2603.20062](http://arxiv.org/abs/2603.20062)|
+|**2026-03-30**|**With a Little Help From My Friends: Collective Manipulation in Risk-Controlling Recommender Systems**|Giovanni De Toni et.al.|[2603.28476](http://arxiv.org/abs/2603.28476)|
+|**2026-03-30**|**RCLRec: Reverse Curriculum Learning for Modeling Sparse Conversions in Generative Recommendation**|Yulei Huang et.al.|[2603.28124](http://arxiv.org/abs/2603.28124)|
+|**2026-03-30**|**On the Accuracy Limits of Sequential Recommender Systems: An Entropy-Based Approach**|En Xu et.al.|[2603.27952](http://arxiv.org/abs/2603.27952)|
+|**2026-03-29**|**Ontology-Compliant Knowledge Graphs**|Zhangcheng Qiang et.al.|[2603.21188](http://arxiv.org/abs/2603.21188)|
 |**2026-03-27**|**UniScale: Synergistic Entire Space Data and Model Scaling for Search Ranking**|Liren Yu et.al.|[2603.24226](http://arxiv.org/abs/2603.24226)|
 |**2026-03-27**|**Rethinking Recommendation Paradigms: From Pipelines to Agentic Recommender Systems**|Jinxin Hu et.al.|[2603.26100](http://arxiv.org/abs/2603.26100)|
 |**2026-03-27**|**AgenticRS-Architecture: System Design for Agentic Recommender Systems**|Hao Zhang et.al.|[2603.26085](http://arxiv.org/abs/2603.26085)|
@@ -26,12 +31,10 @@ layout: default
 |**2026-03-23**|**AgenticRec: End-to-End Tool-Integrated Policy Optimization for Ranking-Oriented Recommender Agents**|Tianyi Li et.al.|[2603.21613](http://arxiv.org/abs/2603.21613)|
 |**2026-03-23**|**TagLLM: A Fine-Grained Tag Generation Approach for Note Recommendation**|Zhijian Chen et.al.|[2603.21481](http://arxiv.org/abs/2603.21481)|
 |**2026-03-22**|**MI-DPG: Decomposable Parameter Generation Network Based on Mutual Information for Multi-Scenario Recommendation**|Wenzhuo Cheng et.al.|[2603.21209](http://arxiv.org/abs/2603.21209)|
-|**2026-03-22**|**Ontology-Compliant Knowledge Graphs**|Zhangcheng Qiang et.al.|[2603.21188](http://arxiv.org/abs/2603.21188)|
 |**2026-03-22**|**Personalized Federated Sequential Recommender**|Yicheng Di et.al.|[2603.22349](http://arxiv.org/abs/2603.22349)|
 |**2026-03-21**|**RAIE: Region-Aware Incremental Preference Editing with LoRA for LLM-based Recommendation**|Jin Zeng et.al.|[2603.00638](http://arxiv.org/abs/2603.00638)|
 |**2026-03-21**|**Algorithmic Audit of Personalisation Drift in Polarising Topics on TikTok**|Branislav Pecher et.al.|[2603.20723](http://arxiv.org/abs/2603.20723)|
 |**2026-03-21**|**Causal Direct Preference Optimization for Distributionally Robust Generative Recommendation**|Chu Zhao et.al.|[2603.22335](http://arxiv.org/abs/2603.22335)|
-|**2026-03-20**|**The End of Rented Discovery: How AI Search Redistributes Power Between Hotels and Intermediaries**|Peiying Zhu et.al.|[2603.20062](http://arxiv.org/abs/2603.20062)|
 |**2026-03-20**|**DALI: LLM-Agent Enhanced Dual-Stream Adaptive Leadership Identification for Group Recommendations**|Boxun Song et.al.|[2603.19909](http://arxiv.org/abs/2603.19909)|
 |**2026-03-20**|**How Well Does Generative Recommendation Generalize?**|Yijie Ding et.al.|[2603.19809](http://arxiv.org/abs/2603.19809)|
 |**2026-03-20**|**AIGQ: An End-to-End Hybrid Generative Architecture for E-commerce Query Recommendation**|Jingcao Xu et.al.|[2603.19710](http://arxiv.org/abs/2603.19710)|
@@ -52,11 +55,13 @@ layout: default
 |**2026-03-17**|**ReFORM: Review-aggregated Profile Generation via LLM with Multi-Factor Attention for Restaurant Recommendation**|Moonsoo Park et.al.|[2603.16236](http://arxiv.org/abs/2603.16236)|
 |**2026-03-17**|**RecBundle: A Next-Generation Geometric Paradigm for Explainable Recommender Systems**|Hui Wang et.al.|[2603.16088](http://arxiv.org/abs/2603.16088)|
 |**2026-03-17**|**HierarchicalKV: A GPU Hash Table with Cache Semantics for Continuous Online Embedding Storage**|Haidong Rong et.al.|[2603.17168](http://arxiv.org/abs/2603.17168)|
+|**2026-03-17**|**Agentic AI for Human Resources: LLM-Driven Candidate Assessment**|Kamer Ali Yuksel et.al.|[2603.26710](http://arxiv.org/abs/2603.26710)|
 |**2026-03-16**|**Multi-Scenario User Profile Construction via Recommendation Lists**|Hui Zhang et.al.|[2603.15357](http://arxiv.org/abs/2603.15357)|
 |**2026-03-15**|**MBD: A Model-Based Debiasing Framework Across User, Content, and Model Dimensions**|Yuantong Li et.al.|[2603.14422](http://arxiv.org/abs/2603.14422)|
 |**2026-03-15**|**Bringing Model Editing to Generative Recommendation in Cold-Start Scenarios**|Chenglei Shen et.al.|[2603.14259](http://arxiv.org/abs/2603.14259)|
 |**2026-03-14**|**Iterative Semantic Reasoning from Individual to Group Interests for Generative Recommendation with LLMs**|Xiaofei Zhu et.al.|[2603.13934](http://arxiv.org/abs/2603.13934)|
 |**2026-03-14**|**R3-REC: Reasoning-Driven Recommendation via Retrieval-Augmented LLMs over Multi-Granular Interest Signals**|Yuchen Miao et.al.|[2603.13730](http://arxiv.org/abs/2603.13730)|
+|**2026-03-14**|**EVNextTrade: Learning-to-Rank-Based Recommendation of Next Charging Nodes for EV-EV Energy Trading**|Md Mahfujur Rahmana et.al.|[2603.26688](http://arxiv.org/abs/2603.26688)|
 |**2026-03-13**|**Can Fairness Be Prompted? Prompt-Based Debiasing Strategies in High-Stakes Recommendations**|Mihaela Rotar et.al.|[2603.12935](http://arxiv.org/abs/2603.12935)|
 |**2026-03-13**|**Taming the Long Tail: Efficient Item-wise Sharpness-Aware Minimization for LLM-based Recommender Systems**|Jiaming Zhang et.al.|[2603.12752](http://arxiv.org/abs/2603.12752)|
 |**2026-03-13**|**Anchored Alignment: Preventing Positional Collapse in Multimodal Recommender Systems**|Yonghun Jeong et.al.|[2603.12726](http://arxiv.org/abs/2603.12726)|
