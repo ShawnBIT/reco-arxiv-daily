@@ -2,17 +2,22 @@
 layout: default
 ---
 
-## Updated on 2026.04.01
+## Updated on 2026.04.02
 > Usage instructions: [here](./docs/README.md#usage)
 
 ## Recommender System
 
 | Publish Date | Title | Authors | PDF |
 |:---------|:-----------------------|:---------|:------|
+|**2026-03-31**|**Cold-Starts in Generative Recommendation: A Reproducibility Study**|Zhen Zhang et.al.|[2603.29845](http://arxiv.org/abs/2603.29845)|
+|**2026-03-31**|**Drift-Aware Continual Tokenization for Generative Recommendation**|Yuebo Feng et.al.|[2603.29705](http://arxiv.org/abs/2603.29705)|
+|**2026-03-31**|**Aligning Multimodal Sequential Recommendations via Robust Direct Preference Optimization with Sparse MoE**|Hejin Huang et.al.|[2603.29259](http://arxiv.org/abs/2603.29259)|
 |**2026-03-30**|**The End of Rented Discovery: How AI Search Redistributes Power Between Hotels and Intermediaries**|Peiying Zhu et.al.|[2603.20062](http://arxiv.org/abs/2603.20062)|
+|**2026-03-30**|**Pseudo Label NCF for Sparse OHC Recommendation: Dual Representation Learning and the Separability Accuracy Trade off**|Pronob Kumar Barman et.al.|[2603.24750](http://arxiv.org/abs/2603.24750)|
 |**2026-03-30**|**With a Little Help From My Friends: Collective Manipulation in Risk-Controlling Recommender Systems**|Giovanni De Toni et.al.|[2603.28476](http://arxiv.org/abs/2603.28476)|
 |**2026-03-30**|**RCLRec: Reverse Curriculum Learning for Modeling Sparse Conversions in Generative Recommendation**|Yulei Huang et.al.|[2603.28124](http://arxiv.org/abs/2603.28124)|
 |**2026-03-30**|**On the Accuracy Limits of Sequential Recommender Systems: An Entropy-Based Approach**|En Xu et.al.|[2603.27952](http://arxiv.org/abs/2603.27952)|
+|**2026-03-30**|**Zero-shot Cross-domain Knowledge Distillation: A Case study on YouTube Music**|Srivaths Ranganathan et.al.|[2603.28994](http://arxiv.org/abs/2603.28994)|
 |**2026-03-29**|**Ontology-Compliant Knowledge Graphs**|Zhangcheng Qiang et.al.|[2603.21188](http://arxiv.org/abs/2603.21188)|
 |**2026-03-27**|**UniScale: Synergistic Entire Space Data and Model Scaling for Search Ranking**|Liren Yu et.al.|[2603.24226](http://arxiv.org/abs/2603.24226)|
 |**2026-03-27**|**Rethinking Recommendation Paradigms: From Pipelines to Agentic Recommender Systems**|Jinxin Hu et.al.|[2603.26100](http://arxiv.org/abs/2603.26100)|
@@ -23,7 +28,6 @@ layout: default
 |**2026-03-26**|**DIET: Learning to Distill Dataset Continually for Recommender Systems**|Jiaqing Zhang et.al.|[2603.24958](http://arxiv.org/abs/2603.24958)|
 |**2026-03-25**|**Exploring How Fair Model Representations Relate to Fair Recommendations**|Bjørnar Vassøy et.al.|[2603.24396](http://arxiv.org/abs/2603.24396)|
 |**2026-03-25**|**Sequence-aware Large Language Models for Explainable Recommendation**|Gangyi Zhang et.al.|[2603.24136](http://arxiv.org/abs/2603.24136)|
-|**2026-03-25**|**Pseudo Label NCF for Sparse OHC Recommendation: Dual Representation Learning and the Separability Accuracy Trade off**|Pronob Kumar Barman et.al.|[2603.24750](http://arxiv.org/abs/2603.24750)|
 |**2026-03-24**|**Reasoning over Semantic IDs Enhances Generative Recommendation**|Yingzhi He et.al.|[2603.23183](http://arxiv.org/abs/2603.23183)|
 |**2026-03-24**|**GateSID: Adaptive Gating for Semantic-Collaborative Alignment in Cold-Start Recommendation**|Hai Zhu et.al.|[2603.22916](http://arxiv.org/abs/2603.22916)|
 |**2026-03-23**|**One Model, Two Markets: Bid-Aware Generative Recommendation**|Yanchen Jiang et.al.|[2603.22231](http://arxiv.org/abs/2603.22231)|

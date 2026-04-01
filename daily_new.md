@@ -1,14 +1,19 @@
 ## Daily New Papers
 
-> Updated on 2026.04.01
+> Updated on 2026.04.02
 
 ## Recommender System
 
 |Publish Date|Title|Tag|Authors|PDF|
 |---|---|---|---|---|
+|**2026-03-31**|**Cold-Starts in Generative Recommendation: A Reproducibility Study**|<img src="https://img.shields.io/badge/-GR-1e5c3a?style=flat-square&color=%231e5c3a" width="56" alt="GR" />|Zhen Zhang et.al.|[2603.29845](http://arxiv.org/abs/2603.29845)|
+|**2026-03-31**|**Drift-Aware Continual Tokenization for Generative Recommendation**|<img src="https://img.shields.io/badge/-GR-1e5c3a?style=flat-square&color=%231e5c3a" width="56" alt="GR" />|Yuebo Feng et.al.|[2603.29705](http://arxiv.org/abs/2603.29705)|
+|**2026-03-31**|**Aligning Multimodal Sequential Recommendations via Robust Direct Preference Optimization with Sparse MoE**|<img src="https://img.shields.io/badge/-Seq-5a4a6a?style=flat-square&color=%235a4a6a" width="56" alt="Seq" />|Hejin Huang et.al.|[2603.29259](http://arxiv.org/abs/2603.29259)|
+|**2026-03-30**|**Zero-shot Cross-domain Knowledge Distillation: A Case study on YouTube Music**|<img src="https://img.shields.io/badge/-Other-5a5a5a?style=flat-square&color=%235a5a5a" width="120" alt="Other" />|Srivaths Ranganathan et.al.|[2603.28994](http://arxiv.org/abs/2603.28994)|
 |**2026-03-30**|**With a Little Help From My Friends: Collective Manipulation in Risk-Controlling Recommender Systems**|<img src="https://img.shields.io/badge/-Other-5a5a5a?style=flat-square&color=%235a5a5a" width="120" alt="Other" />|Giovanni De Toni et.al.|[2603.28476](http://arxiv.org/abs/2603.28476)|
 |**2026-03-30**|**RCLRec: Reverse Curriculum Learning for Modeling Sparse Conversions in Generative Recommendation**|<img src="https://img.shields.io/badge/-GR-1e5c3a?style=flat-square&color=%231e5c3a" width="56" alt="GR" />|Yulei Huang et.al.|[2603.28124](http://arxiv.org/abs/2603.28124)|
 |**2026-03-30**|**On the Accuracy Limits of Sequential Recommender Systems: An Entropy-Based Approach**|<img src="https://img.shields.io/badge/-Seq-5a4a6a?style=flat-square&color=%235a4a6a" width="56" alt="Seq" />|En Xu et.al.|[2603.27952](http://arxiv.org/abs/2603.27952)|
+|**2026-03-30**|**Pseudo Label NCF for Sparse OHC Recommendation: Dual Representation Learning and the Separability Accuracy Trade off**|<img src="https://img.shields.io/badge/-Other-5a5a5a?style=flat-square&color=%235a5a5a" width="120" alt="Other" />|Pronob Kumar Barman et.al.|[2603.24750](http://arxiv.org/abs/2603.24750)|
 |**2026-03-30**|**The End of Rented Discovery: How AI Search Redistributes Power Between Hotels and Intermediaries**|<img src="https://img.shields.io/badge/-Other-5a5a5a?style=flat-square&color=%235a5a5a" width="120" alt="Other" />|Peiying Zhu et.al.|[2603.20062](http://arxiv.org/abs/2603.20062)|
 |**2026-03-29**|**Ontology-Compliant Knowledge Graphs**|<img src="https://img.shields.io/badge/-Other-5a5a5a?style=flat-square&color=%235a5a5a" width="120" alt="Other" />|Zhangcheng Qiang et.al.|[2603.21188](http://arxiv.org/abs/2603.21188)|
 |**2026-03-27**|**Rethinking Recommendation Paradigms: From Pipelines to Agentic Recommender Systems**|<img src="https://img.shields.io/badge/-Other-5a5a5a?style=flat-square&color=%235a5a5a" width="120" alt="Other" />|Jinxin Hu et.al.|[2603.26100](http://arxiv.org/abs/2603.26100)|
@@ -18,7 +23,6 @@
 |**2026-03-26**|**Hyena Operator for Fast Sequential Recommendation**|<img src="https://img.shields.io/badge/-Seq-5a4a6a?style=flat-square&color=%235a4a6a" width="56" alt="Seq" />|Jiahao Liu et.al.|[2603.25027](http://arxiv.org/abs/2603.25027)|
 |**2026-03-26**|**DIET: Learning to Distill Dataset Continually for Recommender Systems**|<img src="https://img.shields.io/badge/-Other-5a5a5a?style=flat-square&color=%235a5a5a" width="120" alt="Other" />|Jiaqing Zhang et.al.|[2603.24958](http://arxiv.org/abs/2603.24958)|
 |**2026-03-26**|**LSA: A Long-Short-term Aspect Interest Transformer for Aspect-Based Recommendation**|<img src="https://img.shields.io/badge/-Other-5a5a5a?style=flat-square&color=%235a5a5a" width="120" alt="Other" />|Le Liu et.al.|[2603.21243](http://arxiv.org/abs/2603.21243)|
-|**2026-03-25**|**Pseudo Label NCF for Sparse OHC Recommendation: Dual Representation Learning and the Separability Accuracy Trade off**|<img src="https://img.shields.io/badge/-Other-5a5a5a?style=flat-square&color=%235a5a5a" width="120" alt="Other" />|Pronob Kumar Barman et.al.|[2603.24750](http://arxiv.org/abs/2603.24750)|
 |**2026-03-25**|**Exploring How Fair Model Representations Relate to Fair Recommendations**|<img src="https://img.shields.io/badge/-Other-5a5a5a?style=flat-square&color=%235a5a5a" width="120" alt="Other" />|Bjørnar Vassøy et.al.|[2603.24396](http://arxiv.org/abs/2603.24396)|
 |**2026-03-25**|**Sequence-aware Large Language Models for Explainable Recommendation**|<img src="https://img.shields.io/badge/-LLM-2c4a78?style=flat-square&color=%232c4a78" width="56" alt="LLM" />|Gangyi Zhang et.al.|[2603.24136](http://arxiv.org/abs/2603.24136)|
 |**2026-03-24**|**Reasoning over Semantic IDs Enhances Generative Recommendation**|<img src="https://img.shields.io/badge/-GR-1e5c3a?style=flat-square&color=%231e5c3a" width="56" alt="GR" />|Yingzhi He et.al.|[2603.23183](http://arxiv.org/abs/2603.23183)|
@@ -31,7 +35,6 @@
 |**2026-03-22**|**Personalized Federated Sequential Recommender**|<img src="https://img.shields.io/badge/-Seq-5a4a6a?style=flat-square&color=%235a4a6a" width="56" alt="Seq" />|Yicheng Di et.al.|[2603.22349](http://arxiv.org/abs/2603.22349)|
 |**2026-03-21**|**Algorithmic Audit of Personalisation Drift in Polarising Topics on TikTok**|<img src="https://img.shields.io/badge/-Other-5a5a5a?style=flat-square&color=%235a5a5a" width="120" alt="Other" />|Branislav Pecher et.al.|[2603.20723](http://arxiv.org/abs/2603.20723)|
 |**2026-03-21**|**Causal Direct Preference Optimization for Distributionally Robust Generative Recommendation**|<img src="https://img.shields.io/badge/-GR-1e5c3a?style=flat-square&color=%231e5c3a" width="56" alt="GR" />|Chu Zhao et.al.|[2603.22335](http://arxiv.org/abs/2603.22335)|
-|**2026-03-21**|**RAIE: Region-Aware Incremental Preference Editing with LoRA for LLM-based Recommendation**|<img src="https://img.shields.io/badge/-LLM-2c4a78?style=flat-square&color=%232c4a78" width="56" alt="LLM" />|Jin Zeng et.al.|[2603.00638](http://arxiv.org/abs/2603.00638)|
 |**2026-03-20**|**DALI: LLM-Agent Enhanced Dual-Stream Adaptive Leadership Identification for Group Recommendations**|<img src="https://img.shields.io/badge/-LLM-2c4a78?style=flat-square&color=%232c4a78" width="56" alt="LLM" />|Boxun Song et.al.|[2603.19909](http://arxiv.org/abs/2603.19909)|
 |**2026-03-20**|**How Well Does Generative Recommendation Generalize?**|<img src="https://img.shields.io/badge/-GR-1e5c3a?style=flat-square&color=%231e5c3a" width="56" alt="GR" />|Yijie Ding et.al.|[2603.19809](http://arxiv.org/abs/2603.19809)|
 |**2026-03-20**|**Low-pass Personalized Subgraph Federated Recommendation**|<img src="https://img.shields.io/badge/-Other-5a5a5a?style=flat-square&color=%235a5a5a" width="120" alt="Other" />|Wooseok Sim et.al.|[2603.20338](http://arxiv.org/abs/2603.20338)|
@@ -103,7 +106,4 @@
 |**2026-03-02**|**CLEAR: Null-Space Projection for Cross-Modal De-Redundancy in Multimodal Recommendation**|<img src="https://img.shields.io/badge/-Other-5a5a5a?style=flat-square&color=%235a5a5a" width="120" alt="Other" />|Hao Zhan et.al.|[2603.01536](http://arxiv.org/abs/2603.01536)|
 |**2026-03-01**|**Beyond the Flat Sequence: Hierarchical and Preference-Aware Generative Recommendations**|<img src="https://img.shields.io/badge/-GR-1e5c3a?style=flat-square&color=%231e5c3a" width="56" alt="GR" />|Zerui Chen et.al.|[2603.00980](http://arxiv.org/abs/2603.00980)|
 |**2026-03-01**|**GeMi: A Graph-based, Multimodal Recommendation System for Narrative Scroll Paintings**|<img src="https://img.shields.io/badge/-Other-5a5a5a?style=flat-square&color=%235a5a5a" width="120" alt="Other" />|Haimonti Dutta et.al.|[2603.00854](http://arxiv.org/abs/2603.00854)|
-|**2026-02-28**|**SODA: Semantic-Oriented Distributional Alignment for Generative Recommendation**|<img src="https://img.shields.io/badge/-GR-1e5c3a?style=flat-square&color=%231e5c3a" width="56" alt="GR" />|Ziqi Xue et.al.|[2603.00700](http://arxiv.org/abs/2603.00700)|
-|**2026-02-28**|**Stop Treating Collisions Equally: Qualification-Aware Semantic ID Learning for Recommendation at Industrial Scale**|<img src="https://img.shields.io/badge/-Other-5a5a5a?style=flat-square&color=%235a5a5a" width="120" alt="Other" />|Zheng Hu et.al.|[2603.00632](http://arxiv.org/abs/2603.00632)|
-|**2026-02-28**|**MuonRec: Shifting the Optimizer Paradigm Beyond Adam in Scalable Generative Recommendation**|<img src="https://img.shields.io/badge/-GR-1e5c3a?style=flat-square&color=%231e5c3a" width="56" alt="GR" />|Rong Shan et.al.|[2603.00416](http://arxiv.org/abs/2603.00416)|
 

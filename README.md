@@ -1,4 +1,4 @@
-## Updated on 2026.04.01
+## Updated on 2026.04.02
 > Usage instructions: [here](./docs/README.md#usage)
 
 ### 📊 Paper distribution by tag
@@ -16,14 +16,14 @@
 }}}%%
 pie showData
 title Paper Distribution by Tag
-  "Other" : 627
+  "Other" : 628
   "LLM" : 203
-  "GR" : 166
-  "Seq" : 96
+  "GR" : 168
+  "Seq" : 97
   "Scaling" : 19
 ```
 
-> 统计自 **2025-07-16** 起，共计 **1111** 篇论文。
+> 统计自 **2025-07-16** 起，共计 **1115** 篇论文。
 
 <details style="margin: 1em 0; padding: 0.75em 1em; border: 1px solid #d8dee4; border-radius: 8px; background: #f6f8fa;">
   <summary style="cursor: pointer; font-weight: 600; font-size: 1.05em; color: #1f2328; padding: 0.25em 0;">📑 Table of Contents</summary>
@@ -36,10 +36,15 @@ title Paper Distribution by Tag
 
 |Publish Date|Title|Tag|Authors|PDF|
 |---|---|---|---|---|
+|**2026-03-31**|**Cold-Starts in Generative Recommendation: A Reproducibility Study**|<img src="https://img.shields.io/badge/-GR-1e5c3a?style=flat-square&color=%231e5c3a" width="56" alt="GR" />|Zhen Zhang et.al.|[2603.29845](http://arxiv.org/abs/2603.29845)|
+|**2026-03-31**|**Drift-Aware Continual Tokenization for Generative Recommendation**|<img src="https://img.shields.io/badge/-GR-1e5c3a?style=flat-square&color=%231e5c3a" width="56" alt="GR" />|Yuebo Feng et.al.|[2603.29705](http://arxiv.org/abs/2603.29705)|
+|**2026-03-31**|**Aligning Multimodal Sequential Recommendations via Robust Direct Preference Optimization with Sparse MoE**|<img src="https://img.shields.io/badge/-Seq-5a4a6a?style=flat-square&color=%235a4a6a" width="56" alt="Seq" />|Hejin Huang et.al.|[2603.29259](http://arxiv.org/abs/2603.29259)|
 |**2026-03-30**|**The End of Rented Discovery: How AI Search Redistributes Power Between Hotels and Intermediaries**|<img src="https://img.shields.io/badge/-Other-5a5a5a?style=flat-square&color=%235a5a5a" width="120" alt="Other" />|Peiying Zhu et.al.|[2603.20062](http://arxiv.org/abs/2603.20062)|
+|**2026-03-30**|**Pseudo Label NCF for Sparse OHC Recommendation: Dual Representation Learning and the Separability Accuracy Trade off**|<img src="https://img.shields.io/badge/-Other-5a5a5a?style=flat-square&color=%235a5a5a" width="120" alt="Other" />|Pronob Kumar Barman et.al.|[2603.24750](http://arxiv.org/abs/2603.24750)|
 |**2026-03-30**|**With a Little Help From My Friends: Collective Manipulation in Risk-Controlling Recommender Systems**|<img src="https://img.shields.io/badge/-Other-5a5a5a?style=flat-square&color=%235a5a5a" width="120" alt="Other" />|Giovanni De Toni et.al.|[2603.28476](http://arxiv.org/abs/2603.28476)|
 |**2026-03-30**|**RCLRec: Reverse Curriculum Learning for Modeling Sparse Conversions in Generative Recommendation**|<img src="https://img.shields.io/badge/-GR-1e5c3a?style=flat-square&color=%231e5c3a" width="56" alt="GR" />|Yulei Huang et.al.|[2603.28124](http://arxiv.org/abs/2603.28124)|
 |**2026-03-30**|**On the Accuracy Limits of Sequential Recommender Systems: An Entropy-Based Approach**|<img src="https://img.shields.io/badge/-Seq-5a4a6a?style=flat-square&color=%235a4a6a" width="56" alt="Seq" />|En Xu et.al.|[2603.27952](http://arxiv.org/abs/2603.27952)|
+|**2026-03-30**|**Zero-shot Cross-domain Knowledge Distillation: A Case study on YouTube Music**|<img src="https://img.shields.io/badge/-Other-5a5a5a?style=flat-square&color=%235a5a5a" width="120" alt="Other" />|Srivaths Ranganathan et.al.|[2603.28994](http://arxiv.org/abs/2603.28994)|
 |**2026-03-29**|**Ontology-Compliant Knowledge Graphs**|<img src="https://img.shields.io/badge/-Other-5a5a5a?style=flat-square&color=%235a5a5a" width="120" alt="Other" />|Zhangcheng Qiang et.al.|[2603.21188](http://arxiv.org/abs/2603.21188)|
 |**2026-03-27**|**UniScale: Synergistic Entire Space Data and Model Scaling for Search Ranking**|<img src="https://img.shields.io/badge/-Scaling-8b5a3c?style=flat-square&color=%238b5a3c" width="200" alt="Scaling" />|Liren Yu et.al.|[2603.24226](http://arxiv.org/abs/2603.24226)|
 |**2026-03-27**|**Rethinking Recommendation Paradigms: From Pipelines to Agentic Recommender Systems**|<img src="https://img.shields.io/badge/-Other-5a5a5a?style=flat-square&color=%235a5a5a" width="120" alt="Other" />|Jinxin Hu et.al.|[2603.26100](http://arxiv.org/abs/2603.26100)|
@@ -50,7 +55,6 @@ title Paper Distribution by Tag
 |**2026-03-26**|**DIET: Learning to Distill Dataset Continually for Recommender Systems**|<img src="https://img.shields.io/badge/-Other-5a5a5a?style=flat-square&color=%235a5a5a" width="120" alt="Other" />|Jiaqing Zhang et.al.|[2603.24958](http://arxiv.org/abs/2603.24958)|
 |**2026-03-25**|**Exploring How Fair Model Representations Relate to Fair Recommendations**|<img src="https://img.shields.io/badge/-Other-5a5a5a?style=flat-square&color=%235a5a5a" width="120" alt="Other" />|Bjørnar Vassøy et.al.|[2603.24396](http://arxiv.org/abs/2603.24396)|
 |**2026-03-25**|**Sequence-aware Large Language Models for Explainable Recommendation**|<img src="https://img.shields.io/badge/-LLM-2c4a78?style=flat-square&color=%232c4a78" width="56" alt="LLM" />|Gangyi Zhang et.al.|[2603.24136](http://arxiv.org/abs/2603.24136)|
-|**2026-03-25**|**Pseudo Label NCF for Sparse OHC Recommendation: Dual Representation Learning and the Separability Accuracy Trade off**|<img src="https://img.shields.io/badge/-Other-5a5a5a?style=flat-square&color=%235a5a5a" width="120" alt="Other" />|Pronob Kumar Barman et.al.|[2603.24750](http://arxiv.org/abs/2603.24750)|
 |**2026-03-24**|**Reasoning over Semantic IDs Enhances Generative Recommendation**|<img src="https://img.shields.io/badge/-GR-1e5c3a?style=flat-square&color=%231e5c3a" width="56" alt="GR" />|Yingzhi He et.al.|[2603.23183](http://arxiv.org/abs/2603.23183)|
 |**2026-03-24**|**GateSID: Adaptive Gating for Semantic-Collaborative Alignment in Cold-Start Recommendation**|<img src="https://img.shields.io/badge/-Other-5a5a5a?style=flat-square&color=%235a5a5a" width="120" alt="Other" />|Hai Zhu et.al.|[2603.22916](http://arxiv.org/abs/2603.22916)|
 |**2026-03-23**|**One Model, Two Markets: Bid-Aware Generative Recommendation**|<img src="https://img.shields.io/badge/-GR-1e5c3a?style=flat-square&color=%231e5c3a" width="56" alt="GR" />|Yanchen Jiang et.al.|[2603.22231](http://arxiv.org/abs/2603.22231)|
@@ -1148,7 +1152,7 @@ title Paper Distribution by Tag
 |**2025-07-16**|**Looking for Fairness in Recommender Systems**|<img src="https://img.shields.io/badge/-Other-5a5a5a?style=flat-square&color=%235a5a5a" width="120" alt="Other" />|Cécile Logé et.al.|[2507.12242](http://arxiv.org/abs/2507.12242)|
 |**2025-07-16**|**Similarity-Guided Diffusion for Contrastive Sequential Recommendation**|<img src="https://img.shields.io/badge/-Seq-5a4a6a?style=flat-square&color=%235a4a6a" width="56" alt="Seq" />|Jinkyeong Choi et.al.|[2507.11866](http://arxiv.org/abs/2507.11866)|
 
-<p align=right>(<a href=#updated-on-20260401>back to top</a>)</p>
+<p align=right>(<a href=#updated-on-20260402>back to top</a>)</p>
 
 [contributors-shield]: https://img.shields.io/github/contributors/ShawnBIT/reco-arxiv-daily.svg?style=for-the-badge
 [contributors-url]: https://github.com/ShawnBIT/reco-arxiv-daily/graphs/contributors
