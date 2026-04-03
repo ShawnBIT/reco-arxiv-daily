@@ -1,13 +1,15 @@
 ## Daily New Papers
 
-> Updated on 2026.04.03
+> Updated on 2026.04.04
 
 ## Recommender System
 
 |Publish Date|Title|Tag|Authors|PDF|
 |---|---|---|---|---|
+|**2026-04-02**|**Multi-Agent Video Recommenders: Evolution, Patterns, and Open Challenges**|<img src="https://img.shields.io/badge/-Other-5a5a5a?style=flat-square&color=%235a5a5a" width="120" alt="Other" />|Srivaths Ranganathan et.al.|[2604.02211](http://arxiv.org/abs/2604.02211)|
+|**2026-04-02**|**From BM25 to Corrective RAG: Benchmarking Retrieval Strategies for Text-and-Table Documents**|<img src="https://img.shields.io/badge/-Other-5a5a5a?style=flat-square&color=%235a5a5a" width="120" alt="Other" />|Meftun Akarsu et.al.|[2604.01733](http://arxiv.org/abs/2604.01733)|
+|**2026-04-02**|**UniMixer: A Unified Architecture for Scaling Laws in Recommendation Systems**|<img src="https://img.shields.io/badge/-Scaling-8b5a3c?style=flat-square&color=%238b5a3c" width="200" alt="Scaling" />|Mingming Ha et.al.|[2604.00590](http://arxiv.org/abs/2604.00590)|
 |**2026-04-01**|**Aligning Recommendations with User Popularity Preferences**|<img src="https://img.shields.io/badge/-Other-5a5a5a?style=flat-square&color=%235a5a5a" width="120" alt="Other" />|Mona Schirmer et.al.|[2604.01036](http://arxiv.org/abs/2604.01036)|
-|**2026-04-01**|**UniMixer: A Unified Architecture for Scaling Laws in Recommendation Systems**|<img src="https://img.shields.io/badge/-Scaling-8b5a3c?style=flat-square&color=%238b5a3c" width="200" alt="Scaling" />|Mingming Ha et.al.|[2604.00590](http://arxiv.org/abs/2604.00590)|
 |**2026-03-31**|**Cold-Starts in Generative Recommendation: A Reproducibility Study**|<img src="https://img.shields.io/badge/-GR-1e5c3a?style=flat-square&color=%231e5c3a" width="56" alt="GR" />|Zhen Zhang et.al.|[2603.29845](http://arxiv.org/abs/2603.29845)|
 |**2026-03-31**|**Drift-Aware Continual Tokenization for Generative Recommendation**|<img src="https://img.shields.io/badge/-GR-1e5c3a?style=flat-square&color=%231e5c3a" width="56" alt="GR" />|Yuebo Feng et.al.|[2603.29705](http://arxiv.org/abs/2603.29705)|
 |**2026-03-31**|**Aligning Multimodal Sequential Recommendations via Robust Direct Preference Optimization with Sparse MoE**|<img src="https://img.shields.io/badge/-Seq-5a4a6a?style=flat-square&color=%235a4a6a" width="56" alt="Seq" />|Hejin Huang et.al.|[2603.29259](http://arxiv.org/abs/2603.29259)|
@@ -104,6 +106,4 @@
 |**2026-03-03**|**FlashEvaluator: Expanding Search Space with Parallel Evaluation**|<img src="https://img.shields.io/badge/-Other-5a5a5a?style=flat-square&color=%235a5a5a" width="120" alt="Other" />|Chao Feng et.al.|[2603.02565](http://arxiv.org/abs/2603.02565)|
 |**2026-03-03**|**SOLAR: SVD-Optimized Lifelong Attention for Recommendation**|<img src="https://img.shields.io/badge/-Other-5a5a5a?style=flat-square&color=%235a5a5a" width="120" alt="Other" />|Chenghao Zhang et.al.|[2603.02561](http://arxiv.org/abs/2603.02561)|
 |**2026-03-02**|**MealRec: Multi-granularity Sequential Modeling via Hierarchical Diffusion Models for Micro-Video Recommendation**|<img src="https://img.shields.io/badge/-Seq-5a4a6a?style=flat-square&color=%235a4a6a" width="56" alt="Seq" />|Xinxin Dong et.al.|[2603.01926](http://arxiv.org/abs/2603.01926)|
-|**2026-03-02**|**IDProxy: Cold-Start CTR Prediction for Ads and Recommendation at Xiaohongshu with Multimodal LLMs**|<img src="https://img.shields.io/badge/-LLM-2c4a78?style=flat-square&color=%232c4a78" width="56" alt="LLM" />|Yubin Zhang et.al.|[2603.01590](http://arxiv.org/abs/2603.01590)|
-|**2026-03-02**|**CLEAR: Null-Space Projection for Cross-Modal De-Redundancy in Multimodal Recommendation**|<img src="https://img.shields.io/badge/-Other-5a5a5a?style=flat-square&color=%235a5a5a" width="120" alt="Other" />|Hao Zhan et.al.|[2603.01536](http://arxiv.org/abs/2603.01536)|
 
