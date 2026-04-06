@@ -1,11 +1,15 @@
 ## Daily New Papers
 
-> Updated on 2026.04.06
+> Updated on 2026.04.07
 
 ## Recommender System
 
 |Publish Date|Title|Tag|Authors|PDF|
 |---|---|---|---|---|
+|**2026-04-03**|**User-Aware Conditional Generative Total Correlation Learning for Multi-Modal Recommendation**|<img src="https://img.shields.io/badge/-GR-1e5c3a?style=flat-square&color=%231e5c3a" width="56" alt="GR" />|Jing Du et.al.|[2604.03014](http://arxiv.org/abs/2604.03014)|
+|**2026-04-03**|**Bilateral Intent-Enhanced Sequential Recommendation with Embedding Perturbation-Based Contrastive Learning**|<img src="https://img.shields.io/badge/-Seq-5a4a6a?style=flat-square&color=%235a4a6a" width="56" alt="Seq" />|Shanfan Zhang et.al.|[2604.02833](http://arxiv.org/abs/2604.02833)|
+|**2026-04-03**|**MBGR: Multi-Business Prediction for Generative Recommendation at Meituan**|<img src="https://img.shields.io/badge/-GR-1e5c3a?style=flat-square&color=%231e5c3a" width="56" alt="GR" />|Changhao Li et.al.|[2604.02684](http://arxiv.org/abs/2604.02684)|
+|**2026-04-02**|**Synapse: Evolving Job-Person Fit with Explainable Two-phase Retrieval and LLM-guided Genetic Resume Optimization**|<img src="https://img.shields.io/badge/-LLM-2c4a78?style=flat-square&color=%232c4a78" width="56" alt="LLM" />|Ansel Kaplan Erol et.al.|[2604.02539](http://arxiv.org/abs/2604.02539)|
 |**2026-04-02**|**Multi-Agent Video Recommenders: Evolution, Patterns, and Open Challenges**|<img src="https://img.shields.io/badge/-Other-5a5a5a?style=flat-square&color=%235a5a5a" width="120" alt="Other" />|Srivaths Ranganathan et.al.|[2604.02211](http://arxiv.org/abs/2604.02211)|
 |**2026-04-02**|**From BM25 to Corrective RAG: Benchmarking Retrieval Strategies for Text-and-Table Documents**|<img src="https://img.shields.io/badge/-Other-5a5a5a?style=flat-square&color=%235a5a5a" width="120" alt="Other" />|Meftun Akarsu et.al.|[2604.01733](http://arxiv.org/abs/2604.01733)|
 |**2026-04-02**|**UniMixer: A Unified Architecture for Scaling Laws in Recommendation Systems**|<img src="https://img.shields.io/badge/-Scaling-8b5a3c?style=flat-square&color=%238b5a3c" width="200" alt="Scaling" />|Mingming Ha et.al.|[2604.00590](http://arxiv.org/abs/2604.00590)|
@@ -102,8 +106,4 @@
 |**2026-03-03**|**Proactive Guiding Strategy for Item-side Fairness in Interactive Recommendation**|<img src="https://img.shields.io/badge/-Other-5a5a5a?style=flat-square&color=%235a5a5a" width="120" alt="Other" />|Chongjun Xia et.al.|[2603.03094](http://arxiv.org/abs/2603.03094)|
 |**2026-03-03**|**APAO: Adaptive Prefix-Aware Optimization for Generative Recommendation**|<img src="https://img.shields.io/badge/-GR-1e5c3a?style=flat-square&color=%231e5c3a" width="56" alt="GR" />|Yuanqing Yu et.al.|[2603.02730](http://arxiv.org/abs/2603.02730)|
 |**2026-03-03**|**S2CDR: Smoothing-Sharpening Process Model for Cross-Domain Recommendation**|<img src="https://img.shields.io/badge/-Other-5a5a5a?style=flat-square&color=%235a5a5a" width="120" alt="Other" />|Xiaodong Li et.al.|[2603.02725](http://arxiv.org/abs/2603.02725)|
-|**2026-03-03**|**AlphaFree: Recommendation Free from Users, IDs, and GNNs**|<img src="https://img.shields.io/badge/-Other-5a5a5a?style=flat-square&color=%235a5a5a" width="120" alt="Other" />|Minseo Jeon et.al.|[2603.02653](http://arxiv.org/abs/2603.02653)|
-|**2026-03-03**|**FlashEvaluator: Expanding Search Space with Parallel Evaluation**|<img src="https://img.shields.io/badge/-Other-5a5a5a?style=flat-square&color=%235a5a5a" width="120" alt="Other" />|Chao Feng et.al.|[2603.02565](http://arxiv.org/abs/2603.02565)|
-|**2026-03-03**|**SOLAR: SVD-Optimized Lifelong Attention for Recommendation**|<img src="https://img.shields.io/badge/-Other-5a5a5a?style=flat-square&color=%235a5a5a" width="120" alt="Other" />|Chenghao Zhang et.al.|[2603.02561](http://arxiv.org/abs/2603.02561)|
-|**2026-03-02**|**MealRec: Multi-granularity Sequential Modeling via Hierarchical Diffusion Models for Micro-Video Recommendation**|<img src="https://img.shields.io/badge/-Seq-5a4a6a?style=flat-square&color=%235a4a6a" width="56" alt="Seq" />|Xinxin Dong et.al.|[2603.01926](http://arxiv.org/abs/2603.01926)|
 

@@ -2,16 +2,20 @@
 layout: default
 ---
 
-## Updated on 2026.04.06
+## Updated on 2026.04.07
 > Usage instructions: [here](./docs/README.md#usage)
 
 ## Recommender System
 
 | Publish Date | Title | Authors | PDF |
 |:---------|:-----------------------|:---------|:------|
+|**2026-04-03**|**User-Aware Conditional Generative Total Correlation Learning for Multi-Modal Recommendation**|Jing Du et.al.|[2604.03014](http://arxiv.org/abs/2604.03014)|
+|**2026-04-03**|**Bilateral Intent-Enhanced Sequential Recommendation with Embedding Perturbation-Based Contrastive Learning**|Shanfan Zhang et.al.|[2604.02833](http://arxiv.org/abs/2604.02833)|
+|**2026-04-03**|**MBGR: Multi-Business Prediction for Generative Recommendation at Meituan**|Changhao Li et.al.|[2604.02684](http://arxiv.org/abs/2604.02684)|
 |**2026-04-02**|**UniMixer: A Unified Architecture for Scaling Laws in Recommendation Systems**|Mingming Ha et.al.|[2604.00590](http://arxiv.org/abs/2604.00590)|
 |**2026-04-02**|**Multi-Agent Video Recommenders: Evolution, Patterns, and Open Challenges**|Srivaths Ranganathan et.al.|[2604.02211](http://arxiv.org/abs/2604.02211)|
 |**2026-04-02**|**From BM25 to Corrective RAG: Benchmarking Retrieval Strategies for Text-and-Table Documents**|Meftun Akarsu et.al.|[2604.01733](http://arxiv.org/abs/2604.01733)|
+|**2026-04-02**|**Synapse: Evolving Job-Person Fit with Explainable Two-phase Retrieval and LLM-guided Genetic Resume Optimization**|Ansel Kaplan Erol et.al.|[2604.02539](http://arxiv.org/abs/2604.02539)|
 |**2026-04-01**|**Aligning Recommendations with User Popularity Preferences**|Mona Schirmer et.al.|[2604.01036](http://arxiv.org/abs/2604.01036)|
 |**2026-03-31**|**Cold-Starts in Generative Recommendation: A Reproducibility Study**|Zhen Zhang et.al.|[2603.29845](http://arxiv.org/abs/2603.29845)|
 |**2026-03-31**|**Drift-Aware Continual Tokenization for Generative Recommendation**|Yuebo Feng et.al.|[2603.29705](http://arxiv.org/abs/2603.29705)|
