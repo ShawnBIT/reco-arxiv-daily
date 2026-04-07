@@ -1,4 +1,4 @@
-## Updated on 2026.04.07
+## Updated on 2026.04.08
 > Usage instructions: [here](./docs/README.md#usage)
 
 <details style="margin: 1em 0; padding: 0.75em 1em; border: 1px solid #d8dee4; border-radius: 8px; background: #f6f8fa;">
@@ -15,9 +15,9 @@
 
 |Publish Date|Title|Authors|PDF|
 |---|---|---|---|
+|**2026-04-06**|**Cold-Starts in Generative Recommendation: A Reproducibility Study**|Zhen Zhang et.al.|[2603.29845](http://arxiv.org/abs/2603.29845)|
 |**2026-04-03**|**User-Aware Conditional Generative Total Correlation Learning for Multi-Modal Recommendation**|Jing Du et.al.|[2604.03014](http://arxiv.org/abs/2604.03014)|
 |**2026-04-03**|**MBGR: Multi-Business Prediction for Generative Recommendation at Meituan**|Changhao Li et.al.|[2604.02684](http://arxiv.org/abs/2604.02684)|
-|**2026-03-31**|**Cold-Starts in Generative Recommendation: A Reproducibility Study**|Zhen Zhang et.al.|[2603.29845](http://arxiv.org/abs/2603.29845)|
 |**2026-03-31**|**Drift-Aware Continual Tokenization for Generative Recommendation**|Yuebo Feng et.al.|[2603.29705](http://arxiv.org/abs/2603.29705)|
 |**2026-03-30**|**RCLRec: Reverse Curriculum Learning for Modeling Sparse Conversions in Generative Recommendation**|Yulei Huang et.al.|[2603.28124](http://arxiv.org/abs/2603.28124)|
 |**2026-03-24**|**Reasoning over Semantic IDs Enhances Generative Recommendation**|Yingzhi He et.al.|[2603.23183](http://arxiv.org/abs/2603.23183)|
@@ -186,12 +186,15 @@
 |**2025-07-21**|**GREAT: Guiding Query Generation with a Trie for Recommending Related Search about Video at Kuaishou**|Ninglu Shao et.al.|[2507.15267](http://arxiv.org/abs/2507.15267)|
 |**2025-07-19**|**GRACE: Generative Recommendation via Journey-Aware Sparse Attention on Chain-of-Thought Tokenization**|Luyi Ma et.al.|[2507.14758](http://arxiv.org/abs/2507.14758)|
 
-<p align=right>(<a href=#updated-on-20260407>back to top</a>)</p>
+<p align=right>(<a href=#updated-on-20260408>back to top</a>)</p>
 
 ## LLM
 
 |Publish Date|Title|Authors|PDF|
 |---|---|---|---|
+|**2026-04-04**|**Fusion and Alignment Enhancement with Large Language Models for Tail-item Sequential Recommendation**|Zhifu Wei et.al.|[2604.03688](http://arxiv.org/abs/2604.03688)|
+|**2026-04-04**|**User Simulator-Guided Multi-Turn Preference Optimization for Reasoning LLM-based Conversational Recommendation**|Xingyuan Xiang et.al.|[2604.03671](http://arxiv.org/abs/2604.03671)|
+|**2026-04-04**|**MMP-Refer: Multimodal Path Retrieval-augmented LLMs For Explainable Recommendation**|Xiangchen Pan et.al.|[2604.03666](http://arxiv.org/abs/2604.03666)|
 |**2026-04-02**|**Synapse: Evolving Job-Person Fit with Explainable Two-phase Retrieval and LLM-guided Genetic Resume Optimization**|Ansel Kaplan Erol et.al.|[2604.02539](http://arxiv.org/abs/2604.02539)|
 |**2026-03-27**|**Rethinking Recommendation Paradigms: From Pipelines to Agentic Recommender Systems**|Jinxin Hu et.al.|[2603.26100](http://arxiv.org/abs/2603.26100)|
 |**2026-03-25**|**Sequence-aware Large Language Models for Explainable Recommendation**|Gangyi Zhang et.al.|[2603.24136](http://arxiv.org/abs/2603.24136)|
@@ -432,7 +435,7 @@
 |**2025-07-18**|**Consistent Explainers or Unreliable Narrators? Understanding LLM-generated Group Recommendations**|Cedric Waterschoot et.al.|[2507.13705](http://arxiv.org/abs/2507.13705)|
 |**2025-07-17**|**Revisiting Prompt Engineering: A Comprehensive Evaluation for LLM-based Personalized Recommendation**|Genki Kusano et.al.|[2507.13525](http://arxiv.org/abs/2507.13525)|
 
-<p align=right>(<a href=#updated-on-20260407>back to top</a>)</p>
+<p align=right>(<a href=#updated-on-20260408>back to top</a>)</p>
 
 ## Scaling
 
@@ -465,12 +468,15 @@
 |**2025-08-06**|**Realizing Scaling Laws in Recommender Systems: A Foundation-Expert Paradigm for Hyperscale Model Deployment**|Dai Li et.al.|[2508.02929](http://arxiv.org/abs/2508.02929)|
 |**2025-07-26**|**RankMixer: Scaling Up Ranking Models in Industrial Recommenders**|Jie Zhu et.al.|[2507.15551](http://arxiv.org/abs/2507.15551)|
 
-<p align=right>(<a href=#updated-on-20260407>back to top</a>)</p>
+<p align=right>(<a href=#updated-on-20260408>back to top</a>)</p>
 
 ## Sequence / Sequential
 
 |Publish Date|Title|Authors|PDF|
 |---|---|---|---|
+|**2026-04-06**|**FAVE: Flow-based Average Velocity Establishment for Sequential Recommendation**|Ke Shi et.al.|[2604.04427](http://arxiv.org/abs/2604.04427)|
+|**2026-04-05**|**FLAME: Condensing Ensemble Diversity into a Single Network for Efficient Sequential Recommendation**|WooJoo Kim et.al.|[2604.04038](http://arxiv.org/abs/2604.04038)|
+|**2026-04-04**|**Fusion and Alignment Enhancement with Large Language Models for Tail-item Sequential Recommendation**|Zhifu Wei et.al.|[2604.03688](http://arxiv.org/abs/2604.03688)|
 |**2026-04-03**|**Bilateral Intent-Enhanced Sequential Recommendation with Embedding Perturbation-Based Contrastive Learning**|Shanfan Zhang et.al.|[2604.02833](http://arxiv.org/abs/2604.02833)|
 |**2026-03-31**|**Aligning Multimodal Sequential Recommendations via Robust Direct Preference Optimization with Sparse MoE**|Hejin Huang et.al.|[2603.29259](http://arxiv.org/abs/2603.29259)|
 |**2026-03-30**|**On the Accuracy Limits of Sequential Recommender Systems: An Entropy-Based Approach**|En Xu et.al.|[2603.27952](http://arxiv.org/abs/2603.27952)|
@@ -607,7 +613,7 @@
 |**2025-07-18**|**DUALRec: A Hybrid Sequential and Language Model Framework for Context-Aware Movie Recommendation**|Yitong Li et.al.|[2507.13957](http://arxiv.org/abs/2507.13957)|
 |**2025-07-16**|**Similarity-Guided Diffusion for Contrastive Sequential Recommendation**|Jinkyeong Choi et.al.|[2507.11866](http://arxiv.org/abs/2507.11866)|
 
-<p align=right>(<a href=#updated-on-20260407>back to top</a>)</p>
+<p align=right>(<a href=#updated-on-20260408>back to top</a>)</p>
 
 [contributors-shield]: https://img.shields.io/github/contributors/ShawnBIT/reco-arxiv-daily.svg?style=for-the-badge
 [contributors-url]: https://github.com/ShawnBIT/reco-arxiv-daily/graphs/contributors

@@ -2,13 +2,25 @@
 layout: default
 ---
 
-## Updated on 2026.04.07
+## Updated on 2026.04.08
 > Usage instructions: [here](./docs/README.md#usage)
 
 ## Recommender System
 
 | Publish Date | Title | Authors | PDF |
 |:---------|:-----------------------|:---------|:------|
+|**2026-04-06**|**Cold-Starts in Generative Recommendation: A Reproducibility Study**|Zhen Zhang et.al.|[2603.29845](http://arxiv.org/abs/2603.29845)|
+|**2026-04-06**|**SLSREC: Self-Supervised Contrastive Learning for Adaptive Fusion of Long- and Short-Term User Interests**|Wei Zhou et.al.|[2604.04530](http://arxiv.org/abs/2604.04530)|
+|**2026-04-06**|**Retrieval Augmented Conversational Recommendation with Reinforcement Learning**|Zhenrui Yue et.al.|[2604.04457](http://arxiv.org/abs/2604.04457)|
+|**2026-04-06**|**FAVE: Flow-based Average Velocity Establishment for Sequential Recommendation**|Ke Shi et.al.|[2604.04427](http://arxiv.org/abs/2604.04427)|
+|**2026-04-05**|**A Logical-Rule Autoencoder for Interpretable Recommendations**|Jinhao Pan et.al.|[2604.04270](http://arxiv.org/abs/2604.04270)|
+|**2026-04-05**|**FLAME: Condensing Ensemble Diversity into a Single Network for Efficient Sequential Recommendation**|WooJoo Kim et.al.|[2604.04038](http://arxiv.org/abs/2604.04038)|
+|**2026-04-05**|**Semantic IDs for Recommender Systems at Snapchat: Use Cases, Technical Challenges, and Design Choices**|Clark Mingxuan Ju et.al.|[2604.03949](http://arxiv.org/abs/2604.03949)|
+|**2026-04-04**|**Rank, Don't Generate: Statement-level Ranking for Explainable Recommendation**|Ben Kabongo et.al.|[2604.03724](http://arxiv.org/abs/2604.03724)|
+|**2026-04-04**|**Fusion and Alignment Enhancement with Large Language Models for Tail-item Sequential Recommendation**|Zhifu Wei et.al.|[2604.03688](http://arxiv.org/abs/2604.03688)|
+|**2026-04-04**|**User Simulator-Guided Multi-Turn Preference Optimization for Reasoning LLM-based Conversational Recommendation**|Xingyuan Xiang et.al.|[2604.03671](http://arxiv.org/abs/2604.03671)|
+|**2026-04-04**|**MMP-Refer: Multimodal Path Retrieval-augmented LLMs For Explainable Recommendation**|Xiangchen Pan et.al.|[2604.03666](http://arxiv.org/abs/2604.03666)|
+|**2026-04-04**|**Joint Behavior-guided and Modality-coherence Conditional Graph Diffusion Denoising for Multi Modal Recommendation**|Xiangchen Pan et.al.|[2604.03654](http://arxiv.org/abs/2604.03654)|
 |**2026-04-03**|**User-Aware Conditional Generative Total Correlation Learning for Multi-Modal Recommendation**|Jing Du et.al.|[2604.03014](http://arxiv.org/abs/2604.03014)|
 |**2026-04-03**|**Bilateral Intent-Enhanced Sequential Recommendation with Embedding Perturbation-Based Contrastive Learning**|Shanfan Zhang et.al.|[2604.02833](http://arxiv.org/abs/2604.02833)|
 |**2026-04-03**|**MBGR: Multi-Business Prediction for Generative Recommendation at Meituan**|Changhao Li et.al.|[2604.02684](http://arxiv.org/abs/2604.02684)|
@@ -17,7 +29,6 @@ layout: default
 |**2026-04-02**|**From BM25 to Corrective RAG: Benchmarking Retrieval Strategies for Text-and-Table Documents**|Meftun Akarsu et.al.|[2604.01733](http://arxiv.org/abs/2604.01733)|
 |**2026-04-02**|**Synapse: Evolving Job-Person Fit with Explainable Two-phase Retrieval and LLM-guided Genetic Resume Optimization**|Ansel Kaplan Erol et.al.|[2604.02539](http://arxiv.org/abs/2604.02539)|
 |**2026-04-01**|**Aligning Recommendations with User Popularity Preferences**|Mona Schirmer et.al.|[2604.01036](http://arxiv.org/abs/2604.01036)|
-|**2026-03-31**|**Cold-Starts in Generative Recommendation: A Reproducibility Study**|Zhen Zhang et.al.|[2603.29845](http://arxiv.org/abs/2603.29845)|
 |**2026-03-31**|**Drift-Aware Continual Tokenization for Generative Recommendation**|Yuebo Feng et.al.|[2603.29705](http://arxiv.org/abs/2603.29705)|
 |**2026-03-31**|**Aligning Multimodal Sequential Recommendations via Robust Direct Preference Optimization with Sparse MoE**|Hejin Huang et.al.|[2603.29259](http://arxiv.org/abs/2603.29259)|
 |**2026-03-30**|**The End of Rented Discovery: How AI Search Redistributes Power Between Hotels and Intermediaries**|Peiying Zhu et.al.|[2603.20062](http://arxiv.org/abs/2603.20062)|
