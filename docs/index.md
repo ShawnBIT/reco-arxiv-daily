@@ -2,17 +2,25 @@
 layout: default
 ---
 
-## Updated on 2026.04.08
+## Updated on 2026.04.09
 > Usage instructions: [here](./docs/README.md#usage)
 
 ## Recommender System
 
 | Publish Date | Title | Authors | PDF |
 |:---------|:-----------------------|:---------|:------|
+|**2026-04-07**|**Beyond Paper-to-Paper: Structured Profiling and Rubric Scoring for Paper-Reviewer Matching**|Yicheng Pan et.al.|[2604.05866](http://arxiv.org/abs/2604.05866)|
+|**2026-04-07**|**Retrieve-then-Adapt: Retrieval-Augmented Test-Time Adaptation for Sequential Recommendation**|Xing Tang et.al.|[2604.05379](http://arxiv.org/abs/2604.05379)|
+|**2026-04-07**|**From Clues to Generation: Language-Guided Conditional Diffusion for Cross-Domain Recommendation**|Ziang Lu et.al.|[2604.05365](http://arxiv.org/abs/2604.05365)|
+|**2026-04-07**|**Curr-RLCER:Curriculum Reinforcement Learning For Coherence Explainable Recommendation**|Xiangchen Pan et.al.|[2604.05341](http://arxiv.org/abs/2604.05341)|
+|**2026-04-07**|**Semantic Trimming and Auxiliary Multi-step Prediction for Generative Recommendation**|Tianyu Zhan et.al.|[2604.05329](http://arxiv.org/abs/2604.05329)|
+|**2026-04-07**|**Next-Scale Generative Reranking: A Tree-based Generative Rerank Method at Meituan**|Shuli Wang et.al.|[2604.05314](http://arxiv.org/abs/2604.05314)|
+|**2026-04-07**|**Pay Attention to Sequence Split: Uncovering the Impacts of Sub-Sequence Splitting on Sequential Recommendation Models**|Yizhou Dang et.al.|[2604.05309](http://arxiv.org/abs/2604.05309)|
 |**2026-04-06**|**Cold-Starts in Generative Recommendation: A Reproducibility Study**|Zhen Zhang et.al.|[2603.29845](http://arxiv.org/abs/2603.29845)|
 |**2026-04-06**|**SLSREC: Self-Supervised Contrastive Learning for Adaptive Fusion of Long- and Short-Term User Interests**|Wei Zhou et.al.|[2604.04530](http://arxiv.org/abs/2604.04530)|
 |**2026-04-06**|**Retrieval Augmented Conversational Recommendation with Reinforcement Learning**|Zhenrui Yue et.al.|[2604.04457](http://arxiv.org/abs/2604.04457)|
 |**2026-04-06**|**FAVE: Flow-based Average Velocity Establishment for Sequential Recommendation**|Ke Shi et.al.|[2604.04427](http://arxiv.org/abs/2604.04427)|
+|**2026-04-06**|**CRAB: Codebook Rebalancing for Bias Mitigation in Generative Recommendation**|Zezhong Fan et.al.|[2604.05113](http://arxiv.org/abs/2604.05113)|
 |**2026-04-05**|**A Logical-Rule Autoencoder for Interpretable Recommendations**|Jinhao Pan et.al.|[2604.04270](http://arxiv.org/abs/2604.04270)|
 |**2026-04-05**|**FLAME: Condensing Ensemble Diversity into a Single Network for Efficient Sequential Recommendation**|WooJoo Kim et.al.|[2604.04038](http://arxiv.org/abs/2604.04038)|
 |**2026-04-05**|**Semantic IDs for Recommender Systems at Snapchat: Use Cases, Technical Challenges, and Design Choices**|Clark Mingxuan Ju et.al.|[2604.03949](http://arxiv.org/abs/2604.03949)|
@@ -21,6 +29,8 @@ layout: default
 |**2026-04-04**|**User Simulator-Guided Multi-Turn Preference Optimization for Reasoning LLM-based Conversational Recommendation**|Xingyuan Xiang et.al.|[2604.03671](http://arxiv.org/abs/2604.03671)|
 |**2026-04-04**|**MMP-Refer: Multimodal Path Retrieval-augmented LLMs For Explainable Recommendation**|Xiangchen Pan et.al.|[2604.03666](http://arxiv.org/abs/2604.03666)|
 |**2026-04-04**|**Joint Behavior-guided and Modality-coherence Conditional Graph Diffusion Denoising for Multi Modal Recommendation**|Xiangchen Pan et.al.|[2604.03654](http://arxiv.org/abs/2604.03654)|
+|**2026-04-04**|**CURE:Circuit-Aware Unlearning for LLM-based Recommendation**|Ziheng Chen et.al.|[2604.04982](http://arxiv.org/abs/2604.04982)|
+|**2026-04-04**|**Tencent Advertising Algorithm Challenge 2025: All-Modality Generative Recommendation**|Junwei Pan et.al.|[2604.04976](http://arxiv.org/abs/2604.04976)|
 |**2026-04-03**|**User-Aware Conditional Generative Total Correlation Learning for Multi-Modal Recommendation**|Jing Du et.al.|[2604.03014](http://arxiv.org/abs/2604.03014)|
 |**2026-04-03**|**Bilateral Intent-Enhanced Sequential Recommendation with Embedding Perturbation-Based Contrastive Learning**|Shanfan Zhang et.al.|[2604.02833](http://arxiv.org/abs/2604.02833)|
 |**2026-04-03**|**MBGR: Multi-Business Prediction for Generative Recommendation at Meituan**|Changhao Li et.al.|[2604.02684](http://arxiv.org/abs/2604.02684)|
