@@ -2,16 +2,26 @@
 layout: default
 ---
 
-## Updated on 2026.04.10
+## Updated on 2026.04.12
 > Usage instructions: [here](./docs/README.md#usage)
 
 ## Recommender System
 
 | Publish Date | Title | Authors | PDF |
 |:---------|:-----------------------|:---------|:------|
+|**2026-04-09**|**Rethinking Recommendation Paradigms: From Pipelines to Agentic Recommender Systems**|Jinxin Hu et.al.|[2603.26100](http://arxiv.org/abs/2603.26100)|
+|**2026-04-09**|**AgenticRS-Architecture: System Design for Agentic Recommender Systems**|Hao Zhang et.al.|[2603.26085](http://arxiv.org/abs/2603.26085)|
+|**2026-04-09**|**CASE: Cadence-Aware Set Encoding for Large-Scale Next Basket Repurchase Recommendation**|Yanan Cao et.al.|[2604.06718](http://arxiv.org/abs/2604.06718)|
+|**2026-04-09**|**The Unreasonable Effectiveness of Data for Recommender Systems**|Youssef Abdou et.al.|[2604.06420](http://arxiv.org/abs/2604.06420)|
+|**2026-04-09**|**Beyond Dense Connectivity: Explicit Sparsity for Scalable Recommendation**|Yantao Yu et.al.|[2604.08011](http://arxiv.org/abs/2604.08011)|
+|**2026-04-09**|**Context-Aware Disentanglement for Cross-Domain Sequential Recommendation: A Causal View**|Xingzi Wang et.al.|[2604.07992](http://arxiv.org/abs/2604.07992)|
+|**2026-04-09**|**Ensembles at Any Cost? Accuracy-Energy Trade-offs in Recommender Systems**|Jannik Nitschke et.al.|[2604.07869](http://arxiv.org/abs/2604.07869)|
+|**2026-04-09**|**ReRec: Reasoning-Augmented LLM-based Recommendation Assistant via Reinforcement Fine-tuning**|Jiani Huang et.al.|[2604.07851](http://arxiv.org/abs/2604.07851)|
+|**2026-04-09**|**Filling the Gaps: Selective Knowledge Augmentation for LLM Recommenders**|Jaehyun Lee et.al.|[2604.07825](http://arxiv.org/abs/2604.07825)|
+|**2026-04-09**|**Efficient Dataset Selection for Continual Adaptation of Generative Recommenders**|Cathy Jiao et.al.|[2604.07739](http://arxiv.org/abs/2604.07739)|
 |**2026-04-08**|**Leveraging Artist Catalogs for Cold-Start Music Recommendation**|Yan-Martin Tamm et.al.|[2604.07090](http://arxiv.org/abs/2604.07090)|
 |**2026-04-08**|**Leveraging LLMs and Heterogeneous Knowledge Graphs for Persona-Driven Session-Based Recommendation**|Muskan Gupta et.al.|[2604.06928](http://arxiv.org/abs/2604.06928)|
-|**2026-04-08**|**CASE: Cadence-Aware Set Encoding for Large-Scale Next Basket Repurchase Recommendation**|Yanan Cao et.al.|[2604.06718](http://arxiv.org/abs/2604.06718)|
+|**2026-04-08**|**HiMARS: Hybrid multi-objective algorithms for recommender systems**|Elaheh Lotfian et.al.|[2604.07572](http://arxiv.org/abs/2604.07572)|
 |**2026-04-07**|**Beyond Paper-to-Paper: Structured Profiling and Rubric Scoring for Paper-Reviewer Matching**|Yicheng Pan et.al.|[2604.05866](http://arxiv.org/abs/2604.05866)|
 |**2026-04-07**|**Retrieve-then-Adapt: Retrieval-Augmented Test-Time Adaptation for Sequential Recommendation**|Xing Tang et.al.|[2604.05379](http://arxiv.org/abs/2604.05379)|
 |**2026-04-07**|**From Clues to Generation: Language-Guided Conditional Diffusion for Cross-Domain Recommendation**|Ziang Lu et.al.|[2604.05365](http://arxiv.org/abs/2604.05365)|
@@ -19,7 +29,6 @@ layout: default
 |**2026-04-07**|**Semantic Trimming and Auxiliary Multi-step Prediction for Generative Recommendation**|Tianyu Zhan et.al.|[2604.05329](http://arxiv.org/abs/2604.05329)|
 |**2026-04-07**|**Next-Scale Generative Reranking: A Tree-based Generative Rerank Method at Meituan**|Shuli Wang et.al.|[2604.05314](http://arxiv.org/abs/2604.05314)|
 |**2026-04-07**|**Pay Attention to Sequence Split: Uncovering the Impacts of Sub-Sequence Splitting on Sequential Recommendation Models**|Yizhou Dang et.al.|[2604.05309](http://arxiv.org/abs/2604.05309)|
-|**2026-04-07**|**The Unreasonable Effectiveness of Data for Recommender Systems**|Youssef Abdou et.al.|[2604.06420](http://arxiv.org/abs/2604.06420)|
 |**2026-04-06**|**Cold-Starts in Generative Recommendation: A Reproducibility Study**|Zhen Zhang et.al.|[2603.29845](http://arxiv.org/abs/2603.29845)|
 |**2026-04-06**|**SLSREC: Self-Supervised Contrastive Learning for Adaptive Fusion of Long- and Short-Term User Interests**|Wei Zhou et.al.|[2604.04530](http://arxiv.org/abs/2604.04530)|
 |**2026-04-06**|**Retrieval Augmented Conversational Recommendation with Reinforcement Learning**|Zhenrui Yue et.al.|[2604.04457](http://arxiv.org/abs/2604.04457)|
@@ -54,8 +63,6 @@ layout: default
 |**2026-03-30**|**Zero-shot Cross-domain Knowledge Distillation: A Case study on YouTube Music**|Srivaths Ranganathan et.al.|[2603.28994](http://arxiv.org/abs/2603.28994)|
 |**2026-03-29**|**Ontology-Compliant Knowledge Graphs**|Zhangcheng Qiang et.al.|[2603.21188](http://arxiv.org/abs/2603.21188)|
 |**2026-03-27**|**UniScale: Synergistic Entire Space Data and Model Scaling for Search Ranking**|Liren Yu et.al.|[2603.24226](http://arxiv.org/abs/2603.24226)|
-|**2026-03-27**|**Rethinking Recommendation Paradigms: From Pipelines to Agentic Recommender Systems**|Jinxin Hu et.al.|[2603.26100](http://arxiv.org/abs/2603.26100)|
-|**2026-03-27**|**AgenticRS-Architecture: System Design for Agentic Recommender Systems**|Hao Zhang et.al.|[2603.26085](http://arxiv.org/abs/2603.26085)|
 |**2026-03-26**|**LSA: A Long-Short-term Aspect Interest Transformer for Aspect-Based Recommendation**|Le Liu et.al.|[2603.21243](http://arxiv.org/abs/2603.21243)|
 |**2026-03-26**|**MCLMR: A Model-Agnostic Causal Learning Framework for Multi-Behavior Recommendation**|Ranxu Zhang et.al.|[2603.25126](http://arxiv.org/abs/2603.25126)|
 |**2026-03-26**|**Hyena Operator for Fast Sequential Recommendation**|Jiahao Liu et.al.|[2603.25027](http://arxiv.org/abs/2603.25027)|

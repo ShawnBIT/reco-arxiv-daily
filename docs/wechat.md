@@ -1,20 +1,26 @@
 **Recommender System Daily New Papers**
 
-Updated on **2026.04.10**
-共计 **5** 篇论文
+Updated on **2026.04.12**
+共计 **7** 篇论文
 
-**2026-04-08**  **⬜️ Other** | Yan-Martin Tamm et.al.
-[Leveraging Artist Catalogs for Cold-Start Music Recommendation](http://arxiv.org/abs/2604.07090)
+**2026-04-09**  **⬜️ Other** | Yantao Yu et.al.
+[Beyond Dense Connectivity: Explicit Sparsity for Scalable Recommendation](http://arxiv.org/abs/2604.08011)
 
-**2026-04-08**  **🔵 LLM** | Muskan Gupta et.al.
-[Leveraging LLMs and Heterogeneous Knowledge Graphs for Persona-Driven Session-Based Recommendation](http://arxiv.org/abs/2604.06928)
+**2026-04-09**  **🟨 Seq** | Xingzi Wang et.al.
+[Context-Aware Disentanglement for Cross-Domain Sequential Recommendation: A Causal View](http://arxiv.org/abs/2604.07992)
 
-**2026-04-08**  **⬜️ Other** | Yanan Cao et.al.
-[CASE: Cadence-Aware Set Encoding for Large-Scale Next Basket Repurchase Recommendation](http://arxiv.org/abs/2604.06718)
+**2026-04-09**  **⬜️ Other** | Jannik Nitschke et.al.
+[Ensembles at Any Cost? Accuracy-Energy Trade-offs in Recommender Systems](http://arxiv.org/abs/2604.07869)
 
-**2026-04-07**  **⬜️ Other** | Youssef Abdou et.al.
-[The Unreasonable Effectiveness of Data for Recommender Systems](http://arxiv.org/abs/2604.06420)
+**2026-04-09**  **🔵 LLM** | Jiani Huang et.al.
+[ReRec: Reasoning-Augmented LLM-based Recommendation Assistant via Reinforcement Fine-tuning](http://arxiv.org/abs/2604.07851)
 
-**2026-04-02**  **⬜️ Other** | Florian Atzenhofer-Baumgartner et.al.
-[What Do Humanities Scholars Need? A User Model for Recommendation in Digital Archives](http://arxiv.org/abs/2604.06232)
+**2026-04-09**  **🔵 LLM** | Jaehyun Lee et.al.
+[Filling the Gaps: Selective Knowledge Augmentation for LLM Recommenders](http://arxiv.org/abs/2604.07825)
+
+**2026-04-09**  **🟩 GR** | Cathy Jiao et.al.
+[Efficient Dataset Selection for Continual Adaptation of Generative Recommenders](http://arxiv.org/abs/2604.07739)
+
+**2026-04-08**  **⬜️ Other** | Elaheh Lotfian et.al.
+[HiMARS: Hybrid multi-objective algorithms for recommender systems](http://arxiv.org/abs/2604.07572)
 
