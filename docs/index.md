@@ -2,16 +2,21 @@
 layout: default
 ---
 
-## Updated on 2026.04.14
+## Updated on 2026.04.15
 > Usage instructions: [here](./docs/README.md#usage)
 
 ## Recommender System
 
 | Publish Date | Title | Authors | PDF |
 |:---------|:-----------------------|:---------|:------|
+|**2026-04-13**|**Retrieval Augmented Conversational Recommendation with Reinforcement Learning**|Zhenrui Yue et.al.|[2604.04457](http://arxiv.org/abs/2604.04457)|
+|**2026-04-13**|**DIAURec: Dual-Intent Space Representation Optimization for Recommendation**|Yu Zhang et.al.|[2604.09087](http://arxiv.org/abs/2604.09087)|
+|**2026-04-13**|**R3-VAE: Reference Vector-Guided Rating Residual Quantization VAE for Generative Recommendation**|Qiang Wan et.al.|[2604.11440](http://arxiv.org/abs/2604.11440)|
+|**2026-04-11**|**MOSAIC: Multi-Domain Orthogonal Session Adaptive Intent Capture for Prescient Recommendations**|Abderaouf Bahi et.al.|[2604.10147](http://arxiv.org/abs/2604.10147)|
+|**2026-04-11**|**HARPO: Hierarchical Agentic Reasoning for User-Aligned Conversational Recommendation**|Subham Raj et.al.|[2604.10048](http://arxiv.org/abs/2604.10048)|
+|**2026-04-11**|**Self-Distilled Reinforcement Learning for Co-Evolving Agentic Recommender Systems**|Zongwei Wang et.al.|[2604.10029](http://arxiv.org/abs/2604.10029)|
 |**2026-04-10**|**TME-PSR: Time-aware, Multi-interest, and Explanation Personalization for Sequential Recommendation**|Qingzhuo Wang et.al.|[2604.09439](http://arxiv.org/abs/2604.09439)|
 |**2026-04-10**|**Hybrid Cold-Start Recommender System for Closure Model Selection in Multiphase Flow Simulations**|S. Hänsch et.al.|[2604.09112](http://arxiv.org/abs/2604.09112)|
-|**2026-04-10**|**DIAURec: Dual-Intent Space Representation Optimization for Recommendation**|Yu Zhang et.al.|[2604.09087](http://arxiv.org/abs/2604.09087)|
 |**2026-04-10**|**IAT: Instance-As-Token Compression for Historical User Sequence Modeling in Industrial Recommender Systems**|Xinchun Li et.al.|[2604.08933](http://arxiv.org/abs/2604.08933)|
 |**2026-04-09**|**Rethinking Recommendation Paradigms: From Pipelines to Agentic Recommender Systems**|Jinxin Hu et.al.|[2603.26100](http://arxiv.org/abs/2603.26100)|
 |**2026-04-09**|**AgenticRS-Architecture: System Design for Agentic Recommender Systems**|Hao Zhang et.al.|[2603.26085](http://arxiv.org/abs/2603.26085)|
@@ -35,9 +40,9 @@ layout: default
 |**2026-04-07**|**Pay Attention to Sequence Split: Uncovering the Impacts of Sub-Sequence Splitting on Sequential Recommendation Models**|Yizhou Dang et.al.|[2604.05309](http://arxiv.org/abs/2604.05309)|
 |**2026-04-06**|**Cold-Starts in Generative Recommendation: A Reproducibility Study**|Zhen Zhang et.al.|[2603.29845](http://arxiv.org/abs/2603.29845)|
 |**2026-04-06**|**SLSREC: Self-Supervised Contrastive Learning for Adaptive Fusion of Long- and Short-Term User Interests**|Wei Zhou et.al.|[2604.04530](http://arxiv.org/abs/2604.04530)|
-|**2026-04-06**|**Retrieval Augmented Conversational Recommendation with Reinforcement Learning**|Zhenrui Yue et.al.|[2604.04457](http://arxiv.org/abs/2604.04457)|
 |**2026-04-06**|**FAVE: Flow-based Average Velocity Establishment for Sequential Recommendation**|Ke Shi et.al.|[2604.04427](http://arxiv.org/abs/2604.04427)|
 |**2026-04-06**|**CRAB: Codebook Rebalancing for Bias Mitigation in Generative Recommendation**|Zezhong Fan et.al.|[2604.05113](http://arxiv.org/abs/2604.05113)|
+|**2026-04-06**|**Evaluating Scene-based In-Situ Item Labeling for Immersive Conversational Recommendation**|Jiazhou Liang et.al.|[2604.09698](http://arxiv.org/abs/2604.09698)|
 |**2026-04-05**|**A Logical-Rule Autoencoder for Interpretable Recommendations**|Jinhao Pan et.al.|[2604.04270](http://arxiv.org/abs/2604.04270)|
 |**2026-04-05**|**FLAME: Condensing Ensemble Diversity into a Single Network for Efficient Sequential Recommendation**|WooJoo Kim et.al.|[2604.04038](http://arxiv.org/abs/2604.04038)|
 |**2026-04-05**|**Semantic IDs for Recommender Systems at Snapchat: Use Cases, Technical Challenges, and Design Choices**|Clark Mingxuan Ju et.al.|[2604.03949](http://arxiv.org/abs/2604.03949)|
