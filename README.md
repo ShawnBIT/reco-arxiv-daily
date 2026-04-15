@@ -1,4 +1,4 @@
-## Updated on 2026.04.15
+## Updated on 2026.04.16
 > Usage instructions: [here](./docs/README.md#usage)
 
 ### 📊 Paper distribution by tag
@@ -16,14 +16,14 @@
 }}}%%
 pie showData
 title Paper Distribution by Tag
-  "Other" : 652
+  "Other" : 653
   "LLM" : 211
-  "GR" : 177
-  "Seq" : 105
-  "Scaling" : 20
+  "GR" : 178
+  "Seq" : 106
+  "Scaling" : 21
 ```
 
-> 统计自 **2025-07-16** 起，共计 **1165** 篇论文。
+> 统计自 **2025-07-16** 起，共计 **1169** 篇论文。
 
 <details style="margin: 1em 0; padding: 0.75em 1em; border: 1px solid #d8dee4; border-radius: 8px; background: #f6f8fa;">
   <summary style="cursor: pointer; font-weight: 600; font-size: 1.05em; color: #1f2328; padding: 0.25em 0;">📑 Table of Contents</summary>
@@ -36,9 +36,17 @@ title Paper Distribution by Tag
 
 |Publish Date|Title|Tag|Authors|PDF|
 |---|---|---|---|---|
+|**2026-04-14**|**Public Profile Matters: A Scalable Integrated Approach to Recommend Citations in the Wild**|<img src="https://img.shields.io/badge/-Other-5a5a5a?style=flat-square&color=%235a5a5a" width="120" alt="Other" />|Karan Goyal et.al.|[2603.17361](http://arxiv.org/abs/2603.17361)|
+|**2026-04-14**|**Beyong Tokens: Item-aware Attention for LLM-based Recommendation**|<img src="https://img.shields.io/badge/-LLM-2c4a78?style=flat-square&color=%232c4a78" width="56" alt="LLM" />|Xiaokun Zhang et.al.|[2603.19693](http://arxiv.org/abs/2603.19693)|
+|**2026-04-14**|**On the Accuracy Limits of Sequential Recommender Systems: An Entropy-Based Approach**|<img src="https://img.shields.io/badge/-Seq-5a4a6a?style=flat-square&color=%235a4a6a" width="56" alt="Seq" />|En Xu et.al.|[2603.27952](http://arxiv.org/abs/2603.27952)|
+|**2026-04-14**|**Leveraging LLMs and Heterogeneous Knowledge Graphs for Persona-Driven Session-Based Recommendation**|<img src="https://img.shields.io/badge/-LLM-2c4a78?style=flat-square&color=%232c4a78" width="56" alt="LLM" />|Muskan Gupta et.al.|[2604.06928](http://arxiv.org/abs/2604.06928)|
+|**2026-04-14**|**R3-VAE: Reference Vector-Guided Rating Residual Quantization VAE for Generative Recommendation**|<img src="https://img.shields.io/badge/-GR-1e5c3a?style=flat-square&color=%231e5c3a" width="56" alt="GR" />|Qiang Wan et.al.|[2604.11440](http://arxiv.org/abs/2604.11440)|
+|**2026-04-14**|**Sparse Contrastive Learning for Content-Based Cold Item Recommendation**|<img src="https://img.shields.io/badge/-Other-5a5a5a?style=flat-square&color=%235a5a5a" width="120" alt="Other" />|Gregor Meehan et.al.|[2604.12990](http://arxiv.org/abs/2604.12990)|
+|**2026-04-14**|**Efficient Retrieval Scaling with Hierarchical Indexing for Large Scale Recommendation**|<img src="https://img.shields.io/badge/-Scaling-8b5a3c?style=flat-square&color=%238b5a3c" width="200" alt="Scaling" />|Dongqi Fu et.al.|[2604.12965](http://arxiv.org/abs/2604.12965)|
+|**2026-04-14**|**Is Sliding Window All You Need? An Open Framework for Long-Sequence Recommendation**|<img src="https://img.shields.io/badge/-Seq-5a4a6a?style=flat-square&color=%235a4a6a" width="56" alt="Seq" />|Sayak Chakrabarty et.al.|[2604.12372](http://arxiv.org/abs/2604.12372)|
+|**2026-04-14**|**UniRec: Bridging the Expressive Gap between Generative and Discriminative Recommendation via Chain-of-Attribute**|<img src="https://img.shields.io/badge/-GR-1e5c3a?style=flat-square&color=%231e5c3a" width="56" alt="GR" />|Ziliang Wang et.al.|[2604.12234](http://arxiv.org/abs/2604.12234)|
 |**2026-04-13**|**Retrieval Augmented Conversational Recommendation with Reinforcement Learning**|<img src="https://img.shields.io/badge/-Other-5a5a5a?style=flat-square&color=%235a5a5a" width="120" alt="Other" />|Zhenrui Yue et.al.|[2604.04457](http://arxiv.org/abs/2604.04457)|
 |**2026-04-13**|**DIAURec: Dual-Intent Space Representation Optimization for Recommendation**|<img src="https://img.shields.io/badge/-Other-5a5a5a?style=flat-square&color=%235a5a5a" width="120" alt="Other" />|Yu Zhang et.al.|[2604.09087](http://arxiv.org/abs/2604.09087)|
-|**2026-04-13**|**R3-VAE: Reference Vector-Guided Rating Residual Quantization VAE for Generative Recommendation**|<img src="https://img.shields.io/badge/-GR-1e5c3a?style=flat-square&color=%231e5c3a" width="56" alt="GR" />|Qiang Wan et.al.|[2604.11440](http://arxiv.org/abs/2604.11440)|
 |**2026-04-11**|**MOSAIC: Multi-Domain Orthogonal Session Adaptive Intent Capture for Prescient Recommendations**|<img src="https://img.shields.io/badge/-Other-5a5a5a?style=flat-square&color=%235a5a5a" width="120" alt="Other" />|Abderaouf Bahi et.al.|[2604.10147](http://arxiv.org/abs/2604.10147)|
 |**2026-04-11**|**HARPO: Hierarchical Agentic Reasoning for User-Aligned Conversational Recommendation**|<img src="https://img.shields.io/badge/-Other-5a5a5a?style=flat-square&color=%235a5a5a" width="120" alt="Other" />|Subham Raj et.al.|[2604.10048](http://arxiv.org/abs/2604.10048)|
 |**2026-04-11**|**Self-Distilled Reinforcement Learning for Co-Evolving Agentic Recommender Systems**|<img src="https://img.shields.io/badge/-Other-5a5a5a?style=flat-square&color=%235a5a5a" width="120" alt="Other" />|Zongwei Wang et.al.|[2604.10029](http://arxiv.org/abs/2604.10029)|
@@ -56,7 +64,6 @@ title Paper Distribution by Tag
 |**2026-04-09**|**Filling the Gaps: Selective Knowledge Augmentation for LLM Recommenders**|<img src="https://img.shields.io/badge/-LLM-2c4a78?style=flat-square&color=%232c4a78" width="56" alt="LLM" />|Jaehyun Lee et.al.|[2604.07825](http://arxiv.org/abs/2604.07825)|
 |**2026-04-09**|**Efficient Dataset Selection for Continual Adaptation of Generative Recommenders**|<img src="https://img.shields.io/badge/-GR-1e5c3a?style=flat-square&color=%231e5c3a" width="56" alt="GR" />|Cathy Jiao et.al.|[2604.07739](http://arxiv.org/abs/2604.07739)|
 |**2026-04-08**|**Leveraging Artist Catalogs for Cold-Start Music Recommendation**|<img src="https://img.shields.io/badge/-Other-5a5a5a?style=flat-square&color=%235a5a5a" width="120" alt="Other" />|Yan-Martin Tamm et.al.|[2604.07090](http://arxiv.org/abs/2604.07090)|
-|**2026-04-08**|**Leveraging LLMs and Heterogeneous Knowledge Graphs for Persona-Driven Session-Based Recommendation**|<img src="https://img.shields.io/badge/-LLM-2c4a78?style=flat-square&color=%232c4a78" width="56" alt="LLM" />|Muskan Gupta et.al.|[2604.06928](http://arxiv.org/abs/2604.06928)|
 |**2026-04-08**|**HiMARS: Hybrid multi-objective algorithms for recommender systems**|<img src="https://img.shields.io/badge/-Other-5a5a5a?style=flat-square&color=%235a5a5a" width="120" alt="Other" />|Elaheh Lotfian et.al.|[2604.07572](http://arxiv.org/abs/2604.07572)|
 |**2026-04-07**|**Beyond Paper-to-Paper: Structured Profiling and Rubric Scoring for Paper-Reviewer Matching**|<img src="https://img.shields.io/badge/-Other-5a5a5a?style=flat-square&color=%235a5a5a" width="120" alt="Other" />|Yicheng Pan et.al.|[2604.05866](http://arxiv.org/abs/2604.05866)|
 |**2026-04-07**|**Retrieve-then-Adapt: Retrieval-Augmented Test-Time Adaptation for Sequential Recommendation**|<img src="https://img.shields.io/badge/-Seq-5a4a6a?style=flat-square&color=%235a4a6a" width="56" alt="Seq" />|Xing Tang et.al.|[2604.05379](http://arxiv.org/abs/2604.05379)|
@@ -95,7 +102,6 @@ title Paper Distribution by Tag
 |**2026-03-30**|**Pseudo Label NCF for Sparse OHC Recommendation: Dual Representation Learning and the Separability Accuracy Trade off**|<img src="https://img.shields.io/badge/-Other-5a5a5a?style=flat-square&color=%235a5a5a" width="120" alt="Other" />|Pronob Kumar Barman et.al.|[2603.24750](http://arxiv.org/abs/2603.24750)|
 |**2026-03-30**|**With a Little Help From My Friends: Collective Manipulation in Risk-Controlling Recommender Systems**|<img src="https://img.shields.io/badge/-Other-5a5a5a?style=flat-square&color=%235a5a5a" width="120" alt="Other" />|Giovanni De Toni et.al.|[2603.28476](http://arxiv.org/abs/2603.28476)|
 |**2026-03-30**|**RCLRec: Reverse Curriculum Learning for Modeling Sparse Conversions in Generative Recommendation**|<img src="https://img.shields.io/badge/-GR-1e5c3a?style=flat-square&color=%231e5c3a" width="56" alt="GR" />|Yulei Huang et.al.|[2603.28124](http://arxiv.org/abs/2603.28124)|
-|**2026-03-30**|**On the Accuracy Limits of Sequential Recommender Systems: An Entropy-Based Approach**|<img src="https://img.shields.io/badge/-Seq-5a4a6a?style=flat-square&color=%235a4a6a" width="56" alt="Seq" />|En Xu et.al.|[2603.27952](http://arxiv.org/abs/2603.27952)|
 |**2026-03-30**|**Zero-shot Cross-domain Knowledge Distillation: A Case study on YouTube Music**|<img src="https://img.shields.io/badge/-Other-5a5a5a?style=flat-square&color=%235a5a5a" width="120" alt="Other" />|Srivaths Ranganathan et.al.|[2603.28994](http://arxiv.org/abs/2603.28994)|
 |**2026-03-29**|**Ontology-Compliant Knowledge Graphs**|<img src="https://img.shields.io/badge/-Other-5a5a5a?style=flat-square&color=%235a5a5a" width="120" alt="Other" />|Zhangcheng Qiang et.al.|[2603.21188](http://arxiv.org/abs/2603.21188)|
 |**2026-03-27**|**UniScale: Synergistic Entire Space Data and Model Scaling for Search Ranking**|<img src="https://img.shields.io/badge/-Scaling-8b5a3c?style=flat-square&color=%238b5a3c" width="200" alt="Scaling" />|Liren Yu et.al.|[2603.24226](http://arxiv.org/abs/2603.24226)|
@@ -119,7 +125,6 @@ title Paper Distribution by Tag
 |**2026-03-20**|**DALI: LLM-Agent Enhanced Dual-Stream Adaptive Leadership Identification for Group Recommendations**|<img src="https://img.shields.io/badge/-LLM-2c4a78?style=flat-square&color=%232c4a78" width="56" alt="LLM" />|Boxun Song et.al.|[2603.19909](http://arxiv.org/abs/2603.19909)|
 |**2026-03-20**|**How Well Does Generative Recommendation Generalize?**|<img src="https://img.shields.io/badge/-GR-1e5c3a?style=flat-square&color=%231e5c3a" width="56" alt="GR" />|Yijie Ding et.al.|[2603.19809](http://arxiv.org/abs/2603.19809)|
 |**2026-03-20**|**AIGQ: An End-to-End Hybrid Generative Architecture for E-commerce Query Recommendation**|<img src="https://img.shields.io/badge/-GR-1e5c3a?style=flat-square&color=%231e5c3a" width="56" alt="GR" />|Jingcao Xu et.al.|[2603.19710](http://arxiv.org/abs/2603.19710)|
-|**2026-03-20**|**From Token to Item: Enhancing Large Language Models for Recommendation via Item-aware Attention Mechanism**|<img src="https://img.shields.io/badge/-LLM-2c4a78?style=flat-square&color=%232c4a78" width="56" alt="LLM" />|Xiaokun Zhang et.al.|[2603.19693](http://arxiv.org/abs/2603.19693)|
 |**2026-03-20**|**SaFRO: Satisfaction-Aware Fusion via Dual-Relative Policy Optimization for Short-Video Search**|<img src="https://img.shields.io/badge/-Other-5a5a5a?style=flat-square&color=%235a5a5a" width="120" alt="Other" />|Renzhe Zhou et.al.|[2603.19585](http://arxiv.org/abs/2603.19585)|
 |**2026-03-20**|**Low-pass Personalized Subgraph Federated Recommendation**|<img src="https://img.shields.io/badge/-Other-5a5a5a?style=flat-square&color=%235a5a5a" width="120" alt="Other" />|Wooseok Sim et.al.|[2603.20338](http://arxiv.org/abs/2603.20338)|
 |**2026-03-19**|**From Logs to Language: Learning Optimal Verbalization for LLM-Based Recommendation at Industry Scale**|<img src="https://img.shields.io/badge/-LLM-2c4a78?style=flat-square&color=%232c4a78" width="56" alt="LLM" />|Yucheng Shi et.al.|[2602.20558](http://arxiv.org/abs/2602.20558)|
@@ -129,7 +134,6 @@ title Paper Distribution by Tag
 |**2026-03-18**|**Deploying Semantic ID-based Generative Retrieval for Large-Scale Podcast Discovery at Spotify**|<img src="https://img.shields.io/badge/-GR-1e5c3a?style=flat-square&color=%231e5c3a" width="56" alt="GR" />|Edoardo D'Amico et.al.|[2603.17540](http://arxiv.org/abs/2603.17540)|
 |**2026-03-18**|**A Unified Language Model for Large Scale Search, Recommendation, and Reasoning**|<img src="https://img.shields.io/badge/-Other-5a5a5a?style=flat-square&color=%235a5a5a" width="120" alt="Other" />|Marco De Nadai et.al.|[2603.17533](http://arxiv.org/abs/2603.17533)|
 |**2026-03-18**|**VLM2Rec: Resolving Modality Collapse in Vision-Language Model Embedders for Multimodal Sequential Recommendation**|<img src="https://img.shields.io/badge/-Seq-5a4a6a?style=flat-square&color=%235a4a6a" width="56" alt="Seq" />|Junyoung Kim et.al.|[2603.17450](http://arxiv.org/abs/2603.17450)|
-|**2026-03-18**|**Public Profile Matters: A Scalable Integrated Approach to Recommend Citations in the Wild**|<img src="https://img.shields.io/badge/-Other-5a5a5a?style=flat-square&color=%235a5a5a" width="120" alt="Other" />|Karan Goyal et.al.|[2603.17361](http://arxiv.org/abs/2603.17361)|
 |**2026-03-18**|**Learning Evolving Preferences: A Federated Continual Framework for User-Centric Recommendation**|<img src="https://img.shields.io/badge/-Other-5a5a5a?style=flat-square&color=%235a5a5a" width="120" alt="Other" />|Chunxu Zhang et.al.|[2603.17315](http://arxiv.org/abs/2603.17315)|
 |**2026-03-18**|**Report-based Recommendations for Policy Making and Agency Operations: Dataset and LLM Evaluation**|<img src="https://img.shields.io/badge/-LLM-2c4a78?style=flat-square&color=%232c4a78" width="56" alt="LLM" />|Aleksandra Edwards et.al.|[2603.20287](http://arxiv.org/abs/2603.20287)|
 |**2026-03-18**|**FastPFRec: A Fast Personalized Federated Recommendation with Secure Sharing**|<img src="https://img.shields.io/badge/-Other-5a5a5a?style=flat-square&color=%235a5a5a" width="120" alt="Other" />|Zhenxing Yan et.al.|[2603.20283](http://arxiv.org/abs/2603.20283)|
@@ -1202,7 +1206,7 @@ title Paper Distribution by Tag
 |**2025-07-16**|**Looking for Fairness in Recommender Systems**|<img src="https://img.shields.io/badge/-Other-5a5a5a?style=flat-square&color=%235a5a5a" width="120" alt="Other" />|Cécile Logé et.al.|[2507.12242](http://arxiv.org/abs/2507.12242)|
 |**2025-07-16**|**Similarity-Guided Diffusion for Contrastive Sequential Recommendation**|<img src="https://img.shields.io/badge/-Seq-5a4a6a?style=flat-square&color=%235a4a6a" width="56" alt="Seq" />|Jinkyeong Choi et.al.|[2507.11866](http://arxiv.org/abs/2507.11866)|
 
-<p align=right>(<a href=#updated-on-20260415>back to top</a>)</p>
+<p align=right>(<a href=#updated-on-20260416>back to top</a>)</p>
 
 [contributors-shield]: https://img.shields.io/github/contributors/ShawnBIT/reco-arxiv-daily.svg?style=for-the-badge
 [contributors-url]: https://github.com/ShawnBIT/reco-arxiv-daily/graphs/contributors

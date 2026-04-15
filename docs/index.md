@@ -2,16 +2,24 @@
 layout: default
 ---
 
-## Updated on 2026.04.15
+## Updated on 2026.04.16
 > Usage instructions: [here](./docs/README.md#usage)
 
 ## Recommender System
 
 | Publish Date | Title | Authors | PDF |
 |:---------|:-----------------------|:---------|:------|
+|**2026-04-14**|**Public Profile Matters: A Scalable Integrated Approach to Recommend Citations in the Wild**|Karan Goyal et.al.|[2603.17361](http://arxiv.org/abs/2603.17361)|
+|**2026-04-14**|**Beyong Tokens: Item-aware Attention for LLM-based Recommendation**|Xiaokun Zhang et.al.|[2603.19693](http://arxiv.org/abs/2603.19693)|
+|**2026-04-14**|**On the Accuracy Limits of Sequential Recommender Systems: An Entropy-Based Approach**|En Xu et.al.|[2603.27952](http://arxiv.org/abs/2603.27952)|
+|**2026-04-14**|**Leveraging LLMs and Heterogeneous Knowledge Graphs for Persona-Driven Session-Based Recommendation**|Muskan Gupta et.al.|[2604.06928](http://arxiv.org/abs/2604.06928)|
+|**2026-04-14**|**R3-VAE: Reference Vector-Guided Rating Residual Quantization VAE for Generative Recommendation**|Qiang Wan et.al.|[2604.11440](http://arxiv.org/abs/2604.11440)|
+|**2026-04-14**|**Sparse Contrastive Learning for Content-Based Cold Item Recommendation**|Gregor Meehan et.al.|[2604.12990](http://arxiv.org/abs/2604.12990)|
+|**2026-04-14**|**Efficient Retrieval Scaling with Hierarchical Indexing for Large Scale Recommendation**|Dongqi Fu et.al.|[2604.12965](http://arxiv.org/abs/2604.12965)|
+|**2026-04-14**|**Is Sliding Window All You Need? An Open Framework for Long-Sequence Recommendation**|Sayak Chakrabarty et.al.|[2604.12372](http://arxiv.org/abs/2604.12372)|
+|**2026-04-14**|**UniRec: Bridging the Expressive Gap between Generative and Discriminative Recommendation via Chain-of-Attribute**|Ziliang Wang et.al.|[2604.12234](http://arxiv.org/abs/2604.12234)|
 |**2026-04-13**|**Retrieval Augmented Conversational Recommendation with Reinforcement Learning**|Zhenrui Yue et.al.|[2604.04457](http://arxiv.org/abs/2604.04457)|
 |**2026-04-13**|**DIAURec: Dual-Intent Space Representation Optimization for Recommendation**|Yu Zhang et.al.|[2604.09087](http://arxiv.org/abs/2604.09087)|
-|**2026-04-13**|**R3-VAE: Reference Vector-Guided Rating Residual Quantization VAE for Generative Recommendation**|Qiang Wan et.al.|[2604.11440](http://arxiv.org/abs/2604.11440)|
 |**2026-04-11**|**MOSAIC: Multi-Domain Orthogonal Session Adaptive Intent Capture for Prescient Recommendations**|Abderaouf Bahi et.al.|[2604.10147](http://arxiv.org/abs/2604.10147)|
 |**2026-04-11**|**HARPO: Hierarchical Agentic Reasoning for User-Aligned Conversational Recommendation**|Subham Raj et.al.|[2604.10048](http://arxiv.org/abs/2604.10048)|
 |**2026-04-11**|**Self-Distilled Reinforcement Learning for Co-Evolving Agentic Recommender Systems**|Zongwei Wang et.al.|[2604.10029](http://arxiv.org/abs/2604.10029)|
@@ -29,7 +37,6 @@ layout: default
 |**2026-04-09**|**Filling the Gaps: Selective Knowledge Augmentation for LLM Recommenders**|Jaehyun Lee et.al.|[2604.07825](http://arxiv.org/abs/2604.07825)|
 |**2026-04-09**|**Efficient Dataset Selection for Continual Adaptation of Generative Recommenders**|Cathy Jiao et.al.|[2604.07739](http://arxiv.org/abs/2604.07739)|
 |**2026-04-08**|**Leveraging Artist Catalogs for Cold-Start Music Recommendation**|Yan-Martin Tamm et.al.|[2604.07090](http://arxiv.org/abs/2604.07090)|
-|**2026-04-08**|**Leveraging LLMs and Heterogeneous Knowledge Graphs for Persona-Driven Session-Based Recommendation**|Muskan Gupta et.al.|[2604.06928](http://arxiv.org/abs/2604.06928)|
 |**2026-04-08**|**HiMARS: Hybrid multi-objective algorithms for recommender systems**|Elaheh Lotfian et.al.|[2604.07572](http://arxiv.org/abs/2604.07572)|
 |**2026-04-07**|**Beyond Paper-to-Paper: Structured Profiling and Rubric Scoring for Paper-Reviewer Matching**|Yicheng Pan et.al.|[2604.05866](http://arxiv.org/abs/2604.05866)|
 |**2026-04-07**|**Retrieve-then-Adapt: Retrieval-Augmented Test-Time Adaptation for Sequential Recommendation**|Xing Tang et.al.|[2604.05379](http://arxiv.org/abs/2604.05379)|
@@ -68,7 +75,6 @@ layout: default
 |**2026-03-30**|**Pseudo Label NCF for Sparse OHC Recommendation: Dual Representation Learning and the Separability Accuracy Trade off**|Pronob Kumar Barman et.al.|[2603.24750](http://arxiv.org/abs/2603.24750)|
 |**2026-03-30**|**With a Little Help From My Friends: Collective Manipulation in Risk-Controlling Recommender Systems**|Giovanni De Toni et.al.|[2603.28476](http://arxiv.org/abs/2603.28476)|
 |**2026-03-30**|**RCLRec: Reverse Curriculum Learning for Modeling Sparse Conversions in Generative Recommendation**|Yulei Huang et.al.|[2603.28124](http://arxiv.org/abs/2603.28124)|
-|**2026-03-30**|**On the Accuracy Limits of Sequential Recommender Systems: An Entropy-Based Approach**|En Xu et.al.|[2603.27952](http://arxiv.org/abs/2603.27952)|
 |**2026-03-30**|**Zero-shot Cross-domain Knowledge Distillation: A Case study on YouTube Music**|Srivaths Ranganathan et.al.|[2603.28994](http://arxiv.org/abs/2603.28994)|
 |**2026-03-29**|**Ontology-Compliant Knowledge Graphs**|Zhangcheng Qiang et.al.|[2603.21188](http://arxiv.org/abs/2603.21188)|
 |**2026-03-27**|**UniScale: Synergistic Entire Space Data and Model Scaling for Search Ranking**|Liren Yu et.al.|[2603.24226](http://arxiv.org/abs/2603.24226)|
@@ -92,7 +98,6 @@ layout: default
 |**2026-03-20**|**DALI: LLM-Agent Enhanced Dual-Stream Adaptive Leadership Identification for Group Recommendations**|Boxun Song et.al.|[2603.19909](http://arxiv.org/abs/2603.19909)|
 |**2026-03-20**|**How Well Does Generative Recommendation Generalize?**|Yijie Ding et.al.|[2603.19809](http://arxiv.org/abs/2603.19809)|
 |**2026-03-20**|**AIGQ: An End-to-End Hybrid Generative Architecture for E-commerce Query Recommendation**|Jingcao Xu et.al.|[2603.19710](http://arxiv.org/abs/2603.19710)|
-|**2026-03-20**|**From Token to Item: Enhancing Large Language Models for Recommendation via Item-aware Attention Mechanism**|Xiaokun Zhang et.al.|[2603.19693](http://arxiv.org/abs/2603.19693)|
 |**2026-03-20**|**SaFRO: Satisfaction-Aware Fusion via Dual-Relative Policy Optimization for Short-Video Search**|Renzhe Zhou et.al.|[2603.19585](http://arxiv.org/abs/2603.19585)|
 |**2026-03-20**|**Low-pass Personalized Subgraph Federated Recommendation**|Wooseok Sim et.al.|[2603.20338](http://arxiv.org/abs/2603.20338)|
 |**2026-03-19**|**From Logs to Language: Learning Optimal Verbalization for LLM-Based Recommendation at Industry Scale**|Yucheng Shi et.al.|[2602.20558](http://arxiv.org/abs/2602.20558)|
@@ -102,7 +107,6 @@ layout: default
 |**2026-03-18**|**Deploying Semantic ID-based Generative Retrieval for Large-Scale Podcast Discovery at Spotify**|Edoardo D'Amico et.al.|[2603.17540](http://arxiv.org/abs/2603.17540)|
 |**2026-03-18**|**A Unified Language Model for Large Scale Search, Recommendation, and Reasoning**|Marco De Nadai et.al.|[2603.17533](http://arxiv.org/abs/2603.17533)|
 |**2026-03-18**|**VLM2Rec: Resolving Modality Collapse in Vision-Language Model Embedders for Multimodal Sequential Recommendation**|Junyoung Kim et.al.|[2603.17450](http://arxiv.org/abs/2603.17450)|
-|**2026-03-18**|**Public Profile Matters: A Scalable Integrated Approach to Recommend Citations in the Wild**|Karan Goyal et.al.|[2603.17361](http://arxiv.org/abs/2603.17361)|
 |**2026-03-18**|**Learning Evolving Preferences: A Federated Continual Framework for User-Centric Recommendation**|Chunxu Zhang et.al.|[2603.17315](http://arxiv.org/abs/2603.17315)|
 |**2026-03-18**|**Report-based Recommendations for Policy Making and Agency Operations: Dataset and LLM Evaluation**|Aleksandra Edwards et.al.|[2603.20287](http://arxiv.org/abs/2603.20287)|
 |**2026-03-18**|**FastPFRec: A Fast Personalized Federated Recommendation with Secure Sharing**|Zhenxing Yan et.al.|[2603.20283](http://arxiv.org/abs/2603.20283)|

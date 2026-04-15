@@ -1,20 +1,17 @@
 **Recommender System Daily New Papers**
 
-Updated on **2026.04.15**
-共计 **5** 篇论文
+Updated on **2026.04.16**
+共计 **4** 篇论文
 
-**2026-04-13**  **🟩 GR** | Qiang Wan et.al.
-[R3-VAE: Reference Vector-Guided Rating Residual Quantization VAE for Generative Recommendation](http://arxiv.org/abs/2604.11440)
+**2026-04-14**  **⬜️ Other** | Gregor Meehan et.al.
+[Sparse Contrastive Learning for Content-Based Cold Item Recommendation](http://arxiv.org/abs/2604.12990)
 
-**2026-04-11**  **⬜️ Other** | Abderaouf Bahi et.al.
-[MOSAIC: Multi-Domain Orthogonal Session Adaptive Intent Capture for Prescient Recommendations](http://arxiv.org/abs/2604.10147)
+**2026-04-14**  **🟥 Scaling** | Dongqi Fu et.al.
+[Efficient Retrieval Scaling with Hierarchical Indexing for Large Scale Recommendation](http://arxiv.org/abs/2604.12965)
 
-**2026-04-11**  **⬜️ Other** | Subham Raj et.al.
-[HARPO: Hierarchical Agentic Reasoning for User-Aligned Conversational Recommendation](http://arxiv.org/abs/2604.10048)
+**2026-04-14**  **🟨 Seq** | Sayak Chakrabarty et.al.
+[Is Sliding Window All You Need? An Open Framework for Long-Sequence Recommendation](http://arxiv.org/abs/2604.12372)
 
-**2026-04-11**  **⬜️ Other** | Zongwei Wang et.al.
-[Self-Distilled Reinforcement Learning for Co-Evolving Agentic Recommender Systems](http://arxiv.org/abs/2604.10029)
-
-**2026-04-06**  **⬜️ Other** | Jiazhou Liang et.al.
-[Evaluating Scene-based In-Situ Item Labeling for Immersive Conversational Recommendation](http://arxiv.org/abs/2604.09698)
+**2026-04-14**  **🟩 GR** | Ziliang Wang et.al.
+[UniRec: Bridging the Expressive Gap between Generative and Discriminative Recommendation via Chain-of-Attribute](http://arxiv.org/abs/2604.12234)
 
