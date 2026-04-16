@@ -1,4 +1,4 @@
-## Updated on 2026.04.16
+## Updated on 2026.04.17
 > Usage instructions: [here](./docs/README.md#usage)
 
 ### 📊 Paper distribution by tag
@@ -16,14 +16,14 @@
 }}}%%
 pie showData
 title Paper Distribution by Tag
-  "Other" : 653
-  "LLM" : 211
+  "Other" : 656
+  "LLM" : 213
   "GR" : 178
-  "Seq" : 106
+  "Seq" : 110
   "Scaling" : 21
 ```
 
-> 统计自 **2025-07-16** 起，共计 **1169** 篇论文。
+> 统计自 **2025-07-16** 起，共计 **1178** 篇论文。
 
 <details style="margin: 1em 0; padding: 0.75em 1em; border: 1px solid #d8dee4; border-radius: 8px; background: #f6f8fa;">
   <summary style="cursor: pointer; font-weight: 600; font-size: 1.05em; color: #1f2328; padding: 0.25em 0;">📑 Table of Contents</summary>
@@ -36,6 +36,15 @@ title Paper Distribution by Tag
 
 |Publish Date|Title|Tag|Authors|PDF|
 |---|---|---|---|---|
+|**2026-04-15**|**ID and Graph View Contrastive Learning with Multi-View Attention Fusion for Sequential Recommendation**|<img src="https://img.shields.io/badge/-Seq-5a4a6a?style=flat-square&color=%235a4a6a" width="56" alt="Seq" />|Xiaofan Zhou et.al.|[2604.14114](http://arxiv.org/abs/2604.14114)|
+|**2026-04-15**|**Enhancing Local Life Service Recommendation with Agentic Reasoning in Large Language Model**|<img src="https://img.shields.io/badge/-LLM-2c4a78?style=flat-square&color=%232c4a78" width="56" alt="LLM" />|Shiteng Cao et.al.|[2604.14051](http://arxiv.org/abs/2604.14051)|
+|**2026-04-15**|**Dual-Enhancement Product Bundling: Bridging Interactive Graph and Large Language Model**|<img src="https://img.shields.io/badge/-LLM-2c4a78?style=flat-square&color=%232c4a78" width="56" alt="LLM" />|Zhe Huang et.al.|[2604.14030](http://arxiv.org/abs/2604.14030)|
+|**2026-04-15**|**DUET: Joint Exploration of User Item Profiles in Recommendation System**|<img src="https://img.shields.io/badge/-Other-5a5a5a?style=flat-square&color=%235a5a5a" width="120" alt="Other" />|Yue Chen et.al.|[2604.13801](http://arxiv.org/abs/2604.13801)|
+|**2026-04-15**|**Driving Engagement in Daily Fantasy Sports with a Scalable and Urgency-Aware Ranking Engine**|<img src="https://img.shields.io/badge/-Other-5a5a5a?style=flat-square&color=%235a5a5a" width="120" alt="Other" />|Unmesh Padalkar et.al.|[2604.13796](http://arxiv.org/abs/2604.13796)|
+|**2026-04-15**|**TokenFormer: Unify the Multi-Field and Sequential Recommendation Worlds**|<img src="https://img.shields.io/badge/-Seq-5a4a6a?style=flat-square&color=%235a4a6a" width="56" alt="Seq" />|Yifeng Zhou et.al.|[2604.13737](http://arxiv.org/abs/2604.13737)|
+|**2026-04-15**|**RecNextEval: A Reference Implementation for Temporal Next-Batch Recommendation Evaluation**|<img src="https://img.shields.io/badge/-Other-5a5a5a?style=flat-square&color=%235a5a5a" width="120" alt="Other" />|Tze-Kean Ng et.al.|[2604.13665](http://arxiv.org/abs/2604.13665)|
+|**2026-04-15**|**From Transfer to Collaboration: A Federated Framework for Cross-Market Sequential Recommendation**|<img src="https://img.shields.io/badge/-Seq-5a4a6a?style=flat-square&color=%235a4a6a" width="56" alt="Seq" />|Jundong Chen et.al.|[2604.13573](http://arxiv.org/abs/2604.13573)|
+|**2026-04-15**|**RoTE: Coarse-to-Fine Multi-Level Rotary Time Embedding for Sequential Recommendation**|<img src="https://img.shields.io/badge/-Seq-5a4a6a?style=flat-square&color=%235a4a6a" width="56" alt="Seq" />|Haolin Zhang et.al.|[2604.13389](http://arxiv.org/abs/2604.13389)|
 |**2026-04-14**|**Public Profile Matters: A Scalable Integrated Approach to Recommend Citations in the Wild**|<img src="https://img.shields.io/badge/-Other-5a5a5a?style=flat-square&color=%235a5a5a" width="120" alt="Other" />|Karan Goyal et.al.|[2603.17361](http://arxiv.org/abs/2603.17361)|
 |**2026-04-14**|**Beyong Tokens: Item-aware Attention for LLM-based Recommendation**|<img src="https://img.shields.io/badge/-LLM-2c4a78?style=flat-square&color=%232c4a78" width="56" alt="LLM" />|Xiaokun Zhang et.al.|[2603.19693](http://arxiv.org/abs/2603.19693)|
 |**2026-04-14**|**On the Accuracy Limits of Sequential Recommender Systems: An Entropy-Based Approach**|<img src="https://img.shields.io/badge/-Seq-5a4a6a?style=flat-square&color=%235a4a6a" width="56" alt="Seq" />|En Xu et.al.|[2603.27952](http://arxiv.org/abs/2603.27952)|
@@ -1206,7 +1215,7 @@ title Paper Distribution by Tag
 |**2025-07-16**|**Looking for Fairness in Recommender Systems**|<img src="https://img.shields.io/badge/-Other-5a5a5a?style=flat-square&color=%235a5a5a" width="120" alt="Other" />|Cécile Logé et.al.|[2507.12242](http://arxiv.org/abs/2507.12242)|
 |**2025-07-16**|**Similarity-Guided Diffusion for Contrastive Sequential Recommendation**|<img src="https://img.shields.io/badge/-Seq-5a4a6a?style=flat-square&color=%235a4a6a" width="56" alt="Seq" />|Jinkyeong Choi et.al.|[2507.11866](http://arxiv.org/abs/2507.11866)|
 
-<p align=right>(<a href=#updated-on-20260416>back to top</a>)</p>
+<p align=right>(<a href=#updated-on-20260417>back to top</a>)</p>
 
 [contributors-shield]: https://img.shields.io/github/contributors/ShawnBIT/reco-arxiv-daily.svg?style=for-the-badge
 [contributors-url]: https://github.com/ShawnBIT/reco-arxiv-daily/graphs/contributors

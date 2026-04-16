@@ -2,13 +2,22 @@
 layout: default
 ---
 
-## Updated on 2026.04.16
+## Updated on 2026.04.17
 > Usage instructions: [here](./docs/README.md#usage)
 
 ## Recommender System
 
 | Publish Date | Title | Authors | PDF |
 |:---------|:-----------------------|:---------|:------|
+|**2026-04-15**|**ID and Graph View Contrastive Learning with Multi-View Attention Fusion for Sequential Recommendation**|Xiaofan Zhou et.al.|[2604.14114](http://arxiv.org/abs/2604.14114)|
+|**2026-04-15**|**Enhancing Local Life Service Recommendation with Agentic Reasoning in Large Language Model**|Shiteng Cao et.al.|[2604.14051](http://arxiv.org/abs/2604.14051)|
+|**2026-04-15**|**Dual-Enhancement Product Bundling: Bridging Interactive Graph and Large Language Model**|Zhe Huang et.al.|[2604.14030](http://arxiv.org/abs/2604.14030)|
+|**2026-04-15**|**DUET: Joint Exploration of User Item Profiles in Recommendation System**|Yue Chen et.al.|[2604.13801](http://arxiv.org/abs/2604.13801)|
+|**2026-04-15**|**Driving Engagement in Daily Fantasy Sports with a Scalable and Urgency-Aware Ranking Engine**|Unmesh Padalkar et.al.|[2604.13796](http://arxiv.org/abs/2604.13796)|
+|**2026-04-15**|**TokenFormer: Unify the Multi-Field and Sequential Recommendation Worlds**|Yifeng Zhou et.al.|[2604.13737](http://arxiv.org/abs/2604.13737)|
+|**2026-04-15**|**RecNextEval: A Reference Implementation for Temporal Next-Batch Recommendation Evaluation**|Tze-Kean Ng et.al.|[2604.13665](http://arxiv.org/abs/2604.13665)|
+|**2026-04-15**|**From Transfer to Collaboration: A Federated Framework for Cross-Market Sequential Recommendation**|Jundong Chen et.al.|[2604.13573](http://arxiv.org/abs/2604.13573)|
+|**2026-04-15**|**RoTE: Coarse-to-Fine Multi-Level Rotary Time Embedding for Sequential Recommendation**|Haolin Zhang et.al.|[2604.13389](http://arxiv.org/abs/2604.13389)|
 |**2026-04-14**|**Public Profile Matters: A Scalable Integrated Approach to Recommend Citations in the Wild**|Karan Goyal et.al.|[2603.17361](http://arxiv.org/abs/2603.17361)|
 |**2026-04-14**|**Beyong Tokens: Item-aware Attention for LLM-based Recommendation**|Xiaokun Zhang et.al.|[2603.19693](http://arxiv.org/abs/2603.19693)|
 |**2026-04-14**|**On the Accuracy Limits of Sequential Recommender Systems: An Entropy-Based Approach**|En Xu et.al.|[2603.27952](http://arxiv.org/abs/2603.27952)|
