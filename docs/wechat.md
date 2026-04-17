@@ -1,32 +1,35 @@
 **Recommender System Daily New Papers**
 
-Updated on **2026.04.17**
-共计 **9** 篇论文
+Updated on **2026.04.18**
+共计 **10** 篇论文
 
-**2026-04-15**  **🟨 Seq** | Xiaofan Zhou et.al.
-[ID and Graph View Contrastive Learning with Multi-View Attention Fusion for Sequential Recommendation](http://arxiv.org/abs/2604.14114)
+**2026-04-16**  **⬜️ Other** | Zhen Tao et.al.
+[SAGER: Self-Evolving User Policy Skills for Recommendation Agent](http://arxiv.org/abs/2604.14972)
 
-**2026-04-15**  **🔵 LLM** | Shiteng Cao et.al.
-[Enhancing Local Life Service Recommendation with Agentic Reasoning in Large Language Model](http://arxiv.org/abs/2604.14051)
+**2026-04-16**  **🟩 GR** | Yanyan Zou et.al.
+[GenRec: A Preference-Oriented Generative Framework for Large-Scale Recommendation](http://arxiv.org/abs/2604.14878)
 
-**2026-04-15**  **🔵 LLM** | Zhe Huang et.al.
-[Dual-Enhancement Product Bundling: Bridging Interactive Graph and Large Language Model](http://arxiv.org/abs/2604.14030)
+**2026-04-16**  **⬜️ Other** | Jinfeng Xu et.al.
+[Well Begun is Half Done: Training-Free and Model-Agnostic Semantically Guaranteed User Representation Initialization for Multimodal Recommendation](http://arxiv.org/abs/2604.14839)
 
-**2026-04-15**  **⬜️ Other** | Yue Chen et.al.
-[DUET: Joint Exploration of User Item Profiles in Recommendation System](http://arxiv.org/abs/2604.13801)
+**2026-04-16**  **🔵 LLM** | Lei Guo et.al.
+[Federated User Behavior Modeling for Privacy-Preserving LLM Recommendation](http://arxiv.org/abs/2604.14833)
 
-**2026-04-15**  **⬜️ Other** | Unmesh Padalkar et.al.
-[Driving Engagement in Daily Fantasy Sports with a Scalable and Urgency-Aware Ranking Engine](http://arxiv.org/abs/2604.13796)
+**2026-04-16**  **🟩 GR** | Xiangrui Xiong et.al.
+[Uncertainty-aware Generative Learning Path Recommendation with Cognition-Adaptive Diffusion](http://arxiv.org/abs/2604.14613)
 
-**2026-04-15**  **🟨 Seq** | Yifeng Zhou et.al.
-[TokenFormer: Unify the Multi-Field and Sequential Recommendation Worlds](http://arxiv.org/abs/2604.13737)
+**2026-04-16**  **⬜️ Other** | Xiping Li et.al.
+[Category-based and Popularity-guided Video Game Recommendation: A Balance-oriented Framework](http://arxiv.org/abs/2604.14598)
 
-**2026-04-15**  **⬜️ Other** | Tze-Kean Ng et.al.
-[RecNextEval: A Reference Implementation for Temporal Next-Batch Recommendation Evaluation](http://arxiv.org/abs/2604.13665)
+**2026-04-16**  **⬜️ Other** | Xiping Li et.al.
+[CPGRec+: A Balance-oriented Framework for Personalized Video Game Recommendations](http://arxiv.org/abs/2604.14586)
 
-**2026-04-15**  **🟨 Seq** | Jundong Chen et.al.
-[From Transfer to Collaboration: A Federated Framework for Cross-Market Sequential Recommendation](http://arxiv.org/abs/2604.13573)
+**2026-04-16**  **🟨 Seq** | Jing Xiao et.al.
+[Behavior-Aware Dual-Channel Preference Learning for Heterogeneous Sequential Recommendation](http://arxiv.org/abs/2604.14581)
 
-**2026-04-15**  **🟨 Seq** | Haolin Zhang et.al.
-[RoTE: Coarse-to-Fine Multi-Level Rotary Time Embedding for Sequential Recommendation](http://arxiv.org/abs/2604.13389)
+**2026-04-16**  **⬜️ Other** | Rongyao Wang et.al.
+[NewsTorch: A PyTorch-based Toolkit for Learner-oriented News Recommendation](http://arxiv.org/abs/2604.14510)
+
+**2026-04-14**  **⬜️ Other** | Ashmi Banerjee et.al.
+[TRACE: A Conversational Framework for Sustainable Tourism Recommendation with Agentic Counterfactual Explanations](http://arxiv.org/abs/2604.14223)
 

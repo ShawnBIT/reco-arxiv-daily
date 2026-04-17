@@ -2,13 +2,22 @@
 layout: default
 ---
 
-## Updated on 2026.04.17
+## Updated on 2026.04.18
 > Usage instructions: [here](./docs/README.md#usage)
 
 ## Recommender System
 
 | Publish Date | Title | Authors | PDF |
 |:---------|:-----------------------|:---------|:------|
+|**2026-04-16**|**SAGER: Self-Evolving User Policy Skills for Recommendation Agent**|Zhen Tao et.al.|[2604.14972](http://arxiv.org/abs/2604.14972)|
+|**2026-04-16**|**GenRec: A Preference-Oriented Generative Framework for Large-Scale Recommendation**|Yanyan Zou et.al.|[2604.14878](http://arxiv.org/abs/2604.14878)|
+|**2026-04-16**|**Well Begun is Half Done: Training-Free and Model-Agnostic Semantically Guaranteed User Representation Initialization for Multimodal Recommendation**|Jinfeng Xu et.al.|[2604.14839](http://arxiv.org/abs/2604.14839)|
+|**2026-04-16**|**Federated User Behavior Modeling for Privacy-Preserving LLM Recommendation**|Lei Guo et.al.|[2604.14833](http://arxiv.org/abs/2604.14833)|
+|**2026-04-16**|**Uncertainty-aware Generative Learning Path Recommendation with Cognition-Adaptive Diffusion**|Xiangrui Xiong et.al.|[2604.14613](http://arxiv.org/abs/2604.14613)|
+|**2026-04-16**|**Category-based and Popularity-guided Video Game Recommendation: A Balance-oriented Framework**|Xiping Li et.al.|[2604.14598](http://arxiv.org/abs/2604.14598)|
+|**2026-04-16**|**CPGRec+: A Balance-oriented Framework for Personalized Video Game Recommendations**|Xiping Li et.al.|[2604.14586](http://arxiv.org/abs/2604.14586)|
+|**2026-04-16**|**Behavior-Aware Dual-Channel Preference Learning for Heterogeneous Sequential Recommendation**|Jing Xiao et.al.|[2604.14581](http://arxiv.org/abs/2604.14581)|
+|**2026-04-16**|**NewsTorch: A PyTorch-based Toolkit for Learner-oriented News Recommendation**|Rongyao Wang et.al.|[2604.14510](http://arxiv.org/abs/2604.14510)|
 |**2026-04-15**|**ID and Graph View Contrastive Learning with Multi-View Attention Fusion for Sequential Recommendation**|Xiaofan Zhou et.al.|[2604.14114](http://arxiv.org/abs/2604.14114)|
 |**2026-04-15**|**Enhancing Local Life Service Recommendation with Agentic Reasoning in Large Language Model**|Shiteng Cao et.al.|[2604.14051](http://arxiv.org/abs/2604.14051)|
 |**2026-04-15**|**Dual-Enhancement Product Bundling: Bridging Interactive Graph and Large Language Model**|Zhe Huang et.al.|[2604.14030](http://arxiv.org/abs/2604.14030)|
@@ -27,6 +36,7 @@ layout: default
 |**2026-04-14**|**Efficient Retrieval Scaling with Hierarchical Indexing for Large Scale Recommendation**|Dongqi Fu et.al.|[2604.12965](http://arxiv.org/abs/2604.12965)|
 |**2026-04-14**|**Is Sliding Window All You Need? An Open Framework for Long-Sequence Recommendation**|Sayak Chakrabarty et.al.|[2604.12372](http://arxiv.org/abs/2604.12372)|
 |**2026-04-14**|**UniRec: Bridging the Expressive Gap between Generative and Discriminative Recommendation via Chain-of-Attribute**|Ziliang Wang et.al.|[2604.12234](http://arxiv.org/abs/2604.12234)|
+|**2026-04-14**|**TRACE: A Conversational Framework for Sustainable Tourism Recommendation with Agentic Counterfactual Explanations**|Ashmi Banerjee et.al.|[2604.14223](http://arxiv.org/abs/2604.14223)|
 |**2026-04-13**|**Retrieval Augmented Conversational Recommendation with Reinforcement Learning**|Zhenrui Yue et.al.|[2604.04457](http://arxiv.org/abs/2604.04457)|
 |**2026-04-13**|**DIAURec: Dual-Intent Space Representation Optimization for Recommendation**|Yu Zhang et.al.|[2604.09087](http://arxiv.org/abs/2604.09087)|
 |**2026-04-11**|**MOSAIC: Multi-Domain Orthogonal Session Adaptive Intent Capture for Prescient Recommendations**|Abderaouf Bahi et.al.|[2604.10147](http://arxiv.org/abs/2604.10147)|
