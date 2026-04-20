@@ -2,13 +2,18 @@
 layout: default
 ---
 
-## Updated on 2026.04.20
+## Updated on 2026.04.21
 > Usage instructions: [here](./docs/README.md#usage)
 
 ## Recommender System
 
 | Publish Date | Title | Authors | PDF |
 |:---------|:-----------------------|:---------|:------|
+|**2026-04-17**|**Beyond Dense Connectivity: Explicit Sparsity for Scalable Recommendation**|Yantao Yu et.al.|[2604.08011](http://arxiv.org/abs/2604.08011)|
+|**2026-04-17**|**Beyond One-Size-Fits-All: Adaptive Test-Time Augmentation for Sequential Recommendation**|Xibo Li et.al.|[2604.16121](http://arxiv.org/abs/2604.16121)|
+|**2026-04-17**|**On the Equivalence Between Auto-Regressive Next Token Prediction and Full-Item-Vocabulary Maximum Likelihood Estimation in Generative Recommendation--A Short Note**|Yusheng Huang et.al.|[2604.15739](http://arxiv.org/abs/2604.15739)|
+|**2026-04-17**|**Intent Propagation Contrastive Collaborative Filtering**|Haojie Li et.al.|[2604.15704](http://arxiv.org/abs/2604.15704)|
+|**2026-04-17**|**Sample Is Feature: Beyond Item-Level, Toward Sample-Level Tokens for Unified Large Recommender Models**|Shuli Wang et.al.|[2604.15650](http://arxiv.org/abs/2604.15650)|
 |**2026-04-16**|**SAGER: Self-Evolving User Policy Skills for Recommendation Agent**|Zhen Tao et.al.|[2604.14972](http://arxiv.org/abs/2604.14972)|
 |**2026-04-16**|**GenRec: A Preference-Oriented Generative Framework for Large-Scale Recommendation**|Yanyan Zou et.al.|[2604.14878](http://arxiv.org/abs/2604.14878)|
 |**2026-04-16**|**Well Begun is Half Done: Training-Free and Model-Agnostic Semantically Guaranteed User Representation Initialization for Multimodal Recommendation**|Jinfeng Xu et.al.|[2604.14839](http://arxiv.org/abs/2604.14839)|
@@ -18,6 +23,8 @@ layout: default
 |**2026-04-16**|**CPGRec+: A Balance-oriented Framework for Personalized Video Game Recommendations**|Xiping Li et.al.|[2604.14586](http://arxiv.org/abs/2604.14586)|
 |**2026-04-16**|**Behavior-Aware Dual-Channel Preference Learning for Heterogeneous Sequential Recommendation**|Jing Xiao et.al.|[2604.14581](http://arxiv.org/abs/2604.14581)|
 |**2026-04-16**|**NewsTorch: A PyTorch-based Toolkit for Learner-oriented News Recommendation**|Rongyao Wang et.al.|[2604.14510](http://arxiv.org/abs/2604.14510)|
+|**2026-04-16**|**Learning Behaviorally Grounded Item Embeddings via Personalized Temporal Contexts**|Rafael T. Sereicikas et.al.|[2604.15581](http://arxiv.org/abs/2604.15581)|
+|**2026-04-16**|**Collaborative Filtering Through Weighted Similarities of User and Item Embeddings**|Pedro R. Pires et.al.|[2604.15573](http://arxiv.org/abs/2604.15573)|
 |**2026-04-15**|**ID and Graph View Contrastive Learning with Multi-View Attention Fusion for Sequential Recommendation**|Xiaofan Zhou et.al.|[2604.14114](http://arxiv.org/abs/2604.14114)|
 |**2026-04-15**|**Enhancing Local Life Service Recommendation with Agentic Reasoning in Large Language Model**|Shiteng Cao et.al.|[2604.14051](http://arxiv.org/abs/2604.14051)|
 |**2026-04-15**|**Dual-Enhancement Product Bundling: Bridging Interactive Graph and Large Language Model**|Zhe Huang et.al.|[2604.14030](http://arxiv.org/abs/2604.14030)|
@@ -49,7 +56,6 @@ layout: default
 |**2026-04-09**|**AgenticRS-Architecture: System Design for Agentic Recommender Systems**|Hao Zhang et.al.|[2603.26085](http://arxiv.org/abs/2603.26085)|
 |**2026-04-09**|**CASE: Cadence-Aware Set Encoding for Large-Scale Next Basket Repurchase Recommendation**|Yanan Cao et.al.|[2604.06718](http://arxiv.org/abs/2604.06718)|
 |**2026-04-09**|**The Unreasonable Effectiveness of Data for Recommender Systems**|Youssef Abdou et.al.|[2604.06420](http://arxiv.org/abs/2604.06420)|
-|**2026-04-09**|**Beyond Dense Connectivity: Explicit Sparsity for Scalable Recommendation**|Yantao Yu et.al.|[2604.08011](http://arxiv.org/abs/2604.08011)|
 |**2026-04-09**|**Context-Aware Disentanglement for Cross-Domain Sequential Recommendation: A Causal View**|Xingzi Wang et.al.|[2604.07992](http://arxiv.org/abs/2604.07992)|
 |**2026-04-09**|**Ensembles at Any Cost? Accuracy-Energy Trade-offs in Recommender Systems**|Jannik Nitschke et.al.|[2604.07869](http://arxiv.org/abs/2604.07869)|
 |**2026-04-09**|**ReRec: Reasoning-Augmented LLM-based Recommendation Assistant via Reinforcement Fine-tuning**|Jiani Huang et.al.|[2604.07851](http://arxiv.org/abs/2604.07851)|

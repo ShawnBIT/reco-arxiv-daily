@@ -1,4 +1,4 @@
-## Updated on 2026.04.20
+## Updated on 2026.04.21
 > Usage instructions: [here](./docs/README.md#usage)
 
 ### 📊 Paper distribution by tag
@@ -16,14 +16,14 @@
 }}}%%
 pie showData
 title Paper Distribution by Tag
-  "Other" : 662
+  "Other" : 666
   "LLM" : 214
-  "GR" : 180
-  "Seq" : 111
+  "GR" : 181
+  "Seq" : 112
   "Scaling" : 21
 ```
 
-> 统计自 **2025-07-16** 起，共计 **1188** 篇论文。
+> 统计自 **2025-07-16** 起，共计 **1194** 篇论文。
 
 <details style="margin: 1em 0; padding: 0.75em 1em; border: 1px solid #d8dee4; border-radius: 8px; background: #f6f8fa;">
   <summary style="cursor: pointer; font-weight: 600; font-size: 1.05em; color: #1f2328; padding: 0.25em 0;">📑 Table of Contents</summary>
@@ -36,6 +36,11 @@ title Paper Distribution by Tag
 
 |Publish Date|Title|Tag|Authors|PDF|
 |---|---|---|---|---|
+|**2026-04-17**|**Beyond Dense Connectivity: Explicit Sparsity for Scalable Recommendation**|<img src="https://img.shields.io/badge/-Other-5a5a5a?style=flat-square&color=%235a5a5a" width="120" alt="Other" />|Yantao Yu et.al.|[2604.08011](http://arxiv.org/abs/2604.08011)|
+|**2026-04-17**|**Beyond One-Size-Fits-All: Adaptive Test-Time Augmentation for Sequential Recommendation**|<img src="https://img.shields.io/badge/-Seq-5a4a6a?style=flat-square&color=%235a4a6a" width="56" alt="Seq" />|Xibo Li et.al.|[2604.16121](http://arxiv.org/abs/2604.16121)|
+|**2026-04-17**|**On the Equivalence Between Auto-Regressive Next Token Prediction and Full-Item-Vocabulary Maximum Likelihood Estimation in Generative Recommendation--A Short Note**|<img src="https://img.shields.io/badge/-GR-1e5c3a?style=flat-square&color=%231e5c3a" width="56" alt="GR" />|Yusheng Huang et.al.|[2604.15739](http://arxiv.org/abs/2604.15739)|
+|**2026-04-17**|**Intent Propagation Contrastive Collaborative Filtering**|<img src="https://img.shields.io/badge/-Other-5a5a5a?style=flat-square&color=%235a5a5a" width="120" alt="Other" />|Haojie Li et.al.|[2604.15704](http://arxiv.org/abs/2604.15704)|
+|**2026-04-17**|**Sample Is Feature: Beyond Item-Level, Toward Sample-Level Tokens for Unified Large Recommender Models**|<img src="https://img.shields.io/badge/-Other-5a5a5a?style=flat-square&color=%235a5a5a" width="120" alt="Other" />|Shuli Wang et.al.|[2604.15650](http://arxiv.org/abs/2604.15650)|
 |**2026-04-16**|**SAGER: Self-Evolving User Policy Skills for Recommendation Agent**|<img src="https://img.shields.io/badge/-Other-5a5a5a?style=flat-square&color=%235a5a5a" width="120" alt="Other" />|Zhen Tao et.al.|[2604.14972](http://arxiv.org/abs/2604.14972)|
 |**2026-04-16**|**GenRec: A Preference-Oriented Generative Framework for Large-Scale Recommendation**|<img src="https://img.shields.io/badge/-GR-1e5c3a?style=flat-square&color=%231e5c3a" width="56" alt="GR" />|Yanyan Zou et.al.|[2604.14878](http://arxiv.org/abs/2604.14878)|
 |**2026-04-16**|**Well Begun is Half Done: Training-Free and Model-Agnostic Semantically Guaranteed User Representation Initialization for Multimodal Recommendation**|<img src="https://img.shields.io/badge/-Other-5a5a5a?style=flat-square&color=%235a5a5a" width="120" alt="Other" />|Jinfeng Xu et.al.|[2604.14839](http://arxiv.org/abs/2604.14839)|
@@ -45,6 +50,8 @@ title Paper Distribution by Tag
 |**2026-04-16**|**CPGRec+: A Balance-oriented Framework for Personalized Video Game Recommendations**|<img src="https://img.shields.io/badge/-Other-5a5a5a?style=flat-square&color=%235a5a5a" width="120" alt="Other" />|Xiping Li et.al.|[2604.14586](http://arxiv.org/abs/2604.14586)|
 |**2026-04-16**|**Behavior-Aware Dual-Channel Preference Learning for Heterogeneous Sequential Recommendation**|<img src="https://img.shields.io/badge/-Seq-5a4a6a?style=flat-square&color=%235a4a6a" width="56" alt="Seq" />|Jing Xiao et.al.|[2604.14581](http://arxiv.org/abs/2604.14581)|
 |**2026-04-16**|**NewsTorch: A PyTorch-based Toolkit for Learner-oriented News Recommendation**|<img src="https://img.shields.io/badge/-Other-5a5a5a?style=flat-square&color=%235a5a5a" width="120" alt="Other" />|Rongyao Wang et.al.|[2604.14510](http://arxiv.org/abs/2604.14510)|
+|**2026-04-16**|**Learning Behaviorally Grounded Item Embeddings via Personalized Temporal Contexts**|<img src="https://img.shields.io/badge/-Other-5a5a5a?style=flat-square&color=%235a5a5a" width="120" alt="Other" />|Rafael T. Sereicikas et.al.|[2604.15581](http://arxiv.org/abs/2604.15581)|
+|**2026-04-16**|**Collaborative Filtering Through Weighted Similarities of User and Item Embeddings**|<img src="https://img.shields.io/badge/-Other-5a5a5a?style=flat-square&color=%235a5a5a" width="120" alt="Other" />|Pedro R. Pires et.al.|[2604.15573](http://arxiv.org/abs/2604.15573)|
 |**2026-04-15**|**ID and Graph View Contrastive Learning with Multi-View Attention Fusion for Sequential Recommendation**|<img src="https://img.shields.io/badge/-Seq-5a4a6a?style=flat-square&color=%235a4a6a" width="56" alt="Seq" />|Xiaofan Zhou et.al.|[2604.14114](http://arxiv.org/abs/2604.14114)|
 |**2026-04-15**|**Enhancing Local Life Service Recommendation with Agentic Reasoning in Large Language Model**|<img src="https://img.shields.io/badge/-LLM-2c4a78?style=flat-square&color=%232c4a78" width="56" alt="LLM" />|Shiteng Cao et.al.|[2604.14051](http://arxiv.org/abs/2604.14051)|
 |**2026-04-15**|**Dual-Enhancement Product Bundling: Bridging Interactive Graph and Large Language Model**|<img src="https://img.shields.io/badge/-LLM-2c4a78?style=flat-square&color=%232c4a78" width="56" alt="LLM" />|Zhe Huang et.al.|[2604.14030](http://arxiv.org/abs/2604.14030)|
@@ -76,7 +83,6 @@ title Paper Distribution by Tag
 |**2026-04-09**|**AgenticRS-Architecture: System Design for Agentic Recommender Systems**|<img src="https://img.shields.io/badge/-Other-5a5a5a?style=flat-square&color=%235a5a5a" width="120" alt="Other" />|Hao Zhang et.al.|[2603.26085](http://arxiv.org/abs/2603.26085)|
 |**2026-04-09**|**CASE: Cadence-Aware Set Encoding for Large-Scale Next Basket Repurchase Recommendation**|<img src="https://img.shields.io/badge/-Other-5a5a5a?style=flat-square&color=%235a5a5a" width="120" alt="Other" />|Yanan Cao et.al.|[2604.06718](http://arxiv.org/abs/2604.06718)|
 |**2026-04-09**|**The Unreasonable Effectiveness of Data for Recommender Systems**|<img src="https://img.shields.io/badge/-Other-5a5a5a?style=flat-square&color=%235a5a5a" width="120" alt="Other" />|Youssef Abdou et.al.|[2604.06420](http://arxiv.org/abs/2604.06420)|
-|**2026-04-09**|**Beyond Dense Connectivity: Explicit Sparsity for Scalable Recommendation**|<img src="https://img.shields.io/badge/-Other-5a5a5a?style=flat-square&color=%235a5a5a" width="120" alt="Other" />|Yantao Yu et.al.|[2604.08011](http://arxiv.org/abs/2604.08011)|
 |**2026-04-09**|**Context-Aware Disentanglement for Cross-Domain Sequential Recommendation: A Causal View**|<img src="https://img.shields.io/badge/-Seq-5a4a6a?style=flat-square&color=%235a4a6a" width="56" alt="Seq" />|Xingzi Wang et.al.|[2604.07992](http://arxiv.org/abs/2604.07992)|
 |**2026-04-09**|**Ensembles at Any Cost? Accuracy-Energy Trade-offs in Recommender Systems**|<img src="https://img.shields.io/badge/-Other-5a5a5a?style=flat-square&color=%235a5a5a" width="120" alt="Other" />|Jannik Nitschke et.al.|[2604.07869](http://arxiv.org/abs/2604.07869)|
 |**2026-04-09**|**ReRec: Reasoning-Augmented LLM-based Recommendation Assistant via Reinforcement Fine-tuning**|<img src="https://img.shields.io/badge/-LLM-2c4a78?style=flat-square&color=%232c4a78" width="56" alt="LLM" />|Jiani Huang et.al.|[2604.07851](http://arxiv.org/abs/2604.07851)|
@@ -1225,7 +1231,7 @@ title Paper Distribution by Tag
 |**2025-07-16**|**Looking for Fairness in Recommender Systems**|<img src="https://img.shields.io/badge/-Other-5a5a5a?style=flat-square&color=%235a5a5a" width="120" alt="Other" />|Cécile Logé et.al.|[2507.12242](http://arxiv.org/abs/2507.12242)|
 |**2025-07-16**|**Similarity-Guided Diffusion for Contrastive Sequential Recommendation**|<img src="https://img.shields.io/badge/-Seq-5a4a6a?style=flat-square&color=%235a4a6a" width="56" alt="Seq" />|Jinkyeong Choi et.al.|[2507.11866](http://arxiv.org/abs/2507.11866)|
 
-<p align=right>(<a href=#updated-on-20260420>back to top</a>)</p>
+<p align=right>(<a href=#updated-on-20260421>back to top</a>)</p>
 
 [contributors-shield]: https://img.shields.io/github/contributors/ShawnBIT/reco-arxiv-daily.svg?style=for-the-badge
 [contributors-url]: https://github.com/ShawnBIT/reco-arxiv-daily/graphs/contributors
