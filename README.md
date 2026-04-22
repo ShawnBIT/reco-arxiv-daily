@@ -1,4 +1,4 @@
-## Updated on 2026.04.22
+## Updated on 2026.04.23
 > Usage instructions: [here](./docs/README.md#usage)
 
 ### 📊 Paper distribution by tag
@@ -16,14 +16,14 @@
 }}}%%
 pie showData
 title Paper Distribution by Tag
-  "Other" : 673
-  "LLM" : 217
+  "Other" : 675
+  "LLM" : 219
   "GR" : 181
-  "Seq" : 112
+  "Seq" : 113
   "Scaling" : 21
 ```
 
-> 统计自 **2025-07-16** 起，共计 **1204** 篇论文。
+> 统计自 **2025-07-16** 起，共计 **1209** 篇论文。
 
 <details style="margin: 1em 0; padding: 0.75em 1em; border: 1px solid #d8dee4; border-radius: 8px; background: #f6f8fa;">
   <summary style="cursor: pointer; font-weight: 600; font-size: 1.05em; color: #1f2328; padding: 0.25em 0;">📑 Table of Contents</summary>
@@ -36,10 +36,18 @@ title Paper Distribution by Tag
 
 |Publish Date|Title|Tag|Authors|PDF|
 |---|---|---|---|---|
+|**2026-04-21**|**Beyond Dense Connectivity: Explicit Sparsity for Scalable Recommendation**|<img src="https://img.shields.io/badge/-Other-5a5a5a?style=flat-square&color=%235a5a5a" width="120" alt="Other" />|Yantao Yu et.al.|[2604.08011](http://arxiv.org/abs/2604.08011)|
+|**2026-04-21**|**UniRec: Bridging the Expressive Gap between Generative and Discriminative Recommendation via Chain-of-Attribute**|<img src="https://img.shields.io/badge/-GR-1e5c3a?style=flat-square&color=%231e5c3a" width="56" alt="GR" />|Ziliang Wang et.al.|[2604.12234](http://arxiv.org/abs/2604.12234)|
+|**2026-04-21**|**SAGER: Self-Evolving User Policy Skills for Recommendation Agent**|<img src="https://img.shields.io/badge/-Other-5a5a5a?style=flat-square&color=%235a5a5a" width="120" alt="Other" />|Zhen Tao et.al.|[2604.14972](http://arxiv.org/abs/2604.14972)|
+|**2026-04-21**|**Modular Representation Compression: Adapting LLMs for Efficient and Effective Recommendations**|<img src="https://img.shields.io/badge/-LLM-2c4a78?style=flat-square&color=%232c4a78" width="56" alt="LLM" />|Yunjia Xi et.al.|[2604.18146](http://arxiv.org/abs/2604.18146)|
+|**2026-04-21**|**RankUp: Towards High-rank Representations for Large Scale Advertising Recommender Systems**|<img src="https://img.shields.io/badge/-Other-5a5a5a?style=flat-square&color=%235a5a5a" width="120" alt="Other" />|Jin Chen et.al.|[2604.17878](http://arxiv.org/abs/2604.17878)|
+|**2026-04-21**|**From Top-1 to Top-K: A Reproducibility Study and Benchmarking of Counterfactual Explanations for Recommender Systems**|<img src="https://img.shields.io/badge/-Other-5a5a5a?style=flat-square&color=%235a5a5a" width="120" alt="Other" />|Quang-Huy Nguyen et.al.|[2604.19663](http://arxiv.org/abs/2604.19663)|
+|**2026-04-21**|**Impact of large language models on peer review opinions from a fine-grained perspective: Evidence from top conference proceedings in AI**|<img src="https://img.shields.io/badge/-LLM-2c4a78?style=flat-square&color=%232c4a78" width="56" alt="LLM" />|Wenqing Wu et.al.|[2604.19578](http://arxiv.org/abs/2604.19578)|
+|**2026-04-21**|**CAST: Modeling Semantic-Level Transitions for Complementary-Aware Sequential Recommendation**|<img src="https://img.shields.io/badge/-Seq-5a4a6a?style=flat-square&color=%235a4a6a" width="56" alt="Seq" />|Qian Zhang et.al.|[2604.19414](http://arxiv.org/abs/2604.19414)|
+|**2026-04-21**|**CS3: Efficient Online Capability Synergy for Two-Tower Recommendation**|<img src="https://img.shields.io/badge/-Other-5a5a5a?style=flat-square&color=%235a5a5a" width="120" alt="Other" />|Lixiang Wang et.al.|[2604.19269](http://arxiv.org/abs/2604.19269)|
+|**2026-04-21**|**GraphRAG-IRL: Personalized Recommendation with Graph-Grounded Inverse Reinforcement Learning and LLM Re-ranking**|<img src="https://img.shields.io/badge/-LLM-2c4a78?style=flat-square&color=%232c4a78" width="56" alt="LLM" />|Siqi Liang et.al.|[2604.19128](http://arxiv.org/abs/2604.19128)|
 |**2026-04-20**|**Balanced Co-Clustering of Users and Items for Embedding Table Compression in Recommender Systems**|<img src="https://img.shields.io/badge/-Other-5a5a5a?style=flat-square&color=%235a5a5a" width="120" alt="Other" />|Runhao Jiang et.al.|[2604.18351](http://arxiv.org/abs/2604.18351)|
 |**2026-04-20**|**Multi-LLM Token Filtering and Routing for Sequential Recommendation**|<img src="https://img.shields.io/badge/-LLM-2c4a78?style=flat-square&color=%232c4a78" width="56" alt="LLM" />|Wuhan Chen et.al.|[2604.18200](http://arxiv.org/abs/2604.18200)|
-|**2026-04-20**|**Modular Representation Compression: Adapting LLMs for Efficient and Effective Recommendations**|<img src="https://img.shields.io/badge/-LLM-2c4a78?style=flat-square&color=%232c4a78" width="56" alt="LLM" />|Yunjia Xi et.al.|[2604.18146](http://arxiv.org/abs/2604.18146)|
-|**2026-04-20**|**RankUp: Towards High-rank Representations for Large Scale Advertising Recommender Systems**|<img src="https://img.shields.io/badge/-Other-5a5a5a?style=flat-square&color=%235a5a5a" width="120" alt="Other" />|Jin Chen et.al.|[2604.17878](http://arxiv.org/abs/2604.17878)|
 |**2026-04-20**|**FedCRF: A Federated Cross-domain Recommendation Method with Semantic-driven Deep Knowledge Fusion**|<img src="https://img.shields.io/badge/-Other-5a5a5a?style=flat-square&color=%235a5a5a" width="120" alt="Other" />|Lei Guo et.al.|[2604.17681](http://arxiv.org/abs/2604.17681)|
 |**2026-04-20**|**MasterSet: A Large-Scale Benchmark for Must-Cite Citation Recommendation in the AI/ML Literature**|<img src="https://img.shields.io/badge/-Other-5a5a5a?style=flat-square&color=%235a5a5a" width="120" alt="Other" />|Md Toyaha Rahman Ratul et.al.|[2604.17680](http://arxiv.org/abs/2604.17680)|
 |**2026-04-19**|**BIPCL: Bilateral Intent-Enhanced Sequential Recommendation via Embedding Perturbation Contrastive Learning**|<img src="https://img.shields.io/badge/-Seq-5a4a6a?style=flat-square&color=%235a4a6a" width="56" alt="Seq" />|Shanfan Zhang et.al.|[2604.02833](http://arxiv.org/abs/2604.02833)|
@@ -49,12 +57,10 @@ title Paper Distribution by Tag
 |**2026-04-19**|**Transparent and Controllable Recommendation Filtering via Multimodal Multi-Agent Collaboration**|<img src="https://img.shields.io/badge/-Other-5a5a5a?style=flat-square&color=%235a5a5a" width="120" alt="Other" />|Chi Zhang et.al.|[2604.17459](http://arxiv.org/abs/2604.17459)|
 |**2026-04-19**|**HORIZON: A Benchmark for In-the-wild User Behaviour Modeling**|<img src="https://img.shields.io/badge/-Other-5a5a5a?style=flat-square&color=%235a5a5a" width="120" alt="Other" />|Arnav Goel et.al.|[2604.17259](http://arxiv.org/abs/2604.17259)|
 |**2026-04-18**|**Self-Distilled Reinforcement Learning for Co-Evolving Agentic Recommender Systems**|<img src="https://img.shields.io/badge/-Other-5a5a5a?style=flat-square&color=%235a5a5a" width="120" alt="Other" />|Zongwei Wang et.al.|[2604.10029](http://arxiv.org/abs/2604.10029)|
-|**2026-04-17**|**Beyond Dense Connectivity: Explicit Sparsity for Scalable Recommendation**|<img src="https://img.shields.io/badge/-Other-5a5a5a?style=flat-square&color=%235a5a5a" width="120" alt="Other" />|Yantao Yu et.al.|[2604.08011](http://arxiv.org/abs/2604.08011)|
 |**2026-04-17**|**Beyond One-Size-Fits-All: Adaptive Test-Time Augmentation for Sequential Recommendation**|<img src="https://img.shields.io/badge/-Seq-5a4a6a?style=flat-square&color=%235a4a6a" width="56" alt="Seq" />|Xibo Li et.al.|[2604.16121](http://arxiv.org/abs/2604.16121)|
 |**2026-04-17**|**On the Equivalence Between Auto-Regressive Next Token Prediction and Full-Item-Vocabulary Maximum Likelihood Estimation in Generative Recommendation--A Short Note**|<img src="https://img.shields.io/badge/-GR-1e5c3a?style=flat-square&color=%231e5c3a" width="56" alt="GR" />|Yusheng Huang et.al.|[2604.15739](http://arxiv.org/abs/2604.15739)|
 |**2026-04-17**|**Intent Propagation Contrastive Collaborative Filtering**|<img src="https://img.shields.io/badge/-Other-5a5a5a?style=flat-square&color=%235a5a5a" width="120" alt="Other" />|Haojie Li et.al.|[2604.15704](http://arxiv.org/abs/2604.15704)|
 |**2026-04-17**|**Sample Is Feature: Beyond Item-Level, Toward Sample-Level Tokens for Unified Large Recommender Models**|<img src="https://img.shields.io/badge/-Other-5a5a5a?style=flat-square&color=%235a5a5a" width="120" alt="Other" />|Shuli Wang et.al.|[2604.15650](http://arxiv.org/abs/2604.15650)|
-|**2026-04-16**|**SAGER: Self-Evolving User Policy Skills for Recommendation Agent**|<img src="https://img.shields.io/badge/-Other-5a5a5a?style=flat-square&color=%235a5a5a" width="120" alt="Other" />|Zhen Tao et.al.|[2604.14972](http://arxiv.org/abs/2604.14972)|
 |**2026-04-16**|**GenRec: A Preference-Oriented Generative Framework for Large-Scale Recommendation**|<img src="https://img.shields.io/badge/-GR-1e5c3a?style=flat-square&color=%231e5c3a" width="56" alt="GR" />|Yanyan Zou et.al.|[2604.14878](http://arxiv.org/abs/2604.14878)|
 |**2026-04-16**|**Well Begun is Half Done: Training-Free and Model-Agnostic Semantically Guaranteed User Representation Initialization for Multimodal Recommendation**|<img src="https://img.shields.io/badge/-Other-5a5a5a?style=flat-square&color=%235a5a5a" width="120" alt="Other" />|Jinfeng Xu et.al.|[2604.14839](http://arxiv.org/abs/2604.14839)|
 |**2026-04-16**|**Federated User Behavior Modeling for Privacy-Preserving LLM Recommendation**|<img src="https://img.shields.io/badge/-LLM-2c4a78?style=flat-square&color=%232c4a78" width="56" alt="LLM" />|Lei Guo et.al.|[2604.14833](http://arxiv.org/abs/2604.14833)|
@@ -80,7 +86,6 @@ title Paper Distribution by Tag
 |**2026-04-14**|**Sparse Contrastive Learning for Content-Based Cold Item Recommendation**|<img src="https://img.shields.io/badge/-Other-5a5a5a?style=flat-square&color=%235a5a5a" width="120" alt="Other" />|Gregor Meehan et.al.|[2604.12990](http://arxiv.org/abs/2604.12990)|
 |**2026-04-14**|**Efficient Retrieval Scaling with Hierarchical Indexing for Large Scale Recommendation**|<img src="https://img.shields.io/badge/-Scaling-8b5a3c?style=flat-square&color=%238b5a3c" width="200" alt="Scaling" />|Dongqi Fu et.al.|[2604.12965](http://arxiv.org/abs/2604.12965)|
 |**2026-04-14**|**Is Sliding Window All You Need? An Open Framework for Long-Sequence Recommendation**|<img src="https://img.shields.io/badge/-Seq-5a4a6a?style=flat-square&color=%235a4a6a" width="56" alt="Seq" />|Sayak Chakrabarty et.al.|[2604.12372](http://arxiv.org/abs/2604.12372)|
-|**2026-04-14**|**UniRec: Bridging the Expressive Gap between Generative and Discriminative Recommendation via Chain-of-Attribute**|<img src="https://img.shields.io/badge/-GR-1e5c3a?style=flat-square&color=%231e5c3a" width="56" alt="GR" />|Ziliang Wang et.al.|[2604.12234](http://arxiv.org/abs/2604.12234)|
 |**2026-04-14**|**TRACE: A Conversational Framework for Sustainable Tourism Recommendation with Agentic Counterfactual Explanations**|<img src="https://img.shields.io/badge/-Other-5a5a5a?style=flat-square&color=%235a5a5a" width="120" alt="Other" />|Ashmi Banerjee et.al.|[2604.14223](http://arxiv.org/abs/2604.14223)|
 |**2026-04-13**|**Retrieval Augmented Conversational Recommendation with Reinforcement Learning**|<img src="https://img.shields.io/badge/-Other-5a5a5a?style=flat-square&color=%235a5a5a" width="120" alt="Other" />|Zhenrui Yue et.al.|[2604.04457](http://arxiv.org/abs/2604.04457)|
 |**2026-04-13**|**DIAURec: Dual-Intent Space Representation Optimization for Recommendation**|<img src="https://img.shields.io/badge/-Other-5a5a5a?style=flat-square&color=%235a5a5a" width="120" alt="Other" />|Yu Zhang et.al.|[2604.09087](http://arxiv.org/abs/2604.09087)|
@@ -1241,7 +1246,7 @@ title Paper Distribution by Tag
 |**2025-07-16**|**Looking for Fairness in Recommender Systems**|<img src="https://img.shields.io/badge/-Other-5a5a5a?style=flat-square&color=%235a5a5a" width="120" alt="Other" />|Cécile Logé et.al.|[2507.12242](http://arxiv.org/abs/2507.12242)|
 |**2025-07-16**|**Similarity-Guided Diffusion for Contrastive Sequential Recommendation**|<img src="https://img.shields.io/badge/-Seq-5a4a6a?style=flat-square&color=%235a4a6a" width="56" alt="Seq" />|Jinkyeong Choi et.al.|[2507.11866](http://arxiv.org/abs/2507.11866)|
 
-<p align=right>(<a href=#updated-on-20260422>back to top</a>)</p>
+<p align=right>(<a href=#updated-on-20260423>back to top</a>)</p>
 
 [contributors-shield]: https://img.shields.io/github/contributors/ShawnBIT/reco-arxiv-daily.svg?style=for-the-badge
 [contributors-url]: https://github.com/ShawnBIT/reco-arxiv-daily/graphs/contributors

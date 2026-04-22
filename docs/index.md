@@ -2,17 +2,25 @@
 layout: default
 ---
 
-## Updated on 2026.04.22
+## Updated on 2026.04.23
 > Usage instructions: [here](./docs/README.md#usage)
 
 ## Recommender System
 
 | Publish Date | Title | Authors | PDF |
 |:---------|:-----------------------|:---------|:------|
+|**2026-04-21**|**Beyond Dense Connectivity: Explicit Sparsity for Scalable Recommendation**|Yantao Yu et.al.|[2604.08011](http://arxiv.org/abs/2604.08011)|
+|**2026-04-21**|**UniRec: Bridging the Expressive Gap between Generative and Discriminative Recommendation via Chain-of-Attribute**|Ziliang Wang et.al.|[2604.12234](http://arxiv.org/abs/2604.12234)|
+|**2026-04-21**|**SAGER: Self-Evolving User Policy Skills for Recommendation Agent**|Zhen Tao et.al.|[2604.14972](http://arxiv.org/abs/2604.14972)|
+|**2026-04-21**|**Modular Representation Compression: Adapting LLMs for Efficient and Effective Recommendations**|Yunjia Xi et.al.|[2604.18146](http://arxiv.org/abs/2604.18146)|
+|**2026-04-21**|**RankUp: Towards High-rank Representations for Large Scale Advertising Recommender Systems**|Jin Chen et.al.|[2604.17878](http://arxiv.org/abs/2604.17878)|
+|**2026-04-21**|**From Top-1 to Top-K: A Reproducibility Study and Benchmarking of Counterfactual Explanations for Recommender Systems**|Quang-Huy Nguyen et.al.|[2604.19663](http://arxiv.org/abs/2604.19663)|
+|**2026-04-21**|**Impact of large language models on peer review opinions from a fine-grained perspective: Evidence from top conference proceedings in AI**|Wenqing Wu et.al.|[2604.19578](http://arxiv.org/abs/2604.19578)|
+|**2026-04-21**|**CAST: Modeling Semantic-Level Transitions for Complementary-Aware Sequential Recommendation**|Qian Zhang et.al.|[2604.19414](http://arxiv.org/abs/2604.19414)|
+|**2026-04-21**|**CS3: Efficient Online Capability Synergy for Two-Tower Recommendation**|Lixiang Wang et.al.|[2604.19269](http://arxiv.org/abs/2604.19269)|
+|**2026-04-21**|**GraphRAG-IRL: Personalized Recommendation with Graph-Grounded Inverse Reinforcement Learning and LLM Re-ranking**|Siqi Liang et.al.|[2604.19128](http://arxiv.org/abs/2604.19128)|
 |**2026-04-20**|**Balanced Co-Clustering of Users and Items for Embedding Table Compression in Recommender Systems**|Runhao Jiang et.al.|[2604.18351](http://arxiv.org/abs/2604.18351)|
 |**2026-04-20**|**Multi-LLM Token Filtering and Routing for Sequential Recommendation**|Wuhan Chen et.al.|[2604.18200](http://arxiv.org/abs/2604.18200)|
-|**2026-04-20**|**Modular Representation Compression: Adapting LLMs for Efficient and Effective Recommendations**|Yunjia Xi et.al.|[2604.18146](http://arxiv.org/abs/2604.18146)|
-|**2026-04-20**|**RankUp: Towards High-rank Representations for Large Scale Advertising Recommender Systems**|Jin Chen et.al.|[2604.17878](http://arxiv.org/abs/2604.17878)|
 |**2026-04-20**|**FedCRF: A Federated Cross-domain Recommendation Method with Semantic-driven Deep Knowledge Fusion**|Lei Guo et.al.|[2604.17681](http://arxiv.org/abs/2604.17681)|
 |**2026-04-20**|**MasterSet: A Large-Scale Benchmark for Must-Cite Citation Recommendation in the AI/ML Literature**|Md Toyaha Rahman Ratul et.al.|[2604.17680](http://arxiv.org/abs/2604.17680)|
 |**2026-04-19**|**BIPCL: Bilateral Intent-Enhanced Sequential Recommendation via Embedding Perturbation Contrastive Learning**|Shanfan Zhang et.al.|[2604.02833](http://arxiv.org/abs/2604.02833)|
@@ -22,12 +30,10 @@ layout: default
 |**2026-04-19**|**Transparent and Controllable Recommendation Filtering via Multimodal Multi-Agent Collaboration**|Chi Zhang et.al.|[2604.17459](http://arxiv.org/abs/2604.17459)|
 |**2026-04-19**|**HORIZON: A Benchmark for In-the-wild User Behaviour Modeling**|Arnav Goel et.al.|[2604.17259](http://arxiv.org/abs/2604.17259)|
 |**2026-04-18**|**Self-Distilled Reinforcement Learning for Co-Evolving Agentic Recommender Systems**|Zongwei Wang et.al.|[2604.10029](http://arxiv.org/abs/2604.10029)|
-|**2026-04-17**|**Beyond Dense Connectivity: Explicit Sparsity for Scalable Recommendation**|Yantao Yu et.al.|[2604.08011](http://arxiv.org/abs/2604.08011)|
 |**2026-04-17**|**Beyond One-Size-Fits-All: Adaptive Test-Time Augmentation for Sequential Recommendation**|Xibo Li et.al.|[2604.16121](http://arxiv.org/abs/2604.16121)|
 |**2026-04-17**|**On the Equivalence Between Auto-Regressive Next Token Prediction and Full-Item-Vocabulary Maximum Likelihood Estimation in Generative Recommendation--A Short Note**|Yusheng Huang et.al.|[2604.15739](http://arxiv.org/abs/2604.15739)|
 |**2026-04-17**|**Intent Propagation Contrastive Collaborative Filtering**|Haojie Li et.al.|[2604.15704](http://arxiv.org/abs/2604.15704)|
 |**2026-04-17**|**Sample Is Feature: Beyond Item-Level, Toward Sample-Level Tokens for Unified Large Recommender Models**|Shuli Wang et.al.|[2604.15650](http://arxiv.org/abs/2604.15650)|
-|**2026-04-16**|**SAGER: Self-Evolving User Policy Skills for Recommendation Agent**|Zhen Tao et.al.|[2604.14972](http://arxiv.org/abs/2604.14972)|
 |**2026-04-16**|**GenRec: A Preference-Oriented Generative Framework for Large-Scale Recommendation**|Yanyan Zou et.al.|[2604.14878](http://arxiv.org/abs/2604.14878)|
 |**2026-04-16**|**Well Begun is Half Done: Training-Free and Model-Agnostic Semantically Guaranteed User Representation Initialization for Multimodal Recommendation**|Jinfeng Xu et.al.|[2604.14839](http://arxiv.org/abs/2604.14839)|
 |**2026-04-16**|**Federated User Behavior Modeling for Privacy-Preserving LLM Recommendation**|Lei Guo et.al.|[2604.14833](http://arxiv.org/abs/2604.14833)|
@@ -53,7 +59,6 @@ layout: default
 |**2026-04-14**|**Sparse Contrastive Learning for Content-Based Cold Item Recommendation**|Gregor Meehan et.al.|[2604.12990](http://arxiv.org/abs/2604.12990)|
 |**2026-04-14**|**Efficient Retrieval Scaling with Hierarchical Indexing for Large Scale Recommendation**|Dongqi Fu et.al.|[2604.12965](http://arxiv.org/abs/2604.12965)|
 |**2026-04-14**|**Is Sliding Window All You Need? An Open Framework for Long-Sequence Recommendation**|Sayak Chakrabarty et.al.|[2604.12372](http://arxiv.org/abs/2604.12372)|
-|**2026-04-14**|**UniRec: Bridging the Expressive Gap between Generative and Discriminative Recommendation via Chain-of-Attribute**|Ziliang Wang et.al.|[2604.12234](http://arxiv.org/abs/2604.12234)|
 |**2026-04-14**|**TRACE: A Conversational Framework for Sustainable Tourism Recommendation with Agentic Counterfactual Explanations**|Ashmi Banerjee et.al.|[2604.14223](http://arxiv.org/abs/2604.14223)|
 |**2026-04-13**|**Retrieval Augmented Conversational Recommendation with Reinforcement Learning**|Zhenrui Yue et.al.|[2604.04457](http://arxiv.org/abs/2604.04457)|
 |**2026-04-13**|**DIAURec: Dual-Intent Space Representation Optimization for Recommendation**|Yu Zhang et.al.|[2604.09087](http://arxiv.org/abs/2604.09087)|
