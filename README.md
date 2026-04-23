@@ -1,4 +1,4 @@
-## Updated on 2026.04.23
+## Updated on 2026.04.24
 > Usage instructions: [here](./docs/README.md#usage)
 
 ### 📊 Paper distribution by tag
@@ -17,13 +17,13 @@
 pie showData
 title Paper Distribution by Tag
   "Other" : 675
-  "LLM" : 219
+  "LLM" : 222
   "GR" : 181
   "Seq" : 113
   "Scaling" : 21
 ```
 
-> 统计自 **2025-07-16** 起，共计 **1209** 篇论文。
+> 统计自 **2025-07-16** 起，共计 **1212** 篇论文。
 
 <details style="margin: 1em 0; padding: 0.75em 1em; border: 1px solid #d8dee4; border-radius: 8px; background: #f6f8fa;">
   <summary style="cursor: pointer; font-weight: 600; font-size: 1.05em; color: #1f2328; padding: 0.25em 0;">📑 Table of Contents</summary>
@@ -36,8 +36,10 @@ title Paper Distribution by Tag
 
 |Publish Date|Title|Tag|Authors|PDF|
 |---|---|---|---|---|
-|**2026-04-21**|**Beyond Dense Connectivity: Explicit Sparsity for Scalable Recommendation**|<img src="https://img.shields.io/badge/-Other-5a5a5a?style=flat-square&color=%235a5a5a" width="120" alt="Other" />|Yantao Yu et.al.|[2604.08011](http://arxiv.org/abs/2604.08011)|
-|**2026-04-21**|**UniRec: Bridging the Expressive Gap between Generative and Discriminative Recommendation via Chain-of-Attribute**|<img src="https://img.shields.io/badge/-GR-1e5c3a?style=flat-square&color=%231e5c3a" width="56" alt="GR" />|Ziliang Wang et.al.|[2604.12234](http://arxiv.org/abs/2604.12234)|
+|**2026-04-22**|**Beyond Dense Connectivity: Explicit Sparsity for Scalable Recommendation**|<img src="https://img.shields.io/badge/-Other-5a5a5a?style=flat-square&color=%235a5a5a" width="120" alt="Other" />|Yantao Yu et.al.|[2604.08011](http://arxiv.org/abs/2604.08011)|
+|**2026-04-22**|**UniRec: Bridging the Expressive Gap between Generative and Discriminative Recommendation via Chain-of-Attribute**|<img src="https://img.shields.io/badge/-GR-1e5c3a?style=flat-square&color=%231e5c3a" width="56" alt="GR" />|Ziliang Wang et.al.|[2604.12234](http://arxiv.org/abs/2604.12234)|
+|**2026-04-22**|**Break the Optimization Barrier of LLM-Enhanced Recommenders: A Theoretical Analysis and Practical Framework**|<img src="https://img.shields.io/badge/-LLM-2c4a78?style=flat-square&color=%232c4a78" width="56" alt="LLM" />|Zhangchi Zhu et.al.|[2604.20490](http://arxiv.org/abs/2604.20490)|
+|**2026-04-22**|**From Hidden Profiles to Governable Personalization: Recommender Systems in the Age of LLM Agents**|<img src="https://img.shields.io/badge/-LLM-2c4a78?style=flat-square&color=%232c4a78" width="56" alt="LLM" />|Jiahao Liu et.al.|[2604.20065](http://arxiv.org/abs/2604.20065)|
 |**2026-04-21**|**SAGER: Self-Evolving User Policy Skills for Recommendation Agent**|<img src="https://img.shields.io/badge/-Other-5a5a5a?style=flat-square&color=%235a5a5a" width="120" alt="Other" />|Zhen Tao et.al.|[2604.14972](http://arxiv.org/abs/2604.14972)|
 |**2026-04-21**|**Modular Representation Compression: Adapting LLMs for Efficient and Effective Recommendations**|<img src="https://img.shields.io/badge/-LLM-2c4a78?style=flat-square&color=%232c4a78" width="56" alt="LLM" />|Yunjia Xi et.al.|[2604.18146](http://arxiv.org/abs/2604.18146)|
 |**2026-04-21**|**RankUp: Towards High-rank Representations for Large Scale Advertising Recommender Systems**|<img src="https://img.shields.io/badge/-Other-5a5a5a?style=flat-square&color=%235a5a5a" width="120" alt="Other" />|Jin Chen et.al.|[2604.17878](http://arxiv.org/abs/2604.17878)|
@@ -111,6 +113,7 @@ title Paper Distribution by Tag
 |**2026-04-07**|**Semantic Trimming and Auxiliary Multi-step Prediction for Generative Recommendation**|<img src="https://img.shields.io/badge/-GR-1e5c3a?style=flat-square&color=%231e5c3a" width="56" alt="GR" />|Tianyu Zhan et.al.|[2604.05329](http://arxiv.org/abs/2604.05329)|
 |**2026-04-07**|**Next-Scale Generative Reranking: A Tree-based Generative Rerank Method at Meituan**|<img src="https://img.shields.io/badge/-GR-1e5c3a?style=flat-square&color=%231e5c3a" width="56" alt="GR" />|Shuli Wang et.al.|[2604.05314](http://arxiv.org/abs/2604.05314)|
 |**2026-04-07**|**Pay Attention to Sequence Split: Uncovering the Impacts of Sub-Sequence Splitting on Sequential Recommendation Models**|<img src="https://img.shields.io/badge/-Seq-5a4a6a?style=flat-square&color=%235a4a6a" width="56" alt="Seq" />|Yizhou Dang et.al.|[2604.05309](http://arxiv.org/abs/2604.05309)|
+|**2026-04-07**|**SkillGraph: Graph Foundation Priors for LLM Agent Tool Sequence Recommendation**|<img src="https://img.shields.io/badge/-LLM-2c4a78?style=flat-square&color=%232c4a78" width="56" alt="LLM" />|Hao Liu et.al.|[2604.19793](http://arxiv.org/abs/2604.19793)|
 |**2026-04-06**|**Cold-Starts in Generative Recommendation: A Reproducibility Study**|<img src="https://img.shields.io/badge/-GR-1e5c3a?style=flat-square&color=%231e5c3a" width="56" alt="GR" />|Zhen Zhang et.al.|[2603.29845](http://arxiv.org/abs/2603.29845)|
 |**2026-04-06**|**SLSREC: Self-Supervised Contrastive Learning for Adaptive Fusion of Long- and Short-Term User Interests**|<img src="https://img.shields.io/badge/-Other-5a5a5a?style=flat-square&color=%235a5a5a" width="120" alt="Other" />|Wei Zhou et.al.|[2604.04530](http://arxiv.org/abs/2604.04530)|
 |**2026-04-06**|**FAVE: Flow-based Average Velocity Establishment for Sequential Recommendation**|<img src="https://img.shields.io/badge/-Seq-5a4a6a?style=flat-square&color=%235a4a6a" width="56" alt="Seq" />|Ke Shi et.al.|[2604.04427](http://arxiv.org/abs/2604.04427)|
@@ -1246,7 +1249,7 @@ title Paper Distribution by Tag
 |**2025-07-16**|**Looking for Fairness in Recommender Systems**|<img src="https://img.shields.io/badge/-Other-5a5a5a?style=flat-square&color=%235a5a5a" width="120" alt="Other" />|Cécile Logé et.al.|[2507.12242](http://arxiv.org/abs/2507.12242)|
 |**2025-07-16**|**Similarity-Guided Diffusion for Contrastive Sequential Recommendation**|<img src="https://img.shields.io/badge/-Seq-5a4a6a?style=flat-square&color=%235a4a6a" width="56" alt="Seq" />|Jinkyeong Choi et.al.|[2507.11866](http://arxiv.org/abs/2507.11866)|
 
-<p align=right>(<a href=#updated-on-20260423>back to top</a>)</p>
+<p align=right>(<a href=#updated-on-20260424>back to top</a>)</p>
 
 [contributors-shield]: https://img.shields.io/github/contributors/ShawnBIT/reco-arxiv-daily.svg?style=for-the-badge
 [contributors-url]: https://github.com/ShawnBIT/reco-arxiv-daily/graphs/contributors

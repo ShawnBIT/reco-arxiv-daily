@@ -2,15 +2,17 @@
 layout: default
 ---
 
-## Updated on 2026.04.23
+## Updated on 2026.04.24
 > Usage instructions: [here](./docs/README.md#usage)
 
 ## Recommender System
 
 | Publish Date | Title | Authors | PDF |
 |:---------|:-----------------------|:---------|:------|
-|**2026-04-21**|**Beyond Dense Connectivity: Explicit Sparsity for Scalable Recommendation**|Yantao Yu et.al.|[2604.08011](http://arxiv.org/abs/2604.08011)|
-|**2026-04-21**|**UniRec: Bridging the Expressive Gap between Generative and Discriminative Recommendation via Chain-of-Attribute**|Ziliang Wang et.al.|[2604.12234](http://arxiv.org/abs/2604.12234)|
+|**2026-04-22**|**Beyond Dense Connectivity: Explicit Sparsity for Scalable Recommendation**|Yantao Yu et.al.|[2604.08011](http://arxiv.org/abs/2604.08011)|
+|**2026-04-22**|**UniRec: Bridging the Expressive Gap between Generative and Discriminative Recommendation via Chain-of-Attribute**|Ziliang Wang et.al.|[2604.12234](http://arxiv.org/abs/2604.12234)|
+|**2026-04-22**|**Break the Optimization Barrier of LLM-Enhanced Recommenders: A Theoretical Analysis and Practical Framework**|Zhangchi Zhu et.al.|[2604.20490](http://arxiv.org/abs/2604.20490)|
+|**2026-04-22**|**From Hidden Profiles to Governable Personalization: Recommender Systems in the Age of LLM Agents**|Jiahao Liu et.al.|[2604.20065](http://arxiv.org/abs/2604.20065)|
 |**2026-04-21**|**SAGER: Self-Evolving User Policy Skills for Recommendation Agent**|Zhen Tao et.al.|[2604.14972](http://arxiv.org/abs/2604.14972)|
 |**2026-04-21**|**Modular Representation Compression: Adapting LLMs for Efficient and Effective Recommendations**|Yunjia Xi et.al.|[2604.18146](http://arxiv.org/abs/2604.18146)|
 |**2026-04-21**|**RankUp: Towards High-rank Representations for Large Scale Advertising Recommender Systems**|Jin Chen et.al.|[2604.17878](http://arxiv.org/abs/2604.17878)|
@@ -84,6 +86,7 @@ layout: default
 |**2026-04-07**|**Semantic Trimming and Auxiliary Multi-step Prediction for Generative Recommendation**|Tianyu Zhan et.al.|[2604.05329](http://arxiv.org/abs/2604.05329)|
 |**2026-04-07**|**Next-Scale Generative Reranking: A Tree-based Generative Rerank Method at Meituan**|Shuli Wang et.al.|[2604.05314](http://arxiv.org/abs/2604.05314)|
 |**2026-04-07**|**Pay Attention to Sequence Split: Uncovering the Impacts of Sub-Sequence Splitting on Sequential Recommendation Models**|Yizhou Dang et.al.|[2604.05309](http://arxiv.org/abs/2604.05309)|
+|**2026-04-07**|**SkillGraph: Graph Foundation Priors for LLM Agent Tool Sequence Recommendation**|Hao Liu et.al.|[2604.19793](http://arxiv.org/abs/2604.19793)|
 |**2026-04-06**|**Cold-Starts in Generative Recommendation: A Reproducibility Study**|Zhen Zhang et.al.|[2603.29845](http://arxiv.org/abs/2603.29845)|
 |**2026-04-06**|**SLSREC: Self-Supervised Contrastive Learning for Adaptive Fusion of Long- and Short-Term User Interests**|Wei Zhou et.al.|[2604.04530](http://arxiv.org/abs/2604.04530)|
 |**2026-04-06**|**FAVE: Flow-based Average Velocity Establishment for Sequential Recommendation**|Ke Shi et.al.|[2604.04427](http://arxiv.org/abs/2604.04427)|
