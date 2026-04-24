@@ -1,11 +1,16 @@
 ## Daily New Papers
 
-> Updated on 2026.04.24
+> Updated on 2026.04.25
 
 ## Recommender System
 
 |Publish Date|Title|Tag|Authors|PDF|
 |---|---|---|---|---|
+|**2026-04-23**|**Multistakeholder Impacts of Profile Portability in a Recommender Ecosystem**|<img src="https://img.shields.io/badge/-Other-5a5a5a?style=flat-square&color=%235a5a5a" width="120" alt="Other" />|Anas Buhayh et.al.|[2604.21750](http://arxiv.org/abs/2604.21750)|
+|**2026-04-23**|**Pre-trained LLMs Meet Sequential Recommenders: Efficient User-Centric Knowledge Distillation**|<img src="https://img.shields.io/badge/-LLM-2c4a78?style=flat-square&color=%232c4a78" width="56" alt="LLM" />|Nikita Severin et.al.|[2604.21536](http://arxiv.org/abs/2604.21536)|
+|**2026-04-23**|**WPGRec: Wavelet Packet Guided Graph Enhanced Sequential Recommendation**|<img src="https://img.shields.io/badge/-Seq-5a4a6a?style=flat-square&color=%235a4a6a" width="56" alt="Seq" />|Peilin Liu et.al.|[2604.21305](http://arxiv.org/abs/2604.21305)|
+|**2026-04-23**|**On Reasoning Behind Next Occupation Recommendation**|<img src="https://img.shields.io/badge/-Other-5a5a5a?style=flat-square&color=%235a5a5a" width="120" alt="Other" />|Shan Dong et.al.|[2604.21204](http://arxiv.org/abs/2604.21204)|
+|**2026-04-22**|**Following the Eye-Tracking Evidence: Established Web-Search Assumptions Fail in Carousel Interfaces**|<img src="https://img.shields.io/badge/-Other-5a5a5a?style=flat-square&color=%235a5a5a" width="120" alt="Other" />|Jingwei Kang et.al.|[2604.21019](http://arxiv.org/abs/2604.21019)|
 |**2026-04-22**|**Break the Optimization Barrier of LLM-Enhanced Recommenders: A Theoretical Analysis and Practical Framework**|<img src="https://img.shields.io/badge/-LLM-2c4a78?style=flat-square&color=%232c4a78" width="56" alt="LLM" />|Zhangchi Zhu et.al.|[2604.20490](http://arxiv.org/abs/2604.20490)|
 |**2026-04-22**|**From Hidden Profiles to Governable Personalization: Recommender Systems in the Age of LLM Agents**|<img src="https://img.shields.io/badge/-LLM-2c4a78?style=flat-square&color=%232c4a78" width="56" alt="LLM" />|Jiahao Liu et.al.|[2604.20065](http://arxiv.org/abs/2604.20065)|
 |**2026-04-22**|**UniRec: Bridging the Expressive Gap between Generative and Discriminative Recommendation via Chain-of-Attribute**|<img src="https://img.shields.io/badge/-GR-1e5c3a?style=flat-square&color=%231e5c3a" width="56" alt="GR" />|Ziliang Wang et.al.|[2604.12234](http://arxiv.org/abs/2604.12234)|
@@ -83,7 +88,6 @@
 |**2026-04-06**|**CRAB: Codebook Rebalancing for Bias Mitigation in Generative Recommendation**|<img src="https://img.shields.io/badge/-GR-1e5c3a?style=flat-square&color=%231e5c3a" width="56" alt="GR" />|Zezhong Fan et.al.|[2604.05113](http://arxiv.org/abs/2604.05113)|
 |**2026-04-06**|**SLSREC: Self-Supervised Contrastive Learning for Adaptive Fusion of Long- and Short-Term User Interests**|<img src="https://img.shields.io/badge/-Other-5a5a5a?style=flat-square&color=%235a5a5a" width="120" alt="Other" />|Wei Zhou et.al.|[2604.04530](http://arxiv.org/abs/2604.04530)|
 |**2026-04-06**|**FAVE: Flow-based Average Velocity Establishment for Sequential Recommendation**|<img src="https://img.shields.io/badge/-Seq-5a4a6a?style=flat-square&color=%235a4a6a" width="56" alt="Seq" />|Ke Shi et.al.|[2604.04427](http://arxiv.org/abs/2604.04427)|
-|**2026-04-06**|**Cold-Starts in Generative Recommendation: A Reproducibility Study**|<img src="https://img.shields.io/badge/-GR-1e5c3a?style=flat-square&color=%231e5c3a" width="56" alt="GR" />|Zhen Zhang et.al.|[2603.29845](http://arxiv.org/abs/2603.29845)|
 |**2026-04-05**|**A Logical-Rule Autoencoder for Interpretable Recommendations**|<img src="https://img.shields.io/badge/-Other-5a5a5a?style=flat-square&color=%235a5a5a" width="120" alt="Other" />|Jinhao Pan et.al.|[2604.04270](http://arxiv.org/abs/2604.04270)|
 |**2026-04-05**|**FLAME: Condensing Ensemble Diversity into a Single Network for Efficient Sequential Recommendation**|<img src="https://img.shields.io/badge/-Seq-5a4a6a?style=flat-square&color=%235a4a6a" width="56" alt="Seq" />|WooJoo Kim et.al.|[2604.04038](http://arxiv.org/abs/2604.04038)|
 |**2026-04-05**|**Semantic IDs for Recommender Systems at Snapchat: Use Cases, Technical Challenges, and Design Choices**|<img src="https://img.shields.io/badge/-Other-5a5a5a?style=flat-square&color=%235a5a5a" width="120" alt="Other" />|Clark Mingxuan Ju et.al.|[2604.03949](http://arxiv.org/abs/2604.03949)|
@@ -101,9 +105,5 @@
 |**2026-04-02**|**Modeling User Exploration Saturation: When Recommender Systems Should Stop Pushing Novelty**|<img src="https://img.shields.io/badge/-Other-5a5a5a?style=flat-square&color=%235a5a5a" width="120" alt="Other" />|Enock O. Ayiku et.al.|[2604.16419](http://arxiv.org/abs/2604.16419)|
 |**2026-04-02**|**Multi-Agent Video Recommenders: Evolution, Patterns, and Open Challenges**|<img src="https://img.shields.io/badge/-Other-5a5a5a?style=flat-square&color=%235a5a5a" width="120" alt="Other" />|Srivaths Ranganathan et.al.|[2604.02211](http://arxiv.org/abs/2604.02211)|
 |**2026-04-02**|**From BM25 to Corrective RAG: Benchmarking Retrieval Strategies for Text-and-Table Documents**|<img src="https://img.shields.io/badge/-Other-5a5a5a?style=flat-square&color=%235a5a5a" width="120" alt="Other" />|Meftun Akarsu et.al.|[2604.01733](http://arxiv.org/abs/2604.01733)|
-|**2026-04-02**|**UniMixer: A Unified Architecture for Scaling Laws in Recommendation Systems**|<img src="https://img.shields.io/badge/-Scaling-8b5a3c?style=flat-square&color=%238b5a3c" width="200" alt="Scaling" />|Mingming Ha et.al.|[2604.00590](http://arxiv.org/abs/2604.00590)|
 |**2026-04-01**|**Aligning Recommendations with User Popularity Preferences**|<img src="https://img.shields.io/badge/-Other-5a5a5a?style=flat-square&color=%235a5a5a" width="120" alt="Other" />|Mona Schirmer et.al.|[2604.01036](http://arxiv.org/abs/2604.01036)|
-|**2026-03-31**|**Drift-Aware Continual Tokenization for Generative Recommendation**|<img src="https://img.shields.io/badge/-GR-1e5c3a?style=flat-square&color=%231e5c3a" width="56" alt="GR" />|Yuebo Feng et.al.|[2603.29705](http://arxiv.org/abs/2603.29705)|
-|**2026-03-31**|**Aligning Multimodal Sequential Recommendations via Robust Direct Preference Optimization with Sparse MoE**|<img src="https://img.shields.io/badge/-Seq-5a4a6a?style=flat-square&color=%235a4a6a" width="56" alt="Seq" />|Hejin Huang et.al.|[2603.29259](http://arxiv.org/abs/2603.29259)|
-|**2026-03-30**|**Zero-shot Cross-domain Knowledge Distillation: A Case study on YouTube Music**|<img src="https://img.shields.io/badge/-Other-5a5a5a?style=flat-square&color=%235a5a5a" width="120" alt="Other" />|Srivaths Ranganathan et.al.|[2603.28994](http://arxiv.org/abs/2603.28994)|
 

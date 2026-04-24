@@ -1,14 +1,20 @@
 **Recommender System Daily New Papers**
 
-Updated on **2026.04.24**
-共计 **3** 篇论文
+Updated on **2026.04.25**
+共计 **5** 篇论文
 
-**2026-04-22**  **🔵 LLM** | Zhangchi Zhu et.al.
-[Break the Optimization Barrier of LLM-Enhanced Recommenders: A Theoretical Analysis and Practical Framework](http://arxiv.org/abs/2604.20490)
+**2026-04-23**  **⬜️ Other** | Anas Buhayh et.al.
+[Multistakeholder Impacts of Profile Portability in a Recommender Ecosystem](http://arxiv.org/abs/2604.21750)
 
-**2026-04-22**  **🔵 LLM** | Jiahao Liu et.al.
-[From Hidden Profiles to Governable Personalization: Recommender Systems in the Age of LLM Agents](http://arxiv.org/abs/2604.20065)
+**2026-04-23**  **🔵 LLM** | Nikita Severin et.al.
+[Pre-trained LLMs Meet Sequential Recommenders: Efficient User-Centric Knowledge Distillation](http://arxiv.org/abs/2604.21536)
 
-**2026-04-07**  **🔵 LLM** | Hao Liu et.al.
-[SkillGraph: Graph Foundation Priors for LLM Agent Tool Sequence Recommendation](http://arxiv.org/abs/2604.19793)
+**2026-04-23**  **🟨 Seq** | Peilin Liu et.al.
+[WPGRec: Wavelet Packet Guided Graph Enhanced Sequential Recommendation](http://arxiv.org/abs/2604.21305)
+
+**2026-04-23**  **⬜️ Other** | Shan Dong et.al.
+[On Reasoning Behind Next Occupation Recommendation](http://arxiv.org/abs/2604.21204)
+
+**2026-04-22**  **⬜️ Other** | Jingwei Kang et.al.
+[Following the Eye-Tracking Evidence: Established Web-Search Assumptions Fail in Carousel Interfaces](http://arxiv.org/abs/2604.21019)
 

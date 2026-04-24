@@ -2,17 +2,22 @@
 layout: default
 ---
 
-## Updated on 2026.04.24
+## Updated on 2026.04.25
 > Usage instructions: [here](./docs/README.md#usage)
 
 ## Recommender System
 
 | Publish Date | Title | Authors | PDF |
 |:---------|:-----------------------|:---------|:------|
+|**2026-04-23**|**Multistakeholder Impacts of Profile Portability in a Recommender Ecosystem**|Anas Buhayh et.al.|[2604.21750](http://arxiv.org/abs/2604.21750)|
+|**2026-04-23**|**Pre-trained LLMs Meet Sequential Recommenders: Efficient User-Centric Knowledge Distillation**|Nikita Severin et.al.|[2604.21536](http://arxiv.org/abs/2604.21536)|
+|**2026-04-23**|**WPGRec: Wavelet Packet Guided Graph Enhanced Sequential Recommendation**|Peilin Liu et.al.|[2604.21305](http://arxiv.org/abs/2604.21305)|
+|**2026-04-23**|**On Reasoning Behind Next Occupation Recommendation**|Shan Dong et.al.|[2604.21204](http://arxiv.org/abs/2604.21204)|
 |**2026-04-22**|**Beyond Dense Connectivity: Explicit Sparsity for Scalable Recommendation**|Yantao Yu et.al.|[2604.08011](http://arxiv.org/abs/2604.08011)|
 |**2026-04-22**|**UniRec: Bridging the Expressive Gap between Generative and Discriminative Recommendation via Chain-of-Attribute**|Ziliang Wang et.al.|[2604.12234](http://arxiv.org/abs/2604.12234)|
 |**2026-04-22**|**Break the Optimization Barrier of LLM-Enhanced Recommenders: A Theoretical Analysis and Practical Framework**|Zhangchi Zhu et.al.|[2604.20490](http://arxiv.org/abs/2604.20490)|
 |**2026-04-22**|**From Hidden Profiles to Governable Personalization: Recommender Systems in the Age of LLM Agents**|Jiahao Liu et.al.|[2604.20065](http://arxiv.org/abs/2604.20065)|
+|**2026-04-22**|**Following the Eye-Tracking Evidence: Established Web-Search Assumptions Fail in Carousel Interfaces**|Jingwei Kang et.al.|[2604.21019](http://arxiv.org/abs/2604.21019)|
 |**2026-04-21**|**SAGER: Self-Evolving User Policy Skills for Recommendation Agent**|Zhen Tao et.al.|[2604.14972](http://arxiv.org/abs/2604.14972)|
 |**2026-04-21**|**Modular Representation Compression: Adapting LLMs for Efficient and Effective Recommendations**|Yunjia Xi et.al.|[2604.18146](http://arxiv.org/abs/2604.18146)|
 |**2026-04-21**|**RankUp: Towards High-rank Representations for Large Scale Advertising Recommender Systems**|Jin Chen et.al.|[2604.17878](http://arxiv.org/abs/2604.17878)|
