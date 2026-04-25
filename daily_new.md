@@ -1,6 +1,6 @@
 ## Daily New Papers
 
-> Updated on 2026.04.25
+> Updated on 2026.04.26
 
 ## Recommender System
 
