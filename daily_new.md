@@ -1,11 +1,16 @@
 ## Daily New Papers
 
-> Updated on 2026.04.27
+> Updated on 2026.04.28
 
 ## Recommender System
 
 |Publish Date|Title|Tag|Authors|PDF|
 |---|---|---|---|---|
+|**2026-04-24**|**ASPIRE: Make Spectral Graph Collaborative Filtering Great Again via Adaptive Filter Learning**|<img src="https://img.shields.io/badge/-Other-5a5a5a?style=flat-square&color=%235a5a5a" width="120" alt="Other" />|Yunhang He et.al.|[2604.22549](http://arxiv.org/abs/2604.22549)|
+|**2026-04-24**|**Objective Shaping with Hard Negatives: Windowed Partial AUC Optimization for RL-based LLM Recommenders**|<img src="https://img.shields.io/badge/-LLM-2c4a78?style=flat-square&color=%232c4a78" width="56" alt="LLM" />|Wentao Shi et.al.|[2604.22504](http://arxiv.org/abs/2604.22504)|
+|**2026-04-24**|**Rethinking Semantic Collaborative Integration: Why Alignment Is Not Enough**|<img src="https://img.shields.io/badge/-Other-5a5a5a?style=flat-square&color=%235a5a5a" width="120" alt="Other" />|Maolin Wang et.al.|[2604.22195](http://arxiv.org/abs/2604.22195)|
+|**2026-04-24**|**Sharpness-Aware Poisoning: Enhancing Transferability of Injective Attacks on Recommender Systems**|<img src="https://img.shields.io/badge/-Other-5a5a5a?style=flat-square&color=%235a5a5a" width="120" alt="Other" />|Junsong Xie et.al.|[2604.22170](http://arxiv.org/abs/2604.22170)|
+|**2026-04-24**|**ReCast: Recasting Learning Signals for Reinforcement Learning in Generative Recommendation**|<img src="https://img.shields.io/badge/-GR-1e5c3a?style=flat-square&color=%231e5c3a" width="56" alt="GR" />|Peiyan Zhang et.al.|[2604.22169](http://arxiv.org/abs/2604.22169)|
 |**2026-04-23**|**Multistakeholder Impacts of Profile Portability in a Recommender Ecosystem**|<img src="https://img.shields.io/badge/-Other-5a5a5a?style=flat-square&color=%235a5a5a" width="120" alt="Other" />|Anas Buhayh et.al.|[2604.21750](http://arxiv.org/abs/2604.21750)|
 |**2026-04-23**|**Pre-trained LLMs Meet Sequential Recommenders: Efficient User-Centric Knowledge Distillation**|<img src="https://img.shields.io/badge/-LLM-2c4a78?style=flat-square&color=%232c4a78" width="56" alt="LLM" />|Nikita Severin et.al.|[2604.21536](http://arxiv.org/abs/2604.21536)|
 |**2026-04-23**|**WPGRec: Wavelet Packet Guided Graph Enhanced Sequential Recommendation**|<img src="https://img.shields.io/badge/-Seq-5a4a6a?style=flat-square&color=%235a4a6a" width="56" alt="Seq" />|Peilin Liu et.al.|[2604.21305](http://arxiv.org/abs/2604.21305)|
@@ -101,9 +106,4 @@
 |**2026-04-03**|**User-Aware Conditional Generative Total Correlation Learning for Multi-Modal Recommendation**|<img src="https://img.shields.io/badge/-GR-1e5c3a?style=flat-square&color=%231e5c3a" width="56" alt="GR" />|Jing Du et.al.|[2604.03014](http://arxiv.org/abs/2604.03014)|
 |**2026-04-03**|**MBGR: Multi-Business Prediction for Generative Recommendation at Meituan**|<img src="https://img.shields.io/badge/-GR-1e5c3a?style=flat-square&color=%231e5c3a" width="56" alt="GR" />|Changhao Li et.al.|[2604.02684](http://arxiv.org/abs/2604.02684)|
 |**2026-04-02**|**Synapse: Evolving Job-Person Fit with Explainable Two-phase Retrieval and LLM-guided Genetic Resume Optimization**|<img src="https://img.shields.io/badge/-LLM-2c4a78?style=flat-square&color=%232c4a78" width="56" alt="LLM" />|Ansel Kaplan Erol et.al.|[2604.02539](http://arxiv.org/abs/2604.02539)|
-|**2026-04-02**|**What Do Humanities Scholars Need? A User Model for Recommendation in Digital Archives**|<img src="https://img.shields.io/badge/-Other-5a5a5a?style=flat-square&color=%235a5a5a" width="120" alt="Other" />|Florian Atzenhofer-Baumgartner et.al.|[2604.06232](http://arxiv.org/abs/2604.06232)|
-|**2026-04-02**|**Modeling User Exploration Saturation: When Recommender Systems Should Stop Pushing Novelty**|<img src="https://img.shields.io/badge/-Other-5a5a5a?style=flat-square&color=%235a5a5a" width="120" alt="Other" />|Enock O. Ayiku et.al.|[2604.16419](http://arxiv.org/abs/2604.16419)|
-|**2026-04-02**|**Multi-Agent Video Recommenders: Evolution, Patterns, and Open Challenges**|<img src="https://img.shields.io/badge/-Other-5a5a5a?style=flat-square&color=%235a5a5a" width="120" alt="Other" />|Srivaths Ranganathan et.al.|[2604.02211](http://arxiv.org/abs/2604.02211)|
-|**2026-04-02**|**From BM25 to Corrective RAG: Benchmarking Retrieval Strategies for Text-and-Table Documents**|<img src="https://img.shields.io/badge/-Other-5a5a5a?style=flat-square&color=%235a5a5a" width="120" alt="Other" />|Meftun Akarsu et.al.|[2604.01733](http://arxiv.org/abs/2604.01733)|
-|**2026-04-01**|**Aligning Recommendations with User Popularity Preferences**|<img src="https://img.shields.io/badge/-Other-5a5a5a?style=flat-square&color=%235a5a5a" width="120" alt="Other" />|Mona Schirmer et.al.|[2604.01036](http://arxiv.org/abs/2604.01036)|
 
