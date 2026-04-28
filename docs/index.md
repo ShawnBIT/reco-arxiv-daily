@@ -2,18 +2,30 @@
 layout: default
 ---
 
-## Updated on 2026.04.28
+## Updated on 2026.04.29
 > Usage instructions: [here](./docs/README.md#usage)
 
 ## Recommender System
 
 | Publish Date | Title | Authors | PDF |
 |:---------|:-----------------------|:---------|:------|
+|**2026-04-27**|**Modeling Behavioral Intensity and Transitions for Generative Recommendation**|Wenxuan Yang et.al.|[2604.24472](http://arxiv.org/abs/2604.24472)|
+|**2026-04-27**|**Kwai Summary Attention Technical Report**|Chenglong Chu et.al.|[2604.24432](http://arxiv.org/abs/2604.24432)|
+|**2026-04-27**|**FreeScale: Distributed Training for Sequence Recommendation Models with Minimal Scaling Cost**|Chenhao Feng et.al.|[2604.24073](http://arxiv.org/abs/2604.24073)|
+|**2026-04-27**|**Disagreement as Signals: Dual-view Calibration for Sequential Recommendation Denoising**|Sijia Li et.al.|[2604.24048](http://arxiv.org/abs/2604.24048)|
+|**2026-04-26**|**Similar Users-Augmented Interest Network**|Xiaolong Chen et.al.|[2604.23810](http://arxiv.org/abs/2604.23810)|
+|**2026-04-26**|**Prompt-Unknown Promotion Attacks against LLM-based Sequential Recommender Systems**|Yuchuan Zhao et.al.|[2604.23640](http://arxiv.org/abs/2604.23640)|
+|**2026-04-26**|**Green-Red Watermarking for Recommender Systems**|Lei Zhou et.al.|[2604.23568](http://arxiv.org/abs/2604.23568)|
+|**2026-04-26**|**Beyond Static Collision Handling: Adaptive Semantic ID Learning for Multimodal Recommendation at Industrial Scale**|Yongsen Pan et.al.|[2604.23522](http://arxiv.org/abs/2604.23522)|
+|**2026-04-25**|**Birds of a Feather Cluster Nearby: a Proximity-Aware Geo-Codebook for Local Service Recommendation**|Tian He et.al.|[2604.23156](http://arxiv.org/abs/2604.23156)|
+|**2026-04-25**|**Adopting State-of-the-Art Pretrained Audio Representations for Music Recommender Systems**|Yan-Martin Tamm et.al.|[2604.23077](http://arxiv.org/abs/2604.23077)|
+|**2026-04-24**|**CASE: Cadence-Aware Set Encoding for Large-Scale Next Basket Repurchase Recommendation**|Yanan Cao et.al.|[2604.06718](http://arxiv.org/abs/2604.06718)|
 |**2026-04-24**|**ASPIRE: Make Spectral Graph Collaborative Filtering Great Again via Adaptive Filter Learning**|Yunhang He et.al.|[2604.22549](http://arxiv.org/abs/2604.22549)|
 |**2026-04-24**|**Objective Shaping with Hard Negatives: Windowed Partial AUC Optimization for RL-based LLM Recommenders**|Wentao Shi et.al.|[2604.22504](http://arxiv.org/abs/2604.22504)|
 |**2026-04-24**|**Rethinking Semantic Collaborative Integration: Why Alignment Is Not Enough**|Maolin Wang et.al.|[2604.22195](http://arxiv.org/abs/2604.22195)|
 |**2026-04-24**|**Sharpness-Aware Poisoning: Enhancing Transferability of Injective Attacks on Recommender Systems**|Junsong Xie et.al.|[2604.22170](http://arxiv.org/abs/2604.22170)|
 |**2026-04-24**|**ReCast: Recasting Learning Signals for Reinforcement Learning in Generative Recommendation**|Peiyan Zhang et.al.|[2604.22169](http://arxiv.org/abs/2604.22169)|
+|**2026-04-24**|**CASP: Support-Aware Offline Policy Selection for Two-Stage Recommender Systems**|Nilson Chapagain et.al.|[2604.23022](http://arxiv.org/abs/2604.23022)|
 |**2026-04-23**|**Multistakeholder Impacts of Profile Portability in a Recommender Ecosystem**|Anas Buhayh et.al.|[2604.21750](http://arxiv.org/abs/2604.21750)|
 |**2026-04-23**|**Pre-trained LLMs Meet Sequential Recommenders: Efficient User-Centric Knowledge Distillation**|Nikita Severin et.al.|[2604.21536](http://arxiv.org/abs/2604.21536)|
 |**2026-04-23**|**WPGRec: Wavelet Packet Guided Graph Enhanced Sequential Recommendation**|Peilin Liu et.al.|[2604.21305](http://arxiv.org/abs/2604.21305)|
@@ -81,7 +93,6 @@ layout: default
 |**2026-04-10**|**IAT: Instance-As-Token Compression for Historical User Sequence Modeling in Industrial Recommender Systems**|Xinchun Li et.al.|[2604.08933](http://arxiv.org/abs/2604.08933)|
 |**2026-04-09**|**Rethinking Recommendation Paradigms: From Pipelines to Agentic Recommender Systems**|Jinxin Hu et.al.|[2603.26100](http://arxiv.org/abs/2603.26100)|
 |**2026-04-09**|**AgenticRS-Architecture: System Design for Agentic Recommender Systems**|Hao Zhang et.al.|[2603.26085](http://arxiv.org/abs/2603.26085)|
-|**2026-04-09**|**CASE: Cadence-Aware Set Encoding for Large-Scale Next Basket Repurchase Recommendation**|Yanan Cao et.al.|[2604.06718](http://arxiv.org/abs/2604.06718)|
 |**2026-04-09**|**The Unreasonable Effectiveness of Data for Recommender Systems**|Youssef Abdou et.al.|[2604.06420](http://arxiv.org/abs/2604.06420)|
 |**2026-04-09**|**Context-Aware Disentanglement for Cross-Domain Sequential Recommendation: A Causal View**|Xingzi Wang et.al.|[2604.07992](http://arxiv.org/abs/2604.07992)|
 |**2026-04-09**|**Ensembles at Any Cost? Accuracy-Energy Trade-offs in Recommender Systems**|Jannik Nitschke et.al.|[2604.07869](http://arxiv.org/abs/2604.07869)|
