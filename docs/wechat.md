@@ -1,38 +1,26 @@
 **Recommender System Daily New Papers**
 
-Updated on **2026.04.29**
-共计 **11** 篇论文
+Updated on **2026.04.30**
+共计 **7** 篇论文
 
-**2026-04-27**  **🟩 GR** | Wenxuan Yang et.al.
-[Modeling Behavioral Intensity and Transitions for Generative Recommendation](http://arxiv.org/abs/2604.24472)
+**2026-04-28**  **🟩 GR** | Wenhao Li et.al.
+[Action-Aware Generative Sequence Modeling for Short Video Recommendation](http://arxiv.org/abs/2604.25834)
 
-**2026-04-27**  **⬜️ Other** | Chenglong Chu et.al.
-[Kwai Summary Attention Technical Report](http://arxiv.org/abs/2604.24432)
+**2026-04-28**  **🟩 GR** | Yu Liu et.al.
+[Harmonizing Generative Retrieval and Ranking in Chain-of-Recommendation](http://arxiv.org/abs/2604.25787)
 
-**2026-04-27**  **🟥 Scaling** | Chenhao Feng et.al.
-[FreeScale: Distributed Training for Sequence Recommendation Models with Minimal Scaling Cost](http://arxiv.org/abs/2604.24073)
+**2026-04-28**  **⬜️ Other** | Xiaodong Li et.al.
+[Personalized Multi-Interest Modeling for Cross-Domain Recommendation to Cold-Start Users](http://arxiv.org/abs/2604.25732)
 
-**2026-04-27**  **🟨 Seq** | Sijia Li et.al.
-[Disagreement as Signals: Dual-view Calibration for Sequential Recommendation Denoising](http://arxiv.org/abs/2604.24048)
+**2026-04-28**  **⬜️ Other** | Julián Urbano et.al.
+[Stop Using the Wilcoxon Test: Myth, Misconception and Misuse in IR Research](http://arxiv.org/abs/2604.25349)
 
-**2026-04-26**  **⬜️ Other** | Xiaolong Chen et.al.
-[Similar Users-Augmented Interest Network](http://arxiv.org/abs/2604.23810)
+**2026-04-28**  **🟩 GR** | Pengyue Jia et.al.
+[From Local Indices to Global Identifiers: Generative Reranking for Recommender Systems via Global Action Space](http://arxiv.org/abs/2604.25291)
 
-**2026-04-26**  **🔵 LLM** | Yuchuan Zhao et.al.
-[Prompt-Unknown Promotion Attacks against LLM-based Sequential Recommender Systems](http://arxiv.org/abs/2604.23640)
+**2026-04-27**  **⬜️ Other** | Theresia Veronika Rampisela et.al.
+[Offline Evaluation Measures of Fairness in Recommender Systems](http://arxiv.org/abs/2604.25032)
 
-**2026-04-26**  **⬜️ Other** | Lei Zhou et.al.
-[Green-Red Watermarking for Recommender Systems](http://arxiv.org/abs/2604.23568)
-
-**2026-04-26**  **⬜️ Other** | Yongsen Pan et.al.
-[Beyond Static Collision Handling: Adaptive Semantic ID Learning for Multimodal Recommendation at Industrial Scale](http://arxiv.org/abs/2604.23522)
-
-**2026-04-25**  **⬜️ Other** | Tian He et.al.
-[Birds of a Feather Cluster Nearby: a Proximity-Aware Geo-Codebook for Local Service Recommendation](http://arxiv.org/abs/2604.23156)
-
-**2026-04-25**  **⬜️ Other** | Yan-Martin Tamm et.al.
-[Adopting State-of-the-Art Pretrained Audio Representations for Music Recommender Systems](http://arxiv.org/abs/2604.23077)
-
-**2026-04-24**  **⬜️ Other** | Nilson Chapagain et.al.
-[CASP: Support-Aware Offline Policy Selection for Two-Stage Recommender Systems](http://arxiv.org/abs/2604.23022)
+**2026-04-27**  **🟨 Seq** | Liang Guo et.al.
+[Versioned Late Materialization for Ultra-Long Sequence Training in Recommendation Systems at Scale](http://arxiv.org/abs/2604.24806)
 

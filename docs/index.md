@@ -2,17 +2,24 @@
 layout: default
 ---
 
-## Updated on 2026.04.29
+## Updated on 2026.04.30
 > Usage instructions: [here](./docs/README.md#usage)
 
 ## Recommender System
 
 | Publish Date | Title | Authors | PDF |
 |:---------|:-----------------------|:---------|:------|
+|**2026-04-28**|**Action-Aware Generative Sequence Modeling for Short Video Recommendation**|Wenhao Li et.al.|[2604.25834](http://arxiv.org/abs/2604.25834)|
+|**2026-04-28**|**Harmonizing Generative Retrieval and Ranking in Chain-of-Recommendation**|Yu Liu et.al.|[2604.25787](http://arxiv.org/abs/2604.25787)|
+|**2026-04-28**|**Personalized Multi-Interest Modeling for Cross-Domain Recommendation to Cold-Start Users**|Xiaodong Li et.al.|[2604.25732](http://arxiv.org/abs/2604.25732)|
+|**2026-04-28**|**Stop Using the Wilcoxon Test: Myth, Misconception and Misuse in IR Research**|Julián Urbano et.al.|[2604.25349](http://arxiv.org/abs/2604.25349)|
+|**2026-04-28**|**From Local Indices to Global Identifiers: Generative Reranking for Recommender Systems via Global Action Space**|Pengyue Jia et.al.|[2604.25291](http://arxiv.org/abs/2604.25291)|
 |**2026-04-27**|**Modeling Behavioral Intensity and Transitions for Generative Recommendation**|Wenxuan Yang et.al.|[2604.24472](http://arxiv.org/abs/2604.24472)|
 |**2026-04-27**|**Kwai Summary Attention Technical Report**|Chenglong Chu et.al.|[2604.24432](http://arxiv.org/abs/2604.24432)|
 |**2026-04-27**|**FreeScale: Distributed Training for Sequence Recommendation Models with Minimal Scaling Cost**|Chenhao Feng et.al.|[2604.24073](http://arxiv.org/abs/2604.24073)|
 |**2026-04-27**|**Disagreement as Signals: Dual-view Calibration for Sequential Recommendation Denoising**|Sijia Li et.al.|[2604.24048](http://arxiv.org/abs/2604.24048)|
+|**2026-04-27**|**Offline Evaluation Measures of Fairness in Recommender Systems**|Theresia Veronika Rampisela et.al.|[2604.25032](http://arxiv.org/abs/2604.25032)|
+|**2026-04-27**|**Versioned Late Materialization for Ultra-Long Sequence Training in Recommendation Systems at Scale**|Liang Guo et.al.|[2604.24806](http://arxiv.org/abs/2604.24806)|
 |**2026-04-26**|**Similar Users-Augmented Interest Network**|Xiaolong Chen et.al.|[2604.23810](http://arxiv.org/abs/2604.23810)|
 |**2026-04-26**|**Prompt-Unknown Promotion Attacks against LLM-based Sequential Recommender Systems**|Yuchuan Zhao et.al.|[2604.23640](http://arxiv.org/abs/2604.23640)|
 |**2026-04-26**|**Green-Red Watermarking for Recommender Systems**|Lei Zhou et.al.|[2604.23568](http://arxiv.org/abs/2604.23568)|
