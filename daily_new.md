@@ -1,11 +1,18 @@
 ## Daily New Papers
 
-> Updated on 2026.04.30
+> Updated on 2026.05.01
 
 ## Recommender System
 
 |Publish Date|Title|Tag|Authors|PDF|
 |---|---|---|---|---|
+|**2026-04-29**|**Factorized Latent Reasoning for LLM-based Recommendation**|<img src="https://img.shields.io/badge/-LLM-2c4a78?style=flat-square&color=%232c4a78" width="56" alt="LLM" />|Tianqi Gao et.al.|[2604.26760](http://arxiv.org/abs/2604.26760)|
+|**2026-04-29**|**The Bandit's Blind Spot: The Critical Role of User State Representation in Recommender Systems**|<img src="https://img.shields.io/badge/-Other-5a5a5a?style=flat-square&color=%235a5a5a" width="120" alt="Other" />|Pedro R. Pires et.al.|[2604.26651](http://arxiv.org/abs/2604.26651)|
+|**2026-04-29**|**Understanding DNNs in Feature Interaction Models: A Dimensional Collapse Perspective**|<img src="https://img.shields.io/badge/-Other-5a5a5a?style=flat-square&color=%235a5a5a" width="120" alt="Other" />|Jiancheng Wang et.al.|[2604.26489](http://arxiv.org/abs/2604.26489)|
+|**2026-04-29**|**CARD: Non-Uniform Quantization of Visual Semantic Unit for Generative Recommendation**|<img src="https://img.shields.io/badge/-GR-1e5c3a?style=flat-square&color=%231e5c3a" width="56" alt="GR" />|Yibiao Wei et.al.|[2604.26427](http://arxiv.org/abs/2604.26427)|
+|**2026-04-29**|**Meta-Learning and Targeted Differential Privacy to Improve the Accuracy-Privacy Trade-off in Recommendations**|<img src="https://img.shields.io/badge/-Other-5a5a5a?style=flat-square&color=%235a5a5a" width="120" alt="Other" />|Peter Müllner et.al.|[2604.26390](http://arxiv.org/abs/2604.26390)|
+|**2026-04-29**|**TimeMM: Time-as-Operator Spectral Filtering for Dynamic Multimodal Recommendation**|<img src="https://img.shields.io/badge/-Other-5a5a5a?style=flat-square&color=%235a5a5a" width="120" alt="Other" />|Wei Yang et.al.|[2604.26247](http://arxiv.org/abs/2604.26247)|
+|**2026-04-29**|**ProMax: Exploring the Potential of LLM-derived Profiles with Distribution Shaping for Recommender Systems**|<img src="https://img.shields.io/badge/-LLM-2c4a78?style=flat-square&color=%232c4a78" width="56" alt="LLM" />|Yi Zhang et.al.|[2604.26231](http://arxiv.org/abs/2604.26231)|
 |**2026-04-28**|**Action-Aware Generative Sequence Modeling for Short Video Recommendation**|<img src="https://img.shields.io/badge/-GR-1e5c3a?style=flat-square&color=%231e5c3a" width="56" alt="GR" />|Wenhao Li et.al.|[2604.25834](http://arxiv.org/abs/2604.25834)|
 |**2026-04-28**|**Harmonizing Generative Retrieval and Ranking in Chain-of-Recommendation**|<img src="https://img.shields.io/badge/-GR-1e5c3a?style=flat-square&color=%231e5c3a" width="56" alt="GR" />|Yu Liu et.al.|[2604.25787](http://arxiv.org/abs/2604.25787)|
 |**2026-04-28**|**Personalized Multi-Interest Modeling for Cross-Domain Recommendation to Cold-Start Users**|<img src="https://img.shields.io/badge/-Other-5a5a5a?style=flat-square&color=%235a5a5a" width="120" alt="Other" />|Xiaodong Li et.al.|[2604.25732](http://arxiv.org/abs/2604.25732)|
@@ -99,11 +106,4 @@
 |**2026-04-08**|**Leveraging Artist Catalogs for Cold-Start Music Recommendation**|<img src="https://img.shields.io/badge/-Other-5a5a5a?style=flat-square&color=%235a5a5a" width="120" alt="Other" />|Yan-Martin Tamm et.al.|[2604.07090](http://arxiv.org/abs/2604.07090)|
 |**2026-04-07**|**Beyond Paper-to-Paper: Structured Profiling and Rubric Scoring for Paper-Reviewer Matching**|<img src="https://img.shields.io/badge/-Other-5a5a5a?style=flat-square&color=%235a5a5a" width="120" alt="Other" />|Yicheng Pan et.al.|[2604.05866](http://arxiv.org/abs/2604.05866)|
 |**2026-04-07**|**SkillGraph: Graph Foundation Priors for LLM Agent Tool Sequence Recommendation**|<img src="https://img.shields.io/badge/-LLM-2c4a78?style=flat-square&color=%232c4a78" width="56" alt="LLM" />|Hao Liu et.al.|[2604.19793](http://arxiv.org/abs/2604.19793)|
-|**2026-04-07**|**Retrieve-then-Adapt: Retrieval-Augmented Test-Time Adaptation for Sequential Recommendation**|<img src="https://img.shields.io/badge/-Seq-5a4a6a?style=flat-square&color=%235a4a6a" width="56" alt="Seq" />|Xing Tang et.al.|[2604.05379](http://arxiv.org/abs/2604.05379)|
-|**2026-04-07**|**From Clues to Generation: Language-Guided Conditional Diffusion for Cross-Domain Recommendation**|<img src="https://img.shields.io/badge/-GR-1e5c3a?style=flat-square&color=%231e5c3a" width="56" alt="GR" />|Ziang Lu et.al.|[2604.05365](http://arxiv.org/abs/2604.05365)|
-|**2026-04-07**|**Curr-RLCER:Curriculum Reinforcement Learning For Coherence Explainable Recommendation**|<img src="https://img.shields.io/badge/-Other-5a5a5a?style=flat-square&color=%235a5a5a" width="120" alt="Other" />|Xiangchen Pan et.al.|[2604.05341](http://arxiv.org/abs/2604.05341)|
-|**2026-04-07**|**Semantic Trimming and Auxiliary Multi-step Prediction for Generative Recommendation**|<img src="https://img.shields.io/badge/-GR-1e5c3a?style=flat-square&color=%231e5c3a" width="56" alt="GR" />|Tianyu Zhan et.al.|[2604.05329](http://arxiv.org/abs/2604.05329)|
-|**2026-04-07**|**Next-Scale Generative Reranking: A Tree-based Generative Rerank Method at Meituan**|<img src="https://img.shields.io/badge/-GR-1e5c3a?style=flat-square&color=%231e5c3a" width="56" alt="GR" />|Shuli Wang et.al.|[2604.05314](http://arxiv.org/abs/2604.05314)|
-|**2026-04-07**|**Pay Attention to Sequence Split: Uncovering the Impacts of Sub-Sequence Splitting on Sequential Recommendation Models**|<img src="https://img.shields.io/badge/-Seq-5a4a6a?style=flat-square&color=%235a4a6a" width="56" alt="Seq" />|Yizhou Dang et.al.|[2604.05309](http://arxiv.org/abs/2604.05309)|
-|**2026-04-06**|**Evaluating Scene-based In-Situ Item Labeling for Immersive Conversational Recommendation**|<img src="https://img.shields.io/badge/-Other-5a5a5a?style=flat-square&color=%235a5a5a" width="120" alt="Other" />|Jiazhou Liang et.al.|[2604.09698](http://arxiv.org/abs/2604.09698)|
 

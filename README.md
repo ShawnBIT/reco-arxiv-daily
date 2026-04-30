@@ -1,4 +1,4 @@
-## Updated on 2026.04.30
+## Updated on 2026.05.01
 > Usage instructions: [here](./docs/README.md#usage)
 
 ### 📊 Paper distribution by tag
@@ -16,14 +16,14 @@
 }}}%%
 pie showData
 title Paper Distribution by Tag
-  "Other" : 691
-  "LLM" : 225
-  "GR" : 186
+  "Other" : 695
+  "LLM" : 227
+  "GR" : 187
   "Seq" : 116
   "Scaling" : 22
 ```
 
-> 统计自 **2025-07-16** 起，共计 **1240** 篇论文。
+> 统计自 **2025-07-16** 起，共计 **1247** 篇论文。
 
 <details style="margin: 1em 0; padding: 0.75em 1em; border: 1px solid #d8dee4; border-radius: 8px; background: #f6f8fa;">
   <summary style="cursor: pointer; font-weight: 600; font-size: 1.05em; color: #1f2328; padding: 0.25em 0;">📑 Table of Contents</summary>
@@ -36,6 +36,13 @@ title Paper Distribution by Tag
 
 |Publish Date|Title|Tag|Authors|PDF|
 |---|---|---|---|---|
+|**2026-04-29**|**Factorized Latent Reasoning for LLM-based Recommendation**|<img src="https://img.shields.io/badge/-LLM-2c4a78?style=flat-square&color=%232c4a78" width="56" alt="LLM" />|Tianqi Gao et.al.|[2604.26760](http://arxiv.org/abs/2604.26760)|
+|**2026-04-29**|**The Bandit's Blind Spot: The Critical Role of User State Representation in Recommender Systems**|<img src="https://img.shields.io/badge/-Other-5a5a5a?style=flat-square&color=%235a5a5a" width="120" alt="Other" />|Pedro R. Pires et.al.|[2604.26651](http://arxiv.org/abs/2604.26651)|
+|**2026-04-29**|**Understanding DNNs in Feature Interaction Models: A Dimensional Collapse Perspective**|<img src="https://img.shields.io/badge/-Other-5a5a5a?style=flat-square&color=%235a5a5a" width="120" alt="Other" />|Jiancheng Wang et.al.|[2604.26489](http://arxiv.org/abs/2604.26489)|
+|**2026-04-29**|**CARD: Non-Uniform Quantization of Visual Semantic Unit for Generative Recommendation**|<img src="https://img.shields.io/badge/-GR-1e5c3a?style=flat-square&color=%231e5c3a" width="56" alt="GR" />|Yibiao Wei et.al.|[2604.26427](http://arxiv.org/abs/2604.26427)|
+|**2026-04-29**|**Meta-Learning and Targeted Differential Privacy to Improve the Accuracy-Privacy Trade-off in Recommendations**|<img src="https://img.shields.io/badge/-Other-5a5a5a?style=flat-square&color=%235a5a5a" width="120" alt="Other" />|Peter Müllner et.al.|[2604.26390](http://arxiv.org/abs/2604.26390)|
+|**2026-04-29**|**TimeMM: Time-as-Operator Spectral Filtering for Dynamic Multimodal Recommendation**|<img src="https://img.shields.io/badge/-Other-5a5a5a?style=flat-square&color=%235a5a5a" width="120" alt="Other" />|Wei Yang et.al.|[2604.26247](http://arxiv.org/abs/2604.26247)|
+|**2026-04-29**|**ProMax: Exploring the Potential of LLM-derived Profiles with Distribution Shaping for Recommender Systems**|<img src="https://img.shields.io/badge/-LLM-2c4a78?style=flat-square&color=%232c4a78" width="56" alt="LLM" />|Yi Zhang et.al.|[2604.26231](http://arxiv.org/abs/2604.26231)|
 |**2026-04-28**|**Action-Aware Generative Sequence Modeling for Short Video Recommendation**|<img src="https://img.shields.io/badge/-GR-1e5c3a?style=flat-square&color=%231e5c3a" width="56" alt="GR" />|Wenhao Li et.al.|[2604.25834](http://arxiv.org/abs/2604.25834)|
 |**2026-04-28**|**Harmonizing Generative Retrieval and Ranking in Chain-of-Recommendation**|<img src="https://img.shields.io/badge/-GR-1e5c3a?style=flat-square&color=%231e5c3a" width="56" alt="GR" />|Yu Liu et.al.|[2604.25787](http://arxiv.org/abs/2604.25787)|
 |**2026-04-28**|**Personalized Multi-Interest Modeling for Cross-Domain Recommendation to Cold-Start Users**|<img src="https://img.shields.io/badge/-Other-5a5a5a?style=flat-square&color=%235a5a5a" width="120" alt="Other" />|Xiaodong Li et.al.|[2604.25732](http://arxiv.org/abs/2604.25732)|
@@ -1277,7 +1284,7 @@ title Paper Distribution by Tag
 |**2025-07-16**|**Looking for Fairness in Recommender Systems**|<img src="https://img.shields.io/badge/-Other-5a5a5a?style=flat-square&color=%235a5a5a" width="120" alt="Other" />|Cécile Logé et.al.|[2507.12242](http://arxiv.org/abs/2507.12242)|
 |**2025-07-16**|**Similarity-Guided Diffusion for Contrastive Sequential Recommendation**|<img src="https://img.shields.io/badge/-Seq-5a4a6a?style=flat-square&color=%235a4a6a" width="56" alt="Seq" />|Jinkyeong Choi et.al.|[2507.11866](http://arxiv.org/abs/2507.11866)|
 
-<p align=right>(<a href=#updated-on-20260430>back to top</a>)</p>
+<p align=right>(<a href=#updated-on-20260501>back to top</a>)</p>
 
 [contributors-shield]: https://img.shields.io/github/contributors/ShawnBIT/reco-arxiv-daily.svg?style=for-the-badge
 [contributors-url]: https://github.com/ShawnBIT/reco-arxiv-daily/graphs/contributors

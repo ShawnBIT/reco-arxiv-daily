@@ -2,13 +2,20 @@
 layout: default
 ---
 
-## Updated on 2026.04.30
+## Updated on 2026.05.01
 > Usage instructions: [here](./docs/README.md#usage)
 
 ## Recommender System
 
 | Publish Date | Title | Authors | PDF |
 |:---------|:-----------------------|:---------|:------|
+|**2026-04-29**|**Factorized Latent Reasoning for LLM-based Recommendation**|Tianqi Gao et.al.|[2604.26760](http://arxiv.org/abs/2604.26760)|
+|**2026-04-29**|**The Bandit's Blind Spot: The Critical Role of User State Representation in Recommender Systems**|Pedro R. Pires et.al.|[2604.26651](http://arxiv.org/abs/2604.26651)|
+|**2026-04-29**|**Understanding DNNs in Feature Interaction Models: A Dimensional Collapse Perspective**|Jiancheng Wang et.al.|[2604.26489](http://arxiv.org/abs/2604.26489)|
+|**2026-04-29**|**CARD: Non-Uniform Quantization of Visual Semantic Unit for Generative Recommendation**|Yibiao Wei et.al.|[2604.26427](http://arxiv.org/abs/2604.26427)|
+|**2026-04-29**|**Meta-Learning and Targeted Differential Privacy to Improve the Accuracy-Privacy Trade-off in Recommendations**|Peter Müllner et.al.|[2604.26390](http://arxiv.org/abs/2604.26390)|
+|**2026-04-29**|**TimeMM: Time-as-Operator Spectral Filtering for Dynamic Multimodal Recommendation**|Wei Yang et.al.|[2604.26247](http://arxiv.org/abs/2604.26247)|
+|**2026-04-29**|**ProMax: Exploring the Potential of LLM-derived Profiles with Distribution Shaping for Recommender Systems**|Yi Zhang et.al.|[2604.26231](http://arxiv.org/abs/2604.26231)|
 |**2026-04-28**|**Action-Aware Generative Sequence Modeling for Short Video Recommendation**|Wenhao Li et.al.|[2604.25834](http://arxiv.org/abs/2604.25834)|
 |**2026-04-28**|**Harmonizing Generative Retrieval and Ranking in Chain-of-Recommendation**|Yu Liu et.al.|[2604.25787](http://arxiv.org/abs/2604.25787)|
 |**2026-04-28**|**Personalized Multi-Interest Modeling for Cross-Domain Recommendation to Cold-Start Users**|Xiaodong Li et.al.|[2604.25732](http://arxiv.org/abs/2604.25732)|
