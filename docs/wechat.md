@@ -1,26 +1,23 @@
 **Recommender System Daily New Papers**
 
-Updated on **2026.05.01**
-共计 **7** 篇论文
+Updated on **2026.05.02**
+共计 **6** 篇论文
 
-**2026-04-29**  **🔵 LLM** | Tianqi Gao et.al.
-[Factorized Latent Reasoning for LLM-based Recommendation](http://arxiv.org/abs/2604.26760)
+**2026-04-30**  **🟩 GR** | Jiaju Chen et.al.
+[Position-Aware Drafting for Inference Acceleration in LLM-Based Generative List-Wise Recommendation](http://arxiv.org/abs/2604.27747)
 
-**2026-04-29**  **⬜️ Other** | Pedro R. Pires et.al.
-[The Bandit's Blind Spot: The Critical Role of User State Representation in Recommender Systems](http://arxiv.org/abs/2604.26651)
+**2026-04-30**  **🔵 LLM** | Ethan Bito et.al.
+[One Pass, Any Order: Position-Invariant Listwise Reranking for LLM-Based Recommendation](http://arxiv.org/abs/2604.27599)
 
-**2026-04-29**  **⬜️ Other** | Jiancheng Wang et.al.
-[Understanding DNNs in Feature Interaction Models: A Dimensional Collapse Perspective](http://arxiv.org/abs/2604.26489)
+**2026-04-30**  **🟩 GR** | Md Hasan Saju et.al.
+[Toward Autonomous SOC Operations: End-to-End LLM Framework for Threat Detection, Query Generation, and Resolution in Security Operations](http://arxiv.org/abs/2604.27321)
 
-**2026-04-29**  **🟩 GR** | Yibiao Wei et.al.
-[CARD: Non-Uniform Quantization of Visual Semantic Unit for Generative Recommendation](http://arxiv.org/abs/2604.26427)
+**2026-04-29**  **⬜️ Other** | Eduardo Ferreira da Silva et.al.
+[A Gated Hybrid Contrastive Collaborative Filtering Recommendation](http://arxiv.org/abs/2604.27117)
 
-**2026-04-29**  **⬜️ Other** | Peter Müllner et.al.
-[Meta-Learning and Targeted Differential Privacy to Improve the Accuracy-Privacy Trade-off in Recommendations](http://arxiv.org/abs/2604.26390)
+**2026-04-28**  **⬜️ Other** | María Florencia Acosta et.al.
+[Value-Aware Product Recommendation by Customer Segmentation using a suitable High-Dimensional Similarity Measure](http://arxiv.org/abs/2604.26983)
 
-**2026-04-29**  **⬜️ Other** | Wei Yang et.al.
-[TimeMM: Time-as-Operator Spectral Filtering for Dynamic Multimodal Recommendation](http://arxiv.org/abs/2604.26247)
-
-**2026-04-29**  **🔵 LLM** | Yi Zhang et.al.
-[ProMax: Exploring the Potential of LLM-derived Profiles with Distribution Shaping for Recommender Systems](http://arxiv.org/abs/2604.26231)
+**2026-04-21**  **⬜️ Other** | Xidong Wu et.al.
+[AgenticRecTune: Multi-Agent with Self-Evolving Skillhub for Recommendation System Optimization](http://arxiv.org/abs/2604.26969)
 
