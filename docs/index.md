@@ -2,13 +2,16 @@
 layout: default
 ---
 
-## Updated on 2026.05.04
+## Updated on 2026.05.05
 > Usage instructions: [here](./docs/README.md#usage)
 
 ## Recommender System
 
 | Publish Date | Title | Authors | PDF |
 |:---------|:-----------------------|:---------|:------|
+|**2026-05-01**|**Robust Multimodal Recommendation via Graph Retrieval-Enhanced Modality Completion**|Yuan Li et.al.|[2605.00670](http://arxiv.org/abs/2605.00670)|
+|**2026-05-01**|**Time-Interval-Aware Disentangled Expert Modeling for Next-Basket Recommendation**|Zhiying Deng et.al.|[2605.00499](http://arxiv.org/abs/2605.00499)|
+|**2026-05-01**|**DynamicPO: Dynamic Preference Optimization for Recommendation**|Xingyu Hu et.al.|[2605.00327](http://arxiv.org/abs/2605.00327)|
 |**2026-04-30**|**UniRec: Bridging the Expressive Gap between Generative and Discriminative Recommendation via Chain-of-Attribute**|Ziliang Wang et.al.|[2604.12234](http://arxiv.org/abs/2604.12234)|
 |**2026-04-30**|**Position-Aware Drafting for Inference Acceleration in LLM-Based Generative List-Wise Recommendation**|Jiaju Chen et.al.|[2604.27747](http://arxiv.org/abs/2604.27747)|
 |**2026-04-30**|**One Pass, Any Order: Position-Invariant Listwise Reranking for LLM-Based Recommendation**|Ethan Bito et.al.|[2604.27599](http://arxiv.org/abs/2604.27599)|

@@ -1,11 +1,14 @@
 ## Daily New Papers
 
-> Updated on 2026.05.03
+> Updated on 2026.05.05
 
 ## Recommender System
 
 |Publish Date|Title|Tag|Authors|PDF|
 |---|---|---|---|---|
+|**2026-05-01**|**Robust Multimodal Recommendation via Graph Retrieval-Enhanced Modality Completion**|<img src="https://img.shields.io/badge/-Other-5a5a5a?style=flat-square&color=%235a5a5a" width="120" alt="Other" />|Yuan Li et.al.|[2605.00670](http://arxiv.org/abs/2605.00670)|
+|**2026-05-01**|**Time-Interval-Aware Disentangled Expert Modeling for Next-Basket Recommendation**|<img src="https://img.shields.io/badge/-Other-5a5a5a?style=flat-square&color=%235a5a5a" width="120" alt="Other" />|Zhiying Deng et.al.|[2605.00499](http://arxiv.org/abs/2605.00499)|
+|**2026-05-01**|**DynamicPO: Dynamic Preference Optimization for Recommendation**|<img src="https://img.shields.io/badge/-Other-5a5a5a?style=flat-square&color=%235a5a5a" width="120" alt="Other" />|Xingyu Hu et.al.|[2605.00327](http://arxiv.org/abs/2605.00327)|
 |**2026-04-30**|**Position-Aware Drafting for Inference Acceleration in LLM-Based Generative List-Wise Recommendation**|<img src="https://img.shields.io/badge/-GR-1e5c3a?style=flat-square&color=%231e5c3a" width="56" alt="GR" />|Jiaju Chen et.al.|[2604.27747](http://arxiv.org/abs/2604.27747)|
 |**2026-04-30**|**One Pass, Any Order: Position-Invariant Listwise Reranking for LLM-Based Recommendation**|<img src="https://img.shields.io/badge/-LLM-2c4a78?style=flat-square&color=%232c4a78" width="56" alt="LLM" />|Ethan Bito et.al.|[2604.27599](http://arxiv.org/abs/2604.27599)|
 |**2026-04-30**|**Toward Autonomous SOC Operations: End-to-End LLM Framework for Threat Detection, Query Generation, and Resolution in Security Operations**|<img src="https://img.shields.io/badge/-GR-1e5c3a?style=flat-square&color=%231e5c3a" width="56" alt="GR" />|Md Hasan Saju et.al.|[2604.27321](http://arxiv.org/abs/2604.27321)|
@@ -67,7 +70,6 @@
 |**2026-04-19**|**HORIZON: A Benchmark for In-the-wild User Behaviour Modeling**|<img src="https://img.shields.io/badge/-Other-5a5a5a?style=flat-square&color=%235a5a5a" width="120" alt="Other" />|Arnav Goel et.al.|[2604.17259](http://arxiv.org/abs/2604.17259)|
 |**2026-04-19**|**Category-based and Popularity-guided Video Game Recommendation: A Balance-oriented Framework**|<img src="https://img.shields.io/badge/-Other-5a5a5a?style=flat-square&color=%235a5a5a" width="120" alt="Other" />|Xiping Li et.al.|[2604.14598](http://arxiv.org/abs/2604.14598)|
 |**2026-04-19**|**CPGRec+: A Balance-oriented Framework for Personalized Video Game Recommendations**|<img src="https://img.shields.io/badge/-Other-5a5a5a?style=flat-square&color=%235a5a5a" width="120" alt="Other" />|Xiping Li et.al.|[2604.14586](http://arxiv.org/abs/2604.14586)|
-|**2026-04-19**|**Filling the Gaps: Selective Knowledge Augmentation for LLM Recommenders**|<img src="https://img.shields.io/badge/-LLM-2c4a78?style=flat-square&color=%232c4a78" width="56" alt="LLM" />|Jaehyun Lee et.al.|[2604.07825](http://arxiv.org/abs/2604.07825)|
 |**2026-04-18**|**Self-Distilled Reinforcement Learning for Co-Evolving Agentic Recommender Systems**|<img src="https://img.shields.io/badge/-Other-5a5a5a?style=flat-square&color=%235a5a5a" width="120" alt="Other" />|Zongwei Wang et.al.|[2604.10029](http://arxiv.org/abs/2604.10029)|
 |**2026-04-17**|**Beyond One-Size-Fits-All: Adaptive Test-Time Augmentation for Sequential Recommendation**|<img src="https://img.shields.io/badge/-Seq-5a4a6a?style=flat-square&color=%235a4a6a" width="56" alt="Seq" />|Xibo Li et.al.|[2604.16121](http://arxiv.org/abs/2604.16121)|
 |**2026-04-17**|**On the Equivalence Between Auto-Regressive Next Token Prediction and Full-Item-Vocabulary Maximum Likelihood Estimation in Generative Recommendation--A Short Note**|<img src="https://img.shields.io/badge/-GR-1e5c3a?style=flat-square&color=%231e5c3a" width="56" alt="GR" />|Yusheng Huang et.al.|[2604.15739](http://arxiv.org/abs/2604.15739)|
@@ -104,6 +106,4 @@
 |**2026-04-09**|**Context-Aware Disentanglement for Cross-Domain Sequential Recommendation: A Causal View**|<img src="https://img.shields.io/badge/-Seq-5a4a6a?style=flat-square&color=%235a4a6a" width="56" alt="Seq" />|Xingzi Wang et.al.|[2604.07992](http://arxiv.org/abs/2604.07992)|
 |**2026-04-09**|**Ensembles at Any Cost? Accuracy-Energy Trade-offs in Recommender Systems**|<img src="https://img.shields.io/badge/-Other-5a5a5a?style=flat-square&color=%235a5a5a" width="120" alt="Other" />|Jannik Nitschke et.al.|[2604.07869](http://arxiv.org/abs/2604.07869)|
 |**2026-04-09**|**ReRec: Reasoning-Augmented LLM-based Recommendation Assistant via Reinforcement Fine-tuning**|<img src="https://img.shields.io/badge/-LLM-2c4a78?style=flat-square&color=%232c4a78" width="56" alt="LLM" />|Jiani Huang et.al.|[2604.07851](http://arxiv.org/abs/2604.07851)|
-|**2026-04-09**|**Efficient Dataset Selection for Continual Adaptation of Generative Recommenders**|<img src="https://img.shields.io/badge/-GR-1e5c3a?style=flat-square&color=%231e5c3a" width="56" alt="GR" />|Cathy Jiao et.al.|[2604.07739](http://arxiv.org/abs/2604.07739)|
-|**2026-04-08**|**HiMARS: Hybrid multi-objective algorithms for recommender systems**|<img src="https://img.shields.io/badge/-Other-5a5a5a?style=flat-square&color=%235a5a5a" width="120" alt="Other" />|Elaheh Lotfian et.al.|[2604.07572](http://arxiv.org/abs/2604.07572)|
 
