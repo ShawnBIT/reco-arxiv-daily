@@ -1,11 +1,15 @@
 ## Daily New Papers
 
-> Updated on 2026.05.05
+> Updated on 2026.05.06
 
 ## Recommender System
 
 |Publish Date|Title|Tag|Authors|PDF|
 |---|---|---|---|---|
+|**2026-05-04**|**Bridging Behavior and Semantics for Time-aware Cross-Domain Sequential Recommendation**|<img src="https://img.shields.io/badge/-Seq-5a4a6a?style=flat-square&color=%235a4a6a" width="56" alt="Seq" />|Zhida Qin et.al.|[2605.02369](http://arxiv.org/abs/2605.02369)|
+|**2026-05-03**|**FEDIN: Frequency-Enhanced Deep Interest Network for Click-Through Rate Prediction**|<img src="https://img.shields.io/badge/-Other-5a5a5a?style=flat-square&color=%235a5a5a" width="120" alt="Other" />|Zenan Dai et.al.|[2605.01726](http://arxiv.org/abs/2605.01726)|
+|**2026-05-02**|**Post-hoc Provider Fairness Adaptation via Hierarchical Exposure Alignment**|<img src="https://img.shields.io/badge/-Other-5a5a5a?style=flat-square&color=%235a5a5a" width="120" alt="Other" />|Jingzhi Li et.al.|[2605.01524](http://arxiv.org/abs/2605.01524)|
+|**2026-05-02**|**Investigating the Effects of Different Levels of User Control in an Interactive Educational Recommender System**|<img src="https://img.shields.io/badge/-Other-5a5a5a?style=flat-square&color=%235a5a5a" width="120" alt="Other" />|Qurat Ul Ain et.al.|[2605.01400](http://arxiv.org/abs/2605.01400)|
 |**2026-05-01**|**Robust Multimodal Recommendation via Graph Retrieval-Enhanced Modality Completion**|<img src="https://img.shields.io/badge/-Other-5a5a5a?style=flat-square&color=%235a5a5a" width="120" alt="Other" />|Yuan Li et.al.|[2605.00670](http://arxiv.org/abs/2605.00670)|
 |**2026-05-01**|**Time-Interval-Aware Disentangled Expert Modeling for Next-Basket Recommendation**|<img src="https://img.shields.io/badge/-Other-5a5a5a?style=flat-square&color=%235a5a5a" width="120" alt="Other" />|Zhiying Deng et.al.|[2605.00499](http://arxiv.org/abs/2605.00499)|
 |**2026-05-01**|**DynamicPO: Dynamic Preference Optimization for Recommendation**|<img src="https://img.shields.io/badge/-Other-5a5a5a?style=flat-square&color=%235a5a5a" width="120" alt="Other" />|Xingyu Hu et.al.|[2605.00327](http://arxiv.org/abs/2605.00327)|
@@ -52,7 +56,6 @@
 |**2026-04-22**|**Following the Eye-Tracking Evidence: Established Web-Search Assumptions Fail in Carousel Interfaces**|<img src="https://img.shields.io/badge/-Other-5a5a5a?style=flat-square&color=%235a5a5a" width="120" alt="Other" />|Jingwei Kang et.al.|[2604.21019](http://arxiv.org/abs/2604.21019)|
 |**2026-04-22**|**Break the Optimization Barrier of LLM-Enhanced Recommenders: A Theoretical Analysis and Practical Framework**|<img src="https://img.shields.io/badge/-LLM-2c4a78?style=flat-square&color=%232c4a78" width="56" alt="LLM" />|Zhangchi Zhu et.al.|[2604.20490](http://arxiv.org/abs/2604.20490)|
 |**2026-04-22**|**From Hidden Profiles to Governable Personalization: Recommender Systems in the Age of LLM Agents**|<img src="https://img.shields.io/badge/-LLM-2c4a78?style=flat-square&color=%232c4a78" width="56" alt="LLM" />|Jiahao Liu et.al.|[2604.20065](http://arxiv.org/abs/2604.20065)|
-|**2026-04-22**|**Beyond Dense Connectivity: Explicit Sparsity for Scalable Recommendation**|<img src="https://img.shields.io/badge/-Other-5a5a5a?style=flat-square&color=%235a5a5a" width="120" alt="Other" />|Yantao Yu et.al.|[2604.08011](http://arxiv.org/abs/2604.08011)|
 |**2026-04-21**|**AgenticRecTune: Multi-Agent with Self-Evolving Skillhub for Recommendation System Optimization**|<img src="https://img.shields.io/badge/-Other-5a5a5a?style=flat-square&color=%235a5a5a" width="120" alt="Other" />|Xidong Wu et.al.|[2604.26969](http://arxiv.org/abs/2604.26969)|
 |**2026-04-21**|**From Top-1 to Top-K: A Reproducibility Study and Benchmarking of Counterfactual Explanations for Recommender Systems**|<img src="https://img.shields.io/badge/-Other-5a5a5a?style=flat-square&color=%235a5a5a" width="120" alt="Other" />|Quang-Huy Nguyen et.al.|[2604.19663](http://arxiv.org/abs/2604.19663)|
 |**2026-04-21**|**Impact of large language models on peer review opinions from a fine-grained perspective: Evidence from top conference proceedings in AI**|<img src="https://img.shields.io/badge/-LLM-2c4a78?style=flat-square&color=%232c4a78" width="56" alt="LLM" />|Wenqing Wu et.al.|[2604.19578](http://arxiv.org/abs/2604.19578)|
@@ -103,7 +106,4 @@
 |**2026-04-10**|**TME-PSR: Time-aware, Multi-interest, and Explanation Personalization for Sequential Recommendation**|<img src="https://img.shields.io/badge/-Seq-5a4a6a?style=flat-square&color=%235a4a6a" width="56" alt="Seq" />|Qingzhuo Wang et.al.|[2604.09439](http://arxiv.org/abs/2604.09439)|
 |**2026-04-10**|**Hybrid Cold-Start Recommender System for Closure Model Selection in Multiphase Flow Simulations**|<img src="https://img.shields.io/badge/-Other-5a5a5a?style=flat-square&color=%235a5a5a" width="120" alt="Other" />|S. Hänsch et.al.|[2604.09112](http://arxiv.org/abs/2604.09112)|
 |**2026-04-10**|**IAT: Instance-As-Token Compression for Historical User Sequence Modeling in Industrial Recommender Systems**|<img src="https://img.shields.io/badge/-Seq-5a4a6a?style=flat-square&color=%235a4a6a" width="56" alt="Seq" />|Xinchun Li et.al.|[2604.08933](http://arxiv.org/abs/2604.08933)|
-|**2026-04-09**|**Context-Aware Disentanglement for Cross-Domain Sequential Recommendation: A Causal View**|<img src="https://img.shields.io/badge/-Seq-5a4a6a?style=flat-square&color=%235a4a6a" width="56" alt="Seq" />|Xingzi Wang et.al.|[2604.07992](http://arxiv.org/abs/2604.07992)|
-|**2026-04-09**|**Ensembles at Any Cost? Accuracy-Energy Trade-offs in Recommender Systems**|<img src="https://img.shields.io/badge/-Other-5a5a5a?style=flat-square&color=%235a5a5a" width="120" alt="Other" />|Jannik Nitschke et.al.|[2604.07869](http://arxiv.org/abs/2604.07869)|
-|**2026-04-09**|**ReRec: Reasoning-Augmented LLM-based Recommendation Assistant via Reinforcement Fine-tuning**|<img src="https://img.shields.io/badge/-LLM-2c4a78?style=flat-square&color=%232c4a78" width="56" alt="LLM" />|Jiani Huang et.al.|[2604.07851](http://arxiv.org/abs/2604.07851)|
 
