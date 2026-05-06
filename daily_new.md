@@ -1,11 +1,14 @@
 ## Daily New Papers
 
-> Updated on 2026.05.06
+> Updated on 2026.05.07
 
 ## Recommender System
 
 |Publish Date|Title|Tag|Authors|PDF|
 |---|---|---|---|---|
+|**2026-05-05**|**Physics-Grounded Multi-Agent Architecture for Traceable, Risk-Aware Human-AI Decision Support in Manufacturing**|<img src="https://img.shields.io/badge/-Other-5a5a5a?style=flat-square&color=%235a5a5a" width="120" alt="Other" />|Danny Hoang et.al.|[2605.04003](http://arxiv.org/abs/2605.04003)|
+|**2026-05-05**|**Aspect-Aware Content-Based Recommendations for Mathematical Research Papers**|<img src="https://img.shields.io/badge/-Other-5a5a5a?style=flat-square&color=%235a5a5a" width="120" alt="Other" />|Ankit Satpute et.al.|[2605.03861](http://arxiv.org/abs/2605.03861)|
+|**2026-05-05**|**Beyond Similarity Search: A Unified Data Layer for Production RAG Systems**|<img src="https://img.shields.io/badge/-Other-5a5a5a?style=flat-square&color=%235a5a5a" width="120" alt="Other" />|Venkata Krishna Prasanth Budigi et.al.|[2605.03275](http://arxiv.org/abs/2605.03275)|
 |**2026-05-04**|**Bridging Behavior and Semantics for Time-aware Cross-Domain Sequential Recommendation**|<img src="https://img.shields.io/badge/-Seq-5a4a6a?style=flat-square&color=%235a4a6a" width="56" alt="Seq" />|Zhida Qin et.al.|[2605.02369](http://arxiv.org/abs/2605.02369)|
 |**2026-05-03**|**FEDIN: Frequency-Enhanced Deep Interest Network for Click-Through Rate Prediction**|<img src="https://img.shields.io/badge/-Other-5a5a5a?style=flat-square&color=%235a5a5a" width="120" alt="Other" />|Zenan Dai et.al.|[2605.01726](http://arxiv.org/abs/2605.01726)|
 |**2026-05-02**|**Post-hoc Provider Fairness Adaptation via Hierarchical Exposure Alignment**|<img src="https://img.shields.io/badge/-Other-5a5a5a?style=flat-square&color=%235a5a5a" width="120" alt="Other" />|Jingzhi Li et.al.|[2605.01524](http://arxiv.org/abs/2605.01524)|
@@ -100,10 +103,7 @@
 |**2026-04-14**|**TRACE: A Conversational Framework for Sustainable Tourism Recommendation with Agentic Counterfactual Explanations**|<img src="https://img.shields.io/badge/-Other-5a5a5a?style=flat-square&color=%235a5a5a" width="120" alt="Other" />|Ashmi Banerjee et.al.|[2604.14223](http://arxiv.org/abs/2604.14223)|
 |**2026-04-14**|**Is Sliding Window All You Need? An Open Framework for Long-Sequence Recommendation**|<img src="https://img.shields.io/badge/-Seq-5a4a6a?style=flat-square&color=%235a4a6a" width="56" alt="Seq" />|Sayak Chakrabarty et.al.|[2604.12372](http://arxiv.org/abs/2604.12372)|
 |**2026-04-14**|**R3-VAE: Reference Vector-Guided Rating Residual Quantization VAE for Generative Recommendation**|<img src="https://img.shields.io/badge/-GR-1e5c3a?style=flat-square&color=%231e5c3a" width="56" alt="GR" />|Qiang Wan et.al.|[2604.11440](http://arxiv.org/abs/2604.11440)|
-|**2026-04-13**|**DIAURec: Dual-Intent Space Representation Optimization for Recommendation**|<img src="https://img.shields.io/badge/-Other-5a5a5a?style=flat-square&color=%235a5a5a" width="120" alt="Other" />|Yu Zhang et.al.|[2604.09087](http://arxiv.org/abs/2604.09087)|
 |**2026-04-11**|**MOSAIC: Multi-Domain Orthogonal Session Adaptive Intent Capture for Prescient Recommendations**|<img src="https://img.shields.io/badge/-Other-5a5a5a?style=flat-square&color=%235a5a5a" width="120" alt="Other" />|Abderaouf Bahi et.al.|[2604.10147](http://arxiv.org/abs/2604.10147)|
 |**2026-04-11**|**HARPO: Hierarchical Agentic Reasoning for User-Aligned Conversational Recommendation**|<img src="https://img.shields.io/badge/-Other-5a5a5a?style=flat-square&color=%235a5a5a" width="120" alt="Other" />|Subham Raj et.al.|[2604.10048](http://arxiv.org/abs/2604.10048)|
 |**2026-04-10**|**TME-PSR: Time-aware, Multi-interest, and Explanation Personalization for Sequential Recommendation**|<img src="https://img.shields.io/badge/-Seq-5a4a6a?style=flat-square&color=%235a4a6a" width="56" alt="Seq" />|Qingzhuo Wang et.al.|[2604.09439](http://arxiv.org/abs/2604.09439)|
-|**2026-04-10**|**Hybrid Cold-Start Recommender System for Closure Model Selection in Multiphase Flow Simulations**|<img src="https://img.shields.io/badge/-Other-5a5a5a?style=flat-square&color=%235a5a5a" width="120" alt="Other" />|S. Hänsch et.al.|[2604.09112](http://arxiv.org/abs/2604.09112)|
-|**2026-04-10**|**IAT: Instance-As-Token Compression for Historical User Sequence Modeling in Industrial Recommender Systems**|<img src="https://img.shields.io/badge/-Seq-5a4a6a?style=flat-square&color=%235a4a6a" width="56" alt="Seq" />|Xinchun Li et.al.|[2604.08933](http://arxiv.org/abs/2604.08933)|
 

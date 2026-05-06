@@ -2,13 +2,16 @@
 layout: default
 ---
 
-## Updated on 2026.05.06
+## Updated on 2026.05.07
 > Usage instructions: [here](./docs/README.md#usage)
 
 ## Recommender System
 
 | Publish Date | Title | Authors | PDF |
 |:---------|:-----------------------|:---------|:------|
+|**2026-05-05**|**Physics-Grounded Multi-Agent Architecture for Traceable, Risk-Aware Human-AI Decision Support in Manufacturing**|Danny Hoang et.al.|[2605.04003](http://arxiv.org/abs/2605.04003)|
+|**2026-05-05**|**Aspect-Aware Content-Based Recommendations for Mathematical Research Papers**|Ankit Satpute et.al.|[2605.03861](http://arxiv.org/abs/2605.03861)|
+|**2026-05-05**|**Beyond Similarity Search: A Unified Data Layer for Production RAG Systems**|Venkata Krishna Prasanth Budigi et.al.|[2605.03275](http://arxiv.org/abs/2605.03275)|
 |**2026-05-04**|**Bridging Behavior and Semantics for Time-aware Cross-Domain Sequential Recommendation**|Zhida Qin et.al.|[2605.02369](http://arxiv.org/abs/2605.02369)|
 |**2026-05-03**|**FEDIN: Frequency-Enhanced Deep Interest Network for Click-Through Rate Prediction**|Zenan Dai et.al.|[2605.01726](http://arxiv.org/abs/2605.01726)|
 |**2026-05-02**|**Post-hoc Provider Fairness Adaptation via Hierarchical Exposure Alignment**|Jingzhi Li et.al.|[2605.01524](http://arxiv.org/abs/2605.01524)|

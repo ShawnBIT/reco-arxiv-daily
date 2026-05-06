@@ -1,17 +1,14 @@
 **Recommender System Daily New Papers**
 
-Updated on **2026.05.06**
-共计 **4** 篇论文
+Updated on **2026.05.07**
+共计 **3** 篇论文
 
-**2026-05-04**  **🟨 Seq** | Zhida Qin et.al.
-[Bridging Behavior and Semantics for Time-aware Cross-Domain Sequential Recommendation](http://arxiv.org/abs/2605.02369)
+**2026-05-05**  **⬜️ Other** | Danny Hoang et.al.
+[Physics-Grounded Multi-Agent Architecture for Traceable, Risk-Aware Human-AI Decision Support in Manufacturing](http://arxiv.org/abs/2605.04003)
 
-**2026-05-03**  **⬜️ Other** | Zenan Dai et.al.
-[FEDIN: Frequency-Enhanced Deep Interest Network for Click-Through Rate Prediction](http://arxiv.org/abs/2605.01726)
+**2026-05-05**  **⬜️ Other** | Ankit Satpute et.al.
+[Aspect-Aware Content-Based Recommendations for Mathematical Research Papers](http://arxiv.org/abs/2605.03861)
 
-**2026-05-02**  **⬜️ Other** | Jingzhi Li et.al.
-[Post-hoc Provider Fairness Adaptation via Hierarchical Exposure Alignment](http://arxiv.org/abs/2605.01524)
-
-**2026-05-02**  **⬜️ Other** | Qurat Ul Ain et.al.
-[Investigating the Effects of Different Levels of User Control in an Interactive Educational Recommender System](http://arxiv.org/abs/2605.01400)
+**2026-05-05**  **⬜️ Other** | Venkata Krishna Prasanth Budigi et.al.
+[Beyond Similarity Search: A Unified Data Layer for Production RAG Systems](http://arxiv.org/abs/2605.03275)
 
