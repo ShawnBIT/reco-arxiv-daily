@@ -2,20 +2,36 @@
 layout: default
 ---
 
-## Updated on 2026.05.07
+## Updated on 2026.05.10
 > Usage instructions: [here](./docs/README.md#usage)
 
 ## Recommender System
 
 | Publish Date | Title | Authors | PDF |
 |:---------|:-----------------------|:---------|:------|
+|**2026-05-07**|**Light-FMP: Lightweight Feature and Model Pruning for Enhanced Deep Recommender Systems**|Nghia Bui et.al.|[2605.06441](http://arxiv.org/abs/2605.06441)|
+|**2026-05-07**|**Expressiveness Limits of Autoregressive Semantic ID Generation in Generative Recommendation**|Yupeng Hou et.al.|[2605.06331](http://arxiv.org/abs/2605.06331)|
+|**2026-05-07**|**Bridging Passive and Active: Enhancing Conversation Starter Recommendation via Active Expression Modeling**|Yiqing Wu et.al.|[2605.05855](http://arxiv.org/abs/2605.05855)|
+|**2026-05-07**|**Unified Value Alignment for Generative Recommendation in Industrial Advertising**|Xinxun Zhang et.al.|[2605.05803](http://arxiv.org/abs/2605.05803)|
+|**2026-05-07**|**Beyond Long Tail POIs: Transition-Centered Generalization for Human Mobility Prediction**|Dingyang Lyu et.al.|[2605.05771](http://arxiv.org/abs/2605.05771)|
+|**2026-05-07**|**Effective Knowledge Transfer for Multi-Task Recommendation Models**|Guohao Cai et.al.|[2605.05730](http://arxiv.org/abs/2605.05730)|
+|**2026-05-07**|**Rethinking Convolutional Networks for Attribute-Aware Sequential Recommendation**|Shereen Elsayed et.al.|[2605.04723](http://arxiv.org/abs/2605.04723)|
+|**2026-05-06**|**FedCRF: A Federated Cross-domain Recommendation Method with Semantic-driven Deep Knowledge Fusion**|Lei Guo et.al.|[2604.17681](http://arxiv.org/abs/2604.17681)|
+|**2026-05-06**|**Interests Burn-down Diffusion Process for Personalized Collaborative Filtering**|Yifang Qin et.al.|[2605.05165](http://arxiv.org/abs/2605.05165)|
+|**2026-05-06**|**CapsID: Soft-Routed Variable-Length Semantic IDs for Generative Recommendation**|Wenzhuo Cheng et.al.|[2605.05096](http://arxiv.org/abs/2605.05096)|
+|**2026-05-06**|**RecGPT-Mobile: On-Device Large Language Models for User Intent Understanding in Taobao Feed Recommendation**|Bin Zhang et.al.|[2605.04726](http://arxiv.org/abs/2605.04726)|
+|**2026-05-06**|**Beyond Static Best-of-N: Bayesian List-wise Alignment for LLM-based Recommendation**|Ruijun Chen et.al.|[2605.04559](http://arxiv.org/abs/2605.04559)|
+|**2026-05-06**|**One Pool, Two Caches: Adaptive HBM Partitioning for Accelerating Generative Recommender Serving**|Wenjun Yu et.al.|[2605.04450](http://arxiv.org/abs/2605.04450)|
 |**2026-05-05**|**Physics-Grounded Multi-Agent Architecture for Traceable, Risk-Aware Human-AI Decision Support in Manufacturing**|Danny Hoang et.al.|[2605.04003](http://arxiv.org/abs/2605.04003)|
 |**2026-05-05**|**Aspect-Aware Content-Based Recommendations for Mathematical Research Papers**|Ankit Satpute et.al.|[2605.03861](http://arxiv.org/abs/2605.03861)|
 |**2026-05-05**|**Beyond Similarity Search: A Unified Data Layer for Production RAG Systems**|Venkata Krishna Prasanth Budigi et.al.|[2605.03275](http://arxiv.org/abs/2605.03275)|
+|**2026-05-05**|**Decision-aware User Simulation Agent for Evaluating Conversational Recommender Systems**|Yuan-Chi Li et.al.|[2605.05250](http://arxiv.org/abs/2605.05250)|
+|**2026-05-05**|**TriAlignGR: Triangular Multitask Alignment with Multimodal Deep Interest Mining for Generative Recommendation**|Yangchen Zeng et.al.|[2605.05249](http://arxiv.org/abs/2605.05249)|
 |**2026-05-04**|**Bridging Behavior and Semantics for Time-aware Cross-Domain Sequential Recommendation**|Zhida Qin et.al.|[2605.02369](http://arxiv.org/abs/2605.02369)|
 |**2026-05-03**|**FEDIN: Frequency-Enhanced Deep Interest Network for Click-Through Rate Prediction**|Zenan Dai et.al.|[2605.01726](http://arxiv.org/abs/2605.01726)|
 |**2026-05-02**|**Post-hoc Provider Fairness Adaptation via Hierarchical Exposure Alignment**|Jingzhi Li et.al.|[2605.01524](http://arxiv.org/abs/2605.01524)|
 |**2026-05-02**|**Investigating the Effects of Different Levels of User Control in an Interactive Educational Recommender System**|Qurat Ul Ain et.al.|[2605.01400](http://arxiv.org/abs/2605.01400)|
+|**2026-05-02**|**Dynamic Graph with Similarity-Aware Attention Graph Neural Network for Recommender Systems**|Aadarsh Senapati et.al.|[2605.05238](http://arxiv.org/abs/2605.05238)|
 |**2026-05-01**|**Robust Multimodal Recommendation via Graph Retrieval-Enhanced Modality Completion**|Yuan Li et.al.|[2605.00670](http://arxiv.org/abs/2605.00670)|
 |**2026-05-01**|**Time-Interval-Aware Disentangled Expert Modeling for Next-Basket Recommendation**|Zhiying Deng et.al.|[2605.00499](http://arxiv.org/abs/2605.00499)|
 |**2026-05-01**|**DynamicPO: Dynamic Preference Optimization for Recommendation**|Xingyu Hu et.al.|[2605.00327](http://arxiv.org/abs/2605.00327)|
@@ -75,7 +91,6 @@ layout: default
 |**2026-04-21**|**AgenticRecTune: Multi-Agent with Self-Evolving Skillhub for Recommendation System Optimization**|Xidong Wu et.al.|[2604.26969](http://arxiv.org/abs/2604.26969)|
 |**2026-04-20**|**Balanced Co-Clustering of Users and Items for Embedding Table Compression in Recommender Systems**|Runhao Jiang et.al.|[2604.18351](http://arxiv.org/abs/2604.18351)|
 |**2026-04-20**|**Multi-LLM Token Filtering and Routing for Sequential Recommendation**|Wuhan Chen et.al.|[2604.18200](http://arxiv.org/abs/2604.18200)|
-|**2026-04-20**|**FedCRF: A Federated Cross-domain Recommendation Method with Semantic-driven Deep Knowledge Fusion**|Lei Guo et.al.|[2604.17681](http://arxiv.org/abs/2604.17681)|
 |**2026-04-20**|**MasterSet: A Large-Scale Benchmark for Must-Cite Citation Recommendation in the AI/ML Literature**|Md Toyaha Rahman Ratul et.al.|[2604.17680](http://arxiv.org/abs/2604.17680)|
 |**2026-04-19**|**BIPCL: Bilateral Intent-Enhanced Sequential Recommendation via Embedding Perturbation Contrastive Learning**|Shanfan Zhang et.al.|[2604.02833](http://arxiv.org/abs/2604.02833)|
 |**2026-04-19**|**Filling the Gaps: Selective Knowledge Augmentation for LLM Recommenders**|Jaehyun Lee et.al.|[2604.07825](http://arxiv.org/abs/2604.07825)|
