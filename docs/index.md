@@ -2,13 +2,18 @@
 layout: default
 ---
 
-## Updated on 2026.05.11
+## Updated on 2026.05.12
 > Usage instructions: [here](./docs/README.md#usage)
 
 ## Recommender System
 
 | Publish Date | Title | Authors | PDF |
 |:---------|:-----------------------|:---------|:------|
+|**2026-05-08**|**FAVOR: Efficient Filter-Agnostic Vector ANNS Based on Selectivity-Aware Exclusion Distances**|Junjie Song et.al.|[2605.07770](http://arxiv.org/abs/2605.07770)|
+|**2026-05-08**|**TRACE: Tourism Recommendation with Accountable Citation Evidence**|Zixu Zhao et.al.|[2605.07677](http://arxiv.org/abs/2605.07677)|
+|**2026-05-08**|**DCGL: Dual-Channel Graph Learning with Large Language Models for Knowledge-Aware Recommendation**|Xinchi Zou et.al.|[2605.07314](http://arxiv.org/abs/2605.07314)|
+|**2026-05-08**|**RRCM: Ranking-Driven Retrieval over Collaborative and Meta Memories for LLM Recommendation**|Shijun Li et.al.|[2605.07129](http://arxiv.org/abs/2605.07129)|
+|**2026-05-08**|**An Embarrassingly Simple Graph Heuristic Reveals Shortcut-Solvable Benchmarks for Sequential Recommendation**|Haoyu Han et.al.|[2605.07125](http://arxiv.org/abs/2605.07125)|
 |**2026-05-07**|**Light-FMP: Lightweight Feature and Model Pruning for Enhanced Deep Recommender Systems**|Nghia Bui et.al.|[2605.06441](http://arxiv.org/abs/2605.06441)|
 |**2026-05-07**|**Expressiveness Limits of Autoregressive Semantic ID Generation in Generative Recommendation**|Yupeng Hou et.al.|[2605.06331](http://arxiv.org/abs/2605.06331)|
 |**2026-05-07**|**Bridging Passive and Active: Enhancing Conversation Starter Recommendation via Active Expression Modeling**|Yiqing Wu et.al.|[2605.05855](http://arxiv.org/abs/2605.05855)|
@@ -16,6 +21,8 @@ layout: default
 |**2026-05-07**|**Beyond Long Tail POIs: Transition-Centered Generalization for Human Mobility Prediction**|Dingyang Lyu et.al.|[2605.05771](http://arxiv.org/abs/2605.05771)|
 |**2026-05-07**|**Effective Knowledge Transfer for Multi-Task Recommendation Models**|Guohao Cai et.al.|[2605.05730](http://arxiv.org/abs/2605.05730)|
 |**2026-05-07**|**Rethinking Convolutional Networks for Attribute-Aware Sequential Recommendation**|Shereen Elsayed et.al.|[2605.04723](http://arxiv.org/abs/2605.04723)|
+|**2026-05-07**|**Bridging Textual Profiles and Latent User Embeddings for Personalization**|Zhaoxuan Tan et.al.|[2605.06981](http://arxiv.org/abs/2605.06981)|
+|**2026-05-07**|**From Surface Learning to Deep Understanding: A Grounded AI Tutoring System for Moodle**|Anna Ostrowska et.al.|[2605.06963](http://arxiv.org/abs/2605.06963)|
 |**2026-05-06**|**FedCRF: A Federated Cross-domain Recommendation Method with Semantic-driven Deep Knowledge Fusion**|Lei Guo et.al.|[2604.17681](http://arxiv.org/abs/2604.17681)|
 |**2026-05-06**|**Interests Burn-down Diffusion Process for Personalized Collaborative Filtering**|Yifang Qin et.al.|[2605.05165](http://arxiv.org/abs/2605.05165)|
 |**2026-05-06**|**CapsID: Soft-Routed Variable-Length Semantic IDs for Generative Recommendation**|Wenzhuo Cheng et.al.|[2605.05096](http://arxiv.org/abs/2605.05096)|
