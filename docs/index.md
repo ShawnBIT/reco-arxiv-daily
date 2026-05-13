@@ -2,20 +2,32 @@
 layout: default
 ---
 
-## Updated on 2026.05.13
+## Updated on 2026.05.14
 > Usage instructions: [here](./docs/README.md#usage)
 
 ## Recommender System
 
 | Publish Date | Title | Authors | PDF |
 |:---------|:-----------------------|:---------|:------|
+|**2026-05-12**|**Meta-Learning and Targeted Differential Privacy to Improve the Accuracy-Privacy Trade-off in Recommendations**|Peter Müllner et.al.|[2604.26390](http://arxiv.org/abs/2604.26390)|
+|**2026-05-12**|**RecRM-Bench: Benchmarking Multidimensional Reward Modeling for Agentic Recommender Systems**|Wenwen Zeng et.al.|[2605.11874](http://arxiv.org/abs/2605.11874)|
+|**2026-05-12**|**AgentDisCo: Towards Disentanglement and Collaboration in Open-ended Deep Research Agents**|Jiarui Jin et.al.|[2605.11732](http://arxiv.org/abs/2605.11732)|
+|**2026-05-12**|**Quality-Aware Collaborative Multi-Positive Contrastive Learning for Sequential Recommendation**|Wei Wang et.al.|[2605.11707](http://arxiv.org/abs/2605.11707)|
+|**2026-05-12**|**HSUGA: LLM-Enhanced Recommendation with Hierarchical Semantic Understanding and Group-Aware Alignment**|Guorui Li et.al.|[2605.11662](http://arxiv.org/abs/2605.11662)|
+|**2026-05-12**|**TwiSTAR:Think Fast, Think Slow, Then Act,Generative Recommendation with Adaptive Reasoning**|Shiteng Cao et.al.|[2605.11553](http://arxiv.org/abs/2605.11553)|
+|**2026-05-12**|**Conditional Memory Enhanced Item Representation for Generative Recommendation**|Ziwei Liu et.al.|[2605.11447](http://arxiv.org/abs/2605.11447)|
+|**2026-05-12**|**FedMM: Federated Collaborative Signal Quantization for Multi-Market CTR Prediction**|Jun Zhang et.al.|[2605.11433](http://arxiv.org/abs/2605.11433)|
 |**2026-05-11**|**AgentGR: Semantic-aware Agentic Group Decision-Making Simulator for Group Recommendation**|Yangtao Zhou et.al.|[2605.10367](http://arxiv.org/abs/2605.10367)|
 |**2026-05-11**|**Every Preference Has Its Strength: Injecting Ordinal Semantics into LLM-Based Recommenders**|Jiwon Jeong et.al.|[2605.10323](http://arxiv.org/abs/2605.10323)|
 |**2026-05-11**|**LASAR: Latent Adaptive Semantic Aligned Reasoning for Generative Recommendation**|Yiwen Chen et.al.|[2605.10207](http://arxiv.org/abs/2605.10207)|
 |**2026-05-11**|**CCD-Level and Load-Aware Thread Orchestration for In-Memory Vector ANNS on Multi-Core CPUs**|Yuchen Huang et.al.|[2605.10090](http://arxiv.org/abs/2605.10090)|
 |**2026-05-11**|**Loom: Hybrid Retrieval-Scoring Outfit Recommendation with Semantic Material Compatibility and Occasion-Aware Embedding Priors**|Anushree Berlia et.al.|[2605.09830](http://arxiv.org/abs/2605.09830)|
+|**2026-05-11**|**Much of Geospatial Web Search Is Beyond Traditional GIS**|Ilya Ilyankou et.al.|[2605.11336](http://arxiv.org/abs/2605.11336)|
+|**2026-05-11**|**Debiasing Message Passing to Mitigate Popularity Bias in GNN-based Collaborative Filtering**|Md Aminul Islam et.al.|[2605.11145](http://arxiv.org/abs/2605.11145)|
+|**2026-05-11**|**A Cascaded Generative Approach for e-Commerce Recommendations**|Moein Hasani et.al.|[2605.11118](http://arxiv.org/abs/2605.11118)|
 |**2026-05-10**|**A General Framework for Multimodal LLM-Based Multimedia Understanding in Large-Scale Recommendation Systems**|Yiming Zhu et.al.|[2605.09338](http://arxiv.org/abs/2605.09338)|
 |**2026-05-10**|**OpenIIR: An Open Simulation Platform for Information Retrieval Research**|Saber Zerhoudi et.al.|[2605.09321](http://arxiv.org/abs/2605.09321)|
+|**2026-05-10**|**Simpson's Paradox in Behavioral Curves: How Aggregation Distorts Parametric Models of User Dynamics**|Chao Zhou et.al.|[2605.11017](http://arxiv.org/abs/2605.11017)|
 |**2026-05-09**|**Reddit2Deezer: A Scalable Dataset for Real-World Grounded Conversational Music Recommendation**|Haven Kim et.al.|[2605.09120](http://arxiv.org/abs/2605.09120)|
 |**2026-05-08**|**FAVOR: Efficient Filter-Agnostic Vector ANNS Based on Selectivity-Aware Exclusion Distances**|Junjie Song et.al.|[2605.07770](http://arxiv.org/abs/2605.07770)|
 |**2026-05-08**|**TRACE: Tourism Recommendation with Accountable Citation Evidence**|Zixu Zhao et.al.|[2605.07677](http://arxiv.org/abs/2605.07677)|
@@ -59,7 +71,6 @@ layout: default
 |**2026-04-29**|**The Bandit's Blind Spot: The Critical Role of User State Representation in Recommender Systems**|Pedro R. Pires et.al.|[2604.26651](http://arxiv.org/abs/2604.26651)|
 |**2026-04-29**|**Understanding DNNs in Feature Interaction Models: A Dimensional Collapse Perspective**|Jiancheng Wang et.al.|[2604.26489](http://arxiv.org/abs/2604.26489)|
 |**2026-04-29**|**CARD: Non-Uniform Quantization of Visual Semantic Unit for Generative Recommendation**|Yibiao Wei et.al.|[2604.26427](http://arxiv.org/abs/2604.26427)|
-|**2026-04-29**|**Meta-Learning and Targeted Differential Privacy to Improve the Accuracy-Privacy Trade-off in Recommendations**|Peter Müllner et.al.|[2604.26390](http://arxiv.org/abs/2604.26390)|
 |**2026-04-29**|**TimeMM: Time-as-Operator Spectral Filtering for Dynamic Multimodal Recommendation**|Wei Yang et.al.|[2604.26247](http://arxiv.org/abs/2604.26247)|
 |**2026-04-29**|**ProMax: Exploring the Potential of LLM-derived Profiles with Distribution Shaping for Recommender Systems**|Yi Zhang et.al.|[2604.26231](http://arxiv.org/abs/2604.26231)|
 |**2026-04-29**|**A Gated Hybrid Contrastive Collaborative Filtering Recommendation**|Eduardo Ferreira da Silva et.al.|[2604.27117](http://arxiv.org/abs/2604.27117)|

@@ -1,4 +1,4 @@
-## Updated on 2026.05.13
+## Updated on 2026.05.14
 > Usage instructions: [here](./docs/README.md#usage)
 
 ### 📊 Paper distribution by tag
@@ -16,14 +16,14 @@
 }}}%%
 pie showData
 title Paper Distribution by Tag
-  "Other" : 724
-  "LLM" : 234
-  "GR" : 195
-  "Seq" : 119
+  "Other" : 730
+  "LLM" : 235
+  "GR" : 198
+  "Seq" : 120
   "Scaling" : 22
 ```
 
-> 统计自 **2025-07-16** 起，共计 **1294** 篇论文。
+> 统计自 **2025-07-16** 起，共计 **1305** 篇论文。
 
 <details style="margin: 1em 0; padding: 0.75em 1em; border: 1px solid #d8dee4; border-radius: 8px; background: #f6f8fa;">
   <summary style="cursor: pointer; font-weight: 600; font-size: 1.05em; color: #1f2328; padding: 0.25em 0;">📑 Table of Contents</summary>
@@ -36,13 +36,25 @@ title Paper Distribution by Tag
 
 |Publish Date|Title|Tag|Authors|PDF|
 |---|---|---|---|---|
+|**2026-05-12**|**Meta-Learning and Targeted Differential Privacy to Improve the Accuracy-Privacy Trade-off in Recommendations**|<img src="https://img.shields.io/badge/-Other-5a5a5a?style=flat-square&color=%235a5a5a" width="120" alt="Other" />|Peter Müllner et.al.|[2604.26390](http://arxiv.org/abs/2604.26390)|
+|**2026-05-12**|**RecRM-Bench: Benchmarking Multidimensional Reward Modeling for Agentic Recommender Systems**|<img src="https://img.shields.io/badge/-Other-5a5a5a?style=flat-square&color=%235a5a5a" width="120" alt="Other" />|Wenwen Zeng et.al.|[2605.11874](http://arxiv.org/abs/2605.11874)|
+|**2026-05-12**|**AgentDisCo: Towards Disentanglement and Collaboration in Open-ended Deep Research Agents**|<img src="https://img.shields.io/badge/-Other-5a5a5a?style=flat-square&color=%235a5a5a" width="120" alt="Other" />|Jiarui Jin et.al.|[2605.11732](http://arxiv.org/abs/2605.11732)|
+|**2026-05-12**|**Quality-Aware Collaborative Multi-Positive Contrastive Learning for Sequential Recommendation**|<img src="https://img.shields.io/badge/-Seq-5a4a6a?style=flat-square&color=%235a4a6a" width="56" alt="Seq" />|Wei Wang et.al.|[2605.11707](http://arxiv.org/abs/2605.11707)|
+|**2026-05-12**|**HSUGA: LLM-Enhanced Recommendation with Hierarchical Semantic Understanding and Group-Aware Alignment**|<img src="https://img.shields.io/badge/-LLM-2c4a78?style=flat-square&color=%232c4a78" width="56" alt="LLM" />|Guorui Li et.al.|[2605.11662](http://arxiv.org/abs/2605.11662)|
+|**2026-05-12**|**TwiSTAR:Think Fast, Think Slow, Then Act,Generative Recommendation with Adaptive Reasoning**|<img src="https://img.shields.io/badge/-GR-1e5c3a?style=flat-square&color=%231e5c3a" width="56" alt="GR" />|Shiteng Cao et.al.|[2605.11553](http://arxiv.org/abs/2605.11553)|
+|**2026-05-12**|**Conditional Memory Enhanced Item Representation for Generative Recommendation**|<img src="https://img.shields.io/badge/-GR-1e5c3a?style=flat-square&color=%231e5c3a" width="56" alt="GR" />|Ziwei Liu et.al.|[2605.11447](http://arxiv.org/abs/2605.11447)|
+|**2026-05-12**|**FedMM: Federated Collaborative Signal Quantization for Multi-Market CTR Prediction**|<img src="https://img.shields.io/badge/-Other-5a5a5a?style=flat-square&color=%235a5a5a" width="120" alt="Other" />|Jun Zhang et.al.|[2605.11433](http://arxiv.org/abs/2605.11433)|
 |**2026-05-11**|**AgentGR: Semantic-aware Agentic Group Decision-Making Simulator for Group Recommendation**|<img src="https://img.shields.io/badge/-Other-5a5a5a?style=flat-square&color=%235a5a5a" width="120" alt="Other" />|Yangtao Zhou et.al.|[2605.10367](http://arxiv.org/abs/2605.10367)|
 |**2026-05-11**|**Every Preference Has Its Strength: Injecting Ordinal Semantics into LLM-Based Recommenders**|<img src="https://img.shields.io/badge/-LLM-2c4a78?style=flat-square&color=%232c4a78" width="56" alt="LLM" />|Jiwon Jeong et.al.|[2605.10323](http://arxiv.org/abs/2605.10323)|
 |**2026-05-11**|**LASAR: Latent Adaptive Semantic Aligned Reasoning for Generative Recommendation**|<img src="https://img.shields.io/badge/-GR-1e5c3a?style=flat-square&color=%231e5c3a" width="56" alt="GR" />|Yiwen Chen et.al.|[2605.10207](http://arxiv.org/abs/2605.10207)|
 |**2026-05-11**|**CCD-Level and Load-Aware Thread Orchestration for In-Memory Vector ANNS on Multi-Core CPUs**|<img src="https://img.shields.io/badge/-Other-5a5a5a?style=flat-square&color=%235a5a5a" width="120" alt="Other" />|Yuchen Huang et.al.|[2605.10090](http://arxiv.org/abs/2605.10090)|
 |**2026-05-11**|**Loom: Hybrid Retrieval-Scoring Outfit Recommendation with Semantic Material Compatibility and Occasion-Aware Embedding Priors**|<img src="https://img.shields.io/badge/-Other-5a5a5a?style=flat-square&color=%235a5a5a" width="120" alt="Other" />|Anushree Berlia et.al.|[2605.09830](http://arxiv.org/abs/2605.09830)|
+|**2026-05-11**|**Much of Geospatial Web Search Is Beyond Traditional GIS**|<img src="https://img.shields.io/badge/-Other-5a5a5a?style=flat-square&color=%235a5a5a" width="120" alt="Other" />|Ilya Ilyankou et.al.|[2605.11336](http://arxiv.org/abs/2605.11336)|
+|**2026-05-11**|**Debiasing Message Passing to Mitigate Popularity Bias in GNN-based Collaborative Filtering**|<img src="https://img.shields.io/badge/-Other-5a5a5a?style=flat-square&color=%235a5a5a" width="120" alt="Other" />|Md Aminul Islam et.al.|[2605.11145](http://arxiv.org/abs/2605.11145)|
+|**2026-05-11**|**A Cascaded Generative Approach for e-Commerce Recommendations**|<img src="https://img.shields.io/badge/-GR-1e5c3a?style=flat-square&color=%231e5c3a" width="56" alt="GR" />|Moein Hasani et.al.|[2605.11118](http://arxiv.org/abs/2605.11118)|
 |**2026-05-10**|**A General Framework for Multimodal LLM-Based Multimedia Understanding in Large-Scale Recommendation Systems**|<img src="https://img.shields.io/badge/-LLM-2c4a78?style=flat-square&color=%232c4a78" width="56" alt="LLM" />|Yiming Zhu et.al.|[2605.09338](http://arxiv.org/abs/2605.09338)|
 |**2026-05-10**|**OpenIIR: An Open Simulation Platform for Information Retrieval Research**|<img src="https://img.shields.io/badge/-Other-5a5a5a?style=flat-square&color=%235a5a5a" width="120" alt="Other" />|Saber Zerhoudi et.al.|[2605.09321](http://arxiv.org/abs/2605.09321)|
+|**2026-05-10**|**Simpson's Paradox in Behavioral Curves: How Aggregation Distorts Parametric Models of User Dynamics**|<img src="https://img.shields.io/badge/-Other-5a5a5a?style=flat-square&color=%235a5a5a" width="120" alt="Other" />|Chao Zhou et.al.|[2605.11017](http://arxiv.org/abs/2605.11017)|
 |**2026-05-09**|**Reddit2Deezer: A Scalable Dataset for Real-World Grounded Conversational Music Recommendation**|<img src="https://img.shields.io/badge/-Other-5a5a5a?style=flat-square&color=%235a5a5a" width="120" alt="Other" />|Haven Kim et.al.|[2605.09120](http://arxiv.org/abs/2605.09120)|
 |**2026-05-08**|**FAVOR: Efficient Filter-Agnostic Vector ANNS Based on Selectivity-Aware Exclusion Distances**|<img src="https://img.shields.io/badge/-Other-5a5a5a?style=flat-square&color=%235a5a5a" width="120" alt="Other" />|Junjie Song et.al.|[2605.07770](http://arxiv.org/abs/2605.07770)|
 |**2026-05-08**|**TRACE: Tourism Recommendation with Accountable Citation Evidence**|<img src="https://img.shields.io/badge/-Other-5a5a5a?style=flat-square&color=%235a5a5a" width="120" alt="Other" />|Zixu Zhao et.al.|[2605.07677](http://arxiv.org/abs/2605.07677)|
@@ -86,7 +98,6 @@ title Paper Distribution by Tag
 |**2026-04-29**|**The Bandit's Blind Spot: The Critical Role of User State Representation in Recommender Systems**|<img src="https://img.shields.io/badge/-Other-5a5a5a?style=flat-square&color=%235a5a5a" width="120" alt="Other" />|Pedro R. Pires et.al.|[2604.26651](http://arxiv.org/abs/2604.26651)|
 |**2026-04-29**|**Understanding DNNs in Feature Interaction Models: A Dimensional Collapse Perspective**|<img src="https://img.shields.io/badge/-Other-5a5a5a?style=flat-square&color=%235a5a5a" width="120" alt="Other" />|Jiancheng Wang et.al.|[2604.26489](http://arxiv.org/abs/2604.26489)|
 |**2026-04-29**|**CARD: Non-Uniform Quantization of Visual Semantic Unit for Generative Recommendation**|<img src="https://img.shields.io/badge/-GR-1e5c3a?style=flat-square&color=%231e5c3a" width="56" alt="GR" />|Yibiao Wei et.al.|[2604.26427](http://arxiv.org/abs/2604.26427)|
-|**2026-04-29**|**Meta-Learning and Targeted Differential Privacy to Improve the Accuracy-Privacy Trade-off in Recommendations**|<img src="https://img.shields.io/badge/-Other-5a5a5a?style=flat-square&color=%235a5a5a" width="120" alt="Other" />|Peter Müllner et.al.|[2604.26390](http://arxiv.org/abs/2604.26390)|
 |**2026-04-29**|**TimeMM: Time-as-Operator Spectral Filtering for Dynamic Multimodal Recommendation**|<img src="https://img.shields.io/badge/-Other-5a5a5a?style=flat-square&color=%235a5a5a" width="120" alt="Other" />|Wei Yang et.al.|[2604.26247](http://arxiv.org/abs/2604.26247)|
 |**2026-04-29**|**ProMax: Exploring the Potential of LLM-derived Profiles with Distribution Shaping for Recommender Systems**|<img src="https://img.shields.io/badge/-LLM-2c4a78?style=flat-square&color=%232c4a78" width="56" alt="LLM" />|Yi Zhang et.al.|[2604.26231](http://arxiv.org/abs/2604.26231)|
 |**2026-04-29**|**A Gated Hybrid Contrastive Collaborative Filtering Recommendation**|<img src="https://img.shields.io/badge/-Other-5a5a5a?style=flat-square&color=%235a5a5a" width="120" alt="Other" />|Eduardo Ferreira da Silva et.al.|[2604.27117](http://arxiv.org/abs/2604.27117)|
@@ -1331,7 +1342,7 @@ title Paper Distribution by Tag
 |**2025-07-16**|**Looking for Fairness in Recommender Systems**|<img src="https://img.shields.io/badge/-Other-5a5a5a?style=flat-square&color=%235a5a5a" width="120" alt="Other" />|Cécile Logé et.al.|[2507.12242](http://arxiv.org/abs/2507.12242)|
 |**2025-07-16**|**Similarity-Guided Diffusion for Contrastive Sequential Recommendation**|<img src="https://img.shields.io/badge/-Seq-5a4a6a?style=flat-square&color=%235a4a6a" width="56" alt="Seq" />|Jinkyeong Choi et.al.|[2507.11866](http://arxiv.org/abs/2507.11866)|
 
-<p align=right>(<a href=#updated-on-20260513>back to top</a>)</p>
+<p align=right>(<a href=#updated-on-20260514>back to top</a>)</p>
 
 [contributors-shield]: https://img.shields.io/github/contributors/ShawnBIT/reco-arxiv-daily.svg?style=for-the-badge
 [contributors-url]: https://github.com/ShawnBIT/reco-arxiv-daily/graphs/contributors
