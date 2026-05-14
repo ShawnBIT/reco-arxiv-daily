@@ -2,14 +2,19 @@
 layout: default
 ---
 
-## Updated on 2026.05.14
+## Updated on 2026.05.15
 > Usage instructions: [here](./docs/README.md#usage)
 
 ## Recommender System
 
 | Publish Date | Title | Authors | PDF |
 |:---------|:-----------------------|:---------|:------|
+|**2026-05-13**|**Benchmarking the Open Science Data Federation services to develop XRootD best practices**|Fabio Andrijauskas et.al.|[2605.13593](http://arxiv.org/abs/2605.13593)|
+|**2026-05-13**|**Task-Aware Automated User Profile Generation for Recommendation Simulation Using Large Language Models**|Xinye Wanyan et.al.|[2605.13497](http://arxiv.org/abs/2605.13497)|
+|**2026-05-13**|**A Standardized Re-evaluation of Conversational Recommender Systems on the ReDial Dataset**|Ivica Kostric et.al.|[2605.13053](http://arxiv.org/abs/2605.13053)|
+|**2026-05-13**|**EcoGEO: Trajectory-Aware Evidence Ecosystems for Web-Enabled LLM Search Agents**|Hengwei Ye et.al.|[2605.12887](http://arxiv.org/abs/2605.12887)|
 |**2026-05-12**|**Meta-Learning and Targeted Differential Privacy to Improve the Accuracy-Privacy Trade-off in Recommendations**|Peter Müllner et.al.|[2604.26390](http://arxiv.org/abs/2604.26390)|
+|**2026-05-12**|**AgenticRecTune: Multi-Agent with Self-Evolving Skillhub for Recommendation System Optimization**|Xidong Wu et.al.|[2604.26969](http://arxiv.org/abs/2604.26969)|
 |**2026-05-12**|**RecRM-Bench: Benchmarking Multidimensional Reward Modeling for Agentic Recommender Systems**|Wenwen Zeng et.al.|[2605.11874](http://arxiv.org/abs/2605.11874)|
 |**2026-05-12**|**AgentDisCo: Towards Disentanglement and Collaboration in Open-ended Deep Research Agents**|Jiarui Jin et.al.|[2605.11732](http://arxiv.org/abs/2605.11732)|
 |**2026-05-12**|**Quality-Aware Collaborative Multi-Positive Contrastive Learning for Sequential Recommendation**|Wei Wang et.al.|[2605.11707](http://arxiv.org/abs/2605.11707)|
@@ -17,6 +22,7 @@ layout: default
 |**2026-05-12**|**TwiSTAR:Think Fast, Think Slow, Then Act,Generative Recommendation with Adaptive Reasoning**|Shiteng Cao et.al.|[2605.11553](http://arxiv.org/abs/2605.11553)|
 |**2026-05-12**|**Conditional Memory Enhanced Item Representation for Generative Recommendation**|Ziwei Liu et.al.|[2605.11447](http://arxiv.org/abs/2605.11447)|
 |**2026-05-12**|**FedMM: Federated Collaborative Signal Quantization for Multi-Market CTR Prediction**|Jun Zhang et.al.|[2605.11433](http://arxiv.org/abs/2605.11433)|
+|**2026-05-12**|**MLPs are Efficient Distilled Generative Recommenders**|Zitian Guo et.al.|[2605.12617](http://arxiv.org/abs/2605.12617)|
 |**2026-05-11**|**AgentGR: Semantic-aware Agentic Group Decision-Making Simulator for Group Recommendation**|Yangtao Zhou et.al.|[2605.10367](http://arxiv.org/abs/2605.10367)|
 |**2026-05-11**|**Every Preference Has Its Strength: Injecting Ordinal Semantics into LLM-Based Recommenders**|Jiwon Jeong et.al.|[2605.10323](http://arxiv.org/abs/2605.10323)|
 |**2026-05-11**|**LASAR: Latent Adaptive Semantic Aligned Reasoning for Generative Recommendation**|Yiwen Chen et.al.|[2605.10207](http://arxiv.org/abs/2605.10207)|
@@ -115,7 +121,6 @@ layout: default
 |**2026-04-21**|**CAST: Modeling Semantic-Level Transitions for Complementary-Aware Sequential Recommendation**|Qian Zhang et.al.|[2604.19414](http://arxiv.org/abs/2604.19414)|
 |**2026-04-21**|**CS3: Efficient Online Capability Synergy for Two-Tower Recommendation**|Lixiang Wang et.al.|[2604.19269](http://arxiv.org/abs/2604.19269)|
 |**2026-04-21**|**GraphRAG-IRL: Personalized Recommendation with Graph-Grounded Inverse Reinforcement Learning and LLM Re-ranking**|Siqi Liang et.al.|[2604.19128](http://arxiv.org/abs/2604.19128)|
-|**2026-04-21**|**AgenticRecTune: Multi-Agent with Self-Evolving Skillhub for Recommendation System Optimization**|Xidong Wu et.al.|[2604.26969](http://arxiv.org/abs/2604.26969)|
 |**2026-04-20**|**Balanced Co-Clustering of Users and Items for Embedding Table Compression in Recommender Systems**|Runhao Jiang et.al.|[2604.18351](http://arxiv.org/abs/2604.18351)|
 |**2026-04-20**|**Multi-LLM Token Filtering and Routing for Sequential Recommendation**|Wuhan Chen et.al.|[2604.18200](http://arxiv.org/abs/2604.18200)|
 |**2026-04-20**|**MasterSet: A Large-Scale Benchmark for Must-Cite Citation Recommendation in the AI/ML Literature**|Md Toyaha Rahman Ratul et.al.|[2604.17680](http://arxiv.org/abs/2604.17680)|

@@ -1,11 +1,16 @@
 ## Daily New Papers
 
-> Updated on 2026.05.14
+> Updated on 2026.05.15
 
 ## Recommender System
 
 |Publish Date|Title|Tag|Authors|PDF|
 |---|---|---|---|---|
+|**2026-05-13**|**Benchmarking the Open Science Data Federation services to develop XRootD best practices**|<img src="https://img.shields.io/badge/-Other-5a5a5a?style=flat-square&color=%235a5a5a" width="120" alt="Other" />|Fabio Andrijauskas et.al.|[2605.13593](http://arxiv.org/abs/2605.13593)|
+|**2026-05-13**|**Task-Aware Automated User Profile Generation for Recommendation Simulation Using Large Language Models**|<img src="https://img.shields.io/badge/-GR-1e5c3a?style=flat-square&color=%231e5c3a" width="56" alt="GR" />|Xinye Wanyan et.al.|[2605.13497](http://arxiv.org/abs/2605.13497)|
+|**2026-05-13**|**A Standardized Re-evaluation of Conversational Recommender Systems on the ReDial Dataset**|<img src="https://img.shields.io/badge/-Other-5a5a5a?style=flat-square&color=%235a5a5a" width="120" alt="Other" />|Ivica Kostric et.al.|[2605.13053](http://arxiv.org/abs/2605.13053)|
+|**2026-05-13**|**EcoGEO: Trajectory-Aware Evidence Ecosystems for Web-Enabled LLM Search Agents**|<img src="https://img.shields.io/badge/-LLM-2c4a78?style=flat-square&color=%232c4a78" width="56" alt="LLM" />|Hengwei Ye et.al.|[2605.12887](http://arxiv.org/abs/2605.12887)|
+|**2026-05-12**|**MLPs are Efficient Distilled Generative Recommenders**|<img src="https://img.shields.io/badge/-GR-1e5c3a?style=flat-square&color=%231e5c3a" width="56" alt="GR" />|Zitian Guo et.al.|[2605.12617](http://arxiv.org/abs/2605.12617)|
 |**2026-05-12**|**RecRM-Bench: Benchmarking Multidimensional Reward Modeling for Agentic Recommender Systems**|<img src="https://img.shields.io/badge/-Other-5a5a5a?style=flat-square&color=%235a5a5a" width="120" alt="Other" />|Wenwen Zeng et.al.|[2605.11874](http://arxiv.org/abs/2605.11874)|
 |**2026-05-12**|**AgentDisCo: Towards Disentanglement and Collaboration in Open-ended Deep Research Agents**|<img src="https://img.shields.io/badge/-Other-5a5a5a?style=flat-square&color=%235a5a5a" width="120" alt="Other" />|Jiarui Jin et.al.|[2605.11732](http://arxiv.org/abs/2605.11732)|
 |**2026-05-12**|**Quality-Aware Collaborative Multi-Positive Contrastive Learning for Sequential Recommendation**|<img src="https://img.shields.io/badge/-Seq-5a4a6a?style=flat-square&color=%235a4a6a" width="56" alt="Seq" />|Wei Wang et.al.|[2605.11707](http://arxiv.org/abs/2605.11707)|
@@ -14,6 +19,7 @@
 |**2026-05-12**|**Conditional Memory Enhanced Item Representation for Generative Recommendation**|<img src="https://img.shields.io/badge/-GR-1e5c3a?style=flat-square&color=%231e5c3a" width="56" alt="GR" />|Ziwei Liu et.al.|[2605.11447](http://arxiv.org/abs/2605.11447)|
 |**2026-05-12**|**FedMM: Federated Collaborative Signal Quantization for Multi-Market CTR Prediction**|<img src="https://img.shields.io/badge/-Other-5a5a5a?style=flat-square&color=%235a5a5a" width="120" alt="Other" />|Jun Zhang et.al.|[2605.11433](http://arxiv.org/abs/2605.11433)|
 |**2026-05-12**|**Meta-Learning and Targeted Differential Privacy to Improve the Accuracy-Privacy Trade-off in Recommendations**|<img src="https://img.shields.io/badge/-Other-5a5a5a?style=flat-square&color=%235a5a5a" width="120" alt="Other" />|Peter Müllner et.al.|[2604.26390](http://arxiv.org/abs/2604.26390)|
+|**2026-05-12**|**AgenticRecTune: Multi-Agent with Self-Evolving Skillhub for Recommendation System Optimization**|<img src="https://img.shields.io/badge/-Other-5a5a5a?style=flat-square&color=%235a5a5a" width="120" alt="Other" />|Xidong Wu et.al.|[2604.26969](http://arxiv.org/abs/2604.26969)|
 |**2026-05-11**|**Much of Geospatial Web Search Is Beyond Traditional GIS**|<img src="https://img.shields.io/badge/-Other-5a5a5a?style=flat-square&color=%235a5a5a" width="120" alt="Other" />|Ilya Ilyankou et.al.|[2605.11336](http://arxiv.org/abs/2605.11336)|
 |**2026-05-11**|**Debiasing Message Passing to Mitigate Popularity Bias in GNN-based Collaborative Filtering**|<img src="https://img.shields.io/badge/-Other-5a5a5a?style=flat-square&color=%235a5a5a" width="120" alt="Other" />|Md Aminul Islam et.al.|[2605.11145](http://arxiv.org/abs/2605.11145)|
 |**2026-05-11**|**A Cascaded Generative Approach for e-Commerce Recommendations**|<img src="https://img.shields.io/badge/-GR-1e5c3a?style=flat-square&color=%231e5c3a" width="56" alt="GR" />|Moein Hasani et.al.|[2605.11118](http://arxiv.org/abs/2605.11118)|
@@ -100,10 +106,4 @@
 |**2026-04-22**|**Following the Eye-Tracking Evidence: Established Web-Search Assumptions Fail in Carousel Interfaces**|<img src="https://img.shields.io/badge/-Other-5a5a5a?style=flat-square&color=%235a5a5a" width="120" alt="Other" />|Jingwei Kang et.al.|[2604.21019](http://arxiv.org/abs/2604.21019)|
 |**2026-04-22**|**Break the Optimization Barrier of LLM-Enhanced Recommenders: A Theoretical Analysis and Practical Framework**|<img src="https://img.shields.io/badge/-LLM-2c4a78?style=flat-square&color=%232c4a78" width="56" alt="LLM" />|Zhangchi Zhu et.al.|[2604.20490](http://arxiv.org/abs/2604.20490)|
 |**2026-04-22**|**From Hidden Profiles to Governable Personalization: Recommender Systems in the Age of LLM Agents**|<img src="https://img.shields.io/badge/-LLM-2c4a78?style=flat-square&color=%232c4a78" width="56" alt="LLM" />|Jiahao Liu et.al.|[2604.20065](http://arxiv.org/abs/2604.20065)|
-|**2026-04-21**|**AgenticRecTune: Multi-Agent with Self-Evolving Skillhub for Recommendation System Optimization**|<img src="https://img.shields.io/badge/-Other-5a5a5a?style=flat-square&color=%235a5a5a" width="120" alt="Other" />|Xidong Wu et.al.|[2604.26969](http://arxiv.org/abs/2604.26969)|
-|**2026-04-21**|**From Top-1 to Top-K: A Reproducibility Study and Benchmarking of Counterfactual Explanations for Recommender Systems**|<img src="https://img.shields.io/badge/-Other-5a5a5a?style=flat-square&color=%235a5a5a" width="120" alt="Other" />|Quang-Huy Nguyen et.al.|[2604.19663](http://arxiv.org/abs/2604.19663)|
-|**2026-04-21**|**Impact of large language models on peer review opinions from a fine-grained perspective: Evidence from top conference proceedings in AI**|<img src="https://img.shields.io/badge/-LLM-2c4a78?style=flat-square&color=%232c4a78" width="56" alt="LLM" />|Wenqing Wu et.al.|[2604.19578](http://arxiv.org/abs/2604.19578)|
-|**2026-04-21**|**CAST: Modeling Semantic-Level Transitions for Complementary-Aware Sequential Recommendation**|<img src="https://img.shields.io/badge/-Seq-5a4a6a?style=flat-square&color=%235a4a6a" width="56" alt="Seq" />|Qian Zhang et.al.|[2604.19414](http://arxiv.org/abs/2604.19414)|
-|**2026-04-21**|**CS3: Efficient Online Capability Synergy for Two-Tower Recommendation**|<img src="https://img.shields.io/badge/-Other-5a5a5a?style=flat-square&color=%235a5a5a" width="120" alt="Other" />|Lixiang Wang et.al.|[2604.19269](http://arxiv.org/abs/2604.19269)|
-|**2026-04-21**|**GraphRAG-IRL: Personalized Recommendation with Graph-Grounded Inverse Reinforcement Learning and LLM Re-ranking**|<img src="https://img.shields.io/badge/-LLM-2c4a78?style=flat-square&color=%232c4a78" width="56" alt="LLM" />|Siqi Liang et.al.|[2604.19128](http://arxiv.org/abs/2604.19128)|
 
