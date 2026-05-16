@@ -2,13 +2,18 @@
 layout: default
 ---
 
-## Updated on 2026.05.15
+## Updated on 2026.05.17
 > Usage instructions: [here](./docs/README.md#usage)
 
 ## Recommender System
 
 | Publish Date | Title | Authors | PDF |
 |:---------|:-----------------------|:---------|:------|
+|**2026-05-14**|**OpenIIR: An Open Simulation Platform for Information Retrieval Research**|Saber Zerhoudi et.al.|[2605.09321](http://arxiv.org/abs/2605.09321)|
+|**2026-05-14**|**Logging Policy Design for Off-Policy Evaluation**|Connor Douglas et.al.|[2605.15108](http://arxiv.org/abs/2605.15108)|
+|**2026-05-14**|**Discrimination Is Generation: Unifying Ranking and Retrieval from a Tokenizer Perspective**|Shuli Wang et.al.|[2605.14853](http://arxiv.org/abs/2605.14853)|
+|**2026-05-14**|**Asymmetric Generative Recommendation via Multi-Expert Projection and Multi-Faceted Hierarchical Quantization**|Bin Huang et.al.|[2605.14512](http://arxiv.org/abs/2605.14512)|
+|**2026-05-14**|**Towards Self-Evolving Agentic Literature Retrieval**|Yuwen Du et.al.|[2605.14306](http://arxiv.org/abs/2605.14306)|
 |**2026-05-13**|**Benchmarking the Open Science Data Federation services to develop XRootD best practices**|Fabio Andrijauskas et.al.|[2605.13593](http://arxiv.org/abs/2605.13593)|
 |**2026-05-13**|**Task-Aware Automated User Profile Generation for Recommendation Simulation Using Large Language Models**|Xinye Wanyan et.al.|[2605.13497](http://arxiv.org/abs/2605.13497)|
 |**2026-05-13**|**A Standardized Re-evaluation of Conversational Recommender Systems on the ReDial Dataset**|Ivica Kostric et.al.|[2605.13053](http://arxiv.org/abs/2605.13053)|
@@ -32,7 +37,6 @@ layout: default
 |**2026-05-11**|**Debiasing Message Passing to Mitigate Popularity Bias in GNN-based Collaborative Filtering**|Md Aminul Islam et.al.|[2605.11145](http://arxiv.org/abs/2605.11145)|
 |**2026-05-11**|**A Cascaded Generative Approach for e-Commerce Recommendations**|Moein Hasani et.al.|[2605.11118](http://arxiv.org/abs/2605.11118)|
 |**2026-05-10**|**A General Framework for Multimodal LLM-Based Multimedia Understanding in Large-Scale Recommendation Systems**|Yiming Zhu et.al.|[2605.09338](http://arxiv.org/abs/2605.09338)|
-|**2026-05-10**|**OpenIIR: An Open Simulation Platform for Information Retrieval Research**|Saber Zerhoudi et.al.|[2605.09321](http://arxiv.org/abs/2605.09321)|
 |**2026-05-10**|**Simpson's Paradox in Behavioral Curves: How Aggregation Distorts Parametric Models of User Dynamics**|Chao Zhou et.al.|[2605.11017](http://arxiv.org/abs/2605.11017)|
 |**2026-05-09**|**Reddit2Deezer: A Scalable Dataset for Real-World Grounded Conversational Music Recommendation**|Haven Kim et.al.|[2605.09120](http://arxiv.org/abs/2605.09120)|
 |**2026-05-08**|**FAVOR: Efficient Filter-Agnostic Vector ANNS Based on Selectivity-Aware Exclusion Distances**|Junjie Song et.al.|[2605.07770](http://arxiv.org/abs/2605.07770)|

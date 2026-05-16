@@ -1,11 +1,16 @@
 ## Daily New Papers
 
-> Updated on 2026.05.15
+> Updated on 2026.05.17
 
 ## Recommender System
 
 |Publish Date|Title|Tag|Authors|PDF|
 |---|---|---|---|---|
+|**2026-05-14**|**Logging Policy Design for Off-Policy Evaluation**|<img src="https://img.shields.io/badge/-Other-5a5a5a?style=flat-square&color=%235a5a5a" width="120" alt="Other" />|Connor Douglas et.al.|[2605.15108](http://arxiv.org/abs/2605.15108)|
+|**2026-05-14**|**Discrimination Is Generation: Unifying Ranking and Retrieval from a Tokenizer Perspective**|<img src="https://img.shields.io/badge/-GR-1e5c3a?style=flat-square&color=%231e5c3a" width="56" alt="GR" />|Shuli Wang et.al.|[2605.14853](http://arxiv.org/abs/2605.14853)|
+|**2026-05-14**|**Asymmetric Generative Recommendation via Multi-Expert Projection and Multi-Faceted Hierarchical Quantization**|<img src="https://img.shields.io/badge/-GR-1e5c3a?style=flat-square&color=%231e5c3a" width="56" alt="GR" />|Bin Huang et.al.|[2605.14512](http://arxiv.org/abs/2605.14512)|
+|**2026-05-14**|**Towards Self-Evolving Agentic Literature Retrieval**|<img src="https://img.shields.io/badge/-Other-5a5a5a?style=flat-square&color=%235a5a5a" width="120" alt="Other" />|Yuwen Du et.al.|[2605.14306](http://arxiv.org/abs/2605.14306)|
+|**2026-05-14**|**OpenIIR: An Open Simulation Platform for Information Retrieval Research**|<img src="https://img.shields.io/badge/-Other-5a5a5a?style=flat-square&color=%235a5a5a" width="120" alt="Other" />|Saber Zerhoudi et.al.|[2605.09321](http://arxiv.org/abs/2605.09321)|
 |**2026-05-13**|**Benchmarking the Open Science Data Federation services to develop XRootD best practices**|<img src="https://img.shields.io/badge/-Other-5a5a5a?style=flat-square&color=%235a5a5a" width="120" alt="Other" />|Fabio Andrijauskas et.al.|[2605.13593](http://arxiv.org/abs/2605.13593)|
 |**2026-05-13**|**Task-Aware Automated User Profile Generation for Recommendation Simulation Using Large Language Models**|<img src="https://img.shields.io/badge/-GR-1e5c3a?style=flat-square&color=%231e5c3a" width="56" alt="GR" />|Xinye Wanyan et.al.|[2605.13497](http://arxiv.org/abs/2605.13497)|
 |**2026-05-13**|**A Standardized Re-evaluation of Conversational Recommender Systems on the ReDial Dataset**|<img src="https://img.shields.io/badge/-Other-5a5a5a?style=flat-square&color=%235a5a5a" width="120" alt="Other" />|Ivica Kostric et.al.|[2605.13053](http://arxiv.org/abs/2605.13053)|
@@ -19,7 +24,6 @@
 |**2026-05-12**|**Conditional Memory Enhanced Item Representation for Generative Recommendation**|<img src="https://img.shields.io/badge/-GR-1e5c3a?style=flat-square&color=%231e5c3a" width="56" alt="GR" />|Ziwei Liu et.al.|[2605.11447](http://arxiv.org/abs/2605.11447)|
 |**2026-05-12**|**FedMM: Federated Collaborative Signal Quantization for Multi-Market CTR Prediction**|<img src="https://img.shields.io/badge/-Other-5a5a5a?style=flat-square&color=%235a5a5a" width="120" alt="Other" />|Jun Zhang et.al.|[2605.11433](http://arxiv.org/abs/2605.11433)|
 |**2026-05-12**|**Meta-Learning and Targeted Differential Privacy to Improve the Accuracy-Privacy Trade-off in Recommendations**|<img src="https://img.shields.io/badge/-Other-5a5a5a?style=flat-square&color=%235a5a5a" width="120" alt="Other" />|Peter Müllner et.al.|[2604.26390](http://arxiv.org/abs/2604.26390)|
-|**2026-05-12**|**AgenticRecTune: Multi-Agent with Self-Evolving Skillhub for Recommendation System Optimization**|<img src="https://img.shields.io/badge/-Other-5a5a5a?style=flat-square&color=%235a5a5a" width="120" alt="Other" />|Xidong Wu et.al.|[2604.26969](http://arxiv.org/abs/2604.26969)|
 |**2026-05-11**|**Much of Geospatial Web Search Is Beyond Traditional GIS**|<img src="https://img.shields.io/badge/-Other-5a5a5a?style=flat-square&color=%235a5a5a" width="120" alt="Other" />|Ilya Ilyankou et.al.|[2605.11336](http://arxiv.org/abs/2605.11336)|
 |**2026-05-11**|**Debiasing Message Passing to Mitigate Popularity Bias in GNN-based Collaborative Filtering**|<img src="https://img.shields.io/badge/-Other-5a5a5a?style=flat-square&color=%235a5a5a" width="120" alt="Other" />|Md Aminul Islam et.al.|[2605.11145](http://arxiv.org/abs/2605.11145)|
 |**2026-05-11**|**A Cascaded Generative Approach for e-Commerce Recommendations**|<img src="https://img.shields.io/badge/-GR-1e5c3a?style=flat-square&color=%231e5c3a" width="56" alt="GR" />|Moein Hasani et.al.|[2605.11118](http://arxiv.org/abs/2605.11118)|
@@ -30,7 +34,6 @@
 |**2026-05-11**|**Loom: Hybrid Retrieval-Scoring Outfit Recommendation with Semantic Material Compatibility and Occasion-Aware Embedding Priors**|<img src="https://img.shields.io/badge/-Other-5a5a5a?style=flat-square&color=%235a5a5a" width="120" alt="Other" />|Anushree Berlia et.al.|[2605.09830](http://arxiv.org/abs/2605.09830)|
 |**2026-05-10**|**Simpson's Paradox in Behavioral Curves: How Aggregation Distorts Parametric Models of User Dynamics**|<img src="https://img.shields.io/badge/-Other-5a5a5a?style=flat-square&color=%235a5a5a" width="120" alt="Other" />|Chao Zhou et.al.|[2605.11017](http://arxiv.org/abs/2605.11017)|
 |**2026-05-10**|**A General Framework for Multimodal LLM-Based Multimedia Understanding in Large-Scale Recommendation Systems**|<img src="https://img.shields.io/badge/-LLM-2c4a78?style=flat-square&color=%232c4a78" width="56" alt="LLM" />|Yiming Zhu et.al.|[2605.09338](http://arxiv.org/abs/2605.09338)|
-|**2026-05-10**|**OpenIIR: An Open Simulation Platform for Information Retrieval Research**|<img src="https://img.shields.io/badge/-Other-5a5a5a?style=flat-square&color=%235a5a5a" width="120" alt="Other" />|Saber Zerhoudi et.al.|[2605.09321](http://arxiv.org/abs/2605.09321)|
 |**2026-05-09**|**Reddit2Deezer: A Scalable Dataset for Real-World Grounded Conversational Music Recommendation**|<img src="https://img.shields.io/badge/-Other-5a5a5a?style=flat-square&color=%235a5a5a" width="120" alt="Other" />|Haven Kim et.al.|[2605.09120](http://arxiv.org/abs/2605.09120)|
 |**2026-05-08**|**Multi-Level Graph Attention Network Contrastive Learning for Knowledge-Aware Recommendation**|<img src="https://img.shields.io/badge/-Other-5a5a5a?style=flat-square&color=%235a5a5a" width="120" alt="Other" />|Zhifei Hu et.al.|[2605.08499](http://arxiv.org/abs/2605.08499)|
 |**2026-05-08**|**FAVOR: Efficient Filter-Agnostic Vector ANNS Based on Selectivity-Aware Exclusion Distances**|<img src="https://img.shields.io/badge/-Other-5a5a5a?style=flat-square&color=%235a5a5a" width="120" alt="Other" />|Junjie Song et.al.|[2605.07770](http://arxiv.org/abs/2605.07770)|
@@ -103,7 +106,4 @@
 |**2026-04-23**|**Pre-trained LLMs Meet Sequential Recommenders: Efficient User-Centric Knowledge Distillation**|<img src="https://img.shields.io/badge/-LLM-2c4a78?style=flat-square&color=%232c4a78" width="56" alt="LLM" />|Nikita Severin et.al.|[2604.21536](http://arxiv.org/abs/2604.21536)|
 |**2026-04-23**|**WPGRec: Wavelet Packet Guided Graph Enhanced Sequential Recommendation**|<img src="https://img.shields.io/badge/-Seq-5a4a6a?style=flat-square&color=%235a4a6a" width="56" alt="Seq" />|Peilin Liu et.al.|[2604.21305](http://arxiv.org/abs/2604.21305)|
 |**2026-04-23**|**On Reasoning Behind Next Occupation Recommendation**|<img src="https://img.shields.io/badge/-Other-5a5a5a?style=flat-square&color=%235a5a5a" width="120" alt="Other" />|Shan Dong et.al.|[2604.21204](http://arxiv.org/abs/2604.21204)|
-|**2026-04-22**|**Following the Eye-Tracking Evidence: Established Web-Search Assumptions Fail in Carousel Interfaces**|<img src="https://img.shields.io/badge/-Other-5a5a5a?style=flat-square&color=%235a5a5a" width="120" alt="Other" />|Jingwei Kang et.al.|[2604.21019](http://arxiv.org/abs/2604.21019)|
-|**2026-04-22**|**Break the Optimization Barrier of LLM-Enhanced Recommenders: A Theoretical Analysis and Practical Framework**|<img src="https://img.shields.io/badge/-LLM-2c4a78?style=flat-square&color=%232c4a78" width="56" alt="LLM" />|Zhangchi Zhu et.al.|[2604.20490](http://arxiv.org/abs/2604.20490)|
-|**2026-04-22**|**From Hidden Profiles to Governable Personalization: Recommender Systems in the Age of LLM Agents**|<img src="https://img.shields.io/badge/-LLM-2c4a78?style=flat-square&color=%232c4a78" width="56" alt="LLM" />|Jiahao Liu et.al.|[2604.20065](http://arxiv.org/abs/2604.20065)|
 

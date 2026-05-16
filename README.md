@@ -1,4 +1,4 @@
-## Updated on 2026.05.15
+## Updated on 2026.05.17
 > Usage instructions: [here](./docs/README.md#usage)
 
 ### 📊 Paper distribution by tag
@@ -16,14 +16,14 @@
 }}}%%
 pie showData
 title Paper Distribution by Tag
-  "Other" : 732
+  "Other" : 734
   "LLM" : 236
-  "GR" : 200
+  "GR" : 202
   "Seq" : 120
   "Scaling" : 22
 ```
 
-> 统计自 **2025-07-16** 起，共计 **1310** 篇论文。
+> 统计自 **2025-07-16** 起，共计 **1314** 篇论文。
 
 <details style="margin: 1em 0; padding: 0.75em 1em; border: 1px solid #d8dee4; border-radius: 8px; background: #f6f8fa;">
   <summary style="cursor: pointer; font-weight: 600; font-size: 1.05em; color: #1f2328; padding: 0.25em 0;">📑 Table of Contents</summary>
@@ -36,6 +36,11 @@ title Paper Distribution by Tag
 
 |Publish Date|Title|Tag|Authors|PDF|
 |---|---|---|---|---|
+|**2026-05-14**|**OpenIIR: An Open Simulation Platform for Information Retrieval Research**|<img src="https://img.shields.io/badge/-Other-5a5a5a?style=flat-square&color=%235a5a5a" width="120" alt="Other" />|Saber Zerhoudi et.al.|[2605.09321](http://arxiv.org/abs/2605.09321)|
+|**2026-05-14**|**Logging Policy Design for Off-Policy Evaluation**|<img src="https://img.shields.io/badge/-Other-5a5a5a?style=flat-square&color=%235a5a5a" width="120" alt="Other" />|Connor Douglas et.al.|[2605.15108](http://arxiv.org/abs/2605.15108)|
+|**2026-05-14**|**Discrimination Is Generation: Unifying Ranking and Retrieval from a Tokenizer Perspective**|<img src="https://img.shields.io/badge/-GR-1e5c3a?style=flat-square&color=%231e5c3a" width="56" alt="GR" />|Shuli Wang et.al.|[2605.14853](http://arxiv.org/abs/2605.14853)|
+|**2026-05-14**|**Asymmetric Generative Recommendation via Multi-Expert Projection and Multi-Faceted Hierarchical Quantization**|<img src="https://img.shields.io/badge/-GR-1e5c3a?style=flat-square&color=%231e5c3a" width="56" alt="GR" />|Bin Huang et.al.|[2605.14512](http://arxiv.org/abs/2605.14512)|
+|**2026-05-14**|**Towards Self-Evolving Agentic Literature Retrieval**|<img src="https://img.shields.io/badge/-Other-5a5a5a?style=flat-square&color=%235a5a5a" width="120" alt="Other" />|Yuwen Du et.al.|[2605.14306](http://arxiv.org/abs/2605.14306)|
 |**2026-05-13**|**Benchmarking the Open Science Data Federation services to develop XRootD best practices**|<img src="https://img.shields.io/badge/-Other-5a5a5a?style=flat-square&color=%235a5a5a" width="120" alt="Other" />|Fabio Andrijauskas et.al.|[2605.13593](http://arxiv.org/abs/2605.13593)|
 |**2026-05-13**|**Task-Aware Automated User Profile Generation for Recommendation Simulation Using Large Language Models**|<img src="https://img.shields.io/badge/-GR-1e5c3a?style=flat-square&color=%231e5c3a" width="56" alt="GR" />|Xinye Wanyan et.al.|[2605.13497](http://arxiv.org/abs/2605.13497)|
 |**2026-05-13**|**A Standardized Re-evaluation of Conversational Recommender Systems on the ReDial Dataset**|<img src="https://img.shields.io/badge/-Other-5a5a5a?style=flat-square&color=%235a5a5a" width="120" alt="Other" />|Ivica Kostric et.al.|[2605.13053](http://arxiv.org/abs/2605.13053)|
@@ -59,7 +64,6 @@ title Paper Distribution by Tag
 |**2026-05-11**|**Debiasing Message Passing to Mitigate Popularity Bias in GNN-based Collaborative Filtering**|<img src="https://img.shields.io/badge/-Other-5a5a5a?style=flat-square&color=%235a5a5a" width="120" alt="Other" />|Md Aminul Islam et.al.|[2605.11145](http://arxiv.org/abs/2605.11145)|
 |**2026-05-11**|**A Cascaded Generative Approach for e-Commerce Recommendations**|<img src="https://img.shields.io/badge/-GR-1e5c3a?style=flat-square&color=%231e5c3a" width="56" alt="GR" />|Moein Hasani et.al.|[2605.11118](http://arxiv.org/abs/2605.11118)|
 |**2026-05-10**|**A General Framework for Multimodal LLM-Based Multimedia Understanding in Large-Scale Recommendation Systems**|<img src="https://img.shields.io/badge/-LLM-2c4a78?style=flat-square&color=%232c4a78" width="56" alt="LLM" />|Yiming Zhu et.al.|[2605.09338](http://arxiv.org/abs/2605.09338)|
-|**2026-05-10**|**OpenIIR: An Open Simulation Platform for Information Retrieval Research**|<img src="https://img.shields.io/badge/-Other-5a5a5a?style=flat-square&color=%235a5a5a" width="120" alt="Other" />|Saber Zerhoudi et.al.|[2605.09321](http://arxiv.org/abs/2605.09321)|
 |**2026-05-10**|**Simpson's Paradox in Behavioral Curves: How Aggregation Distorts Parametric Models of User Dynamics**|<img src="https://img.shields.io/badge/-Other-5a5a5a?style=flat-square&color=%235a5a5a" width="120" alt="Other" />|Chao Zhou et.al.|[2605.11017](http://arxiv.org/abs/2605.11017)|
 |**2026-05-09**|**Reddit2Deezer: A Scalable Dataset for Real-World Grounded Conversational Music Recommendation**|<img src="https://img.shields.io/badge/-Other-5a5a5a?style=flat-square&color=%235a5a5a" width="120" alt="Other" />|Haven Kim et.al.|[2605.09120](http://arxiv.org/abs/2605.09120)|
 |**2026-05-08**|**FAVOR: Efficient Filter-Agnostic Vector ANNS Based on Selectivity-Aware Exclusion Distances**|<img src="https://img.shields.io/badge/-Other-5a5a5a?style=flat-square&color=%235a5a5a" width="120" alt="Other" />|Junjie Song et.al.|[2605.07770](http://arxiv.org/abs/2605.07770)|
@@ -1347,7 +1351,7 @@ title Paper Distribution by Tag
 |**2025-07-16**|**Looking for Fairness in Recommender Systems**|<img src="https://img.shields.io/badge/-Other-5a5a5a?style=flat-square&color=%235a5a5a" width="120" alt="Other" />|Cécile Logé et.al.|[2507.12242](http://arxiv.org/abs/2507.12242)|
 |**2025-07-16**|**Similarity-Guided Diffusion for Contrastive Sequential Recommendation**|<img src="https://img.shields.io/badge/-Seq-5a4a6a?style=flat-square&color=%235a4a6a" width="56" alt="Seq" />|Jinkyeong Choi et.al.|[2507.11866](http://arxiv.org/abs/2507.11866)|
 
-<p align=right>(<a href=#updated-on-20260515>back to top</a>)</p>
+<p align=right>(<a href=#updated-on-20260517>back to top</a>)</p>
 
 [contributors-shield]: https://img.shields.io/github/contributors/ShawnBIT/reco-arxiv-daily.svg?style=for-the-badge
 [contributors-url]: https://github.com/ShawnBIT/reco-arxiv-daily/graphs/contributors
