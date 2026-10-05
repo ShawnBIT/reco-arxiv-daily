@@ -2,7 +2,7 @@
 layout: default
 ---
 
-## Updated on 2026.09.29
+## Updated on 2026.10.06
 > Usage instructions: [here](./docs/README.md#usage)
 
 ## Recommender System
